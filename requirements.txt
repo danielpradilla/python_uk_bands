@@ -1,0 +1,7 @@
+spotipy
+python-dotenv
+matplotlib
+seaborn
+pandas
+adjustText
+pytrends

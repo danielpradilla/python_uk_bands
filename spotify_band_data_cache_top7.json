@@ -1,0 +1,247 @@
+[
+  {
+    "band": "The Beatles",
+    "city": "Liverpool",
+    "spotify_id": "3WrFJ7ztbogyGnTHbHJFl2",
+    "monthly_listeners_m": 30.37,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "Echo & the Bunnymen",
+    "city": "Liverpool",
+    "spotify_id": "0fgYKF9Avljex0L9Wt5b8Z",
+    "monthly_listeners_m": 1.03,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "Frankie Goes to Hollywood",
+    "city": "Liverpool",
+    "spotify_id": "1mZu3rO7qSD09GdDpePHhY",
+    "monthly_listeners_m": 0.9,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "The La's",
+    "city": "Liverpool",
+    "spotify_id": "47Z8LEl3LnQkcpva0xSthT",
+    "monthly_listeners_m": 0.29,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "The Wombats",
+    "city": "Liverpool",
+    "spotify_id": "0Ya43ZKWHTKkAbkoJJkwIB",
+    "monthly_listeners_m": 1.11,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "Oasis",
+    "city": "Manchester",
+    "spotify_id": "2DaxqgrOhkeH0fpeiQq2f4",
+    "monthly_listeners_m": 12.0,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "The Smiths",
+    "city": "Manchester",
+    "spotify_id": "3yY2gUcIsjMr8hjo51PoJ8",
+    "monthly_listeners_m": 7.51,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "New Order",
+    "city": "Manchester",
+    "spotify_id": "0yNLKJebCb8Aueb54LYya3",
+    "monthly_listeners_m": 2.43,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "The Stone Roses",
+    "city": "Manchester",
+    "spotify_id": "1lYT0A0LV5DUfxr6doRP3d",
+    "monthly_listeners_m": 1.71,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "The 1975",
+    "city": "Manchester",
+    "spotify_id": "3mIj9lX2MWuHmhNCA7LSCW",
+    "monthly_listeners_m": 7.88,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "The Rolling Stones",
+    "city": "London",
+    "spotify_id": "22bE4uQ6baNwSHPVcDxLCe",
+    "monthly_listeners_m": 15.52,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "The Clash",
+    "city": "London",
+    "spotify_id": "3RGLhK1IP9jnYFH4BRFJBS",
+    "monthly_listeners_m": 3.11,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "Blur",
+    "city": "London",
+    "spotify_id": "5OIXzogZi85GrRqWR1Uw9v",
+    "monthly_listeners_m": 0.0,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "Coldplay",
+    "city": "London",
+    "spotify_id": "4gzpq5DPGxSnKTe4SA8HAU",
+    "monthly_listeners_m": 59.72,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "Florence and the Machine",
+    "city": "London",
+    "spotify_id": "1moxjboGR7GNWYIMWsRjgG",
+    "monthly_listeners_m": 7.14,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "Black Sabbath",
+    "city": "Birmingham",
+    "spotify_id": "5M52tdBnJaKSvOpJGz8mfZ",
+    "monthly_listeners_m": 9.52,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "ELO",
+    "city": "Birmingham",
+    "spotify_id": "4AGwPDdh1y8hochNzHy5HC",
+    "monthly_listeners_m": 0.17,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "Duran Duran",
+    "city": "Birmingham",
+    "spotify_id": "0lZoBs4Pzo7R89JM9lxwoT",
+    "monthly_listeners_m": 3.49,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "UB40",
+    "city": "Birmingham",
+    "spotify_id": "69MEO1AADKg1IZrq2XLzo5",
+    "monthly_listeners_m": 2.6,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "Editors",
+    "city": "Birmingham",
+    "spotify_id": "6e9wIFWhBPHLE9bXK8gtBI",
+    "monthly_listeners_m": 0.76,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "Simple Minds",
+    "city": "Glasgow",
+    "spotify_id": "6hN9F0iuULZYWXppob22Aj",
+    "monthly_listeners_m": 2.29,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "Primal Scream",
+    "city": "Glasgow",
+    "spotify_id": "3wury2nd8idV4GecUg5xze",
+    "monthly_listeners_m": 0.55,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "Belle and Sebastian",
+    "city": "Glasgow",
+    "spotify_id": "4I2BJf80C0skQpp1sQmA0h",
+    "monthly_listeners_m": 0.71,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "Franz Ferdinand",
+    "city": "Glasgow",
+    "spotify_id": "0XNa1vTidXlvJ2gHSsRi4A",
+    "monthly_listeners_m": 2.94,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "CHVRCHES",
+    "city": "Glasgow",
+    "spotify_id": "3CjlHNtplJyTf9npxaPl5w",
+    "monthly_listeners_m": 1.41,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "Def Leppard",
+    "city": "Sheffield",
+    "spotify_id": "6H1RjVyNruCmrBEWRbD0VZ",
+    "monthly_listeners_m": 5.57,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "The Human League",
+    "city": "Sheffield",
+    "spotify_id": "1aX2dmV8XoHYCOQRxjPESG",
+    "monthly_listeners_m": 1.26,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "Pulp",
+    "city": "Sheffield",
+    "spotify_id": "36E7oYfz3LLRto6l2WmDcD",
+    "monthly_listeners_m": 1.07,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "Arctic Monkeys",
+    "city": "Sheffield",
+    "spotify_id": "7Ln80lUS6He07XvHI8qqHH",
+    "monthly_listeners_m": 31.31,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "Bring Me The Horizon",
+    "city": "Sheffield",
+    "spotify_id": "1Ffb6ejR6Fe5IamqA5oRUF",
+    "monthly_listeners_m": 6.53,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "Massive Attack",
+    "city": "Bristol",
+    "spotify_id": "6FXMGgJwohJLUSr5nVlf9X",
+    "monthly_listeners_m": 2.6,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "Portishead",
+    "city": "Bristol",
+    "spotify_id": "6liAMWkVf5LH7YR9yfFy1Y",
+    "monthly_listeners_m": 2.3,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "Tricky",
+    "city": "Bristol",
+    "spotify_id": "6hhA8TKRNryM8FNzqCqdDO",
+    "monthly_listeners_m": 0.55,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "Idles",
+    "city": "Bristol",
+    "spotify_id": "75mafsNqNE1WSEVxIKuY5C",
+    "monthly_listeners_m": 0.82,
+    "extracted_at": "2025-08-22"
+  },
+  {
+    "band": "Kosheen",
+    "city": "Bristol",
+    "spotify_id": "5squ8uM6fhMQY71t9xobJC",
+    "monthly_listeners_m": 0.15,
+    "extracted_at": "2025-08-22"
+  }
+]
