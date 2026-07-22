@@ -1,0 +1,219 @@
+origin_cluster,fua_code,mapping_tier,mapping_method,notes
+,,excluded_no_defensible_fua,no_resolved_origin,No FUA assignment is possible while the band's origin remains unresolved.
+Andover,UK520F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Test Valley to Southampton FUA.
+Ashford,,excluded_no_defensible_fua,ambiguous_official_crosswalk,"The available place hierarchy reaches multiple official FUAs: UK001F, UK041F."
+Auchtermuchty,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Aylesbury,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Bailiff Bridge,UK003F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Calderdale to Leeds FUA.
+Bangor,UK012F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Ards and North Down to Belfast FUA.
+Barnsley,UK010F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Barnsley to Sheffield FUA.
+Basildon,UK001F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Basildon to London FUA.
+Bath,UK031F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Bath and North East Somerset to Bath and North East Somerset FUA.
+Battersea,UK001F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns City of London, Wandsworth to London FUA."
+Battle,UK056F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Rother to Hastings FUA.
+Bedford,UK549F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Bedford to Bedford FUA.
+Belfast,UK012F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Belfast to Belfast FUA.
+Bellshill,UK004F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns North Lanarkshire, South Lanarkshire to Glasgow FUA."
+Bexhill-on-Sea,UK056F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Rother to Hastings FUA.
+Birmingham,UK002F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Birmingham to West Midlands urban area FUA.
+Blackpool,UK553F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Blackpool to Blackpool FUA.
+Blackwood,UK009F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Caerphilly to Cardiff FUA.
+Bolton,UK008F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Bolton to Manchester FUA.
+Bracknell,UK573F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Bracknell Forest to Bracknell Forest FUA.
+Bradford,UK003F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Bradford to Leeds FUA.
+Bradford-on-Avon,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Braintree,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Bridgend,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Bridlington,UK026F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns East Riding of Yorkshire to Kingston upon Hull FUA.
+Brighton,UK515F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Brighton and Hove to Brighton and Hove FUA.
+Bristol,UK011F,strict,exact_fua_label,Origin matches an official or study FUA label.
+Brixton,UK001F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns City of London, Lambeth to London FUA."
+Buckinghamshire,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Burnley,UK050F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Burnley to Burnley FUA.
+Camberley,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Cambridge,UK017F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Cambridge to Cambridge FUA.
+Cambridgeshire,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Canterbury,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Cardiff,UK009F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Cardiff to Cardiff FUA.
+Carlisle,,excluded_missing_population,official_fua_missing_population,"The official OECD municipality list assigns Carlisle to Carlisle (UK575F), but that FUA is absent from the frozen population denominator."
+Catford,UK001F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns City of London, Lewisham to London FUA."
+Chelmsford,UK001F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Chelmsford to London FUA.
+Chelsea,UK001F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns City of London, Kensington and Chelsea to London FUA."
+Chingford,UK001F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns City of London, Waltham Forest to London FUA."
+Cinderford,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Clydebank,UK004F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns East Dunbartonshire, Glasgow City, West Dunbartonshire to Glasgow FUA."
+Colchester,UK546F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Colchester to Colchester FUA.
+County Tyrone,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Coventry,UK025F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Coventry to Coventry FUA.
+Crawley,UK576F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Crawley to Crawley FUA.
+Crouch End,UK001F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns City of London, Haringey to London FUA."
+Croydon,UK001F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns City of London, Croydon to London FUA."
+Cwmaman,UK009F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Rhondda Cynon Taf to Cardiff FUA.
+Dalmarnock,UK004F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns East Dunbartonshire, Glasgow City, North Lanarkshire, South Lanarkshire to Glasgow FUA."
+Derby,UK518F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Derby to Derby FUA.
+Derry,UK586F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Derry City and Strabane to Derry & Strabane Local Government District FUA.
+Dorset,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Downpatrick,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Droitwich Spa,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Dublin,,excluded_non_uk,outside_uk_fua_universe,Dublin is outside the UK FUA universe.
+Dundee,UK550F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns Angus, Dundee City to Dundee City FUA."
+Dunfermline,UK007F,reviewed_extended,reviewed_legacy_assignment,Preserved from the reviewed top-200 mapping because the official municipality crosswalk does not resolve the reported place. Prior note: Included only in the extended sensitivity view as a reviewed association with Edinburgh FUA.
+Ealing,UK001F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns City of London, Ealing to London FUA."
+East End of London,UK001F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns City of London to London FUA.
+East Grinstead,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+East Kilbride,UK004F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns East Renfrewshire, South Lanarkshire to Glasgow FUA."
+Eastbourne,UK055F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Eastbourne to Eastbourne FUA.
+Edinburgh,UK007F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns City of Edinburgh, Midlothian to Edinburgh FUA."
+Eel Pie Island,UK001F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns City of London, Richmond upon Thames to London FUA."
+Essex,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Exeter,UK018F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Exeter to Exeter FUA.
+Failsworth,UK008F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Oldham to Manchester FUA.
+Falkirk,UK551F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Falkirk to Falkirk FUA.
+Folkestone,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Glasgow,UK004F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns East Dunbartonshire, Glasgow City, North Lanarkshire to Glasgow FUA."
+Glastonbury,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Godalming,UK033F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Waverley to Guildford FUA.
+Grangemouth,UK551F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Falkirk to Falkirk FUA.
+Great Yarmouth,UK051F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Great Yarmouth to Great Yarmouth FUA.
+Guildford,UK033F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Guildford to Guildford FUA.
+Halifax,UK003F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Calderdale to Leeds FUA.
+Hamburg,,excluded_non_uk,outside_uk_fua_universe,Hamburg is outside the UK FUA universe.
+Hampshire,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Harlow,UK001F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Harlow to London FUA.
+Harrow,UK001F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns City of London, Harrow to London FUA."
+Hartlepool,UK559F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Hartlepool to Middlesbrough FUA.
+Hatfield,UK001F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Welwyn Hatfield to London FUA.
+Hemel Hempstead,UK556F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Dacorum to Dacorum FUA.
+Hendon,UK001F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns Barnet, City of London to London FUA."
+Hereford,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Herefordshire,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Hertford,UK001F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns East Hertfordshire to London FUA.
+High Wycombe,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Hounslow,UK001F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns City of London, Hounslow to London FUA."
+Hoylake,UK006F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Wirral to Liverpool FUA.
+Huddersfield,UK003F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Kirklees to Leeds FUA.
+Hunstanton,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Isle of Wight,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Keighley,UK003F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Bradford to Leeds FUA.
+Kettering,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Kilmarnock,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Kilsyth,,excluded_no_defensible_fua,ambiguous_official_crosswalk,"The available place hierarchy reaches multiple official FUAs: UK004F, UK551F."
+Kingston upon Hull,UK026F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns East Riding of Yorkshire to Kingston upon Hull FUA.
+Kirkby,UK006F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Knowsley to Liverpool FUA.
+Ladbroke Grove,UK001F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns City of London, Kensington and Chelsea to London FUA."
+Larne,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Leeds,UK003F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Leeds to Leeds FUA.
+Leek,UK027F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Staffordshire Moorlands to Stoke-on-Trent FUA.
+Leicester,UK014F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Leicester to Leicester FUA.
+Leicestershire,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Leighton Buzzard,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Leuchars,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Little Hulton,UK008F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Salford to Manchester FUA.
+Liverpool,UK006F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Liverpool to Liverpool FUA.
+London,UK001F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns Camden, City of London, Greenwich, Hackney, Hertsmere, Islington, Lewisham, Waltham Forest to London FUA."
+Lowestoft,UK569F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns East Suffolk to Ipswich FUA.
+Luton,UK532F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Luton to Luton FUA.
+Macclesfield,UK008F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Cheshire East to Manchester FUA.
+Manchester,UK008F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Manchester to Manchester FUA.
+Mansfield,UK046F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Mansfield to Mansfield FUA.
+Meols,UK006F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Wirral to Liverpool FUA.
+Merthyr Tydfil,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Middlesbrough,UK559F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Middlesbrough to Middlesbrough FUA.
+Middleton,UK008F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Rochdale to Manchester FUA.
+Milton Keynes,UK525F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Milton Keynes to Milton Keynes FUA.
+Mold,UK568F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Flintshire to Cheshire West and Chester FUA.
+Moreton,UK001F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Epping Forest to London FUA.
+Motherwell,UK004F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns North Lanarkshire to Glasgow FUA.
+New York City,,excluded_non_uk,outside_uk_fua_universe,New York City is outside the UK FUA universe.
+Newcastle upon Tyne,UK013F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns Newcastle upon Tyne, Northumberland to Newcastle upon Tyne FUA."
+Newport,UK558F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Newport to Newport FUA.
+Newry,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Norfolk,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+North London,UK001F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns City of London to London FUA.
+Northampton,UK528F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns West Northamptonshire to Northampton FUA.
+Northern Ireland,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Norwich,UK566F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Norwich to Norwich FUA.
+Notting Hill,UK001F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns City of London, Kensington and Chelsea to London FUA."
+Nottingham,UK029F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Nottingham to Nottingham FUA.
+Oldham,UK008F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Oldham to Manchester FUA.
+Otley,UK003F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Leeds to Leeds FUA.
+Oxford,UK560F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Oxford to Oxford FUA.
+Paisley,UK004F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns East Renfrewshire, Glasgow City, Renfrewshire to Glasgow FUA."
+Peacehaven,UK515F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Lewes to Brighton and Hove FUA.
+Peckham,UK001F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns City of London, Southwark to London FUA."
+Perth,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Peterborough,UK545F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Peterborough to Peterborough FUA.
+Plumstead,UK001F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns City of London, Greenwich to London FUA."
+Pontypridd,UK009F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Rhondda Cynon Taf to Cardiff FUA.
+Preston,UK562F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Preston to Preston FUA.
+Prestwich,UK008F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Bury to Manchester FUA.
+Ramsbottom,UK008F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Bury to Manchester FUA.
+Reading,UK552F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns Reading, Wokingham to Reading FUA."
+Redcliffe,,excluded_non_uk,outside_uk_fua_universe,Redcliffe is outside the UK FUA universe.
+Reigate,UK001F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Reigate and Banstead to London FUA.
+Ripley,UK033F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Guildford to Guildford FUA.
+Romford,UK001F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns City of London, Havering to London FUA."
+Rotherham,UK010F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Rotherham to Sheffield FUA.
+Rothwell,UK003F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Leeds to Leeds FUA.
+Royal Tunbridge Wells,UK001F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Tunbridge Wells to London FUA.
+Rugby,UK025F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Rugby to Coventry FUA.
+Ryde,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Salisbury,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Scotland,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Scunthorpe,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Selkirk,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Sevenoaks,UK001F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Sevenoaks to London FUA.
+Sheffield,UK010F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Sheffield to Sheffield FUA.
+Shotts,,excluded_no_defensible_fua,ambiguous_official_crosswalk,"The available place hierarchy reaches multiple official FUAs: UK004F, UK007F."
+Shropshire,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Somerset,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+South London,UK001F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns City of London to London FUA.
+South Shields,UK013F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns South Tyneside to Newcastle upon Tyne FUA.
+Southampton,UK520F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Southampton to Southampton FUA.
+Southend-on-Sea,UK001F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Southend-on-Sea to London FUA.
+Southport,UK006F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Sefton to Liverpool FUA.
+St Albans,UK001F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns St Albans to London FUA.
+Stafford,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Staines-upon-Thames,UK001F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns City of London, Spelthorne to London FUA."
+Stevenage,UK021F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Stevenage to Stevenage FUA.
+Stoke-on-Trent,UK027F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Stoke-on-Trent to Stoke-on-Trent FUA.
+Stourbridge,UK002F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Dudley to West Midlands urban area FUA.
+Suffolk,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Sunderland,UK510F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Sunderland to Sunderland FUA.
+Swansea,UK517F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Swansea to Swansea FUA.
+Swindon,UK535F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Swindon to Swindon FUA.
+Tavistock,UK516F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns West Devon to Plymouth FUA.
+Teignmouth,UK018F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Teignbridge to Exeter FUA.
+Tewkesbury,UK571F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Tewkesbury to Cheltenham FUA.
+Torquay,UK561F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Torbay to Torbay FUA.
+Totnes,UK516F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns South Hams to Plymouth FUA.
+Tottenham,UK001F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns City of London, Haringey to London FUA."
+Tyne and Wear,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+United States,,excluded_non_uk,outside_uk_fua_universe,United States is outside the UK FUA universe.
+University of Leeds,UK003F,strict,reviewed_legacy_assignment,Preserved from the reviewed top-200 mapping because the official municipality crosswalk does not resolve the reported place. Prior note: The reported formation place is an institution in Leeds and is assigned to Leeds FUA.
+Ventnor,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Wakefield,UK003F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Wakefield to Leeds FUA.
+Wales,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Walthamstow,UK001F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns City of London, Waltham Forest to London FUA."
+Warrington,UK531F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Warrington to Warrington FUA.
+Warwick,UK025F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Warwick to Coventry FUA.
+Watford,UK001F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Watford to London FUA.
+Welwyn Garden City,UK001F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Welwyn Hatfield to London FUA.
+West Lothian,UK007F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns West Lothian to Edinburgh FUA.
+West Midlands,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Westminster,UK001F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns City of London, Westminster to London FUA."
+Weston-super-Mare,UK011F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns North Somerset to Bristol FUA.
+Weybridge,UK001F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Elmbridge to London FUA.
+Wheatley,UK560F,reviewed_extended,reviewed_legacy_assignment,Preserved from the reviewed top-200 mapping because the official municipality crosswalk does not resolve the reported place. Prior note: Included only in the extended sensitivity view as a reviewed association with Oxford FUA.
+Whitley Bay,UK013F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns North Tyneside to Newcastle upon Tyne FUA.
+Wimbledon,UK001F,strict,official_oecd_municipality_crosswalk,"The official OECD municipality list assigns City of London, Merton to London FUA."
+Winchester,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Windsor,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Witton Gilbert,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Woking,UK001F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Woking to London FUA.
+Wolverhampton,UK002F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Wolverhampton to West Midlands urban area FUA.
+Worcestershire,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+Worthing,UK045F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Worthing to Worthing FUA.
+Wrexham,UK022F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns Wrexham to Wrexham FUA.
+Yeovil,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+York,UK533F,strict,official_oecd_municipality_crosswalk,The official OECD municipality list assigns York to York FUA.

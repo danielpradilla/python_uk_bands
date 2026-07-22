@@ -1,7 +1,9 @@
-spotipy
-python-dotenv
+ipykernel
 matplotlib
-seaborn
+nbconvert
+nbformat
 pandas
-adjustText
-pytrends
+pycountry
+python-dotenv
+requests
+spotipy

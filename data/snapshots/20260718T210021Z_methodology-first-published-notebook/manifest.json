@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-07-18T21:00:21.701278+00:00",
+  "label": "methodology-first-published-notebook",
+  "project_root": "/Users/dpradilla/dev/uk-music-cities",
+  "files": [
+    {
+      "path": "notebooks/final/uk_bands_punching_above_weight.ipynb",
+      "sha256": "4e274664f6c71bda8db21c57c62b34117b9b60f132510ad5acd0deae1a5390af",
+      "size_bytes": 397857
+    },
+    {
+      "path": "scripts/build_final_notebook.py",
+      "sha256": "2ee915ea705b99aebdad1a54b6e016a75dcfd6d4286f4841d7e6d333180f19b2",
+      "size_bytes": 28865
+    },
+    {
+      "path": "reference/scene_depth_bands.csv",
+      "sha256": "8754dfc07510231696bb3c0d7f51af00953656d2aa01ba1011730d9bb77bce0b",
+      "size_bytes": 18075
+    },
+    {
+      "path": "reference/built_up_areas.csv",
+      "sha256": "62c652b5418644c00e94d3deb0bce8e2898e4f25dce6c2e6544b82dbeac72da9",
+      "size_bytes": 617
+    },
+    {
+      "path": "data/processed/scene_depth_band_metrics_20260717T225650Z.csv",
+      "sha256": "8b31ba42a4e9d1a4e67de2678251ab4046800153723a9c64ce27f4100a603384",
+      "size_bytes": 32037
+    },
+    {
+      "path": "data/processed/scene_depth_rankings_20260717T225650Z.csv",
+      "sha256": "ce0d5381981d0395bc7c411690e95364ad3e22a8d8f3f2968bdc0c7a40597e23",
+      "size_bytes": 3532
+    },
+    {
+      "path": "artifacts/charts/chart_01_ten_band_population_normalized_total.png",
+      "sha256": "dd31fcf82c4e3a06c8e92bcb4879a5cf469c3de101055be0fe47b25a9f18a169",
+      "size_bytes": 101194
+    },
+    {
+      "path": "artifacts/charts/chart_02_largest_band_concentration.png",
+      "sha256": "601bcea4fbb7205fb3e46ca139ff75f489d8425af1c2f9f7a42fa25f2ef406c0",
+      "size_bytes": 127372
+    },
+    {
+      "path": "artifacts/charts/chart_03_largest_band_excluded.png",
+      "sha256": "8f964aac183cd39e813cca776f1bea06492455f3f62ba0bb7daf3fed1f9d7d3b",
+      "size_bytes": 106211
+    },
+    {
+      "path": "artifacts/charts/chart_04_population_normalized_trimmed_mean.png",
+      "sha256": "540b31e9d2f0bb3dacdb4c74df3882f536969b160980452642327bde0054cf88",
+      "size_bytes": 94211
+    },
+    {
+      "path": "artifacts/charts/chart_05_rank_movement_across_methods.png",
+      "sha256": "75d0001ad549bd01f210281919723a9d16cbdb8084278838ed3f587c3673c500",
+      "size_bytes": 110060
+    }
+  ]
+}

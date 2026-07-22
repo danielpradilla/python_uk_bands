@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-07-18T20:53:19.167398+00:00",
+  "label": "completed-top100-popularity-first-20260718T204522Z",
+  "project_root": "/Users/dpradilla/dev/uk-music-cities",
+  "files": [
+    {
+      "path": "notebooks/experiments/snapshots/uk_bands_top100_popularity_first_20260718T204522Z.ipynb",
+      "sha256": "912bdd02895e9e9693744d35c4c8ac8a3a9bc4a5e751ece1309961743fd0164b",
+      "size_bytes": 191217
+    },
+    {
+      "path": "data/raw/wikidata/uk_group_candidates_with_spotify_20260718T201100Z.json",
+      "sha256": "b78232336351a5454fec97b08a1187b5e5b66c9948ad318dea5061eaf7d63599",
+      "size_bytes": 1644549
+    },
+    {
+      "path": "data/interim/uk_group_spotify_candidates_20260718T201100Z.csv",
+      "sha256": "ec489dfd52595e5cb87bf576906c0c88a30806a14914bf9b7a37009c17e55d6e",
+      "size_bytes": 244217
+    },
+    {
+      "path": "data/interim/uk_group_spotify_candidates_20260718T201100Z_report.json",
+      "sha256": "17047d7845ea4e420dbd3c8504656340e063db95090721406f41be15f47573b1",
+      "size_bytes": 602
+    },
+    {
+      "path": "data/processed/uk_group_spotify_metrics_20260718T204522Z.csv",
+      "sha256": "462bd545e4abc834512469482d14e31089e69f41cc86be24d962c2596d0eb9a3",
+      "size_bytes": 358222
+    },
+    {
+      "path": "data/raw/spotify/uk_group_spotify_metrics_20260718T204522Z.json.gz",
+      "sha256": "85d6138c9f133b2f8d2450332a07289ed98c4c712a942a7d527f27fa748c9060",
+      "size_bytes": 18480686
+    },
+    {
+      "path": "data/raw/spotify/uk_group_spotify_metrics_20260718T204522Z_report.json",
+      "sha256": "2f2069360973c07c2089b3b4741d5475b09e7dce6a39da1025c2da9e6a23aaa3",
+      "size_bytes": 31417
+    },
+    {
+      "path": "reference/popularity_first_overrides_20260718.csv",
+      "sha256": "8c0c5dfd83be0c62f587bab5a8ba6944ea261fd08ce93d1a2d48ced2ae14bf82",
+      "size_bytes": 1104
+    },
+    {
+      "path": "data/interim/popularity_first_top100_20260718T204522Z_identity_audit.csv",
+      "sha256": "146e0af4192a0d514ca86dbcbbf0f3b768d000b235cbf60dfc9ccfdf473bbad6",
+      "size_bytes": 659318
+    },
+    {
+      "path": "data/processed/popularity_first_top100_20260718T204522Z_bands.csv",
+      "sha256": "5919cd1c347c6716c55a2ca14a4038cdee0454222ed7e1a001e66dc06ed77682",
+      "size_bytes": 41830
+    },
+    {
+      "path": "data/processed/popularity_first_top100_20260718T204522Z_origins.csv",
+      "sha256": "eef6e9598b5bd155811c4b418bbb19bd5dad87da1cf77d46c91c4aacffe5aaac",
+      "size_bytes": 1618
+    },
+    {
+      "path": "data/processed/popularity_first_top100_20260718T204522Z_report.json",
+      "sha256": "57be82abf0192ce8e5d038bdbb6a1ef0b5e72e6dd9e75ce5ddf30cb2c7806365",
+      "size_bytes": 1341
+    },
+    {
+      "path": "artifacts/top100_popularity_first/20260718T204522Z/01_top20_groups.png",
+      "sha256": "d75ad275fb4f224f28221d95d614139d9d9431c91155e0431176a5537c1553b3",
+      "size_bytes": 83462
+    },
+    {
+      "path": "artifacts/top100_popularity_first/20260718T204522Z/02_origin_band_counts.png",
+      "sha256": "840e3dfa7b871ffadbb6d922257bbb4f8bbc62b0eeec7b2add05b8c8dc03b2a3",
+      "size_bytes": 57120
+    }
+  ]
+}

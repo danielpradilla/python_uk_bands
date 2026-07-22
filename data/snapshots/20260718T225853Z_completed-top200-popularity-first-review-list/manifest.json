@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-07-18T22:58:53.626550+00:00",
+  "label": "completed-top200-popularity-first-review-list",
+  "project_root": "/Users/dpradilla/dev/uk-music-cities",
+  "files": [
+    {
+      "path": "scripts/build_popularity_first_analysis.py",
+      "sha256": "f367a635a0e01848c9f4e106e916aaecb2c5583762a864ecb7649fe6220cd242",
+      "size_bytes": 6264
+    },
+    {
+      "path": "data/processed/popularity_first_top200_20260718T204522Z_bands.csv",
+      "sha256": "0cd1c0e568b5566a9d3cd9ed14b117e9117058a4777097e1e9b3c342663a021f",
+      "size_bytes": 82214
+    },
+    {
+      "path": "data/processed/popularity_first_top200_20260718T204522Z_origins.csv",
+      "sha256": "6b792f44260c8085c0e63e23a6a06df8b720149bb1ead40d82df58782721f2f1",
+      "size_bytes": 2963
+    },
+    {
+      "path": "data/interim/popularity_first_top200_20260718T204522Z_identity_audit.csv",
+      "sha256": "146e0af4192a0d514ca86dbcbbf0f3b768d000b235cbf60dfc9ccfdf473bbad6",
+      "size_bytes": 659318
+    },
+    {
+      "path": "data/interim/popularity_first_top200_20260718T204522Z_review.csv",
+      "sha256": "a2f00a3c41dd1915658173b7c56f8a7524b2844245d9701740e1506bf57843ba",
+      "size_bytes": 40419
+    },
+    {
+      "path": "data/processed/popularity_first_top200_20260718T204522Z_report.json",
+      "sha256": "896cda6c1d970b6fb8cd2ec77586e18d29ea82a7b15926ab173ea0490c678096",
+      "size_bytes": 1425
+    },
+    {
+      "path": "data/processed/popularity_first_top100_20260718T204522Z_bands.csv",
+      "sha256": "5919cd1c347c6716c55a2ca14a4038cdee0454222ed7e1a001e66dc06ed77682",
+      "size_bytes": 41830
+    },
+    {
+      "path": "ANALYSIS_HISTORY.md",
+      "sha256": "d431bf50a02a09d1d3d4f653eae5921237679dde01abeff6af256087eb4e3312",
+      "size_bytes": 11461
+    }
+  ]
+}

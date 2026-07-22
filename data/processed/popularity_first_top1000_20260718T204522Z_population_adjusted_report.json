@@ -1,0 +1,2108 @@
+{
+  "snapshot_id": "20260718T204522Z",
+  "study_kind": "popularity-first population-adjusted sensitivity",
+  "population_definition": "OECD/EU Functional Urban Area",
+  "population_year": 2021,
+  "formulas": {
+    "selected_bands_per_million_residents": "selected top-1000 band count / FUA population * 1,000,000",
+    "selected_monthly_listeners_per_resident": "sum of captured monthly listeners for selected top-1000 bands / FUA population"
+  },
+  "strict_mapping": {
+    "selected_bands": 1000,
+    "mapped_bands": 656,
+    "mapped_band_share": 0.656,
+    "selected_listener_reach": 2259262731,
+    "mapped_listener_reach": 2035351527,
+    "mapped_listener_reach_share": 0.9008919144605675,
+    "mapped_origin_clusters": 153,
+    "mapped_fuas": 61,
+    "included_tiers": [
+      "strict"
+    ],
+    "top_fua_by_listener_reach_per_resident": "Crawley",
+    "top_fua_band_count": 1,
+    "top_stable_fuas_with_at_least_two_bands": [
+      "Bath and North East Somerset",
+      "Oxford",
+      "Hastings",
+      "Cambridge",
+      "London",
+      "Sheffield",
+      "Guildford",
+      "Manchester",
+      "Dundee City",
+      "Sunderland"
+    ]
+  },
+  "extended_mapping_sensitivity": {
+    "selected_bands": 1000,
+    "mapped_bands": 660,
+    "mapped_band_share": 0.66,
+    "selected_listener_reach": 2259262731,
+    "mapped_listener_reach": 2045084390,
+    "mapped_listener_reach_share": 0.9051998963815953,
+    "mapped_origin_clusters": 155,
+    "mapped_fuas": 61,
+    "included_tiers": [
+      "strict",
+      "reviewed_extended"
+    ],
+    "top_fua_by_listener_reach_per_resident": "Crawley"
+  },
+  "unmapped_after_extended_review": [
+    {
+      "spotify_name": "Bee Gees",
+      "origin_cluster": "Redcliffe",
+      "monthly_listeners": 29286539,
+      "mapping_tier": "excluded_non_uk"
+    },
+    {
+      "spotify_name": "The Proclaimers",
+      "origin_cluster": "Auchtermuchty",
+      "monthly_listeners": 8100195,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Pretenders",
+      "origin_cluster": "Hereford",
+      "monthly_listeners": 6044974,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Bullet For My Valentine",
+      "origin_cluster": "Bridgend",
+      "monthly_listeners": 5036374,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Prodigy",
+      "origin_cluster": "Braintree",
+      "monthly_listeners": 5031555,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Wings",
+      "origin_cluster": "",
+      "monthly_listeners": 4863252,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Erasure",
+      "origin_cluster": "",
+      "monthly_listeners": 4832016,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Sidewalks and Skeletons",
+      "origin_cluster": "",
+      "monthly_listeners": 4198181,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "LSD",
+      "origin_cluster": "",
+      "monthly_listeners": 4191261,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "FLO",
+      "origin_cluster": "",
+      "monthly_listeners": 4183163,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Maribou State",
+      "origin_cluster": "",
+      "monthly_listeners": 4147945,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Studio Killers",
+      "origin_cluster": "",
+      "monthly_listeners": 4136257,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "HONNE",
+      "origin_cluster": "",
+      "monthly_listeners": 3880260,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "SAULT",
+      "origin_cluster": "",
+      "monthly_listeners": 3625737,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Wet Leg",
+      "origin_cluster": "Isle of Wight",
+      "monthly_listeners": 3584069,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Sophie and the Giants",
+      "origin_cluster": "",
+      "monthly_listeners": 3507868,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Snakehips",
+      "origin_cluster": "",
+      "monthly_listeners": 3159265,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "BICEP",
+      "origin_cluster": "",
+      "monthly_listeners": 3141387,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Third Party",
+      "origin_cluster": "",
+      "monthly_listeners": 2971418,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Faces",
+      "origin_cluster": "",
+      "monthly_listeners": 2718313,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Asia",
+      "origin_cluster": "",
+      "monthly_listeners": 2716602,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Waterboys",
+      "origin_cluster": "",
+      "monthly_listeners": 2670888,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Mungo Jerry",
+      "origin_cluster": "Ashford",
+      "monthly_listeners": 2528248,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "James",
+      "origin_cluster": "",
+      "monthly_listeners": 2205349,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Amber Run",
+      "origin_cluster": "",
+      "monthly_listeners": 2165390,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Catfish and the Bottlemen",
+      "origin_cluster": "",
+      "monthly_listeners": 2164420,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Level 42",
+      "origin_cluster": "Isle of Wight",
+      "monthly_listeners": 2112387,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Foghat",
+      "origin_cluster": "",
+      "monthly_listeners": 2100357,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Soul II Soul",
+      "origin_cluster": "",
+      "monthly_listeners": 2087009,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Night Tapes",
+      "origin_cluster": "",
+      "monthly_listeners": 1719979,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Londonbeat",
+      "origin_cluster": "United States",
+      "monthly_listeners": 1590343,
+      "mapping_tier": "excluded_non_uk"
+    },
+    {
+      "spotify_name": "WSTRN",
+      "origin_cluster": "",
+      "monthly_listeners": 1459546,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Dario G",
+      "origin_cluster": "",
+      "monthly_listeners": 1447823,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Marillion",
+      "origin_cluster": "Aylesbury",
+      "monthly_listeners": 1370532,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "EMF",
+      "origin_cluster": "Cinderford",
+      "monthly_listeners": 1351005,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Biffy Clyro",
+      "origin_cluster": "Kilmarnock",
+      "monthly_listeners": 1330864,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Right Said Fred",
+      "origin_cluster": "East Grinstead",
+      "monthly_listeners": 1289669,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Jadu Heart",
+      "origin_cluster": "",
+      "monthly_listeners": 1279776,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Editors",
+      "origin_cluster": "",
+      "monthly_listeners": 1241937,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "South Arcade",
+      "origin_cluster": "",
+      "monthly_listeners": 1151351,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Emerson, Lake & Palmer",
+      "origin_cluster": "",
+      "monthly_listeners": 1139758,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "PRESIDENT",
+      "origin_cluster": "",
+      "monthly_listeners": 1108071,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Spacehog",
+      "origin_cluster": "New York City",
+      "monthly_listeners": 1073095,
+      "mapping_tier": "excluded_non_uk"
+    },
+    {
+      "spotify_name": "Manfred Mann",
+      "origin_cluster": "",
+      "monthly_listeners": 1070103,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Caskets",
+      "origin_cluster": "",
+      "monthly_listeners": 1063882,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Koven",
+      "origin_cluster": "",
+      "monthly_listeners": 1057644,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "King Crimson",
+      "origin_cluster": "",
+      "monthly_listeners": 1036506,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Il Divo",
+      "origin_cluster": "",
+      "monthly_listeners": 977922,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "McFly",
+      "origin_cluster": "",
+      "monthly_listeners": 964171,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "JADED",
+      "origin_cluster": "",
+      "monthly_listeners": 891067,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Breathe",
+      "origin_cluster": "",
+      "monthly_listeners": 876466,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Academy of Ancient Music",
+      "origin_cluster": "",
+      "monthly_listeners": 863103,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "La Serenissima",
+      "origin_cluster": "",
+      "monthly_listeners": 840773,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Elvis Costello & The Attractions",
+      "origin_cluster": "",
+      "monthly_listeners": 830368,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Wasia Project",
+      "origin_cluster": "",
+      "monthly_listeners": 815222,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Kajagoogoo",
+      "origin_cluster": "Leighton Buzzard",
+      "monthly_listeners": 797085,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "IAMX",
+      "origin_cluster": "",
+      "monthly_listeners": 750077,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Black Country, New Road",
+      "origin_cluster": "Cambridgeshire",
+      "monthly_listeners": 741988,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "piri & tommy",
+      "origin_cluster": "",
+      "monthly_listeners": 690910,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Alestorm",
+      "origin_cluster": "Perth",
+      "monthly_listeners": 684120,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Dusky",
+      "origin_cluster": "",
+      "monthly_listeners": 666537,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Gunship",
+      "origin_cluster": "",
+      "monthly_listeners": 646183,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Magoo",
+      "origin_cluster": "Norfolk",
+      "monthly_listeners": 639865,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Arctic Lake",
+      "origin_cluster": "",
+      "monthly_listeners": 637713,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Tin Tin Out",
+      "origin_cluster": "",
+      "monthly_listeners": 633305,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Delta Heavy",
+      "origin_cluster": "",
+      "monthly_listeners": 632637,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Lovejoy",
+      "origin_cluster": "",
+      "monthly_listeners": 617221,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Aquilo",
+      "origin_cluster": "",
+      "monthly_listeners": 602693,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Fiction Factory",
+      "origin_cluster": "Perth",
+      "monthly_listeners": 601160,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Mount Kimbie",
+      "origin_cluster": "",
+      "monthly_listeners": 601000,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "LMC",
+      "origin_cluster": "",
+      "monthly_listeners": 593636,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Peppa Pig",
+      "origin_cluster": "",
+      "monthly_listeners": 585566,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Binary Finary",
+      "origin_cluster": "",
+      "monthly_listeners": 556404,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Climax Blues Band",
+      "origin_cluster": "Stafford",
+      "monthly_listeners": 545160,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Precious",
+      "origin_cluster": "",
+      "monthly_listeners": 530748,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "T'Pau",
+      "origin_cluster": "Shropshire",
+      "monthly_listeners": 525174,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "London Sinfonietta",
+      "origin_cluster": "",
+      "monthly_listeners": 511109,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Charlatans",
+      "origin_cluster": "West Midlands",
+      "monthly_listeners": 498770,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "K-Klass",
+      "origin_cluster": "",
+      "monthly_listeners": 486338,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Cradle Of Filth",
+      "origin_cluster": "Suffolk",
+      "monthly_listeners": 484589,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "December 10",
+      "origin_cluster": "",
+      "monthly_listeners": 474904,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "TENDER",
+      "origin_cluster": "",
+      "monthly_listeners": 469691,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Shadows",
+      "origin_cluster": "",
+      "monthly_listeners": 463312,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Mott The Hoople",
+      "origin_cluster": "Herefordshire",
+      "monthly_listeners": 453631,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Mungo's Hi Fi",
+      "origin_cluster": "",
+      "monthly_listeners": 436483,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Ash",
+      "origin_cluster": "Downpatrick",
+      "monthly_listeners": 433333,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Lambrini Girls",
+      "origin_cluster": "",
+      "monthly_listeners": 420857,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Baby D",
+      "origin_cluster": "",
+      "monthly_listeners": 418514,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Freestylers",
+      "origin_cluster": "",
+      "monthly_listeners": 411981,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Prefab Sprout",
+      "origin_cluster": "Witton Gilbert",
+      "monthly_listeners": 410644,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Runrig",
+      "origin_cluster": "Scotland",
+      "monthly_listeners": 402383,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Electric Wizard",
+      "origin_cluster": "Dorset",
+      "monthly_listeners": 401179,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Gloryhammer",
+      "origin_cluster": "Scotland",
+      "monthly_listeners": 399088,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "London Voices",
+      "origin_cluster": "",
+      "monthly_listeners": 394129,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Ant & Dec",
+      "origin_cluster": "",
+      "monthly_listeners": 382816,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Republica",
+      "origin_cluster": "Windsor",
+      "monthly_listeners": 382250,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Mojave 3",
+      "origin_cluster": "",
+      "monthly_listeners": 381875,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Modestep",
+      "origin_cluster": "",
+      "monthly_listeners": 363041,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Fluke",
+      "origin_cluster": "Buckinghamshire",
+      "monthly_listeners": 358816,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Temples",
+      "origin_cluster": "Kettering",
+      "monthly_listeners": 356937,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Hot Milk",
+      "origin_cluster": "",
+      "monthly_listeners": 353065,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Fred V & Grafix",
+      "origin_cluster": "",
+      "monthly_listeners": 340452,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Sleaford Mods",
+      "origin_cluster": "",
+      "monthly_listeners": 336962,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Real Tuesday Weld",
+      "origin_cluster": "",
+      "monthly_listeners": 334907,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Honeydrippers",
+      "origin_cluster": "Worcestershire",
+      "monthly_listeners": 321812,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "John Mayall & The Bluesbreakers",
+      "origin_cluster": "",
+      "monthly_listeners": 316818,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Layo & Bushwacka!",
+      "origin_cluster": "",
+      "monthly_listeners": 313503,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Matt Bianco",
+      "origin_cluster": "",
+      "monthly_listeners": 312847,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Nuages",
+      "origin_cluster": "",
+      "monthly_listeners": 303990,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Cliff Richard & The Shadows",
+      "origin_cluster": "",
+      "monthly_listeners": 303431,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "911",
+      "origin_cluster": "",
+      "monthly_listeners": 302164,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Fairground Attraction",
+      "origin_cluster": "",
+      "monthly_listeners": 301377,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Funeral For A Friend",
+      "origin_cluster": "Bridgend",
+      "monthly_listeners": 298448,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Nailbomb",
+      "origin_cluster": "",
+      "monthly_listeners": 297670,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Hang Massive",
+      "origin_cluster": "",
+      "monthly_listeners": 296134,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Oozes",
+      "origin_cluster": "",
+      "monthly_listeners": 295667,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Shamen",
+      "origin_cluster": "",
+      "monthly_listeners": 295405,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Damage",
+      "origin_cluster": "",
+      "monthly_listeners": 294456,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The New Seekers",
+      "origin_cluster": "",
+      "monthly_listeners": 294222,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Amazons",
+      "origin_cluster": "",
+      "monthly_listeners": 294130,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Divine Comedy",
+      "origin_cluster": "Northern Ireland",
+      "monthly_listeners": 291037,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Peter And Gordon",
+      "origin_cluster": "",
+      "monthly_listeners": 290650,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Zola Blood",
+      "origin_cluster": "",
+      "monthly_listeners": 286256,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Jesus Jones",
+      "origin_cluster": "Bradford-on-Avon",
+      "monthly_listeners": 280634,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Young Gun Silver Fox",
+      "origin_cluster": "",
+      "monthly_listeners": 276802,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Reef",
+      "origin_cluster": "Glastonbury",
+      "monthly_listeners": 269572,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Cinnamon Chasers",
+      "origin_cluster": "",
+      "monthly_listeners": 269301,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Grace",
+      "origin_cluster": "",
+      "monthly_listeners": 266321,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Moose Blood",
+      "origin_cluster": "Canterbury",
+      "monthly_listeners": 263954,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Danny Wilson",
+      "origin_cluster": "Leuchars",
+      "monthly_listeners": 260573,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Anti Up",
+      "origin_cluster": "",
+      "monthly_listeners": 259333,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "AS IT IS",
+      "origin_cluster": "",
+      "monthly_listeners": 259244,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Propellerheads",
+      "origin_cluster": "",
+      "monthly_listeners": 258314,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Ten F\u00e9",
+      "origin_cluster": "",
+      "monthly_listeners": 257636,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Bucks Fizz",
+      "origin_cluster": "",
+      "monthly_listeners": 252247,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Frightened Rabbit",
+      "origin_cluster": "Selkirk",
+      "monthly_listeners": 251709,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Stanton Warriors",
+      "origin_cluster": "",
+      "monthly_listeners": 251667,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Tremeloes",
+      "origin_cluster": "Essex",
+      "monthly_listeners": 239363,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Dirty Vegas",
+      "origin_cluster": "",
+      "monthly_listeners": 237782,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "This Mortal Coil",
+      "origin_cluster": "",
+      "monthly_listeners": 236565,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Bondax",
+      "origin_cluster": "",
+      "monthly_listeners": 235766,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Rivers & Robots",
+      "origin_cluster": "",
+      "monthly_listeners": 233180,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "This Is The Kit",
+      "origin_cluster": "Winchester",
+      "monthly_listeners": 229902,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Temperance Movement",
+      "origin_cluster": "",
+      "monthly_listeners": 223097,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Nolans",
+      "origin_cluster": "Dublin",
+      "monthly_listeners": 217117,
+      "mapping_tier": "excluded_non_uk"
+    },
+    {
+      "spotify_name": "Utah Saints",
+      "origin_cluster": "",
+      "monthly_listeners": 216105,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Coldcut",
+      "origin_cluster": "",
+      "monthly_listeners": 214514,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Fun Boy Three",
+      "origin_cluster": "",
+      "monthly_listeners": 210879,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "RITUAL",
+      "origin_cluster": "",
+      "monthly_listeners": 208784,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Sea of Thieves",
+      "origin_cluster": "",
+      "monthly_listeners": 205720,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Mammal Hands",
+      "origin_cluster": "",
+      "monthly_listeners": 205120,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Planet Perfecto",
+      "origin_cluster": "",
+      "monthly_listeners": 203707,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Sam And The Womp",
+      "origin_cluster": "",
+      "monthly_listeners": 201092,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Virus Syndicate",
+      "origin_cluster": "",
+      "monthly_listeners": 200462,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Twilight Sad",
+      "origin_cluster": "Kilsyth",
+      "monthly_listeners": 199417,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "letherette",
+      "origin_cluster": "",
+      "monthly_listeners": 199074,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Brotherhood of Man",
+      "origin_cluster": "",
+      "monthly_listeners": 196558,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Sea Power",
+      "origin_cluster": "",
+      "monthly_listeners": 196069,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "City of London Sinfonia",
+      "origin_cluster": "",
+      "monthly_listeners": 190860,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "London Symphony Chorus",
+      "origin_cluster": "",
+      "monthly_listeners": 185312,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Bomb The Bass",
+      "origin_cluster": "",
+      "monthly_listeners": 184150,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Way Out West",
+      "origin_cluster": "",
+      "monthly_listeners": 183677,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "King King",
+      "origin_cluster": "",
+      "monthly_listeners": 182479,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Showaddywaddy",
+      "origin_cluster": "",
+      "monthly_listeners": 178641,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Therapy?",
+      "origin_cluster": "Larne",
+      "monthly_listeners": 175573,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Lawson",
+      "origin_cluster": "",
+      "monthly_listeners": 172494,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "swim school",
+      "origin_cluster": "",
+      "monthly_listeners": 172006,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Tom Robinson Band",
+      "origin_cluster": "",
+      "monthly_listeners": 171964,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Sailor",
+      "origin_cluster": "",
+      "monthly_listeners": 168700,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Dr. Feelgood",
+      "origin_cluster": "Essex",
+      "monthly_listeners": 167923,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Kareful",
+      "origin_cluster": "",
+      "monthly_listeners": 162343,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Dead Pony",
+      "origin_cluster": "",
+      "monthly_listeners": 158291,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Shpongle",
+      "origin_cluster": "",
+      "monthly_listeners": 157586,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "AlicebanD",
+      "origin_cluster": "",
+      "monthly_listeners": 156024,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Calva Louise",
+      "origin_cluster": "",
+      "monthly_listeners": 155471,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Deaf Havana",
+      "origin_cluster": "Hunstanton",
+      "monthly_listeners": 155196,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Bluebells",
+      "origin_cluster": "Scotland",
+      "monthly_listeners": 155036,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Alarm",
+      "origin_cluster": "Wales",
+      "monthly_listeners": 153792,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "M\u00e0nran",
+      "origin_cluster": "Scotland",
+      "monthly_listeners": 153473,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Flying Pickets",
+      "origin_cluster": "",
+      "monthly_listeners": 152643,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Pretty Vicious",
+      "origin_cluster": "Merthyr Tydfil",
+      "monthly_listeners": 152499,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Prototypes",
+      "origin_cluster": "",
+      "monthly_listeners": 151701,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Delta Sleep",
+      "origin_cluster": "",
+      "monthly_listeners": 151180,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Reprazent",
+      "origin_cluster": "",
+      "monthly_listeners": 150501,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Bros",
+      "origin_cluster": "Camberley",
+      "monthly_listeners": 149817,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "English Teacher",
+      "origin_cluster": "",
+      "monthly_listeners": 148637,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Those Damn Crows",
+      "origin_cluster": "",
+      "monthly_listeners": 142422,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Panic Shack",
+      "origin_cluster": "",
+      "monthly_listeners": 142284,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Firm",
+      "origin_cluster": "",
+      "monthly_listeners": 138968,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Nomad",
+      "origin_cluster": "",
+      "monthly_listeners": 136733,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Hybrid",
+      "origin_cluster": "",
+      "monthly_listeners": 134319,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Irish Brigade",
+      "origin_cluster": "County Tyrone",
+      "monthly_listeners": 133806,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Drumsound & Bassline Smith",
+      "origin_cluster": "",
+      "monthly_listeners": 130375,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Radio Slave",
+      "origin_cluster": "",
+      "monthly_listeners": 130300,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Pineapple Thief",
+      "origin_cluster": "Yeovil",
+      "monthly_listeners": 130128,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Chas & Dave",
+      "origin_cluster": "",
+      "monthly_listeners": 125459,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Marshall Hain",
+      "origin_cluster": "",
+      "monthly_listeners": 117620,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Adventures",
+      "origin_cluster": "",
+      "monthly_listeners": 115422,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The KVB",
+      "origin_cluster": "",
+      "monthly_listeners": 113762,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Richard & Linda Thompson",
+      "origin_cluster": "",
+      "monthly_listeners": 111216,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Chris Barber's Jazz Band",
+      "origin_cluster": "",
+      "monthly_listeners": 110937,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "4hero",
+      "origin_cluster": "",
+      "monthly_listeners": 109004,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Collapsed Lung",
+      "origin_cluster": "",
+      "monthly_listeners": 105834,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Plaid",
+      "origin_cluster": "",
+      "monthly_listeners": 103115,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Wurzels",
+      "origin_cluster": "Somerset",
+      "monthly_listeners": 101561,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Guest List",
+      "origin_cluster": "",
+      "monthly_listeners": 100343,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Flying Lizards",
+      "origin_cluster": "",
+      "monthly_listeners": 98078,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Remember Monday",
+      "origin_cluster": "",
+      "monthly_listeners": 97605,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Monuments",
+      "origin_cluster": "",
+      "monthly_listeners": 97034,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Yogscast",
+      "origin_cluster": "",
+      "monthly_listeners": 96738,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Death In June",
+      "origin_cluster": "",
+      "monthly_listeners": 95529,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Los Bitchos",
+      "origin_cluster": "",
+      "monthly_listeners": 95326,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Faze Action",
+      "origin_cluster": "",
+      "monthly_listeners": 90602,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Jo Boxers",
+      "origin_cluster": "",
+      "monthly_listeners": 89557,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Cruel Youth",
+      "origin_cluster": "",
+      "monthly_listeners": 89434,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Comet Is Coming",
+      "origin_cluster": "",
+      "monthly_listeners": 89284,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "All Angels",
+      "origin_cluster": "",
+      "monthly_listeners": 87528,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Florence Black",
+      "origin_cluster": "",
+      "monthly_listeners": 87365,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Blackfield",
+      "origin_cluster": "",
+      "monthly_listeners": 85702,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Booze & Glory",
+      "origin_cluster": "",
+      "monthly_listeners": 85412,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Tenpole Tudor",
+      "origin_cluster": "",
+      "monthly_listeners": 83020,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Young Guns",
+      "origin_cluster": "High Wycombe",
+      "monthly_listeners": 82953,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Massive Wagons",
+      "origin_cluster": "",
+      "monthly_listeners": 80248,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Slowly Rolling Camera",
+      "origin_cluster": "",
+      "monthly_listeners": 79752,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Brothers In Rhythm",
+      "origin_cluster": "",
+      "monthly_listeners": 78778,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Destructive Tendencies",
+      "origin_cluster": "",
+      "monthly_listeners": 77543,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Ibibio Sound Machine",
+      "origin_cluster": "",
+      "monthly_listeners": 77200,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "GLXY",
+      "origin_cluster": "",
+      "monthly_listeners": 77107,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "VANT",
+      "origin_cluster": "",
+      "monthly_listeners": 76495,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Bees",
+      "origin_cluster": "Ventnor",
+      "monthly_listeners": 76473,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Acrania",
+      "origin_cluster": "",
+      "monthly_listeners": 75245,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Re-Flex",
+      "origin_cluster": "",
+      "monthly_listeners": 75009,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Curse of Lono",
+      "origin_cluster": "",
+      "monthly_listeners": 74421,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "ROAM",
+      "origin_cluster": "",
+      "monthly_listeners": 73324,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Chicken Shack",
+      "origin_cluster": "",
+      "monthly_listeners": 72185,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Talisk",
+      "origin_cluster": "",
+      "monthly_listeners": 71444,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Fast Food Rockers",
+      "origin_cluster": "Folkestone",
+      "monthly_listeners": 71392,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Let Loose",
+      "origin_cluster": "",
+      "monthly_listeners": 71261,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Nektar",
+      "origin_cluster": "Hamburg",
+      "monthly_listeners": 70557,
+      "mapping_tier": "excluded_non_uk"
+    },
+    {
+      "spotify_name": "Lund Quartet",
+      "origin_cluster": "",
+      "monthly_listeners": 70363,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "A",
+      "origin_cluster": "Suffolk",
+      "monthly_listeners": 68849,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Death Of Guitar Pop",
+      "origin_cluster": "",
+      "monthly_listeners": 68122,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Fastway",
+      "origin_cluster": "",
+      "monthly_listeners": 67660,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Coach Party",
+      "origin_cluster": "",
+      "monthly_listeners": 65798,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Liverpool Express",
+      "origin_cluster": "",
+      "monthly_listeners": 65090,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Total Science",
+      "origin_cluster": "",
+      "monthly_listeners": 64875,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Ananui",
+      "origin_cluster": "Scotland",
+      "monthly_listeners": 63841,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "TNGHT",
+      "origin_cluster": "",
+      "monthly_listeners": 63726,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Meteors",
+      "origin_cluster": "",
+      "monthly_listeners": 63611,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "808INK",
+      "origin_cluster": "",
+      "monthly_listeners": 62895,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Ward Thomas",
+      "origin_cluster": "Hampshire",
+      "monthly_listeners": 62236,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Spooky Tooth",
+      "origin_cluster": "Carlisle",
+      "monthly_listeners": 60855,
+      "mapping_tier": "excluded_missing_population"
+    },
+    {
+      "spotify_name": "Soft Machine",
+      "origin_cluster": "Canterbury",
+      "monthly_listeners": 59575,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Raincoats",
+      "origin_cluster": "",
+      "monthly_listeners": 59262,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Dollar",
+      "origin_cluster": "",
+      "monthly_listeners": 59067,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Ex:Re",
+      "origin_cluster": "",
+      "monthly_listeners": 58725,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "MiC LOWRY",
+      "origin_cluster": "",
+      "monthly_listeners": 58089,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "DC Breaks",
+      "origin_cluster": "",
+      "monthly_listeners": 57873,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Die So Fluid",
+      "origin_cluster": "",
+      "monthly_listeners": 56461,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Crippled Black Phoenix",
+      "origin_cluster": "",
+      "monthly_listeners": 55554,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Breton",
+      "origin_cluster": "",
+      "monthly_listeners": 55107,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "IS TROPICAL",
+      "origin_cluster": "",
+      "monthly_listeners": 54757,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "She Drew The Gun",
+      "origin_cluster": "",
+      "monthly_listeners": 54246,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Zoot Woman",
+      "origin_cluster": "",
+      "monthly_listeners": 53078,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Blu Mar Ten",
+      "origin_cluster": "",
+      "monthly_listeners": 53063,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Breabach",
+      "origin_cluster": "",
+      "monthly_listeners": 51761,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Klimeks",
+      "origin_cluster": "",
+      "monthly_listeners": 51676,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Strawbs",
+      "origin_cluster": "",
+      "monthly_listeners": 51671,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Dolores Forever",
+      "origin_cluster": "",
+      "monthly_listeners": 50315,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Rosetta Stone",
+      "origin_cluster": "",
+      "monthly_listeners": 50256,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Abbacadabra",
+      "origin_cluster": "",
+      "monthly_listeners": 49799,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Matthews' Southern Comfort",
+      "origin_cluster": "",
+      "monthly_listeners": 49578,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Kill The Lights",
+      "origin_cluster": "",
+      "monthly_listeners": 48704,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Balancing Act",
+      "origin_cluster": "",
+      "monthly_listeners": 48276,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "A Blaze of Feather",
+      "origin_cluster": "",
+      "monthly_listeners": 48229,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Little Comets",
+      "origin_cluster": "Tyne and Wear",
+      "monthly_listeners": 47976,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "U.K.",
+      "origin_cluster": "",
+      "monthly_listeners": 47600,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Ulrika Spacek",
+      "origin_cluster": "",
+      "monthly_listeners": 46731,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Seefeel",
+      "origin_cluster": "",
+      "monthly_listeners": 46679,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Brodsky Quartet",
+      "origin_cluster": "",
+      "monthly_listeners": 46624,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "She's In Parties",
+      "origin_cluster": "",
+      "monthly_listeners": 46512,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Oceanic",
+      "origin_cluster": "",
+      "monthly_listeners": 46135,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Sidemen",
+      "origin_cluster": "",
+      "monthly_listeners": 46056,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Grim Reaper",
+      "origin_cluster": "Droitwich Spa",
+      "monthly_listeners": 45246,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Beak>",
+      "origin_cluster": "",
+      "monthly_listeners": 45055,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Thy Slaughter",
+      "origin_cluster": "",
+      "monthly_listeners": 44871,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "D*Minds",
+      "origin_cluster": "",
+      "monthly_listeners": 44572,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Noise Foundation",
+      "origin_cluster": "",
+      "monthly_listeners": 44527,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Gama Bomb",
+      "origin_cluster": "Newry",
+      "monthly_listeners": 44268,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Phil Campbell and the Bastard Sons",
+      "origin_cluster": "",
+      "monthly_listeners": 43860,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Ether",
+      "origin_cluster": "",
+      "monthly_listeners": 43789,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Modern Romance",
+      "origin_cluster": "",
+      "monthly_listeners": 43441,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Kings Of The City",
+      "origin_cluster": "",
+      "monthly_listeners": 43136,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Heavy Lungs",
+      "origin_cluster": "",
+      "monthly_listeners": 42610,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Wings of Desire",
+      "origin_cluster": "",
+      "monthly_listeners": 41995,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Mesh",
+      "origin_cluster": "",
+      "monthly_listeners": 41618,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Gen and the Degenerates",
+      "origin_cluster": "",
+      "monthly_listeners": 40842,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Puppini Sisters",
+      "origin_cluster": "",
+      "monthly_listeners": 40797,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "NIMMO",
+      "origin_cluster": "",
+      "monthly_listeners": 40726,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "One Minute Silence",
+      "origin_cluster": "",
+      "monthly_listeners": 39696,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "InsideInfo",
+      "origin_cluster": "",
+      "monthly_listeners": 39084,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Hallucinogen",
+      "origin_cluster": "",
+      "monthly_listeners": 37698,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Two Lone Swordsmen",
+      "origin_cluster": "",
+      "monthly_listeners": 37114,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Digital Dog",
+      "origin_cluster": "",
+      "monthly_listeners": 36424,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The 411",
+      "origin_cluster": "",
+      "monthly_listeners": 36002,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Man-Made Sunshine",
+      "origin_cluster": "",
+      "monthly_listeners": 35712,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Moodswings",
+      "origin_cluster": "",
+      "monthly_listeners": 35615,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Grade 2",
+      "origin_cluster": "Ryde",
+      "monthly_listeners": 35157,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Octopus",
+      "origin_cluster": "Shotts",
+      "monthly_listeners": 34584,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Rumahoy",
+      "origin_cluster": "",
+      "monthly_listeners": 34135,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Gesualdo Six",
+      "origin_cluster": "",
+      "monthly_listeners": 34122,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "James and the Cold Gun",
+      "origin_cluster": "",
+      "monthly_listeners": 34074,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Classix Nouveaux",
+      "origin_cluster": "",
+      "monthly_listeners": 34070,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Kissing The Pink",
+      "origin_cluster": "",
+      "monthly_listeners": 33343,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Low Island",
+      "origin_cluster": "",
+      "monthly_listeners": 31768,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "dearALICE",
+      "origin_cluster": "",
+      "monthly_listeners": 31267,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Peter Green Splinter Group",
+      "origin_cluster": "",
+      "monthly_listeners": 31080,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Skarlett Riot",
+      "origin_cluster": "Scunthorpe",
+      "monthly_listeners": 30983,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Spinal Tap",
+      "origin_cluster": "United States",
+      "monthly_listeners": 30887,
+      "mapping_tier": "excluded_non_uk"
+    },
+    {
+      "spotify_name": "Ozric Tentacles",
+      "origin_cluster": "Somerset",
+      "monthly_listeners": 30429,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Auteurs",
+      "origin_cluster": "",
+      "monthly_listeners": 30197,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Gallagher And Lyle",
+      "origin_cluster": "",
+      "monthly_listeners": 30115,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Futurecop!",
+      "origin_cluster": "",
+      "monthly_listeners": 30022,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Brother Beyond",
+      "origin_cluster": "",
+      "monthly_listeners": 29759,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "As Lions",
+      "origin_cluster": "",
+      "monthly_listeners": 29728,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Greyhound",
+      "origin_cluster": "",
+      "monthly_listeners": 29347,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Tokyo Blade",
+      "origin_cluster": "Salisbury",
+      "monthly_listeners": 29143,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Freaks",
+      "origin_cluster": "",
+      "monthly_listeners": 29115,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The High Numbers",
+      "origin_cluster": "",
+      "monthly_listeners": 29092,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Love Sculpture",
+      "origin_cluster": "",
+      "monthly_listeners": 29038,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Freur",
+      "origin_cluster": "",
+      "monthly_listeners": 28911,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "False Heads",
+      "origin_cluster": "",
+      "monthly_listeners": 28786,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Wishful Thinking",
+      "origin_cluster": "",
+      "monthly_listeners": 28744,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "CIEL",
+      "origin_cluster": "",
+      "monthly_listeners": 28366,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Daydream Club",
+      "origin_cluster": "Leicestershire",
+      "monthly_listeners": 27883,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Sun's Signature",
+      "origin_cluster": "",
+      "monthly_listeners": 27652,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Amazulu",
+      "origin_cluster": "",
+      "monthly_listeners": 27611,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Zion Train",
+      "origin_cluster": "",
+      "monthly_listeners": 27563,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Another Sunny Day",
+      "origin_cluster": "",
+      "monthly_listeners": 27420,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Inglorious",
+      "origin_cluster": "",
+      "monthly_listeners": 26228,
+      "mapping_tier": "excluded_no_defensible_fua"
+    }
+  ],
+  "interpretation_guardrail": "These rates normalize the output represented in a popularity-selected top 1000. They do not estimate scene depth, and one-band FUAs are highly sensitive to a single global hit.",
+  "inputs": {
+    "bands": "data/processed/popularity_first_top1000_20260718T204522Z_bands.csv",
+    "origins": "data/processed/popularity_first_top1000_20260718T204522Z_origins.csv",
+    "mapping": "reference/popularity_first_top1000_origin_fua_mapping_20260718.csv",
+    "population": "data/processed/uk_fua_population_2021_20260718T201304Z.csv"
+  },
+  "outputs": {
+    "mapping_audit": "data/interim/popularity_first_top1000_20260718T204522Z_fua_mapping_audit.csv",
+    "strict_metrics": "data/processed/popularity_first_top1000_20260718T204522Z_population_strict.csv",
+    "extended_metrics": "data/processed/popularity_first_top1000_20260718T204522Z_population_extended.csv"
+  },
+  "original_popularity_first_outputs_modified": false,
+  "published_notebook_modified": false
+}

@@ -1,0 +1,13 @@
+{
+  "attempted_at_utc": "2026-07-17T22:59:31.858279+00:00",
+  "expected_rows": 50,
+  "metric_rows": 50,
+  "metric_failures": [],
+  "missing_followers": [],
+  "identity_review": [],
+  "candidate_ready": true,
+  "published_metrics_path": "data/processed/shortlist_spotify_metrics.json",
+  "published_metrics_modified": false,
+  "candidate_path": "data/processed/shortlist_spotify_metrics_20260717T225913Z.json",
+  "stats_extracted_at": "2026-07-17"
+}

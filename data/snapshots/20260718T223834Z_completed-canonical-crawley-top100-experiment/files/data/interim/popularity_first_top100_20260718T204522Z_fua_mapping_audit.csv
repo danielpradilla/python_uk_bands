@@ -1,0 +1,101 @@
+popularity_rank,spotify_name,returned_spotify_id,monthly_listeners,origin_cluster,mapping_tier,mapping_method,fua_code,official_fua_name,study_city_label,population_year,population,notes
+1,Coldplay,4gzpq5DPGxSnKTe4SA8HAU,92034104,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+2,Arctic Monkeys,7Ln80lUS6He07XvHI8qqHH,52301870,Sheffield,strict,exact_study_label,UK010F,Sheffield,Sheffield,2021.0,1168389.0,Origin cluster matches the OECD FUA study label.
+3,Queen,1dfeR4HaWDbWqFHLkxsg1d,51601234,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+4,Fleetwood Mac,08GQAI4eElDnROBrJRGE0X,50959935,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+5,One Direction,4AK6F7OLvEQ5QYCBNiQWHq,45724043,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+6,Radiohead,4Z8W4fKeB5YxbusRsdQVPb,43168156,Oxford,strict,exact_study_label,UK560F,Oxford,Oxford,2021.0,576725.0,Origin cluster matches the OECD FUA study label.
+7,The Police,5NGO30tJxFlKixkPSgXcFE,39887109,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+8,Oasis,2DaxqgrOhkeH0fpeiQq2f4,39676473,Manchester,strict,exact_study_label,UK008F,Manchester,Manchester,2021.0,3432092.0,Origin cluster matches the OECD FUA study label.
+9,Gorillaz,3AA28KZvwAUcZuOKwyblJQ,38173160,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+10,The Beatles,3WrFJ7ztbogyGnTHbHJFl2,37927636,Liverpool,strict,exact_study_label,UK006F,Liverpool,Liverpool,2021.0,1540817.0,Origin cluster matches the OECD FUA study label.
+11,Clean Bandit,6MDME20pz9RveH9rEXvrOM,35453400,Cambridge,strict,exact_study_label,UK017F,Cambridge,Cambridge,2021.0,396189.0,Origin cluster matches the OECD FUA study label.
+12,The Rolling Stones,22bE4uQ6baNwSHPVcDxLCe,30690194,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+13,Bee Gees,1LZEQNv7sE11VDY3SdxQeN,29286539,Los Hornos,excluded_non_uk,outside_uk_fua_universe,,,,,,Reported formation place is outside the United Kingdom.
+14,Glass Animals,4yvcSjfu4PC0CYQyLy4wSq,27093208,Oxford,strict,exact_study_label,UK560F,Oxford,Oxford,2021.0,576725.0,Origin cluster matches the OECD FUA study label.
+15,Pink Floyd,0k17h0D3J5VfsdmQ1iZtE9,26546155,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+16,Dire Straits,0WwSkZ7LtFUFjGjMZBMt6T,26242776,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+17,Florence + The Machine,1moxjboGR7GNWYIMWsRjgG,25836943,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+18,The Cure,7bu3H8JO7d0UbMoVzbo70s,25827890,Crawley,strict,exact_study_label,UK576F,Crawley,Crawley,2021.0,118607.0,Origin cluster matches the OECD FUA study label.
+19,Sade,47zz7sob9NUcODy0BTDvKx,25528819,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+20,Disclosure,6nS5roXSAGhTGr34W6n7Et,25360907,Reigate,excluded_no_defensible_fua,no_reviewed_assignment,,,,,,No assignment is made without an official locality-to-FUA crosswalk.
+21,Tears For Fears,4bthk9UfsYUYdcFyqxmSUU,23781006,Bath,strict,reviewed_label_alias,UK031F,Bath and North East Somerset,Bath and North East Somerset,2021.0,192419.0,Bath is the short study label for Bath and North East Somerset FUA.
+22,Keane,53A0W3U0s8diEn9RhXQhVz,23259577,Battle,reviewed_extended,nearby_fua_sensitivity,UK056F,Hastings,Hastings,2021.0,184383.0,Included only in the extended sensitivity view as a reviewed association with Hastings FUA.
+23,The Smiths,3yY2gUcIsjMr8hjo51PoJ8,22515532,Manchester,strict,exact_study_label,UK008F,Manchester,Manchester,2021.0,3432092.0,Origin cluster matches the OECD FUA study label.
+24,Bastille,7EQ0qTo7fWT7DPxmxtSYEc,22166012,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+25,Muse,12Chz98pHFMPJEknJQMWvI,20942571,Teignmouth,reviewed_extended,nearby_fua_sensitivity,UK018F,Exeter,Exeter,2021.0,499952.0,Included only in the extended sensitivity view as a reviewed association with Exeter FUA.
+26,Led Zeppelin,36QJpDe2go2KgaRleHCDTp,20605707,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+27,The 1975,3mIj9lX2MWuHmhNCA7LSCW,18915018,Manchester,strict,exact_study_label,UK008F,Manchester,Manchester,2021.0,3432092.0,Origin cluster matches the OECD FUA study label.
+28,Black Sabbath,5M52tdBnJaKSvOpJGz8mfZ,18288641,Birmingham,strict,exact_study_label,UK002F,West Midlands urban area,Birmingham,2021.0,3135994.0,Origin cluster matches the OECD FUA study label.
+29,The Outfield,1zxDewzd2j1ZdSBGaYcr0y,17941634,Manchester,strict,exact_study_label,UK008F,Manchester,Manchester,2021.0,3432092.0,Origin cluster matches the OECD FUA study label.
+30,Depeche Mode,762310PdDnwsDxAQxzQkfX,17667155,Basildon,reviewed_extended,metropolitan_fua_sensitivity,UK001F,London,London,2021.0,12274097.0,Included only in the extended sensitivity view as a reviewed association with London FUA.
+31,America,35U9lQaRWSQISxQAB94Meo,17384987,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+32,The Verve,2cGwlqi3k18jFpUyTrsR84,16374768,Manchester,strict,exact_study_label,UK008F,Manchester,Manchester,2021.0,3432092.0,Origin cluster matches the OECD FUA study label.
+33,Duran Duran,0lZoBs4Pzo7R89JM9lxwoT,15134650,Birmingham,strict,exact_study_label,UK002F,West Midlands urban area,Birmingham,2021.0,3135994.0,Origin cluster matches the OECD FUA study label.
+34,Eurythmics,0NKDgy9j66h3DLnN8qu1bB,14843560,Sunderland,strict,exact_study_label,UK510F,Sunderland,Sunderland,2021.0,274378.0,Origin cluster matches the OECD FUA study label.
+35,Little Mix,3e7awlrlDSwF3iM0WBjGMp,14779473,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+36,The Clash,3RGLhK1IP9jnYFH4BRFJBS,14589467,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+37,Mumford & Sons,3gd8FJtBJtkRxdfbTu19U2,14381934,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+38,Blur,7MhMgCo0Bl0Kukl93PZbYS,14009757,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+39,Bring Me The Horizon,1Ffb6ejR6Fe5IamqA5oRUF,13707032,Sheffield,strict,exact_study_label,UK010F,Sheffield,Sheffield,2021.0,1168389.0,Origin cluster matches the OECD FUA study label.
+40,Snow Patrol,3rIZMv9rysU7JkLzEaC5Jp,13274460,Dundee,strict,reviewed_label_alias,UK550F,Dundee City,Dundee City,2021.0,261740.0,Dundee is the short study label for Dundee City FUA.
+41,Spice Girls,0uq5PttqEjj3IH1bzwcrXF,12877807,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+42,The Animals,3ICflSq6ZgYAIrm2CTkfVP,12324330,Newcastle upon Tyne,strict,exact_official_label,UK013F,Newcastle upon Tyne,Newcastle,2021.0,1173303.0,Origin cluster matches the official OECD FUA name.
+43,Rudimental,4WN5naL3ofxrVBgFpguzKo,11737472,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+44,Faithless,5T4UKHhr4HGIC0VzdZQtAE,11726956,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+45,Disciples,5EehXjjMktLuJmbRsM7YfB,11691137,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+46,Jungle,59oA5WbbQvomJz2BuRG071,11614048,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+47,bôa,5jTtGLk1mGFMY5lQOvJYUj,11444869,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+48,Cutting Crew,3cniTumSiUysiPWXapGx1i,10972839,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+49,Franz Ferdinand,0XNa1vTidXlvJ2gHSsRi4A,10807735,Glasgow,strict,exact_study_label,UK004F,Glasgow,Glasgow,2021.0,1831890.0,Origin cluster matches the OECD FUA study label.
+50,Def Leppard,6H1RjVyNruCmrBEWRbD0VZ,10792689,Sheffield,strict,exact_study_label,UK010F,Sheffield,Sheffield,2021.0,1168389.0,Origin cluster matches the OECD FUA study label.
+51,Pet Shop Boys,2ycnb8Er79LoH2AsR5ldjh,10634217,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+52,The Hollies,6waa8mKu91GjzD4NlONlNJ,10112715,Manchester,strict,exact_study_label,UK008F,Manchester,Manchester,2021.0,3432092.0,Origin cluster matches the OECD FUA study label.
+53,Wham!,5lpH0xAS4fVfLkACg9DAuM,10018855,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+54,Two Door Cinema Club,536BYVgOnRky0xjsPT96zl,9884423,Bangor,reviewed_extended,metropolitan_fua_sensitivity,UK012F,Belfast,Belfast,2021.0,803943.0,Included only in the extended sensitivity view as a reviewed association with Belfast FUA.
+55,The Stranglers,0RUEHcBiENFEqxgicqS2ig,9836875,Guildford,strict,exact_study_label,UK033F,Guildford,Guildford,2021.0,272893.0,Origin cluster matches the OECD FUA study label.
+56,Simple Minds,6hN9F0iuULZYWXppob22Aj,9628717,Glasgow,strict,exact_study_label,UK004F,Glasgow,Glasgow,2021.0,1831890.0,Origin cluster matches the OECD FUA study label.
+57,Bronski Beat,2wpWOzQE5TpA0dVnh5YD08,9566679,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+58,Seafret,4Ly0KABsxlx4fNj63zJTrF,9520023,Bridlington,excluded_no_defensible_fua,no_reviewed_assignment,,,,,,No assignment is made without an official locality-to-FUA crosswalk.
+59,Genesis,3CkvROUTQ6nRi9yQOcsB50,9434858,Godalming,reviewed_extended,nearby_fua_sensitivity,UK033F,Guildford,Guildford,2021.0,272893.0,Included only in the extended sensitivity view as a reviewed association with Guildford FUA.
+60,Spandau Ballet,2urZrEdsq72kx0UzfYN8Yv,9335819,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+61,UB40,69MEO1AADKg1IZrq2XLzo5,9327767,Birmingham,strict,exact_study_label,UK002F,West Midlands urban area,Birmingham,2021.0,3135994.0,Origin cluster matches the OECD FUA study label.
+62,The Chemical Brothers,1GhPHrq36VKCY3ucVaZCfo,9143502,Manchester,strict,exact_study_label,UK008F,Manchester,Manchester,2021.0,3432092.0,Origin cluster matches the OECD FUA study label.
+63,Simply Red,1fa0cOhromAZdq2xRA4vv8,9097250,Manchester,strict,exact_study_label,UK008F,Manchester,Manchester,2021.0,3432092.0,Origin cluster matches the OECD FUA study label.
+64,Jamiroquai,6J7biCazzYhU3gM9j1wfid,9068742,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+65,Iron Maiden,6mdiAmATAx73kdxrNrnlao,9029433,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+66,Toploader,6xeFne1rkxMhKSW3ipvkdV,8829850,Eastbourne,strict,exact_study_label,UK055F,Eastbourne,Eastbourne,2021.0,101601.0,Origin cluster matches the OECD FUA study label.
+67,New Order,0yNLKJebCb8Aueb54LYya3,8786188,Manchester,strict,exact_study_label,UK008F,Manchester,Manchester,2021.0,3432092.0,Origin cluster matches the OECD FUA study label.
+68,Massive Attack,6FXMGgJwohJLUSr5nVlf9X,8692931,Bristol,strict,exact_study_label,UK011F,Bristol,Bristol,2021.0,979556.0,Origin cluster matches the OECD FUA study label.
+69,The Who,67ea9eGLXYMsO2eYQRui3w,8659112,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+70,D-Block Europe,5VadK1havLhK1OpKYsXv9y,8351560,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+71,alt-J,3XHO7cRUPCLOr6jwp8vsx5,8110938,Leeds,strict,exact_study_label,UK003F,Leeds,Leeds,2021.0,2969034.0,Origin cluster matches the OECD FUA study label.
+72,The Proclaimers,1A92IAcd7A6npCA33oGM5i,8100195,Auchtermuchty,excluded_no_defensible_fua,no_reviewed_assignment,,,,,,No assignment is made without an official locality-to-FUA crosswalk.
+73,Dexys Midnight Runners,4QTVePrFu1xuGM9K0kNXkk,7999321,Birmingham,strict,exact_study_label,UK002F,West Midlands urban area,Birmingham,2021.0,3135994.0,Origin cluster matches the OECD FUA study label.
+74,The Kinks,1SQRv42e4PjEYfPhS0Tk9E,7864488,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+75,Supertramp,3JsMj0DEzyWc0VDlHuy9Bx,7695790,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+76,Oh Wonder,5cIc3SBFuBLVxJz58W2tU9,7552797,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+77,Goodboys,2nm38smINjms1LtczR0Cei,7292613,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+78,The Wanted,2NhdGz9EDv2FeUw6udu2g1,7143333,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+79,Culture Club,6kz53iCdBSqhQCZ21CoLcc,7076755,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+80,Deep Purple,568ZhdwyaiCyOGJRtNYhWf,6998809,Hertford,excluded_no_defensible_fua,no_reviewed_assignment,,,,,,No assignment is made without an official locality-to-FUA crosswalk.
+81,The Kooks,1GLtl8uqKmnyCWxHmw9tL4,6950019,Brighton,strict,reviewed_label_alias,UK515F,Brighton and Hove,Brighton and Hove,2021.0,441252.0,Brighton is the short study label for Brighton and Hove FUA.
+82,La Roux,3K2zB87GZv1krx031en5VA,6858904,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+83,10cc,6i6WlGzQtXtz7GcC5H5st5,6808182,Manchester,strict,exact_study_label,UK008F,Manchester,Manchester,2021.0,3432092.0,Origin cluster matches the OECD FUA study label.
+84,CamelPhat,240wlM8vDrf6S4zCyzGj2W,6543464,Liverpool,strict,exact_study_label,UK006F,Liverpool,Liverpool,2021.0,1540817.0,Origin cluster matches the OECD FUA study label.
+85,Take That,1XgFuvRd7r5g0h844A5ZUQ,6539015,Manchester,strict,exact_study_label,UK008F,Manchester,Manchester,2021.0,3432092.0,Origin cluster matches the OECD FUA study label.
+86,Whitesnake,3UbyYnvNIT5DFXU4WgiGpP,6249726,Middlesbrough,strict,exact_study_label,UK559F,Middlesbrough,Middlesbrough,2021.0,570155.0,Origin cluster matches the OECD FUA study label.
+87,The Vamps,7gAppWoH7pcYmphCVTXkzs,6167219,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+88,The Human League,1aX2dmV8XoHYCOQRxjPESG,6085844,Sheffield,strict,exact_study_label,UK010F,Sheffield,Sheffield,2021.0,1168389.0,Origin cluster matches the OECD FUA study label.
+89,Pretenders,0GByy3DcfbQwDvXGCWmzv9,6044974,Hereford,excluded_no_defensible_fua,no_reviewed_assignment,,,,,,No assignment is made without an official locality-to-FUA crosswalk.
+90,AlunaGeorge,2VAnyOxzJuSAj7XIuEOT38,6010368,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+91,Portishead,6liAMWkVf5LH7YR9yfFy1Y,5958911,Bristol,strict,exact_study_label,UK011F,Bristol,Bristol,2021.0,979556.0,Origin cluster matches the OECD FUA study label.
+92,Frou Frou,6MUyqmIQ35inLjch0YzIEG,5930276,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+93,Soft Cell,6aq8T2RcspxVOGgMrTzjWc,5766246,Leeds,strict,exact_study_label,UK003F,Leeds,Leeds,2021.0,2969034.0,Origin cluster matches the OECD FUA study label.
+94,Stealers Wheel,7bPU7cvfoD20ixGD9Qnqki,5726001,Paisley,reviewed_extended,metropolitan_fua_sensitivity,UK004F,Glasgow,Glasgow,2021.0,1831890.0,Included only in the extended sensitivity view as a reviewed association with Glasgow FUA.
+95,Katrina & The Waves,2TzHIUhVpeeDxyJPpQfnV3,5671000,Cambridge,strict,exact_study_label,UK017F,Cambridge,Cambridge,2021.0,396189.0,Origin cluster matches the OECD FUA study label.
+96,LF SYSTEM,0HxX6imltnNXJyQhu4nsiO,5611864,West Lothian,reviewed_extended,metropolitan_fua_sensitivity,UK007F,Edinburgh,Edinburgh,2021.0,893610.0,Included only in the extended sensitivity view as a reviewed association with Edinburgh FUA.
+97,Everything But The Girl,13ccXrK7AmXb4TddMkE7jy,5607393,Kingston upon Hull,strict,exact_official_label,UK026F,Kingston upon Hull,Hull,2021.0,609661.0,Origin cluster matches the official OECD FUA name.
+98,The La's,47Z8LEl3LnQkcpva0xSthT,5581915,Liverpool,strict,exact_study_label,UK006F,Liverpool,Liverpool,2021.0,1540817.0,Origin cluster matches the OECD FUA study label.
+99,The xx,3iOvXCl6edW5Um0fXEBRXy,5459918,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
+100,Fine Young Cannibals,20p5D2KrE8CGuOjHtxsyTp,5309505,Birmingham,strict,exact_study_label,UK002F,West Midlands urban area,Birmingham,2021.0,3135994.0,Origin cluster matches the OECD FUA study label.

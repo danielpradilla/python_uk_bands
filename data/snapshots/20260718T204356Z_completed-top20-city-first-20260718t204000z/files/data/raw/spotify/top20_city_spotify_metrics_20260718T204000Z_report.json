@@ -1,0 +1,14 @@
+{
+  "captured_at_utc": "2026-07-18T20:40:00.993779+00:00",
+  "input_path": "data/interim/top20_city_band_catalog_20260718T203955Z.csv",
+  "input_rows": 200,
+  "resolved_identifier_rows": 200,
+  "metrics_rows": 200,
+  "search_failures": [],
+  "metric_failures": [],
+  "name_review": [],
+  "complete": true,
+  "raw_path": "data/raw/spotify/top20_city_spotify_metrics_20260718T204000Z.json.gz",
+  "metrics_path": "data/processed/top20_city_spotify_metrics_20260718T204000Z.csv",
+  "canonical_files_modified": false
+}

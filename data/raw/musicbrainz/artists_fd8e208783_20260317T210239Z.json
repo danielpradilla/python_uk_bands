@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "fetched_at_utc": "2026-03-17T21:02:39.718739+00:00",
+    "query": "country:GB AND (type:\"Group\")",
+    "include_types": [
+      "Group"
+    ],
+    "min_relevance": 65,
+    "batch_size": 10,
+    "max_artists": 10,
+    "pages_fetched": 1,
+    "total_available": 25453,
+    "returned_count": 10
+  },
+  "records": [
+    {
+      "musicbrainz_id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+      "name": "The Beatles",
+      "type": "Group",
+      "disambiguation": "UK rock band, \u201cThe Fab Four\u201d",
+      "city": "Liverpool",
+      "country": "United Kingdom",
+      "life_span_begin": "1960",
+      "life_span_end": true,
+      "score": 100,
+      "source_query": "country:GB AND (type:\"Group\")"
+    },
+    {
+      "musicbrainz_id": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+      "name": "The Rolling Stones",
+      "type": "Group",
+      "disambiguation": null,
+      "city": "London",
+      "country": "United Kingdom",
+      "life_span_begin": "1962",
+      "life_span_end": false,
+      "score": 99,
+      "source_query": "country:GB AND (type:\"Group\")"
+    },
+    {
+      "musicbrainz_id": "678d88b2-87b0-403b-b63d-5da7465aecc3",
+      "name": "Led Zeppelin",
+      "type": "Group",
+      "disambiguation": null,
+      "city": "London",
+      "country": "United Kingdom",
+      "life_span_begin": "1968",
+      "life_span_end": true,
+      "score": 93,
+      "source_query": "country:GB AND (type:\"Group\")"
+    },
+    {
+      "musicbrainz_id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+      "name": "Queen",
+      "type": "Group",
+      "disambiguation": "UK rock group",
+      "city": "London",
+      "country": "United Kingdom",
+      "life_span_begin": "1970-06-27",
+      "life_span_end": true,
+      "score": 90,
+      "source_query": "country:GB AND (type:\"Group\")"
+    },
+    {
+      "musicbrainz_id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+      "name": "Radiohead",
+      "type": "Group",
+      "disambiguation": null,
+      "city": "Abingdon-on-Thames",
+      "country": "United Kingdom",
+      "life_span_begin": "1991",
+      "life_span_end": false,
+      "score": 90,
+      "source_query": "country:GB AND (type:\"Group\")"
+    },
+    {
+      "musicbrainz_id": "8538e728-ca0b-4321-b7e5-cff6565dd4c0",
+      "name": "Depeche Mode",
+      "type": "Group",
+      "disambiguation": null,
+      "city": "Basildon",
+      "country": "United Kingdom",
+      "life_span_begin": "1980-03",
+      "life_span_end": false,
+      "score": 90,
+      "source_query": "country:GB AND (type:\"Group\")"
+    },
+    {
+      "musicbrainz_id": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+      "name": "The Who",
+      "type": "Group",
+      "disambiguation": null,
+      "city": "London",
+      "country": "United Kingdom",
+      "life_span_begin": "1964-02",
+      "life_span_end": false,
+      "score": 88,
+      "source_query": "country:GB AND (type:\"Group\")"
+    },
+    {
+      "musicbrainz_id": "8e3fcd7d-bda1-4ca0-b987-b8528d2ee74e",
+      "name": "Genesis",
+      "type": "Group",
+      "disambiguation": "English rock band",
+      "city": "Godalming",
+      "country": "United Kingdom",
+      "life_span_begin": "1967",
+      "life_span_end": true,
+      "score": 88,
+      "source_query": "country:GB AND (type:\"Group\")"
+    },
+    {
+      "musicbrainz_id": "79491354-3d83-40e3-9d8e-7592d58d790a",
+      "name": "Deep Purple",
+      "type": "Group",
+      "disambiguation": null,
+      "city": "Hertford",
+      "country": "United Kingdom",
+      "life_span_begin": "1968",
+      "life_span_end": false,
+      "score": 87,
+      "source_query": "country:GB AND (type:\"Group\")"
+    },
+    {
+      "musicbrainz_id": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+      "name": "The Cure",
+      "type": "Group",
+      "disambiguation": null,
+      "city": "Crawley",
+      "country": "United Kingdom",
+      "life_span_begin": "1977",
+      "life_span_end": false,
+      "score": 87,
+      "source_query": "country:GB AND (type:\"Group\")"
+    }
+  ]
+}

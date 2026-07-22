@@ -1,0 +1,7 @@
+spotify_id,identity_decision,origin_override,reason,source_url
+0GByy3DcfbQwDvXGCWmzv9,approve,,Spotify differs only by the leading article: The Pretenders / Pretenders,https://open.spotify.com/artist/0GByy3DcfbQwDvXGCWmzv9
+2TzHIUhVpeeDxyJPpQfnV3,approve,,Spotify uses an ampersand where Wikidata spells out and,https://open.spotify.com/artist/2TzHIUhVpeeDxyJPpQfnV3
+5vBSrE1xujD2FXYRarbAXc,reject,,Current Spotify page is branded Olly Alexander (Years & Years); exclude rather than treating a changed solo page as the original group,https://open.spotify.com/artist/5vBSrE1xujD2FXYRarbAXc
+0HxX6imltnNXJyQhu4nsiO,,West Lothian,Wikidata formation place is missing; the artist's official biography describes both members as West Lothian natives,https://lfsystemmusic.com/about
+3e7awlrlDSwF3iM0WBjGMp,,London,Wikidata records only England; Apple Music records London as the formation place,https://music.apple.com/gb/artist/little-mix/477515548
+2NhdGz9EDv2FeUw6udu2g1,,London,Wikidata records only England; Apple Music records London as the formation place,https://music.apple.com/us/artist/the-wanted/3445978

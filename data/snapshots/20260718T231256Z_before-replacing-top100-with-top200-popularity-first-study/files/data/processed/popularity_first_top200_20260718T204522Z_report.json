@@ -1,0 +1,33 @@
+{
+  "snapshot_id": "20260718T204522Z",
+  "selection_frame": "Spotify IDs on UK musical-group entities returned by the archived Wikidata query",
+  "candidate_ids": 1775,
+  "metrics_rows": 1749,
+  "metric_failures": 26,
+  "identity_name_reviews": 121,
+  "identity_accepted_rows": 1630,
+  "orchestra_rows_excluded": 47,
+  "redirect_duplicate_rows": 7,
+  "selected_bands": 200,
+  "origin_resolved_bands": 182,
+  "origin_coverage": 0.91,
+  "origin_hhi_band_count_resolved": 0.17594493418669235,
+  "origin_hhi_reach_resolved": 0.24121064302559725,
+  "top_origin_by_band_count": "London",
+  "top_origin_band_count": 73,
+  "radiohead_selected": true,
+  "radiohead_origin": "Oxford",
+  "inputs": {
+    "candidates": "data/interim/uk_group_spotify_candidates_20260718T201100Z.csv",
+    "metrics": "data/processed/uk_group_spotify_metrics_20260718T204522Z.csv",
+    "capture_report": "data/raw/spotify/uk_group_spotify_metrics_20260718T204522Z_report.json",
+    "overrides": "reference/popularity_first_overrides_20260718.csv"
+  },
+  "outputs": {
+    "bands": "data/processed/popularity_first_top200_20260718T204522Z_bands.csv",
+    "origins": "data/processed/popularity_first_top200_20260718T204522Z_origins.csv",
+    "identity_audit": "data/interim/popularity_first_top200_20260718T204522Z_identity_audit.csv",
+    "review": "data/interim/popularity_first_top200_20260718T204522Z_review.csv"
+  },
+  "canonical_files_modified": false
+}

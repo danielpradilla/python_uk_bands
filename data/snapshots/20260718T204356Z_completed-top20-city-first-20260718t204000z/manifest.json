@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-07-18T20:43:56.540255+00:00",
+  "label": "completed-top20-city-first-20260718T204000Z",
+  "project_root": "/Users/dpradilla/dev/uk-music-cities",
+  "files": [
+    {
+      "path": "notebooks/experiments/snapshots/uk_bands_top20_city_first_20260718T204000Z.ipynb",
+      "sha256": "01b3b8f0e202b53723d284a7fc73bb55345cf18d70898f16b1a95e0b0b3afdd4",
+      "size_bytes": 334540
+    },
+    {
+      "path": "reference/uk_fua_top20_2021.csv",
+      "sha256": "78f9cb40f5b82ea4e3c8060f23a41b59963e592e2be15fd5c0559df78bd34b84",
+      "size_bytes": 6012
+    },
+    {
+      "path": "reference/top20_city_band_additions.csv",
+      "sha256": "c9cc9caf23cb4ce1406ac346d1b6f3eea2ed3f3754a7174756fb47e86b13797c",
+      "size_bytes": 9182
+    },
+    {
+      "path": "reference/top20_city_band_overrides_20260718.csv",
+      "sha256": "9edda408d1f3425ff81cb7182c576e1f75acb5cb5e9db293d48e8fc5629c4d43",
+      "size_bytes": 7935
+    },
+    {
+      "path": "data/raw/geography/oecd_fua_population_2021_20260718T201304Z.csv",
+      "sha256": "02167551c7affe77ba955d394a0dfb2b5d73d0e80c1ccb50a57a9a1944d6d3e2",
+      "size_bytes": 535259
+    },
+    {
+      "path": "data/raw/musicbrainz/top20_band_resolution_20260718T202426Z.json",
+      "sha256": "acf95e01f591211790ea2677107f0879cfd9d99be04dbf3bd26b50a814c8781a",
+      "size_bytes": 485759
+    },
+    {
+      "path": "data/interim/top20_city_band_review_20260718T203846Z_curated.csv",
+      "sha256": "b6108d04d64b4f7f44153706812da17bda9d6926562e48ae1b3bf8bd4a609572",
+      "size_bytes": 28511
+    },
+    {
+      "path": "data/interim/top20_city_band_catalog_20260718T203955Z.csv",
+      "sha256": "c7daee36e681ff5c630a49f4be22ff28566d9f2f9fb08bb36afb6ebf2fb0361a",
+      "size_bytes": 93397
+    },
+    {
+      "path": "data/processed/top20_city_spotify_metrics_20260718T204000Z.csv",
+      "sha256": "42001f40e2b0d64f24e59052dc73aeac68220f93836f70db4c286ee550f97b78",
+      "size_bytes": 38073
+    },
+    {
+      "path": "data/raw/spotify/top20_city_spotify_metrics_20260718T204000Z.json.gz",
+      "sha256": "8042a876b1c34cd11d3ef735c485d8f7faa14ce169f42803483300a83ebfaf7e",
+      "size_bytes": 2474583
+    },
+    {
+      "path": "data/raw/spotify/top20_city_spotify_metrics_20260718T204000Z_report.json",
+      "sha256": "7cc8c1fadf870baec44cde567f2f7d3e61a0496780722f791cdfe62020a1c5f7",
+      "size_bytes": 513
+    },
+    {
+      "path": "data/processed/top20_city_band_metrics_20260718T204000Z.csv",
+      "sha256": "35e3aea6b5158c3bbaed32fa3642a1c1b0d7608450c8c0e1cdb6b81dba977cd9",
+      "size_bytes": 126859
+    },
+    {
+      "path": "data/processed/top20_city_rankings_20260718T204000Z.csv",
+      "sha256": "53ed09f9f6b8c1044acdb16137303a2e9ec63a4d803ac29baf25b5aea6a6c3d5",
+      "size_bytes": 8358
+    },
+    {
+      "path": "data/processed/top20_city_analysis_20260718T204000Z_report.json",
+      "sha256": "ae378d5ea671a7cd49ce9ef56a817bb3675c8ece27393d251757697a3aa1d843",
+      "size_bytes": 2012
+    },
+    {
+      "path": "artifacts/top20_city_first/20260718T204000Z/01_untrimmed_top10.png",
+      "sha256": "8f9dfefa9ea51b0125af2ef5b52db0a7486de44d1d991be752645da8d266f4d5",
+      "size_bytes": 45217
+    },
+    {
+      "path": "artifacts/top20_city_first/20260718T204000Z/02_trimmed_top10.png",
+      "sha256": "da33f0b330c9ac7a2796fb7d47f964ee7926c9fa69d6b364e43bb0ee553a46b8",
+      "size_bytes": 46060
+    }
+  ]
+}

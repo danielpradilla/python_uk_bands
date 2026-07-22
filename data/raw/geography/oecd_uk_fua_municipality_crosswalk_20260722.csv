@@ -1,0 +1,268 @@
+Country,ISO3 code,Municipality name,Municipality ID,Municipality OECD ID,FUA ID,FUA name,City ID,City name
+United Kingdom,GBR,Barking and Dagenham,E09000002,GBRE09000002,UK001F,London,UK001C,London
+United Kingdom,GBR,Barnet,E09000003,GBRE09000003,UK001F,London,UK001C,London
+United Kingdom,GBR,Basildon,E07000066,GBRE07000066,UK001F,London,UK001C,London
+United Kingdom,GBR,Bexley,E09000004,GBRE09000004,UK001F,London,UK001C,London
+United Kingdom,GBR,Brent,E09000005,GBRE09000005,UK001F,London,UK001C,London
+United Kingdom,GBR,Bromley,E09000006,GBRE09000006,UK001F,London,UK001C,London
+United Kingdom,GBR,Camden,E09000007,GBRE09000007,UK001F,London,UK001C,London
+United Kingdom,GBR,Chelmsford,E07000070,GBRE07000070,UK001F,London,UK001C,London
+United Kingdom,GBR,City of London,E09000001,GBRE09000001,UK001F,London,UK001C,London
+United Kingdom,GBR,Croydon,E09000008,GBRE09000008,UK001F,London,UK001C,London
+United Kingdom,GBR,Ealing,E09000009,GBRE09000009,UK001F,London,UK001C,London
+United Kingdom,GBR,Enfield,E09000010,GBRE09000010,UK001F,London,UK001C,London
+United Kingdom,GBR,Gravesham,E07000109,GBRE07000109,UK001F,London,UK001C,London
+United Kingdom,GBR,Greenwich,E09000011,GBRE09000011,UK001F,London,UK001C,London
+United Kingdom,GBR,Hackney,E09000012,GBRE09000012,UK001F,London,UK001C,London
+United Kingdom,GBR,Hammersmith and Fulham,E09000013,GBRE09000013,UK001F,London,UK001C,London
+United Kingdom,GBR,Haringey,E09000014,GBRE09000014,UK001F,London,UK001C,London
+United Kingdom,GBR,Harrow,E09000015,GBRE09000015,UK001F,London,UK001C,London
+United Kingdom,GBR,Havering,E09000016,GBRE09000016,UK001F,London,UK001C,London
+United Kingdom,GBR,Hillingdon,E09000017,GBRE09000017,UK001F,London,UK001C,London
+United Kingdom,GBR,Hounslow,E09000018,GBRE09000018,UK001F,London,UK001C,London
+United Kingdom,GBR,Islington,E09000019,GBRE09000019,UK001F,London,UK001C,London
+United Kingdom,GBR,Kensington and Chelsea,E09000020,GBRE09000020,UK001F,London,UK001C,London
+United Kingdom,GBR,Kingston upon Thames,E09000021,GBRE09000021,UK001F,London,UK001C,London
+United Kingdom,GBR,Lambeth,E09000022,GBRE09000022,UK001F,London,UK001C,London
+United Kingdom,GBR,Lewisham,E09000023,GBRE09000023,UK001F,London,UK001C,London
+United Kingdom,GBR,Merton,E09000024,GBRE09000024,UK001F,London,UK001C,London
+United Kingdom,GBR,Newham,E09000025,GBRE09000025,UK001F,London,UK001C,London
+United Kingdom,GBR,Redbridge,E09000026,GBRE09000026,UK001F,London,UK001C,London
+United Kingdom,GBR,Richmond upon Thames,E09000027,GBRE09000027,UK001F,London,UK001C,London
+United Kingdom,GBR,Southwark,E09000028,GBRE09000028,UK001F,London,UK001C,London
+United Kingdom,GBR,Sutton,E09000029,GBRE09000029,UK001F,London,UK001C,London
+United Kingdom,GBR,Thurrock,E06000034,GBRE06000034,UK001F,London,UK001C,London
+United Kingdom,GBR,Tower Hamlets,E09000030,GBRE09000030,UK001F,London,UK001C,London
+United Kingdom,GBR,Waltham Forest,E09000031,GBRE09000031,UK001F,London,UK001C,London
+United Kingdom,GBR,Wandsworth,E09000032,GBRE09000032,UK001F,London,UK001C,London
+United Kingdom,GBR,Westminster,E09000033,GBRE09000033,UK001F,London,UK001C,London
+United Kingdom,GBR,St Albans,E07000240,GBRE07000240,UK001F,London,UK587C,St Albans
+United Kingdom,GBR,Watford,E07000103,GBRE07000103,UK001F,London,UK587C,St Albans
+United Kingdom,GBR,Harlow,E07000073,GBRE07000073,UK001F,London,UK588C,Harlow
+United Kingdom,GBR,Southend-on-Sea,E06000033,GBRE06000033,UK001F,London,UK589C,Southend-on-Sea
+United Kingdom,GBR,Tunbridge Wells,E07000116,GBRE07000116,UK001F,London,UK590C,Tunbridge Wells
+United Kingdom,GBR,Woking,E07000217,GBRE07000217,UK001F,London,UK591C,Woking
+United Kingdom,GBR,Birmingham,E08000025,GBRE08000025,UK002F,West Midlands urban area,UK002C,West Midlands urban area
+United Kingdom,GBR,Cannock Chase,E07000192,GBRE07000192,UK002F,West Midlands urban area,UK002C,West Midlands urban area
+United Kingdom,GBR,Dudley,E08000027,GBRE08000027,UK002F,West Midlands urban area,UK002C,West Midlands urban area
+United Kingdom,GBR,Sandwell,E08000028,GBRE08000028,UK002F,West Midlands urban area,UK002C,West Midlands urban area
+United Kingdom,GBR,Solihull,E08000029,GBRE08000029,UK002F,West Midlands urban area,UK002C,West Midlands urban area
+United Kingdom,GBR,Walsall,E08000030,GBRE08000030,UK002F,West Midlands urban area,UK002C,West Midlands urban area
+United Kingdom,GBR,Wolverhampton,E08000031,GBRE08000031,UK002F,West Midlands urban area,UK002C,West Midlands urban area
+United Kingdom,GBR,Tamworth,E07000199,GBRE07000199,UK002F,West Midlands urban area,UK592C,Tamworth
+United Kingdom,GBR,Bradford,E08000032,GBRE08000032,UK003F,Leeds,UK003C,Leeds
+United Kingdom,GBR,Kirklees,E08000034,GBRE08000034,UK003F,Leeds,UK003C,Leeds
+United Kingdom,GBR,Leeds,E08000035,GBRE08000035,UK003F,Leeds,UK003C,Leeds
+United Kingdom,GBR,Wakefield,E08000036,GBRE08000036,UK003F,Leeds,UK003C,Leeds
+United Kingdom,GBR,Glasgow City,S12000049,GBRS12000049,UK004F,Glasgow,UK004C,Glasgow
+United Kingdom,GBR,Inverclyde,S12000018,GBRS12000018,UK004F,Glasgow,UK004C,Glasgow
+United Kingdom,GBR,North Lanarkshire,S12000050,GBRS12000050,UK004F,Glasgow,UK004C,Glasgow
+United Kingdom,GBR,Renfrewshire,S12000038,GBRS12000038,UK004F,Glasgow,UK004C,Glasgow
+United Kingdom,GBR,Liverpool,E08000012,GBRE08000012,UK006F,Liverpool,UK006C,Liverpool
+United Kingdom,GBR,Sefton,E08000014,GBRE08000014,UK006F,Liverpool,UK006C,Liverpool
+United Kingdom,GBR,Wirral,E08000015,GBRE08000015,UK006F,Liverpool,UK006C,Liverpool
+United Kingdom,GBR,St. Helens,E08000013,GBRE08000013,UK006F,Liverpool,UK593C,St. Helens
+United Kingdom,GBR,City of Edinburgh,S12000036,GBRS12000036,UK007F,Edinburgh,UK007C,Edinburgh
+United Kingdom,GBR,Bolton,E08000001,GBRE08000001,UK008F,Manchester,UK008C,Manchester
+United Kingdom,GBR,Bury,E08000002,GBRE08000002,UK008F,Manchester,UK008C,Manchester
+United Kingdom,GBR,Manchester,E08000003,GBRE08000003,UK008F,Manchester,UK008C,Manchester
+United Kingdom,GBR,Oldham,E08000004,GBRE08000004,UK008F,Manchester,UK008C,Manchester
+United Kingdom,GBR,Rochdale,E08000005,GBRE08000005,UK008F,Manchester,UK008C,Manchester
+United Kingdom,GBR,Salford,E08000006,GBRE08000006,UK008F,Manchester,UK008C,Manchester
+United Kingdom,GBR,Stockport,E08000007,GBRE08000007,UK008F,Manchester,UK008C,Manchester
+United Kingdom,GBR,Tameside,E08000008,GBRE08000008,UK008F,Manchester,UK008C,Manchester
+United Kingdom,GBR,Trafford,E08000009,GBRE08000009,UK008F,Manchester,UK008C,Manchester
+United Kingdom,GBR,Wigan,E08000010,GBRE08000010,UK008F,Manchester,UK008C,Manchester
+United Kingdom,GBR,Cardiff,W06000015,GBRW06000015,UK009F,Cardiff,UK009C,Cardiff
+United Kingdom,GBR,Barnsley,E08000016,GBRE08000016,UK010F,Sheffield,UK010C,Sheffield
+United Kingdom,GBR,Rotherham,E08000018,GBRE08000018,UK010F,Sheffield,UK010C,Sheffield
+United Kingdom,GBR,Sheffield,E08000019,GBRE08000019,UK010F,Sheffield,UK010C,Sheffield
+United Kingdom,GBR,"Bristol, City of",E06000023,GBRE06000023,UK011F,Bristol,UK011C,Bristol
+United Kingdom,GBR,Belfast,N09000003,GBRN09000003,UK012F,Belfast,UK012C,Belfast
+United Kingdom,GBR,Gateshead,E08000037,GBRE08000037,UK013F,Newcastle upon Tyne,UK013C,Newcastle upon Tyne
+United Kingdom,GBR,Newcastle upon Tyne,E08000021,GBRE08000021,UK013F,Newcastle upon Tyne,UK013C,Newcastle upon Tyne
+United Kingdom,GBR,North Tyneside,E08000022,GBRE08000022,UK013F,Newcastle upon Tyne,UK013C,Newcastle upon Tyne
+United Kingdom,GBR,South Tyneside,E08000023,GBRE08000023,UK013F,Newcastle upon Tyne,UK013C,Newcastle upon Tyne
+United Kingdom,GBR,Leicester,E06000016,GBRE06000016,UK014F,Leicester,UK014C,Leicester
+United Kingdom,GBR,Aberdeen City,S12000033,GBRS12000033,UK016F,Aberdeen,UK016C,Aberdeen
+United Kingdom,GBR,Cambridge,E07000008,GBRE07000008,UK017F,Cambridge,UK017C,Cambridge
+United Kingdom,GBR,Exeter,E07000041,GBRE07000041,UK018F,Exeter,UK018C,Exeter
+United Kingdom,GBR,Lincoln,E07000138,GBRE07000138,UK019F,Lincoln,UK019C,Lincoln
+United Kingdom,GBR,Stevenage,E07000243,GBRE07000243,UK021F,Stevenage,UK021C,Stevenage
+United Kingdom,GBR,Wrexham,W06000006,GBRW06000006,UK022F,Wrexham,UK022C,Wrexham
+United Kingdom,GBR,Gosport,E07000088,GBRE07000088,UK023F,Portsmouth,UK023C,Portsmouth
+United Kingdom,GBR,Portsmouth,E06000044,GBRE06000044,UK023F,Portsmouth,UK023C,Portsmouth
+United Kingdom,GBR,Worcester,E07000237,GBRE07000237,UK024F,Worcester,UK024C,Worcester
+United Kingdom,GBR,Coventry,E08000026,GBRE08000026,UK025F,Coventry,UK025C,Coventry
+United Kingdom,GBR,Nuneaton and Bedworth,E07000219,GBRE07000219,UK025F,Coventry,UK025C,Coventry
+United Kingdom,GBR,Rugby,E07000220,GBRE07000220,UK025F,Coventry,UK025C,Coventry
+United Kingdom,GBR,Warwick,E07000222,GBRE07000222,UK025F,Coventry,UK025C,Coventry
+United Kingdom,GBR,"Kingston upon Hull, City of",E06000010,GBRE06000010,UK026F,Kingston upon Hull,UK026C,Kingston upon Hull
+United Kingdom,GBR,Newcastle-under-Lyme,E07000195,GBRE07000195,UK027F,Stoke-on-Trent,UK027C,Stoke-on-Trent
+United Kingdom,GBR,Stoke-on-Trent,E06000021,GBRE06000021,UK027F,Stoke-on-Trent,UK027C,Stoke-on-Trent
+United Kingdom,GBR,Nottingham,E06000018,GBRE06000018,UK029F,Nottingham,UK029C,Nottingham
+United Kingdom,GBR,Bath and North East Somerset,E06000022,GBRE06000022,UK031F,Bath and North East Somerset,UK031C,Bath and North East Somerset
+United Kingdom,GBR,Guildford,E07000209,GBRE07000209,UK033F,Guildford,UK033C,Guildford
+United Kingdom,GBR,Thanet,E07000114,GBRE07000114,UK034F,Thanet,UK034C,Thanet
+United Kingdom,GBR,Ashford,E07000105,GBRE07000105,UK041F,Ashford,UK041C,Ashford
+United Kingdom,GBR,East Staffordshire,E07000193,GBRE07000193,UK043F,East Staffordshire,UK043C,East Staffordshire
+United Kingdom,GBR,Darlington,E06000005,GBRE06000005,UK044F,Darlington,UK044C,Darlington
+United Kingdom,GBR,Worthing,E07000229,GBRE07000229,UK045F,Worthing,UK045C,Worthing
+United Kingdom,GBR,Mansfield,E07000174,GBRE07000174,UK046F,Mansfield,UK046C,Mansfield
+United Kingdom,GBR,Chesterfield,E07000034,GBRE07000034,UK047F,Chesterfield,UK047C,Chesterfield
+United Kingdom,GBR,Burnley,E07000117,GBRE07000117,UK050F,Burnley,UK050C,Burnley
+United Kingdom,GBR,Great Yarmouth,E07000145,GBRE07000145,UK051F,Great Yarmouth,UK051C,Great Yarmouth
+United Kingdom,GBR,Eastbourne,E07000061,GBRE07000061,UK055F,Eastbourne,UK055C,Eastbourne
+United Kingdom,GBR,Hastings,E07000062,GBRE07000062,UK056F,Hastings,UK056C,Hastings
+United Kingdom,GBR,Redditch,E07000236,GBRE07000236,UK059F,Redditch,UK059C,Redditch
+United Kingdom,GBR,Halton,E06000006,GBRE06000006,UK062F,Halton,UK062C,Halton
+United Kingdom,GBR,Doncaster,E08000017,GBRE08000017,UK506F,Doncaster,UK506C,Doncaster
+United Kingdom,GBR,Sunderland,E08000024,GBRE08000024,UK510F,Sunderland,UK510C,Sunderland
+United Kingdom,GBR,Medway,E06000035,GBRE06000035,UK513F,Medway,UK513C,Medway
+United Kingdom,GBR,Brighton and Hove,E06000043,GBRE06000043,UK515F,Brighton and Hove,UK515C,Brighton and Hove
+United Kingdom,GBR,Plymouth,E06000026,GBRE06000026,UK516F,Plymouth,UK516C,Plymouth
+United Kingdom,GBR,Swansea,W06000011,GBRW06000011,UK517F,Swansea,UK517C,Swansea
+United Kingdom,GBR,Derby,E06000015,GBRE06000015,UK518F,Derby,UK518C,Derby
+United Kingdom,GBR,Eastleigh,E07000086,GBRE07000086,UK520F,Southampton,UK520C,Southampton
+United Kingdom,GBR,Southampton,E06000045,GBRE06000045,UK520F,Southampton,UK520C,Southampton
+United Kingdom,GBR,Milton Keynes,E06000042,GBRE06000042,UK525F,Milton Keynes,UK525C,Milton Keynes
+United Kingdom,GBR,Warrington,E06000007,GBRE06000007,UK531F,Warrington,UK531C,Warrington
+United Kingdom,GBR,Luton,E06000032,GBRE06000032,UK532F,Luton,UK532C,Luton
+United Kingdom,GBR,York,E06000014,GBRE06000014,UK533F,York,UK533C,York
+United Kingdom,GBR,Swindon,E06000030,GBRE06000030,UK535F,Swindon,UK535C,Swindon
+United Kingdom,GBR,"Bournemouth, Christchurch and Poole",E06000058,GBRE06000058,UK539F,Bournemouth,UK539C,Bournemouth
+United Kingdom,GBR,Telford and Wrekin,E06000020,GBRE06000020,UK542F,Telford and Wrekin,UK542C,Telford and Wrekin
+United Kingdom,GBR,North East Lincolnshire,E06000012,GBRE06000012,UK543F,North East Lincolnshire,UK543C,North East Lincolnshire
+United Kingdom,GBR,Peterborough,E06000031,GBRE06000031,UK545F,Peterborough,UK545C,Peterborough
+United Kingdom,GBR,Colchester,E07000071,GBRE07000071,UK546F,Colchester,UK546C,Colchester
+United Kingdom,GBR,Basingstoke and Deane,E07000084,GBRE07000084,UK548F,Basingstoke and Deane,UK548C,Basingstoke and Deane
+United Kingdom,GBR,Bedford,E06000055,GBRE06000055,UK549F,Bedford,UK549C,Bedford
+United Kingdom,GBR,Dundee City,S12000042,GBRS12000042,UK550F,Dundee City,UK550C,Dundee City
+United Kingdom,GBR,Falkirk,S12000014,GBRS12000014,UK551F,Falkirk,UK551C,Falkirk
+United Kingdom,GBR,Reading,E06000038,GBRE06000038,UK552F,Reading,UK552C,Reading
+United Kingdom,GBR,Blackpool,E06000009,GBRE06000009,UK553F,Blackpool,UK553C,Blackpool
+United Kingdom,GBR,Maidstone,E07000110,GBRE07000110,UK554F,Maidstone,UK554C,Maidstone
+United Kingdom,GBR,Dacorum,E07000096,GBRE07000096,UK556F,Dacorum,UK556C,Dacorum
+United Kingdom,GBR,Blackburn with Darwen,E06000008,GBRE06000008,UK557F,Blackburn with Darwen,UK557C,Blackburn with Darwen
+United Kingdom,GBR,Hyndburn,E07000120,GBRE07000120,UK557F,Blackburn with Darwen,UK557C,Blackburn with Darwen
+United Kingdom,GBR,Newport,W06000022,GBRW06000022,UK558F,Newport,UK558C,Newport
+United Kingdom,GBR,Hartlepool,E06000001,GBRE06000001,UK559F,Middlesbrough,UK559C,Middlesbrough
+United Kingdom,GBR,Middlesbrough,E06000002,GBRE06000002,UK559F,Middlesbrough,UK559C,Middlesbrough
+United Kingdom,GBR,Stockton-on-Tees,E06000004,GBRE06000004,UK559F,Middlesbrough,UK559C,Middlesbrough
+United Kingdom,GBR,Oxford,E07000178,GBRE07000178,UK560F,Oxford,UK560C,Oxford
+United Kingdom,GBR,Torbay,E06000027,GBRE06000027,UK561F,Torbay,UK561C,Torbay
+United Kingdom,GBR,Preston,E07000123,GBRE07000123,UK562F,Preston,UK562C,Preston
+United Kingdom,GBR,Norwich,E07000148,GBRE07000148,UK566F,Norwich,UK566C,Norwich
+United Kingdom,GBR,Slough,E06000039,GBRE06000039,UK567F,Slough,UK567C,Slough
+United Kingdom,GBR,Cheshire West and Chester,E06000050,GBRE06000050,UK568F,Cheshire West and Chester,UK568C,Cheshire West and Chester
+United Kingdom,GBR,Ipswich,E07000202,GBRE07000202,UK569F,Ipswich,UK569C,Ipswich
+United Kingdom,GBR,Cheltenham,E07000078,GBRE07000078,UK571F,Cheltenham,UK571C,Cheltenham
+United Kingdom,GBR,Gloucester,E07000081,GBRE07000081,UK572F,Gloucester,UK572C,Gloucester
+United Kingdom,GBR,Bracknell Forest,E06000036,GBRE06000036,UK573F,Bracknell Forest,UK573C,Bracknell Forest
+United Kingdom,GBR,Carlisle,E07000028,GBRE07000028,UK575F,Carlisle,UK575C,Carlisle
+United Kingdom,GBR,Crawley,E07000226,GBRE07000226,UK576F,Crawley,UK576C,Crawley
+United Kingdom,GBR,Rushmoor,E07000092,GBRE07000092,UK580F,Rushmoor,UK580C,Rushmoor
+United Kingdom,GBR,Derry City and Strabane,N09000005,GBRN09000005,UK586F,Derry & Strabane Local Government District,UK586C,Derry & Strabane Local Government District
+United Kingdom,GBR,Brentwood,E07000068,GBRE07000068,UK001F,London,,
+United Kingdom,GBR,Broxbourne,E07000095,GBRE07000095,UK001F,London,,
+United Kingdom,GBR,Castle Point,E07000069,GBRE07000069,UK001F,London,,
+United Kingdom,GBR,Dartford,E07000107,GBRE07000107,UK001F,London,,
+United Kingdom,GBR,East Hertfordshire,E07000242,GBRE07000242,UK001F,London,,
+United Kingdom,GBR,Elmbridge,E07000207,GBRE07000207,UK001F,London,,
+United Kingdom,GBR,Epping Forest,E07000072,GBRE07000072,UK001F,London,,
+United Kingdom,GBR,Epsom and Ewell,E07000208,GBRE07000208,UK001F,London,,
+United Kingdom,GBR,Hertsmere,E07000098,GBRE07000098,UK001F,London,,
+United Kingdom,GBR,Mole Valley,E07000210,GBRE07000210,UK001F,London,,
+United Kingdom,GBR,Reigate and Banstead,E07000211,GBRE07000211,UK001F,London,,
+United Kingdom,GBR,Rochford,E07000075,GBRE07000075,UK001F,London,,
+United Kingdom,GBR,Sevenoaks,E07000111,GBRE07000111,UK001F,London,,
+United Kingdom,GBR,Spelthorne,E07000213,GBRE07000213,UK001F,London,,
+United Kingdom,GBR,Tandridge,E07000215,GBRE07000215,UK001F,London,,
+United Kingdom,GBR,Three Rivers,E07000102,GBRE07000102,UK001F,London,,
+United Kingdom,GBR,Tonbridge and Malling,E07000115,GBRE07000115,UK001F,London,,
+United Kingdom,GBR,Uttlesford,E07000077,GBRE07000077,UK001F,London,,
+United Kingdom,GBR,Welwyn Hatfield,E07000241,GBRE07000241,UK001F,London,,
+United Kingdom,GBR,Bromsgrove,E07000234,GBRE07000234,UK002F,West Midlands urban area,,
+United Kingdom,GBR,Lichfield,E07000194,GBRE07000194,UK002F,West Midlands urban area,,
+United Kingdom,GBR,North Warwickshire,E07000218,GBRE07000218,UK002F,West Midlands urban area,,
+United Kingdom,GBR,South Staffordshire,E07000196,GBRE07000196,UK002F,West Midlands urban area,,
+United Kingdom,GBR,Calderdale,E08000033,GBRE08000033,UK003F,Leeds,,
+United Kingdom,GBR,Craven,E07000163,GBRE07000163,UK003F,Leeds,,
+United Kingdom,GBR,Harrogate,E07000165,GBRE07000165,UK003F,Leeds,,
+United Kingdom,GBR,Selby,E07000169,GBRE07000169,UK003F,Leeds,,
+United Kingdom,GBR,East Dunbartonshire,S12000045,GBRS12000045,UK004F,Glasgow,,
+United Kingdom,GBR,East Renfrewshire,S12000011,GBRS12000011,UK004F,Glasgow,,
+United Kingdom,GBR,South Lanarkshire,S12000029,GBRS12000029,UK004F,Glasgow,,
+United Kingdom,GBR,West Dunbartonshire,S12000039,GBRS12000039,UK004F,Glasgow,,
+United Kingdom,GBR,Knowsley,E08000011,GBRE08000011,UK006F,Liverpool,,
+United Kingdom,GBR,West Lancashire,E07000127,GBRE07000127,UK006F,Liverpool,,
+United Kingdom,GBR,East Lothian,S12000010,GBRS12000010,UK007F,Edinburgh,,
+United Kingdom,GBR,Midlothian,S12000019,GBRS12000019,UK007F,Edinburgh,,
+United Kingdom,GBR,West Lothian,S12000040,GBRS12000040,UK007F,Edinburgh,,
+United Kingdom,GBR,Cheshire East,E06000049,GBRE06000049,UK008F,Manchester,,
+United Kingdom,GBR,High Peak,E07000037,GBRE07000037,UK008F,Manchester,,
+United Kingdom,GBR,Rossendale,E07000125,GBRE07000125,UK008F,Manchester,,
+United Kingdom,GBR,Caerphilly,W06000018,GBRW06000018,UK009F,Cardiff,,
+United Kingdom,GBR,Rhondda Cynon Taf,W06000016,GBRW06000016,UK009F,Cardiff,,
+United Kingdom,GBR,Vale of Glamorgan,W06000014,GBRW06000014,UK009F,Cardiff,,
+United Kingdom,GBR,North East Derbyshire,E07000038,GBRE07000038,UK010F,Sheffield,,
+United Kingdom,GBR,North Somerset,E06000024,GBRE06000024,UK011F,Bristol,,
+United Kingdom,GBR,South Gloucestershire,E06000025,GBRE06000025,UK011F,Bristol,,
+United Kingdom,GBR,Antrim and Newtownabbey,N09000001,GBRN09000001,UK012F,Belfast,,
+United Kingdom,GBR,Ards and North Down,N09000011,GBRN09000011,UK012F,Belfast,,
+United Kingdom,GBR,Lisburn and Castlereagh,N09000007,GBRN09000007,UK012F,Belfast,,
+United Kingdom,GBR,Northumberland,E06000057,GBRE06000057,UK013F,Newcastle upon Tyne,,
+United Kingdom,GBR,Blaby,E07000129,GBRE07000129,UK014F,Leicester,,
+United Kingdom,GBR,Charnwood,E07000130,GBRE07000130,UK014F,Leicester,,
+United Kingdom,GBR,Harborough,E07000131,GBRE07000131,UK014F,Leicester,,
+United Kingdom,GBR,Hinckley and Bosworth,E07000132,GBRE07000132,UK014F,Leicester,,
+United Kingdom,GBR,Oadby and Wigston,E07000135,GBRE07000135,UK014F,Leicester,,
+United Kingdom,GBR,Aberdeenshire,S12000034,GBRS12000034,UK016F,Aberdeen,,
+United Kingdom,GBR,East Cambridgeshire,E07000009,GBRE07000009,UK017F,Cambridge,,
+United Kingdom,GBR,South Cambridgeshire,E07000012,GBRE07000012,UK017F,Cambridge,,
+United Kingdom,GBR,East Devon,E07000040,GBRE07000040,UK018F,Exeter,,
+United Kingdom,GBR,Mid Devon,E07000042,GBRE07000042,UK018F,Exeter,,
+United Kingdom,GBR,Teignbridge,E07000045,GBRE07000045,UK018F,Exeter,,
+United Kingdom,GBR,North Kesteven,E07000139,GBRE07000139,UK019F,Lincoln,,
+United Kingdom,GBR,West Lindsey,E07000142,GBRE07000142,UK019F,Lincoln,,
+United Kingdom,GBR,Fareham,E07000087,GBRE07000087,UK023F,Portsmouth,,
+United Kingdom,GBR,Havant,E07000090,GBRE07000090,UK023F,Portsmouth,,
+United Kingdom,GBR,Malvern Hills,E07000235,GBRE07000235,UK024F,Worcester,,
+United Kingdom,GBR,East Riding of Yorkshire,E06000011,GBRE06000011,UK026F,Kingston upon Hull,,
+United Kingdom,GBR,Staffordshire Moorlands,E07000198,GBRE07000198,UK027F,Stoke-on-Trent,,
+United Kingdom,GBR,Ashfield,E07000170,GBRE07000170,UK029F,Nottingham,,
+United Kingdom,GBR,Broxtowe,E07000172,GBRE07000172,UK029F,Nottingham,,
+United Kingdom,GBR,Erewash,E07000036,GBRE07000036,UK029F,Nottingham,,
+United Kingdom,GBR,Gedling,E07000173,GBRE07000173,UK029F,Nottingham,,
+United Kingdom,GBR,Rushcliffe,E07000176,GBRE07000176,UK029F,Nottingham,,
+United Kingdom,GBR,Waverley,E07000216,GBRE07000216,UK033F,Guildford,,
+United Kingdom,GBR,Pendle,E07000122,GBRE07000122,UK050F,Burnley,,
+United Kingdom,GBR,Rother,E07000064,GBRE07000064,UK056F,Hastings,,
+United Kingdom,GBR,Adur,E07000223,GBRE07000223,UK515F,Brighton and Hove,,
+United Kingdom,GBR,Lewes,E07000063,GBRE07000063,UK515F,Brighton and Hove,,
+United Kingdom,GBR,South Hams,E07000044,GBRE07000044,UK516F,Plymouth,,
+United Kingdom,GBR,West Devon,E07000047,GBRE07000047,UK516F,Plymouth,,
+United Kingdom,GBR,Neath Port Talbot,W06000012,GBRW06000012,UK517F,Swansea,,
+United Kingdom,GBR,Amber Valley,E07000032,GBRE07000032,UK518F,Derby,,
+United Kingdom,GBR,South Derbyshire,E07000039,GBRE07000039,UK518F,Derby,,
+United Kingdom,GBR,New Forest,E07000091,GBRE07000091,UK520F,Southampton,,
+United Kingdom,GBR,Test Valley,E07000093,GBRE07000093,UK520F,Southampton,,
+United Kingdom,GBR,West Northamptonshire,E06000062,GBRE06000062,UK528F,Northampton,,
+United Kingdom,GBR,Tendring,E07000076,GBRE07000076,UK546F,Colchester,,
+United Kingdom,GBR,Angus,S12000041,GBRS12000041,UK550F,Dundee City,,
+United Kingdom,GBR,Wokingham,E06000041,GBRE06000041,UK552F,Reading,,
+United Kingdom,GBR,Fylde,E07000119,GBRE07000119,UK553F,Blackpool,,
+United Kingdom,GBR,Wyre,E07000128,GBRE07000128,UK553F,Blackpool,,
+United Kingdom,GBR,Ribble Valley,E07000124,GBRE07000124,UK557F,Blackburn with Darwen,,
+United Kingdom,GBR,Torfaen,W06000020,GBRW06000020,UK558F,Newport,,
+United Kingdom,GBR,Redcar and Cleveland,E06000003,GBRE06000003,UK559F,Middlesbrough,,
+United Kingdom,GBR,Cherwell,E07000177,GBRE07000177,UK560F,Oxford,,
+United Kingdom,GBR,Vale of White Horse,E07000180,GBRE07000180,UK560F,Oxford,,
+United Kingdom,GBR,West Oxfordshire,E07000181,GBRE07000181,UK560F,Oxford,,
+United Kingdom,GBR,South Ribble,E07000126,GBRE07000126,UK562F,Preston,,
+United Kingdom,GBR,Broadland,E07000144,GBRE07000144,UK566F,Norwich,,
+United Kingdom,GBR,South Norfolk,E07000149,GBRE07000149,UK566F,Norwich,,
+United Kingdom,GBR,Flintshire,W06000005,GBRW06000005,UK568F,Cheshire West and Chester,,
+United Kingdom,GBR,Babergh,E07000200,GBRE07000200,UK569F,Ipswich,,
+United Kingdom,GBR,East Suffolk,E07000244,GBRE07000244,UK569F,Ipswich,,
+United Kingdom,GBR,Tewkesbury,E07000083,GBRE07000083,UK571F,Cheltenham,,

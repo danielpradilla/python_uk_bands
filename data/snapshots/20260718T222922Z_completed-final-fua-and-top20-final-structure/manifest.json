@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-07-18T22:29:22.102485+00:00",
+  "label": "completed-final-fua-and-top20-final-structure",
+  "project_root": "/Users/dpradilla/dev/uk-music-cities",
+  "files": [
+    {
+      "path": "notebooks/final/uk_bands_punching_above_weight.ipynb",
+      "sha256": "d19a968f6d76c8faf0371edc3bcbae65ec78c5326d069b0654f5c25dd6226fb5",
+      "size_bytes": 472937
+    },
+    {
+      "path": "notebooks/experiments/snapshots/uk_bands_top20_fua_final_structure_20260718T204000Z.ipynb",
+      "sha256": "b3725b006ced15b9552976f1fe213c5dfefa3e63c16d71f2cef06823d093c630",
+      "size_bytes": 760793
+    },
+    {
+      "path": "scripts/build_final_notebook.py",
+      "sha256": "a8857ed6ad8fb2afa8c44959e51b3595a9ad5369af2631a2e9f5fada81733f7f",
+      "size_bytes": 399
+    },
+    {
+      "path": "scripts/build_fua_study_notebook.py",
+      "sha256": "0f2824eb5ed2b0c86e7ce929c42c0909f9ad7d50e36a22b12015a3bd510a4ea3",
+      "size_bytes": 28367
+    },
+    {
+      "path": "scripts/build_fua_study_inputs.py",
+      "sha256": "04c7e2b595a755aa7e419f16ba70647483bd991ef5538988696ca95ff4ed8ba9",
+      "size_bytes": 7295
+    },
+    {
+      "path": "scripts/build_top20_fua_experiment_notebook.py",
+      "sha256": "8f747feea05538a7b85a82afc2641d5441a89562f9203c9f9d650884eea79e10",
+      "size_bytes": 468
+    },
+    {
+      "path": "src/python_uk_bands/scene_depth_visuals.py",
+      "sha256": "0b0edc745a46b5863cc4c6697cc3b4a911c326382657588f0e7edd267c6413e6",
+      "size_bytes": 20821
+    },
+    {
+      "path": "tests/test_fua_study_outputs.py",
+      "sha256": "cbedf1c849534492d227a602fd6e3837f1ac4e8bbcc1e38b52be6161cd886250",
+      "size_bytes": 2913
+    },
+    {
+      "path": "reference/uk_fua_top20_2021.csv",
+      "sha256": "78f9cb40f5b82ea4e3c8060f23a41b59963e592e2be15fd5c0559df78bd34b84",
+      "size_bytes": 6012
+    },
+    {
+      "path": "data/raw/geography/oecd_fua_population_2021_20260718T201304Z.csv",
+      "sha256": "02167551c7affe77ba955d394a0dfb2b5d73d0e80c1ccb50a57a9a1944d6d3e2",
+      "size_bytes": 535259
+    },
+    {
+      "path": "data/processed/top20_city_band_metrics_20260718T204000Z.csv",
+      "sha256": "35e3aea6b5158c3bbaed32fa3642a1c1b0d7608450c8c0e1cdb6b81dba977cd9",
+      "size_bytes": 126859
+    },
+    {
+      "path": "data/processed/fua_top10_band_metrics_20260718T204000Z.csv",
+      "sha256": "0a0a48f6bc13971677ec33e47ff45f948aa904be0fbe9c0bf85edc9c3ca4e7b3",
+      "size_bytes": 64728
+    },
+    {
+      "path": "data/processed/fua_top10_rankings_20260718T204000Z.csv",
+      "sha256": "1f0e4b470c8e566fa8039c53ad4cdf3c999b317530bd27c7a1ec0f53cb158be2",
+      "size_bytes": 1526
+    },
+    {
+      "path": "data/processed/fua_top10_study_20260718T204000Z_report.json",
+      "sha256": "7d70cab84748f4514a0887aab5a5d31845fb47d15a5020ae8175ef0c1a2ebf56",
+      "size_bytes": 763
+    },
+    {
+      "path": "data/processed/fua_top20_band_metrics_20260718T204000Z.csv",
+      "sha256": "35e3aea6b5158c3bbaed32fa3642a1c1b0d7608450c8c0e1cdb6b81dba977cd9",
+      "size_bytes": 126859
+    },
+    {
+      "path": "data/processed/fua_top20_rankings_20260718T204000Z.csv",
+      "sha256": "a24a6db583b4ab00fbaa55dd0c53ffe99072dd3ef02091ea072bfb4ca650c9e5",
+      "size_bytes": 2880
+    },
+    {
+      "path": "data/processed/fua_top20_study_20260718T204000Z_report.json",
+      "sha256": "ab59569eb4d446d0515777c5a52c5441072d451b03d99dfff1287792b544e5de",
+      "size_bytes": 755
+    },
+    {
+      "path": "artifacts/charts/chart_01_fua_band_share_stack.png",
+      "sha256": "43280f5d3f5dbbdc2bf3e1d026a57e299f5d094aba70d3c4e875d11822ca8e80",
+      "size_bytes": 352821
+    },
+    {
+      "path": "artifacts/charts/chart_02_raw_fua_totals.png",
+      "sha256": "41ecfa4d8d0be9ab4eedd83cf1cb9717f3c9dcfe7cd8d830c919007ff7314d59",
+      "size_bytes": 101224
+    },
+    {
+      "path": "artifacts/charts/chart_03_fua_population_normalized_total.png",
+      "sha256": "a179893b3f7f38678bc82e514fa19f5ebd9e423b321e6d13827a8e4200f6b3b9",
+      "size_bytes": 106350
+    },
+    {
+      "path": "artifacts/charts/chart_04_raw_normalized_scene_depth_fua_ranks.png",
+      "sha256": "a6db0a71bcce481cd2ce320db62083fbeda0488f55bb4dc97ded388f6c8747a1",
+      "size_bytes": 117161
+    },
+    {
+      "path": "artifacts/experiments/top20_fua_final_structure/20260718T204000Z/chart_01_fua_band_share_stack.png",
+      "sha256": "425c7edc0f88f568aeff2016799971bd32b380b9a1e486bc044b3bb933b925fd",
+      "size_bytes": 637808
+    },
+    {
+      "path": "artifacts/experiments/top20_fua_final_structure/20260718T204000Z/chart_02_raw_fua_totals.png",
+      "sha256": "1e58aeb161e26ea8f826c258b2db1e403693f16b857e80d3835a17fa068c3376",
+      "size_bytes": 147983
+    },
+    {
+      "path": "artifacts/experiments/top20_fua_final_structure/20260718T204000Z/chart_03_fua_population_normalized_total.png",
+      "sha256": "c749134f27c87f5d371f621d2700ba16ec37458ca50eb196d7d8c0c315f2df32",
+      "size_bytes": 159322
+    },
+    {
+      "path": "artifacts/experiments/top20_fua_final_structure/20260718T204000Z/chart_04_raw_normalized_scene_depth_fua_ranks.png",
+      "sha256": "2a42aa46954acc8807a932dc3573272ba4afadac205aef93f3e1400b1824a758",
+      "size_bytes": 169665
+    },
+    {
+      "path": "README.md",
+      "sha256": "f5379a62a65bd605960932cfe59529d7e02f89f43987ae8aef89aacbc20a8dab",
+      "size_bytes": 10526
+    },
+    {
+      "path": "notebooks/README.md",
+      "sha256": "e7beb5a409c96efe22c388b10ec3d7310b3e3c43bd392951ff573278a1d36d60",
+      "size_bytes": 4269
+    },
+    {
+      "path": "TASKS.md",
+      "sha256": "912cbe8b192c877e534101deb8b5ee200a0c467f1134355df9b032211228d0f5",
+      "size_bytes": 19951
+    },
+    {
+      "path": "ANALYSIS_HISTORY.md",
+      "sha256": "8df52d65dfd5f6c8033702b16724fbaa5ccb65ecab17761f8050973ae640e720",
+      "size_bytes": 8898
+    }
+  ]
+}

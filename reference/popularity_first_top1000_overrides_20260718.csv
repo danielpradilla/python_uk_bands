@@ -1,0 +1,14 @@
+spotify_id,identity_decision,origin_override,reason,source_url
+0GByy3DcfbQwDvXGCWmzv9,approve,,Spotify differs only by the leading article: The Pretenders / Pretenders,https://open.spotify.com/artist/0GByy3DcfbQwDvXGCWmzv9
+2TzHIUhVpeeDxyJPpQfnV3,approve,,Spotify uses an ampersand where Wikidata spells out and,https://open.spotify.com/artist/2TzHIUhVpeeDxyJPpQfnV3
+5vBSrE1xujD2FXYRarbAXc,reject,,Current Spotify page is branded Olly Alexander (Years & Years); exclude rather than treating a changed solo page as the original group,https://open.spotify.com/artist/5vBSrE1xujD2FXYRarbAXc
+0HxX6imltnNXJyQhu4nsiO,,West Lothian,Wikidata formation place is missing; the artist's official biography describes both members as West Lothian natives,https://lfsystemmusic.com/about
+3e7awlrlDSwF3iM0WBjGMp,,London,Wikidata records only England; Apple Music records London as the formation place,https://music.apple.com/gb/artist/little-mix/477515548
+2NhdGz9EDv2FeUw6udu2g1,,London,Wikidata records only England; Apple Music records London as the formation place,https://music.apple.com/us/artist/the-wanted/3445978
+1LZEQNv7sE11VDY3SdxQeN,,Redcliffe,"The archived Wikidata formation label Los Hornos is erroneous; the Bee Gees' official history places the group's naming and first record deal in Redcliffe, Queensland.",https://www.beegees.com/bee-gees-way-redcliffe-australia/
+2TwOrUcYnAlIiKmVQkkoSZ,,Isle of Wight,The label's official artist biography describes Wet Leg as an Isle of Wight five-piece.,https://www.dominomusic.com/artists/wet-leg
+49DW3KvkyjHO35mK1JnSyS,,Bradford,The band's official history places its formation in Bradford.,https://www.thecultband.com/history/
+5rIqOJspxDq89aBBCUda1X,,Bradford,The archived Wikidata label service returned Q22905; that Wikidata item is Bradford.,https://www.wikidata.org/wiki/Q22905
+7n1EM42Fseebd9H2p8eWWS,,Bradford,The archived Wikidata label service returned Q22905; that Wikidata item is Bradford.,https://www.wikidata.org/wiki/Q22905
+7iMWWdRNiCJwGOGEIYr02z,,Bradford,The archived Wikidata label service returned Q22905; that Wikidata item is Bradford.,https://www.wikidata.org/wiki/Q22905
+0L9xkvBPcEp1nrhDrodxc5,,Isle of Wight,The archived Wikidata label service returned Q9679; that Wikidata item is the Isle of Wight.,https://www.wikidata.org/wiki/Q9679

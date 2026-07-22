@@ -1,0 +1,101 @@
+band,city,musicbrainz_id,spotify_id,spotify_name,expected_spotify_name,match_quality,id_source
+The Rolling Stones,London,b071f9fa-14b0-4217-8e97-eb41da73f598,22bE4uQ6baNwSHPVcDxLCe,The Rolling Stones,The Rolling Stones,exact,prior scene-depth identifier snapshot
+The Clash,London,8f92558c-2baa-4758-8c38-615519e9deda,3RGLhK1IP9jnYFH4BRFJBS,The Clash,The Clash,exact,prior scene-depth identifier snapshot
+Blur,London,ba853904-ae25-4ebb-89d6-c44cfbd71bd2,7MhMgCo0Bl0Kukl93PZbYS,Blur,Blur,exact,prior scene-depth identifier snapshot
+Coldplay,London,cc197bad-dc9c-440d-a5b5-d52ba2e14234,4gzpq5DPGxSnKTe4SA8HAU,Coldplay,Coldplay,exact,prior scene-depth identifier snapshot
+Florence and the Machine,London,5fee3020-513b-48c2-b1f7-4681b01db0c6,1moxjboGR7GNWYIMWsRjgG,Florence + The Machine,Florence + The Machine,fallback,prior scene-depth identifier snapshot
+Queen,London,0383dadf-2a4e-4d10-a46a-e9e041da8eb3,1dfeR4HaWDbWqFHLkxsg1d,,Queen,musicbrainz_relationship,prior scene-depth identifier snapshot
+Led Zeppelin,London,678d88b2-87b0-403b-b63d-5da7465aecc3,36QJpDe2go2KgaRleHCDTp,,Led Zeppelin,musicbrainz_relationship,prior scene-depth identifier snapshot
+The Who,London,9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa,67ea9eGLXYMsO2eYQRui3w,,The Who,musicbrainz_relationship,prior scene-depth identifier snapshot
+The Kinks,London,17b53d9f-5c63-4a09-a593-dde4608e0db9,1SQRv42e4PjEYfPhS0Tk9E,,The Kinks,musicbrainz_relationship,prior scene-depth identifier snapshot
+Fleetwood Mac,London,bd13909f-1c29-4c27-a874-d4aaf27c5b1a,08GQAI4eElDnROBrJRGE0X,,Fleetwood Mac,musicbrainz_relationship,prior scene-depth identifier snapshot
+Black Sabbath,Birmingham,5182c1d9-c7d2-4dad-afa0-ccfeada921a8,5M52tdBnJaKSvOpJGz8mfZ,Black Sabbath,Black Sabbath,exact,prior scene-depth identifier snapshot
+ELO,Birmingham,0c502791-4ee9-4c5f-9696-0602b721ff3b,7jefIIksOi1EazgRTfW2Pk,Electric Light Orchestra,Electric Light Orchestra,exact,prior scene-depth identifier snapshot
+Duran Duran,Birmingham,1a1cd7f3-e5df-4eca-bae2-2757c9e656b5,0lZoBs4Pzo7R89JM9lxwoT,Duran Duran,Duran Duran,exact,prior scene-depth identifier snapshot
+UB40,Birmingham,7113aab7-628f-4050-ae49-dbecac110ca8,69MEO1AADKg1IZrq2XLzo5,UB40,UB40,exact,prior scene-depth identifier snapshot
+Editors,Birmingham,0efe858c-89e5-4e47-906a-356fa953fd6e,6e9wIFWhBPHLE9bXK8gtBI,Editors,Editors,exact,prior scene-depth identifier snapshot
+Judas Priest,Birmingham,6b335658-22c8-485d-93de-0bc29a1d0349,2tRsMl4eGxwoNabM08Dm4I,,Judas Priest,musicbrainz_relationship,prior scene-depth identifier snapshot
+The Moody Blues,Birmingham,774666d2-2064-4d6c-856c-f8cda0aaf9f0,5BcZ22XONcRoLhTbZRuME1,,The Moody Blues,musicbrainz_relationship,prior scene-depth identifier snapshot
+The Spencer Davis Group,Birmingham,178fdfdf-e02e-4608-9b51-e53471e28a58,3i9hP422d2KMjaupTzBNVS,,The Spencer Davis Group,musicbrainz_relationship,prior scene-depth identifier snapshot
+Dexys Midnight Runners,Birmingham,ccce2053-7007-4c36-b1e7-f8fcf5023a12,4QTVePrFu1xuGM9K0kNXkk,,Dexys Midnight Runners,musicbrainz_relationship,prior scene-depth identifier snapshot
+Ocean Colour Scene,Birmingham,601d793d-7e96-4bb6-b4a6-712d5c926259,5vIOGcdmx1eIkq3ZtuS12U,,Ocean Colour Scene,musicbrainz_relationship,prior scene-depth identifier snapshot
+Oasis,Manchester,39ab1aed-75e0-4140-bd47-540276886b60,2DaxqgrOhkeH0fpeiQq2f4,Oasis,Oasis,exact,prior scene-depth identifier snapshot
+The Smiths,Manchester,40f5d9e4-2de7-4f2d-ad41-e31a9a9fea27,3yY2gUcIsjMr8hjo51PoJ8,The Smiths,The Smiths,exact,prior scene-depth identifier snapshot
+New Order,Manchester,f1106b17-dcbb-45f6-b938-199ccfab50cc,0yNLKJebCb8Aueb54LYya3,New Order,New Order,exact,prior scene-depth identifier snapshot
+The Stone Roses,Manchester,b5fa29f1-6c22-4321-a488-b5f363b06b06,1lYT0A0LV5DUfxr6doRP3d,The Stone Roses,The Stone Roses,exact,prior scene-depth identifier snapshot
+The 1975,Manchester,5b6ebfe0-f72b-4902-bba9-74c8af0f1af0,3mIj9lX2MWuHmhNCA7LSCW,The 1975,The 1975,exact,prior scene-depth identifier snapshot
+Joy Division,Manchester,9a58fda3-f4ed-4080-a3a5-f457aac9fcdd,432R46LaYsJZV2Gmc4jUV5,,Joy Division,musicbrainz_relationship,prior scene-depth identifier snapshot
+The Chemical Brothers,Manchester,1946a82a-f927-40c2-8235-38d64f50d043,1GhPHrq36VKCY3ucVaZCfo,,The Chemical Brothers,musicbrainz_relationship,prior scene-depth identifier snapshot
+Simply Red,Manchester,a9100753-f539-43cf-bcc9-579566fb512e,1fa0cOhromAZdq2xRA4vv8,,Simply Red,musicbrainz_relationship,prior scene-depth identifier snapshot
+Take That,Manchester,24d2505b-388c-46cc-8a64-48223ea6d78d,1XgFuvRd7r5g0h844A5ZUQ,,Take That,musicbrainz_relationship,prior scene-depth identifier snapshot
+Happy Mondays,Manchester,01f4fb92-6bf0-4de5-83dc-3fe194e763bf,339DNkQkuhHKEcHw6oK8f0,,Happy Mondays,musicbrainz_relationship,catalogue override
+Simple Minds,Glasgow,f41490ce-fe39-435d-86c0-ab5ce098b423,6hN9F0iuULZYWXppob22Aj,Simple Minds,Simple Minds,exact,prior scene-depth identifier snapshot
+Primal Scream,Glasgow,55704c38-224f-4b75-b29f-d43653f8bc9a,3wury2nd8idV4GecUg5xze,Primal Scream,Primal Scream,exact,prior scene-depth identifier snapshot
+Belle and Sebastian,Glasgow,e5c7b94f-e264-473c-bb0f-37c85d4d5c70,4I2BJf80C0skQpp1sQmA0h,Belle and Sebastian,Belle and Sebastian,exact,prior scene-depth identifier snapshot
+Franz Ferdinand,Glasgow,aa7a2827-f74b-473c-bd79-03d065835cf7,0XNa1vTidXlvJ2gHSsRi4A,Franz Ferdinand,Franz Ferdinand,exact,prior scene-depth identifier snapshot
+CHVRCHES,Glasgow,6a93afbb-257f-4166-b389-9f2a1e5c5df8,3CjlHNtplJyTf9npxaPl5w,CHVRCHES,CHVRCHES,exact,prior scene-depth identifier snapshot
+Mogwai,Glasgow,d700b3f5-45af-4d02-95ed-57d301bda93e,34UhPkLbtFKRq3nmfFgejG,,Mogwai,musicbrainz_relationship,prior scene-depth identifier snapshot
+Texas,Glasgow,7289d10d-d8d2-41ff-8308-c56ec9346e07,5JsdVATHNPE0XdMFMRoSuf,,Texas,musicbrainz_relationship,prior scene-depth identifier snapshot
+Deacon Blue,Glasgow,1d46cb3a-8071-45ba-855e-74e3cff20974,5jqKIZLB5WA5KquEihB3ND,,Deacon Blue,musicbrainz_relationship,prior scene-depth identifier snapshot
+Del Amitri,Glasgow,5b86617f-e775-4675-b6d3-c4ad95d05409,2Q4FnG5T6NTUcAAZwuMV5K,,Del Amitri,musicbrainz_relationship,prior scene-depth identifier snapshot
+The Fratellis,Glasgow,f4ad883e-9a92-45ed-a540-a49c2d1c36dd,3M4ThdJR28z9eSMcQHAZ5G,,The Fratellis,musicbrainz_relationship,prior scene-depth identifier snapshot
+The Beatles,Liverpool,b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d,3WrFJ7ztbogyGnTHbHJFl2,The Beatles,The Beatles,exact,prior scene-depth identifier snapshot
+Echo & the Bunnymen,Liverpool,ccd4879c-5e88-4385-b131-bf65296bf245,0fgYKF9Avljex0L9Wt5b8Z,Echo & the Bunnymen,Echo & the Bunnymen,exact,prior scene-depth identifier snapshot
+Frankie Goes to Hollywood,Liverpool,c09c8263-40ef-4352-8031-e438b1ce68fc,1mZu3rO7qSD09GdDpePHhY,Frankie Goes To Hollywood,Frankie Goes to Hollywood,exact,prior scene-depth identifier snapshot
+The La's,Liverpool,ff3e88b3-7354-4f30-967c-1a61ebc8c642,47Z8LEl3LnQkcpva0xSthT,The La's,The La's,exact,prior scene-depth identifier snapshot
+The Wombats,Liverpool,e105c272-b5d7-4135-82ef-d60bded54345,0Ya43ZKWHTKkAbkoJJkwIB,The Wombats,The Wombats,exact,prior scene-depth identifier snapshot
+Dead or Alive,Liverpool,98720123-fcec-47be-9e88-29a310fb2942,5WWSL6rElJeUk3Uc1S2RyD,,Dead or Alive,musicbrainz_relationship,prior scene-depth identifier snapshot
+Gerry and the Pacemakers,Liverpool,fe5fb618-2f8b-4158-92b6-464f31672bca,3UmBeGyNwr4iDWi1vTxWi8,,Gerry & The Pacemakers,musicbrainz_relationship,prior scene-depth identifier snapshot
+A Flock of Seagulls,Liverpool,aaa436da-b331-4e58-a0fd-3d64d090c120,0uAjBatvB4ubpd4kCfjmNt,,A Flock Of Seagulls,musicbrainz_relationship,catalogue override
+Atomic Kitten,Liverpool,6fda00c2-449a-4bf4-838f-038d41a07c73,6JMHws5haIO6V35YNYDnDw,,Atomic Kitten,musicbrainz_relationship,prior scene-depth identifier snapshot
+The Lightning Seeds,Liverpool,1ba601a0-3401-4b28-8ddd-9af8203661e8,67YNiSqhrx1P8oPvIIvbP5,,The Lightning Seeds,musicbrainz_relationship,prior scene-depth identifier snapshot
+Kaiser Chiefs,Leeds,90218af4-4d58-4821-8d41-2ee295ebbe21,0LbLWjaweRbO4FDKYlbfNt,Kaiser Chiefs,Kaiser Chiefs,exact,prior scene-depth identifier snapshot
+Soft Cell,Leeds,7fb50287-029d-47cc-825a-235ca28024b2,6aq8T2RcspxVOGgMrTzjWc,Soft Cell,Soft Cell,exact,prior scene-depth identifier snapshot
+Alt-J,Leeds,fc7bbf00-fbaa-4736-986b-b3ac0266ca9b,3XHO7cRUPCLOr6jwp8vsx5,alt-J,Alt-J,exact,prior scene-depth identifier snapshot
+Sisters of Mercy,Leeds,553d8166-27b0-49fe-b8e4-89a984e2c375,4HxBVyHaUa60eCSsJWxwWR,Sisters of Mercy,Sisters of Mercy,exact,prior scene-depth identifier snapshot
+The Wedding Present,Leeds,707622da-475f-48e1-905d-248718df6521,4tyCvqG48h4LdcbFfWBjR9,The Wedding Present,The Wedding Present,exact,prior scene-depth identifier snapshot
+The Mission,Leeds,d85e95a3-07c7-4c04-a411-234290615113,3DLtpqLMAU6uc0BOJ7JmlM,,The Mission UK,musicbrainz_relationship,prior scene-depth identifier snapshot
+Chumbawamba,Leeds,7b7b1e6f-e73e-41a0-9d72-8f0b30c6992d,0TcYeHEK9sBtv7xPbKhzHz,,Chumbawamba,musicbrainz_relationship,prior scene-depth identifier snapshot
+The Mekons,Leeds,66d2169c-dea5-46d3-b4cb-52ed87b24ab0,1Ag6UM6dow2OH9V06mxzV5,,Mekons,musicbrainz_relationship,prior scene-depth identifier snapshot
+Gang of Four,Leeds,d8661c02-f423-4d72-8044-40ff05daf7a1,3AmWjMXXtBJOmNGpUFSOAl,,Gang of Four,musicbrainz_relationship,prior scene-depth identifier snapshot
+Nightmares on Wax,Leeds,b8c5cc4f-239f-4e02-b46f-b040b77c2030,4tNxq9NGKTKaX8OkZBLgf0,,Nightmares on Wax,musicbrainz_relationship,prior scene-depth identifier snapshot
+Def Leppard,Sheffield,7249b899-8db8-43e7-9e6e-22f1e736024e,6H1RjVyNruCmrBEWRbD0VZ,Def Leppard,Def Leppard,exact,prior scene-depth identifier snapshot
+The Human League,Sheffield,7adaabfb-acfb-47bc-8c7c-59471c2f0db8,1aX2dmV8XoHYCOQRxjPESG,The Human League,The Human League,exact,prior scene-depth identifier snapshot
+Pulp,Sheffield,76b2e842-5e85-4c97-ab62-d5bc315595b5,36E7oYfz3LLRto6l2WmDcD,Pulp,Pulp,exact,prior scene-depth identifier snapshot
+Arctic Monkeys,Sheffield,ada7a83c-e3e1-40f1-93f9-3e73dbc9298a,7Ln80lUS6He07XvHI8qqHH,Arctic Monkeys,Arctic Monkeys,exact,prior scene-depth identifier snapshot
+Bring Me The Horizon,Sheffield,074e3847-f67f-49f9-81f1-8c8cea147e8e,1Ffb6ejR6Fe5IamqA5oRUF,Bring Me The Horizon,Bring Me The Horizon,exact,prior scene-depth identifier snapshot
+Thompson Twins,Sheffield,228af6b5-f691-4ed2-a63b-10cc6fcc1144,5jVeqi3PNaTOajfvBa4uFn,,Thompson Twins,musicbrainz_relationship,prior scene-depth identifier snapshot
+ABC,Sheffield,87199477-b0df-4ead-84ee-9b54b4abfc3d,2s79xe5F6eUQkjwjww27Fh,,ABC,musicbrainz_relationship,catalogue override
+Moloko,Sheffield,2f94016a-3880-4d8c-9af9-0e197ee77189,4aaBjq7VqqQvpSF69GglvO,,Moloko,musicbrainz_relationship,prior scene-depth identifier snapshot
+Heaven 17,Sheffield,0796f847-09ca-4526-b17e-44390dd536ba,5PYuBRQMHh7nWmdV076sH9,,Heaven 17,musicbrainz_relationship,prior scene-depth identifier snapshot
+Cabaret Voltaire,Sheffield,439a29ad-f4ef-4857-a7cd-3d4a551056c8,2kS4yz85MaZlxp2VaS3BEe,,Cabaret Voltaire,musicbrainz_relationship,catalogue override
+Smokie,Bradford,165e2705-abf7-4f1b-8971-4ceed8769c4d,53K7zDzY3McLG1sAg6l2wZ,Smokie,Smokie,exact,prior scene-depth identifier snapshot
+The Negatives,Bradford,78e78c9a-55f3-4004-be23-9e8e94d639f9,36dRY3CYXgYmxkJIxFssyh,,The Negatives,musicbrainz_relationship,catalogue override
+1919,Bradford,dca0d1d9-e9f6-439e-8567-96da7ada6611,1y7JPbnD7PJpdjRZMDanUz,,1919,musicbrainz_relationship,prior scene-depth identifier snapshot
+Poppy Factory,Bradford,a4504460-7d64-4732-b929-657c407c6f84,4NELcwVSl3zqJQHqjbDbHW,,Poppy Factory,musicbrainz_relationship,catalogue override
+The Passmore Sisters,Bradford,7439c49e-d9cd-4504-a640-70b33fda8888,0USsujXRISUOp6hj4DdcsT,,The Passmore Sisters,musicbrainz_relationship,prior scene-depth identifier snapshot
+New Model Army,Bradford,e60e1f0b-1e8c-45e7-9d4a-222db9cb34f7,7n1EM42Fseebd9H2p8eWWS,,New Model Army,musicbrainz_relationship,prior scene-depth identifier snapshot
+My Dying Bride,Bradford,2f04ad1f-9f97-41d0-a09c-59c40dfe9cd1,7iMWWdRNiCJwGOGEIYr02z,,My Dying Bride,musicbrainz_relationship,prior scene-depth identifier snapshot
+The Southern Death Cult,Bradford,5df6c0a8-c744-4097-b3b4-bcf32b52eea5,6GERoHMM4dUkN8Edm5mXXJ,,The Southern Death Cult,musicbrainz_relationship,catalogue override
+Scars on 45,Bradford,c128319a-a151-41d5-9689-323e016d048b,5ltIfb6fKhN2sxGic1WRWy,,Scars On 45,musicbrainz_relationship,catalogue override
+Anti-System,Bradford,d6dcc614-4c72-4a0b-95dd-1bf5087abd85,160NmOGDz8qBoB4LNpF5w4,,Anti-System,musicbrainz_relationship,catalogue override
+Massive Attack,Bristol,10adbe5e-a2c0-4bf3-8249-2b4cbf6e6ca8,6FXMGgJwohJLUSr5nVlf9X,Massive Attack,Massive Attack,exact,prior scene-depth identifier snapshot
+Portishead,Bristol,8f6bd1e4-fbe1-4f50-aa9b-94c450ec0f11,6liAMWkVf5LH7YR9yfFy1Y,Portishead,Portishead,exact,prior scene-depth identifier snapshot
+Smith & Mighty,Bristol,47cfcf6b-44d5-4a8d-ad12-47722c88468c,5fegFJAeq9eItFZf8oPIin,,Smith & Mighty,musicbrainz_relationship,prior scene-depth identifier snapshot
+Idles,Bristol,be465d4f-c28d-4ba1-94ab-ebaada7db8af,75mafsNqNE1WSEVxIKuY5C,IDLES,IDLES,exact,prior scene-depth identifier snapshot
+Kosheen,Bristol,4f4bda3c-d636-4135-b65a-6cc26bc75788,5squ8uM6fhMQY71t9xobJC,Kosheen,Kosheen,exact,prior scene-depth identifier snapshot
+The Pop Group,Bristol,4c9f194e-6235-475a-bf7b-2fd54a0879ec,3fBmq4xVcd346QvErp6fko,,The Pop Group,musicbrainz_relationship,prior scene-depth identifier snapshot
+Roni Size / Reprazent,Bristol,45e00f0f-f52b-4db8-a480-cf87b71c4800,0QJsUBH0PcoT2fYI1F1Oee,,Roni Size / Reprazent,musicbrainz_relationship,prior scene-depth identifier snapshot
+Fuck Buttons,Bristol,f4640b20-b76b-40d3-9ffc-a38b6718b273,6tCENAD2FBfIMyygJMeOJV,,Fuck Buttons,musicbrainz_relationship,prior scene-depth identifier snapshot
+Way Out West,Bristol,2c2a80cf-193d-4be6-992e-311428085474,3HghjRl8Mo6OJWG0WElY2z,,Way Out West,musicbrainz_relationship,prior scene-depth identifier snapshot
+The Blue Aeroplanes,Bristol,935295a6-8b6c-4de6-819c-da5113dac8fc,4MTSrVgHNfGtYV9pek8vY5,,The Blue Aeroplanes,musicbrainz_relationship,prior scene-depth identifier snapshot
+Dog Is Dead,Nottingham,,1XwRhEHqiCVgiEJQk66fyy,,D.I.D,musicbrainz_relationship,catalogue override
+London Grammar,Nottingham,4dbe08c1-b40a-43b3-ab89-210000bd8ab2,3Bd1cgCjtCI32PYvDC3ynO,London Grammar,London Grammar,exact,prior scene-depth identifier snapshot
+Paper Lace,Nottingham,c62995d6-a622-43e0-ae11-12a0f8638deb,33W24YuaMUEk85MwRX6cRs,,Paper Lace,musicbrainz_relationship,prior scene-depth identifier snapshot
+Ten Years After,Nottingham,73faa89a-ee00-4e40-b68e-80e4891dbc45,7nkLRaWHImCvWGHdNGnhVE,Ten Years After,Ten Years After,exact,prior scene-depth identifier snapshot
+Sleaford Mods,Nottingham,09d8290b-6ada-422f-8ce3-19349fb1c15d,0otAqZw8htTsGHfqR491Yh,Sleaford Mods,Sleaford Mods,exact,prior scene-depth identifier snapshot
+Tindersticks,Nottingham,4306a798-e2f8-4192-9a45-2fd41cdae60c,3dmSPhg0tdao8ePj4pySJ5,,Tindersticks,musicbrainz_relationship,catalogue override
+Six by Seven,Nottingham,5e2e050f-7280-464e-b251-0a1272c43300,4TXdHyuAOl3rAOFmZ6MeKz,,Six by Seven,musicbrainz_relationship,prior scene-depth identifier snapshot
+Bent,Nottingham,0a77bec1-12ef-4caa-b36a-f533001fcd29,59xljcfdN2Z9VX2U5RFKEa,,Bent,musicbrainz_relationship,prior scene-depth identifier snapshot
+Crazy P,Nottingham,45644225-982e-4b76-a529-d8f9688e9a7d,6jOz2B9qeID4dLP1o8bFGf,,Crazy P,musicbrainz_relationship,prior scene-depth identifier snapshot
+Pitchshifter,Nottingham,fe8ab7ee-c664-4d44-aec1-5b58ae937a5c,10aXVE8RSUCeMzaFvBnZ2i,,Pitchshifter,musicbrainz_relationship,prior scene-depth identifier snapshot

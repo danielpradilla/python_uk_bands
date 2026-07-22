@@ -1,0 +1,254 @@
+{
+  "snapshot_id": "20260718T204522Z",
+  "study_kind": "popularity-first population-adjusted sensitivity",
+  "population_definition": "OECD/EU Functional Urban Area",
+  "population_year": 2021,
+  "formulas": {
+    "selected_bands_per_million_residents": "selected top-200 band count / FUA population * 1,000,000",
+    "selected_monthly_listeners_per_resident": "sum of captured monthly listeners for selected top-200 bands / FUA population"
+  },
+  "strict_mapping": {
+    "selected_bands": 200,
+    "mapped_bands": 154,
+    "mapped_band_share": 0.77,
+    "selected_listener_reach": 1973221075,
+    "mapped_listener_reach": 1673201219,
+    "mapped_listener_reach_share": 0.8479542612831662,
+    "mapped_origin_clusters": 34,
+    "mapped_fuas": 28,
+    "included_tiers": [
+      "strict"
+    ],
+    "top_fua_by_listener_reach_per_resident": "Crawley",
+    "top_fua_band_count": 1,
+    "top_stable_fuas_with_at_least_two_bands": [
+      "Bath and North East Somerset",
+      "Oxford",
+      "Cambridge",
+      "Sheffield",
+      "London",
+      "Manchester",
+      "Liverpool",
+      "Brighton and Hove",
+      "Glasgow",
+      "Birmingham"
+    ]
+  },
+  "extended_mapping_sensitivity": {
+    "selected_bands": 200,
+    "mapped_bands": 169,
+    "mapped_band_share": 0.845,
+    "selected_listener_reach": 1973221075,
+    "mapped_listener_reach": 1797606363,
+    "mapped_listener_reach_share": 0.9110009951621868,
+    "mapped_origin_clusters": 48,
+    "mapped_fuas": 35,
+    "included_tiers": [
+      "strict",
+      "reviewed_extended"
+    ],
+    "top_fua_by_listener_reach_per_resident": "Crawley"
+  },
+  "unmapped_after_extended_review": [
+    {
+      "spotify_name": "Bee Gees",
+      "origin_cluster": "Redcliffe",
+      "monthly_listeners": 29286539,
+      "mapping_tier": "excluded_non_uk"
+    },
+    {
+      "spotify_name": "Disclosure",
+      "origin_cluster": "Reigate",
+      "monthly_listeners": 25360907,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Seafret",
+      "origin_cluster": "Bridlington",
+      "monthly_listeners": 9520023,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Proclaimers",
+      "origin_cluster": "Auchtermuchty",
+      "monthly_listeners": 8100195,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Deep Purple",
+      "origin_cluster": "Hertford",
+      "monthly_listeners": 6998809,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Pretenders",
+      "origin_cluster": "Hereford",
+      "monthly_listeners": 6044974,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Bullet For My Valentine",
+      "origin_cluster": "Bridgend",
+      "monthly_listeners": 5036374,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Prodigy",
+      "origin_cluster": "Braintree",
+      "monthly_listeners": 5031555,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Zombies",
+      "origin_cluster": "St Albans",
+      "monthly_listeners": 5025277,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Wings",
+      "origin_cluster": "",
+      "monthly_listeners": 4863252,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Erasure",
+      "origin_cluster": "",
+      "monthly_listeners": 4832016,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Sidewalks and Skeletons",
+      "origin_cluster": "",
+      "monthly_listeners": 4198181,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "LSD",
+      "origin_cluster": "",
+      "monthly_listeners": 4191261,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "FLO",
+      "origin_cluster": "",
+      "monthly_listeners": 4183163,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Maribou State",
+      "origin_cluster": "",
+      "monthly_listeners": 4147945,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Studio Killers",
+      "origin_cluster": "",
+      "monthly_listeners": 4136257,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "HONNE",
+      "origin_cluster": "",
+      "monthly_listeners": 3880260,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "SAULT",
+      "origin_cluster": "",
+      "monthly_listeners": 3625737,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Nothing But Thieves",
+      "origin_cluster": "Southend-on-Sea",
+      "monthly_listeners": 3587725,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Wet Leg",
+      "origin_cluster": "Isle of Wight",
+      "monthly_listeners": 3584069,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Sophie and the Giants",
+      "origin_cluster": "",
+      "monthly_listeners": 3507868,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Snakehips",
+      "origin_cluster": "",
+      "monthly_listeners": 3159265,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "BICEP",
+      "origin_cluster": "",
+      "monthly_listeners": 3141387,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Third Party",
+      "origin_cluster": "",
+      "monthly_listeners": 2971418,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Faces",
+      "origin_cluster": "",
+      "monthly_listeners": 2718313,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Asia",
+      "origin_cluster": "",
+      "monthly_listeners": 2716602,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Waterboys",
+      "origin_cluster": "",
+      "monthly_listeners": 2670888,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "The Darkness",
+      "origin_cluster": "Lowestoft",
+      "monthly_listeners": 2453090,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Rainbow",
+      "origin_cluster": "Hertford",
+      "monthly_listeners": 2270623,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "James",
+      "origin_cluster": "",
+      "monthly_listeners": 2205349,
+      "mapping_tier": "excluded_no_defensible_fua"
+    },
+    {
+      "spotify_name": "Amber Run",
+      "origin_cluster": "",
+      "monthly_listeners": 2165390,
+      "mapping_tier": "excluded_no_defensible_fua"
+    }
+  ],
+  "interpretation_guardrail": "These rates normalize the output represented in a popularity-selected top 200. They do not estimate scene depth, and one-band FUAs are highly sensitive to a single global hit.",
+  "inputs": {
+    "bands": "data/processed/popularity_first_top200_20260718T204522Z_bands.csv",
+    "origins": "data/processed/popularity_first_top200_20260718T204522Z_origins.csv",
+    "mapping": "reference/popularity_first_top200_origin_fua_mapping_20260718.csv",
+    "population": "data/processed/uk_fua_population_2021_20260718T201304Z.csv"
+  },
+  "outputs": {
+    "mapping_audit": "data/interim/popularity_first_top200_20260718T204522Z_fua_mapping_audit.csv",
+    "strict_metrics": "data/processed/popularity_first_top200_20260718T204522Z_population_strict.csv",
+    "extended_metrics": "data/processed/popularity_first_top200_20260718T204522Z_population_extended.csv"
+  },
+  "original_popularity_first_outputs_modified": false,
+  "published_notebook_modified": false
+}

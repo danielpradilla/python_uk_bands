@@ -1,0 +1,872 @@
+{
+  "captured_at_utc": "2026-07-18T20:45:22.974241+00:00",
+  "input_path": "data/interim/uk_group_spotify_candidates_20260718T201100Z.csv",
+  "input_rows": 1775,
+  "resolved_identifier_rows": 1775,
+  "metrics_rows": 1749,
+  "search_failures": [],
+  "metric_failures": [
+    {
+      "band": "21st Century Schizoid Band [3P1LXhROLTUCEnbaCe1xa4]",
+      "spotify_id": "3P1LXhROLTUCEnbaCe1xa4",
+      "error": "Spotify web-player response has no monthly listeners"
+    },
+    {
+      "band": "Aeon Zen [0T073Nv8qEZ0Pd8dN0U3n4]",
+      "spotify_id": "0T073Nv8qEZ0Pd8dN0U3n4",
+      "error": "Spotify web-player response has no monthly listeners"
+    },
+    {
+      "band": "Ah, Lucidity [4qwIdcqYOdMHr7ruadjmtv]",
+      "spotify_id": "4qwIdcqYOdMHr7ruadjmtv",
+      "error": "Spotify web-player response has no monthly listeners"
+    },
+    {
+      "band": "BOB [0w3zF6UJrxqI8Z6oKHwlc3]",
+      "spotify_id": "0w3zF6UJrxqI8Z6oKHwlc3",
+      "error": "Spotify web-player response has no monthly listeners"
+    },
+    {
+      "band": "Battlezone [6vR6ZRVnCnClVKpdXT7L64]",
+      "spotify_id": "6vR6ZRVnCnClVKpdXT7L64",
+      "error": "Spotify web-player response has no monthly listeners"
+    },
+    {
+      "band": "Billy Bibby & The Wry Smiles [3AvWFdrowCtmTw2WlQhkqD]",
+      "spotify_id": "3AvWFdrowCtmTw2WlQhkqD",
+      "error": "Spotify web-player response has no monthly listeners"
+    },
+    {
+      "band": "Black Dog Productions [51BEOy4C47tfza8eRCUxfM]",
+      "spotify_id": "51BEOy4C47tfza8eRCUxfM",
+      "error": "Spotify web-player response has no monthly listeners"
+    },
+    {
+      "band": "Dinger [1RFZR4QNQGzKn0f5NL1sW5]",
+      "spotify_id": "1RFZR4QNQGzKn0f5NL1sW5",
+      "error": "Spotify web-player response has no monthly listeners"
+    },
+    {
+      "band": "Geneva [0JCU68oTkT4BWB2pRO5JBv]",
+      "spotify_id": "0JCU68oTkT4BWB2pRO5JBv",
+      "error": "Spotify web-player response has no monthly listeners"
+    },
+    {
+      "band": "Kenny Ball and his Jazzmen [5ChGm6Chyk9XAcI7pnEmLG]",
+      "spotify_id": "5ChGm6Chyk9XAcI7pnEmLG",
+      "error": "Spotify web-player response has no monthly listeners"
+    },
+    {
+      "band": "Kitty, Daisy & Lewis [7wszw0YJgYUpGnanoAM2yr]",
+      "spotify_id": "7wszw0YJgYUpGnanoAM2yr",
+      "error": "Spotify web-player response has no monthly listeners"
+    },
+    {
+      "band": "PORTNOY [63jYXr3Arkk9n22CKBPKeO]",
+      "spotify_id": "63jYXr3Arkk9n22CKBPKeO",
+      "error": "Spotify web-player response has no monthly listeners"
+    },
+    {
+      "band": "Pierre Cope and India Girls [2kWcUSn3NC9ubSJtXRwck5]",
+      "spotify_id": "2kWcUSn3NC9ubSJtXRwck5",
+      "error": "Spotify web-player response has no monthly listeners"
+    },
+    {
+      "band": "Q606250 [7EJ5d32N9ffXINfkkHYJkA]",
+      "spotify_id": "7EJ5d32N9ffXINfkkHYJkA",
+      "error": "Spotify web-player response has no monthly listeners"
+    },
+    {
+      "band": "Scarlet Party [4tSdspJyDGrvE9YcQNXB02]",
+      "spotify_id": "4tSdspJyDGrvE9YcQNXB02",
+      "error": "Spotify web-player response has no monthly listeners"
+    },
+    {
+      "band": "Sherbet Antlers [78j6jiigF2ZPI5h9mU0CIf]",
+      "spotify_id": "78j6jiigF2ZPI5h9mU0CIf",
+      "error": "Spotify web-player response has no monthly listeners"
+    },
+    {
+      "band": "Sunny Day Sets Fire [3AGD2O4k13jjo8OQvIOCsF]",
+      "spotify_id": "3AGD2O4k13jjo8OQvIOCsF",
+      "error": "Spotify web-player response has no monthly listeners"
+    },
+    {
+      "band": "The Corries [5QbNhKEvVCS5KAhaeFDVAE]",
+      "spotify_id": "5QbNhKEvVCS5KAhaeFDVAE",
+      "error": "Spotify web-player response has no monthly listeners"
+    },
+    {
+      "band": "The Victorian English Gentlemens Club [0ZQ9xBKycuWp519COLmEe1]",
+      "spotify_id": "0ZQ9xBKycuWp519COLmEe1",
+      "error": "Spotify web-player response has no monthly listeners"
+    },
+    {
+      "band": "Violinski [2lGiT957uE5RpTakx7ElHa]",
+      "spotify_id": "2lGiT957uE5RpTakx7ElHa",
+      "error": "Spotify web-player response has no monthly listeners"
+    },
+    {
+      "band": "Wetton/Downes [0wkhMq79SPSXYfNf111n0C]",
+      "spotify_id": "0wkhMq79SPSXYfNf111n0C",
+      "error": "Spotify web-player response has no monthly listeners"
+    },
+    {
+      "band": "Wetton/Downes [7ejTLwYHBiVF06eDoXFIv3]",
+      "spotify_id": "7ejTLwYHBiVF06eDoXFIv3",
+      "error": "Spotify web-player response has no monthly listeners"
+    },
+    {
+      "band": "Youth Hotel [6fnAeQiPYEvzyqIzZYVTra]",
+      "spotify_id": "6fnAeQiPYEvzyqIzZYVTra",
+      "error": "Spotify web-player response has no monthly listeners"
+    },
+    {
+      "band": "Zoviet France [38CxITYnELi0ApDGPxReqD]",
+      "spotify_id": "38CxITYnELi0ApDGPxReqD",
+      "error": "Spotify web-player response has no monthly listeners"
+    },
+    {
+      "band": "a2RK [51zBXJICVSofwulxhC5wMP]",
+      "spotify_id": "51zBXJICVSofwulxhC5wMP",
+      "error": "Spotify web-player response has no monthly listeners"
+    },
+    {
+      "band": "ok seas [73ddyYiNFBa62Rai8UZGUm]",
+      "spotify_id": "73ddyYiNFBa62Rai8UZGUm",
+      "error": "Spotify web-player response has no monthly listeners"
+    }
+  ],
+  "name_review": [
+    {
+      "band": "Adam and the Ants [2DppeCnNtvrLfEobq9Pw5r]",
+      "expected_spotify_name": "Adam and the Ants",
+      "spotify_name": "Adam & The Ants",
+      "spotify_id": "2DppeCnNtvrLfEobq9Pw5r"
+    },
+    {
+      "band": "An Gof (Band) [5Osgv84aDgwNFsj0xNVxEw]",
+      "expected_spotify_name": "An Gof (Band)",
+      "spotify_name": "An Gof",
+      "spotify_id": "5Osgv84aDgwNFsj0xNVxEw"
+    },
+    {
+      "band": "Aon Teanga [4sAoiFzwpvt5TcwV1U5Lik]",
+      "expected_spotify_name": "Aon Teanga",
+      "spotify_name": "One Tongue",
+      "spotify_id": "4sAoiFzwpvt5TcwV1U5Lik"
+    },
+    {
+      "band": "Arrows [4tqcqE9n9vHWbIT8ryEA1v]",
+      "expected_spotify_name": "Arrows",
+      "spotify_name": "The Arrows",
+      "spotify_id": "4tqcqE9n9vHWbIT8ryEA1v"
+    },
+    {
+      "band": "Art of Noise [77zrvBORXcnTyysjjKRfBU]",
+      "expected_spotify_name": "Art of Noise",
+      "spotify_name": "The Art Of Noise",
+      "spotify_id": "77zrvBORXcnTyysjjKRfBU"
+    },
+    {
+      "band": "Auger (band) [48QP1FCIq76VufzDPShGi5]",
+      "expected_spotify_name": "Auger (band)",
+      "spotify_name": "Auger",
+      "spotify_id": "48QP1FCIq76VufzDPShGi5"
+    },
+    {
+      "band": "Avison Ensemble [0ZMhyUTfl3DEOlUT1Z04mX]",
+      "expected_spotify_name": "Avison Ensemble",
+      "spotify_name": "The Avison Ensemble",
+      "spotify_id": "0ZMhyUTfl3DEOlUT1Z04mX"
+    },
+    {
+      "band": "Bad Company [4AAf6BI1IJxvkqv98mDHin]",
+      "expected_spotify_name": "Bad Company",
+      "spotify_name": "Bad Company UK",
+      "spotify_id": "4AAf6BI1IJxvkqv98mDHin"
+    },
+    {
+      "band": "Billy J. Kramer & The Dakotas [3Kvl9In1TELgBFPkCgFZHw]",
+      "expected_spotify_name": "Billy J. Kramer & The Dakotas",
+      "spotify_name": "The Dakotas & Billy J.Kramer",
+      "spotify_id": "3Kvl9In1TELgBFPkCgFZHw"
+    },
+    {
+      "band": "Bon Music Vision [1QwUr0czSLcqICjTyiap1G]",
+      "expected_spotify_name": "Bon Music Vision",
+      "spotify_name": "Bon",
+      "spotify_id": "1QwUr0czSLcqICjTyiap1G"
+    },
+    {
+      "band": "Bones [16kd5X3pBMOtXdLlX5LcAw]",
+      "expected_spotify_name": "Bones",
+      "spotify_name": "BONES UK",
+      "spotify_id": "16kd5X3pBMOtXdLlX5LcAw"
+    },
+    {
+      "band": "Bonzo Dog Doo-Dah Band [6Q7D1oEccgTc8MAYdMgtIx]",
+      "expected_spotify_name": "Bonzo Dog Doo-Dah Band",
+      "spotify_name": "The Bonzo Dog Band",
+      "spotify_id": "6Q7D1oEccgTc8MAYdMgtIx"
+    },
+    {
+      "band": "Chris Barber's Jazz Band [0VPmURuvBGB1PER2fQBy6V]",
+      "expected_spotify_name": "Chris Barber's Jazz Band",
+      "spotify_name": "Chris Barber Jazz Band",
+      "spotify_id": "0VPmURuvBGB1PER2fQBy6V"
+    },
+    {
+      "band": "Coverdale and Page [4jBSa0eitusIKxQHjAgsyd]",
+      "expected_spotify_name": "Coverdale and Page",
+      "spotify_name": "Coverdale/Page",
+      "spotify_id": "4jBSa0eitusIKxQHjAgsyd"
+    },
+    {
+      "band": "Dave Stewart and the Spiritual Cowboys [5pLzWFCgBDnpTI5wrNpyWM]",
+      "expected_spotify_name": "Dave Stewart and the Spiritual Cowboys",
+      "spotify_name": "The Spiritual Cowboys",
+      "spotify_id": "5pLzWFCgBDnpTI5wrNpyWM"
+    },
+    {
+      "band": "Declan Welsh & The Decadent West [6KNqvxgfYVRSzgAE1j2UT5]",
+      "expected_spotify_name": "Declan Welsh & The Decadent West",
+      "spotify_name": "Declan Welsh and The Decadent West",
+      "spotify_id": "6KNqvxgfYVRSzgAE1j2UT5"
+    },
+    {
+      "band": "Deller Consort [3GIgkzvdc1l9dMzlhsnuZV]",
+      "expected_spotify_name": "Deller Consort",
+      "spotify_name": "The Deller Consort",
+      "spotify_id": "3GIgkzvdc1l9dMzlhsnuZV"
+    },
+    {
+      "band": "Easy Life [7uwY65fDg3FVJ8MkJ5QuZK]",
+      "expected_spotify_name": "Easy Life",
+      "spotify_name": "hard life",
+      "spotify_id": "7uwY65fDg3FVJ8MkJ5QuZK"
+    },
+    {
+      "band": "Eddie and the Hot Rods [70e4IgnWAQfPPxKnD9jXDr]",
+      "expected_spotify_name": "Eddie and the Hot Rods",
+      "spotify_name": "Eddie & The Hot Rods",
+      "spotify_id": "70e4IgnWAQfPPxKnD9jXDr"
+    },
+    {
+      "band": "Erland and the Carnival [60JLFYv4wEqsdgRSs8VGqs]",
+      "expected_spotify_name": "Erland and the Carnival",
+      "spotify_name": "Erland & The Carnival",
+      "spotify_id": "60JLFYv4wEqsdgRSs8VGqs"
+    },
+    {
+      "band": "Eskimos and Egypt [5syLneixdegDwKaoByhVq9]",
+      "expected_spotify_name": "Eskimos and Egypt",
+      "spotify_name": "Eskimos & Egypt",
+      "spotify_id": "5syLneixdegDwKaoByhVq9"
+    },
+    {
+      "band": "Flanders and Swann [4AR9DghWVyZK6ylUPb8mLI]",
+      "expected_spotify_name": "Flanders and Swann",
+      "spotify_name": "Flanders & Swann",
+      "spotify_id": "4AR9DghWVyZK6ylUPb8mLI"
+    },
+    {
+      "band": "Florilegium early music ensemble [1p7yUCNCvt3z8Y0DhXQ8Ew]",
+      "expected_spotify_name": "Florilegium early music ensemble",
+      "spotify_name": "Florilegium",
+      "spotify_id": "1p7yUCNCvt3z8Y0DhXQ8Ew"
+    },
+    {
+      "band": "Freddie and the Dreamers [1wCc2Wgga1H8C7u57pcqYk]",
+      "expected_spotify_name": "Freddie and the Dreamers",
+      "spotify_name": "Freddie & The Dreamers",
+      "spotify_id": "1wCc2Wgga1H8C7u57pcqYk"
+    },
+    {
+      "band": "Freedom [6KzfaXYcPrJlv3phqtmYhE]",
+      "expected_spotify_name": "Freedom",
+      "spotify_name": "The Freedom",
+      "spotify_id": "6KzfaXYcPrJlv3phqtmYhE"
+    },
+    {
+      "band": "Geoff Love & His Orchestra [3e4pvOxrERfq12BIQ2EWvy]",
+      "expected_spotify_name": "Geoff Love & His Orchestra",
+      "spotify_name": "Geoff Love Orchestra",
+      "spotify_id": "3e4pvOxrERfq12BIQ2EWvy"
+    },
+    {
+      "band": "Gerry and the Pacemakers [3UmBeGyNwr4iDWi1vTxWi8]",
+      "expected_spotify_name": "Gerry and the Pacemakers",
+      "spotify_name": "Gerry & The Pacemakers",
+      "spotify_id": "3UmBeGyNwr4iDWi1vTxWi8"
+    },
+    {
+      "band": "Gordon Giltrap Band [7aVR2dnOQrK6fBSygUvPB6]",
+      "expected_spotify_name": "Gordon Giltrap Band",
+      "spotify_name": "The Gordon Giltrap Band",
+      "spotify_id": "7aVR2dnOQrK6fBSygUvPB6"
+    },
+    {
+      "band": "Greazy Puzzy Fuckerz [4OoHneMX97SjUXKWgsyrP4]",
+      "expected_spotify_name": "Greazy Puzzy Fuckerz",
+      "spotify_name": "GPF",
+      "spotify_id": "4OoHneMX97SjUXKWgsyrP4"
+    },
+    {
+      "band": "Haircut One Hundred [6imyM8T1Xbe8v2iZe41dR7]",
+      "expected_spotify_name": "Haircut One Hundred",
+      "spotify_name": "Haircut 100",
+      "spotify_id": "6imyM8T1Xbe8v2iZe41dR7"
+    },
+    {
+      "band": "Hilliard Ensemble [0L8W3JzyTX29RLKZgc3bqS]",
+      "expected_spotify_name": "Hilliard Ensemble",
+      "spotify_name": "The Hilliard Ensemble",
+      "spotify_id": "0L8W3JzyTX29RLKZgc3bqS"
+    },
+    {
+      "band": "Hot Chocolate [6doNBBAbIp88Tl7HxR0BJr]",
+      "expected_spotify_name": "Hot Chocolate",
+      "spotify_name": "Skylark",
+      "spotify_id": "6doNBBAbIp88Tl7HxR0BJr"
+    },
+    {
+      "band": "John Foxx and the Maths [2oWQf70OC3PEPbCa6Hp028]",
+      "expected_spotify_name": "John Foxx and the Maths",
+      "spotify_name": "John Foxx & The Maths",
+      "spotify_id": "2oWQf70OC3PEPbCa6Hp028"
+    },
+    {
+      "band": "John Wilson Orchestra [4FSqA5w4tlXuaxoHHQVO0J]",
+      "expected_spotify_name": "John Wilson Orchestra",
+      "spotify_name": "The John Wilson Orchestra",
+      "spotify_id": "4FSqA5w4tlXuaxoHHQVO0J"
+    },
+    {
+      "band": "Johnny Duncan & His Blue Grass Boys [0EaqmDH8gpL6wTbYiWUwF6]",
+      "expected_spotify_name": "Johnny Duncan & His Blue Grass Boys",
+      "spotify_name": "Johnny Duncan & The Blue Grass Boys",
+      "spotify_id": "5fEbMt6fvVtVp9RGkNWU5k"
+    },
+    {
+      "band": "Johnny Duncan & His Blue Grass Boys [0uE9N7exed1DH7Iur6Wqmj]",
+      "expected_spotify_name": "Johnny Duncan & His Blue Grass Boys",
+      "spotify_name": "Johnny Duncan & His Blues Grass Boys",
+      "spotify_id": "0uE9N7exed1DH7Iur6Wqmj"
+    },
+    {
+      "band": "Johnny Duncan & His Blue Grass Boys [51fGBL33bwLm8Qw3t1PI1y]",
+      "expected_spotify_name": "Johnny Duncan & His Blue Grass Boys",
+      "spotify_name": "Johnny Duncan & The Blue Grass Boys",
+      "spotify_id": "5fEbMt6fvVtVp9RGkNWU5k"
+    },
+    {
+      "band": "Johnny Duncan & His Blue Grass Boys [5z7Ol0jqkbDTG7fOh5Hjnl]",
+      "expected_spotify_name": "Johnny Duncan & His Blue Grass Boys",
+      "spotify_name": "Johnny Duncan And His Blue Grass Boys",
+      "spotify_id": "5z7Ol0jqkbDTG7fOh5Hjnl"
+    },
+    {
+      "band": "Jon and Vangelis [5gS1uXayWA0WJPgcRqNIae]",
+      "expected_spotify_name": "Jon and Vangelis",
+      "spotify_name": "Jon & Vangelis",
+      "spotify_id": "5gS1uXayWA0WJPgcRqNIae"
+    },
+    {
+      "band": "Katrina and the Waves [2TzHIUhVpeeDxyJPpQfnV3]",
+      "expected_spotify_name": "Katrina and the Waves",
+      "spotify_name": "Katrina & The Waves",
+      "spotify_id": "2TzHIUhVpeeDxyJPpQfnV3"
+    },
+    {
+      "band": "Ken Thorne and His Orchestra [6YtWlG6oVua9wGMOverSb6]",
+      "expected_spotify_name": "Ken Thorne and His Orchestra",
+      "spotify_name": "Ken Thorne & His Orchestra",
+      "spotify_id": "6YtWlG6oVua9wGMOverSb6"
+    },
+    {
+      "band": "Kenny Ball and his Jazzmen [1gv1pJZUv6mZIaYRezXE3C]",
+      "expected_spotify_name": "Kenny Ball and his Jazzmen",
+      "spotify_name": "Kenny Ball & His Jazzmen",
+      "spotify_id": "1gv1pJZUv6mZIaYRezXE3C"
+    },
+    {
+      "band": "Kidz Bop [1Vvvx45Apu6dQqwuZQxtgW]",
+      "expected_spotify_name": "Kidz Bop",
+      "spotify_name": "Kidz Bop Kids",
+      "spotify_id": "1Vvvx45Apu6dQqwuZQxtgW"
+    },
+    {
+      "band": "Krept and Konan [31lnFZEM6ysvjOx59VyxRE]",
+      "expected_spotify_name": "Krept and Konan",
+      "spotify_name": "Krept & Konan",
+      "spotify_id": "31lnFZEM6ysvjOx59VyxRE"
+    },
+    {
+      "band": "Lori and the Chameleons [4QNBiRyzuAciXXVaADsERW]",
+      "expected_spotify_name": "Lori and the Chameleons",
+      "spotify_name": "Lori & the Chameleons",
+      "spotify_id": "4QNBiRyzuAciXXVaADsERW"
+    },
+    {
+      "band": "MONOMOR\u271eE [6lJoF3c7vHq5UWPioh5J7Y]",
+      "expected_spotify_name": "MONOMOR\u271eE",
+      "spotify_name": "Monomorte",
+      "spotify_id": "6lJoF3c7vHq5UWPioh5J7Y"
+    },
+    {
+      "band": "Mantovani and His Orchestra [0BgLFVyrGmeEKG9wnwcJ8I]",
+      "expected_spotify_name": "Mantovani and His Orchestra",
+      "spotify_name": "Mantovani et son orchestre",
+      "spotify_id": "0BgLFVyrGmeEKG9wnwcJ8I"
+    },
+    {
+      "band": "Mantovani and His Orchestra [4zBSlKX0hLrCJ60FSBvAnA]",
+      "expected_spotify_name": "Mantovani and His Orchestra",
+      "spotify_name": "Mantovani & His Orchestra",
+      "spotify_id": "2rLU4m2pwsiQgUVT5d2FyB"
+    },
+    {
+      "band": "Mantovani and His Orchestra [6Rf6LvLjLWxrDtANvp9XRM]",
+      "expected_spotify_name": "Mantovani and His Orchestra",
+      "spotify_name": "Mantovani & His Orchestra",
+      "spotify_id": "2rLU4m2pwsiQgUVT5d2FyB"
+    },
+    {
+      "band": "McAlmont and Butler [0BV7lpkyFTbzzML7DuUnpZ]",
+      "expected_spotify_name": "McAlmont and Butler",
+      "spotify_name": "McAlmont & Butler",
+      "spotify_id": "0BV7lpkyFTbzzML7DuUnpZ"
+    },
+    {
+      "band": "Mike and the Mechanics [2yTUYhIf8fxptTIy3KLuJD]",
+      "expected_spotify_name": "Mike and the Mechanics",
+      "spotify_name": "Mike + The Mechanics",
+      "spotify_id": "2yTUYhIf8fxptTIy3KLuJD"
+    },
+    {
+      "band": "My Dying Bride [3G7qoMSLvu9Pmb0xGtf9fl]",
+      "expected_spotify_name": "My Dying Bride",
+      "spotify_name": "Bride",
+      "spotify_id": "3G7qoMSLvu9Pmb0xGtf9fl"
+    },
+    {
+      "band": "Orchestra of Opera North [6htLW4cmfIEmagbDeATZ4H]",
+      "expected_spotify_name": "Orchestra of Opera North",
+      "spotify_name": "The Orchestra Of Opera North",
+      "spotify_id": "3B8tWVgvp7Mjnu1rBTQdpu"
+    },
+    {
+      "band": "PORTNOY [66AOyvBgo5lbjIJYmfduBY]",
+      "expected_spotify_name": "PORTNOY",
+      "spotify_name": "The Portnoy Brothers",
+      "spotify_id": "66AOyvBgo5lbjIJYmfduBY"
+    },
+    {
+      "band": "Pearl Carr & Teddy Johnson [2lGZAV0NYAVKlas6vkwNo6]",
+      "expected_spotify_name": "Pearl Carr & Teddy Johnson",
+      "spotify_name": "Teddy Johnson, Pearl Carr",
+      "spotify_id": "2lGZAV0NYAVKlas6vkwNo6"
+    },
+    {
+      "band": "Push Baby [0kkxsdcaWmWU2yWAqclDh4]",
+      "expected_spotify_name": "Push Baby",
+      "spotify_name": "Rixton",
+      "spotify_id": "0kkxsdcaWmWU2yWAqclDh4"
+    },
+    {
+      "band": "Q1024747 [2kS4yz85MaZlxp2VaS3BEe]",
+      "expected_spotify_name": "Q1024747",
+      "spotify_name": "Cabaret Voltaire",
+      "spotify_id": "2kS4yz85MaZlxp2VaS3BEe"
+    },
+    {
+      "band": "Q110473058 [7ei7gHUG6rrXBAx3rzcewF]",
+      "expected_spotify_name": "Q110473058",
+      "spotify_name": "Headrillaz",
+      "spotify_id": "7ei7gHUG6rrXBAx3rzcewF"
+    },
+    {
+      "band": "Q113361759 [2UyOnfaE8nWXKPwYQyp2La]",
+      "expected_spotify_name": "Q113361759",
+      "spotify_name": "Goreshit",
+      "spotify_id": "2UyOnfaE8nWXKPwYQyp2La"
+    },
+    {
+      "band": "Q122765662 [1stGFX6w6VMHQPDPlBqX74]",
+      "expected_spotify_name": "Q122765662",
+      "spotify_name": "Sons of Raphael",
+      "spotify_id": "1stGFX6w6VMHQPDPlBqX74"
+    },
+    {
+      "band": "Q128482668 [6ydvoGN30eRfE78bjTANF7]",
+      "expected_spotify_name": "Q128482668",
+      "spotify_name": "Sad Night Dynamite",
+      "spotify_id": "6ydvoGN30eRfE78bjTANF7"
+    },
+    {
+      "band": "Q131406514 [0wTfMphWYgAHdaXricLywe]",
+      "expected_spotify_name": "Q131406514",
+      "spotify_name": "Melin Melyn",
+      "spotify_id": "0wTfMphWYgAHdaXricLywe"
+    },
+    {
+      "band": "Q131406600 [48US3n5ecZ1TS4RjzsdWrm]",
+      "expected_spotify_name": "Q131406600",
+      "spotify_name": "Baba Ali",
+      "spotify_id": "48US3n5ecZ1TS4RjzsdWrm"
+    },
+    {
+      "band": "Q131406831 [2qf9rIU7fNJBZvqptGu863]",
+      "expected_spotify_name": "Q131406831",
+      "spotify_name": "Slate",
+      "spotify_id": "2qf9rIU7fNJBZvqptGu863"
+    },
+    {
+      "band": "Q131406849 [36Ar4uCS5iNCgQLMFrWKyA]",
+      "expected_spotify_name": "Q131406849",
+      "spotify_name": "Dog Race",
+      "spotify_id": "36Ar4uCS5iNCgQLMFrWKyA"
+    },
+    {
+      "band": "Q131406896 [0lqPfG8vAR30UX3cWDbCEn]",
+      "expected_spotify_name": "Q131406896",
+      "spotify_name": "Friedberg",
+      "spotify_id": "0lqPfG8vAR30UX3cWDbCEn"
+    },
+    {
+      "band": "Q131406954 [7L0uKOuMgMCLXHW9RnyB8n]",
+      "expected_spotify_name": "Q131406954",
+      "spotify_name": "Home Counties",
+      "spotify_id": "7L0uKOuMgMCLXHW9RnyB8n"
+    },
+    {
+      "band": "Q136682676 [2LikjKVyI5gqANlB9S7DNW]",
+      "expected_spotify_name": "Q136682676",
+      "spotify_name": "Ebbb",
+      "spotify_id": "2LikjKVyI5gqANlB9S7DNW"
+    },
+    {
+      "band": "Q138610794 [5bkDZbI6xjaQZEhm3tq50G]",
+      "expected_spotify_name": "Q138610794",
+      "spotify_name": "Even Vast",
+      "spotify_id": "5bkDZbI6xjaQZEhm3tq50G"
+    },
+    {
+      "band": "Q1969654 [6EQn1KgYQxe0bcheogqRTB]",
+      "expected_spotify_name": "Q1969654",
+      "spotify_name": "Wax",
+      "spotify_id": "6EQn1KgYQxe0bcheogqRTB"
+    },
+    {
+      "band": "Q247237 [6WH1V41LwGDGmlPUhSZLHO]",
+      "expected_spotify_name": "Q247237",
+      "spotify_name": "Autechre",
+      "spotify_id": "6WH1V41LwGDGmlPUhSZLHO"
+    },
+    {
+      "band": "Q334648 [3fhOTtm0LBJ3Ojn4hIljLo]",
+      "expected_spotify_name": "Q334648",
+      "spotify_name": "Roxy Music",
+      "spotify_id": "3fhOTtm0LBJ3Ojn4hIljLo"
+    },
+    {
+      "band": "Q3989799 [1luY92PbdGWRyBRY1ZR7o1]",
+      "expected_spotify_name": "Q3989799",
+      "spotify_name": "The Unthanks",
+      "spotify_id": "1luY92PbdGWRyBRY1ZR7o1"
+    },
+    {
+      "band": "Q606250 [5BKsn7SCN2XmbF7apdCpRS]",
+      "expected_spotify_name": "Q606250",
+      "spotify_name": "Goldfrapp",
+      "spotify_id": "5BKsn7SCN2XmbF7apdCpRS"
+    },
+    {
+      "band": "Q62754522 [0lIKeApI76hhaAI78Jy6tt]",
+      "expected_spotify_name": "Q62754522",
+      "spotify_name": "Vodun",
+      "spotify_id": "0lIKeApI76hhaAI78Jy6tt"
+    },
+    {
+      "band": "Radha Krishna Temple [1Xmb4eOkppkbRB0IbtCahx]",
+      "expected_spotify_name": "Radha Krishna Temple",
+      "spotify_name": "The Radha Krsna Temple (London)",
+      "spotify_id": "1Xmb4eOkppkbRB0IbtCahx"
+    },
+    {
+      "band": "Ray Noble and his New Mayfair Orchestra [3q8UyfiNHSaevyESQfiXcC]",
+      "expected_spotify_name": "Ray Noble and his New Mayfair Orchestra",
+      "spotify_name": "Ray Noble & His New Mayfair Orchestra",
+      "spotify_id": "3q8UyfiNHSaevyESQfiXcC"
+    },
+    {
+      "band": "Ray Noble and his New Mayfair Orchestra [6hIM5RfcLHo5DQPLXoah4O]",
+      "expected_spotify_name": "Ray Noble and his New Mayfair Orchestra",
+      "spotify_name": "Ray Noble & His New Mayfair Dance Orchestra",
+      "spotify_id": "6hIM5RfcLHo5DQPLXoah4O"
+    },
+    {
+      "band": "Ray Noble and his New Mayfair Orchestra [7LDJ8q6yB9HkoaAcFrR4oJ]",
+      "expected_spotify_name": "Ray Noble and his New Mayfair Orchestra",
+      "spotify_name": "Ray Noble And His New Mayfair Dance Orchestra",
+      "spotify_id": "7LDJ8q6yB9HkoaAcFrR4oJ"
+    },
+    {
+      "band": "Renaldo and the Loaf [3CtpGjVnInfWi1lhtwVNKe]",
+      "expected_spotify_name": "Renaldo and the Loaf",
+      "spotify_name": "Renaldo & The Loaf",
+      "spotify_id": "3CtpGjVnInfWi1lhtwVNKe"
+    },
+    {
+      "band": "Reprazent [0QJsUBH0PcoT2fYI1F1Oee]",
+      "expected_spotify_name": "Reprazent",
+      "spotify_name": "Roni Size Reprazent",
+      "spotify_id": "0QJsUBH0PcoT2fYI1F1Oee"
+    },
+    {
+      "band": "Ringo Starr & His All-Starr Band [04c8HWgSRMuumWb5dB4qUv]",
+      "expected_spotify_name": "Ringo Starr & His All-Starr Band",
+      "spotify_name": "All Starr Band",
+      "spotify_id": "04c8HWgSRMuumWb5dB4qUv"
+    },
+    {
+      "band": "Robyn Hitchcock and the Egyptians [3B1VQErUlM3ZZ6d1EwYd2K]",
+      "expected_spotify_name": "Robyn Hitchcock and the Egyptians",
+      "spotify_name": "Robyn Hitchcock & The Egyptians",
+      "spotify_id": "3B1VQErUlM3ZZ6d1EwYd2K"
+    },
+    {
+      "band": "Ronnie Lane & Slim Chance [0FeRRV0qp3hjqfOfIDez1m]",
+      "expected_spotify_name": "Ronnie Lane & Slim Chance",
+      "spotify_name": "Ronnie Lane's Slim Chance",
+      "spotify_id": "0FeRRV0qp3hjqfOfIDez1m"
+    },
+    {
+      "band": "Royal Artillery Band [6ywF05BCgffJxWo3G9D4TU]",
+      "expected_spotify_name": "Royal Artillery Band",
+      "spotify_name": "Band Of The Royal Artillery",
+      "spotify_id": "6ywF05BCgffJxWo3G9D4TU"
+    },
+    {
+      "band": "Royal Liverpool Philharmonic [6I6fmQU7HGrUsCm4B5Nlk3]",
+      "expected_spotify_name": "Royal Liverpool Philharmonic",
+      "spotify_name": "Royal Liverpool Philharmonic Orchestra",
+      "spotify_id": "6I6fmQU7HGrUsCm4B5Nlk3"
+    },
+    {
+      "band": "Ruthless Rap Assassins [0uRaAtYiCD9teuQCmMdAEM]",
+      "expected_spotify_name": "Ruthless Rap Assassins",
+      "spotify_name": "The Ruthless Rap Assassins",
+      "spotify_id": "0uRaAtYiCD9teuQCmMdAEM"
+    },
+    {
+      "band": "S Club 7 [1kM5rgJvkiDMOoKX56H6pX]",
+      "expected_spotify_name": "S Club 7",
+      "spotify_name": "S Club",
+      "spotify_id": "0HNGrIbq1ZNO2mTp3tMW4L"
+    },
+    {
+      "band": "Short Sharp Shock [3hfuvckgGeasNXxjUFQe5r]",
+      "expected_spotify_name": "Short Sharp Shock",
+      "spotify_name": "SSS",
+      "spotify_id": "3hfuvckgGeasNXxjUFQe5r"
+    },
+    {
+      "band": "Southern Death Cult [6GERoHMM4dUkN8Edm5mXXJ]",
+      "expected_spotify_name": "Southern Death Cult",
+      "spotify_name": "The Southern Death Cult",
+      "spotify_id": "6GERoHMM4dUkN8Edm5mXXJ"
+    },
+    {
+      "band": "Specimen [2LtOe1RnCTkp4sEBwS668Z]",
+      "expected_spotify_name": "Specimen",
+      "spotify_name": "The Specimen",
+      "spotify_id": "2LtOe1RnCTkp4sEBwS668Z"
+    },
+    {
+      "band": "Spiers and Boden [71Ulu4qwOfb5ks2kMTJhkc]",
+      "expected_spotify_name": "Spiers and Boden",
+      "spotify_name": "Spiers & Boden",
+      "spotify_id": "71Ulu4qwOfb5ks2kMTJhkc"
+    },
+    {
+      "band": "Sunny Day Sets Fire [5uWyRMu3xG65Pdq2AyHQ2Z]",
+      "expected_spotify_name": "Sunny Day Sets Fire",
+      "spotify_name": "Sunny Days Sets Fire",
+      "spotify_id": "5uWyRMu3xG65Pdq2AyHQ2Z"
+    },
+    {
+      "band": "The Beat [1eVEVL20zNLcGrPDOR691N]",
+      "expected_spotify_name": "The Beat",
+      "spotify_name": "The English Beat",
+      "spotify_id": "1eVEVL20zNLcGrPDOR691N"
+    },
+    {
+      "band": "The Hall\u00e9 [0VzwesVsEMjYDaMrrdukam]",
+      "expected_spotify_name": "The Hall\u00e9",
+      "spotify_name": "Hall\u00e9",
+      "spotify_id": "0VzwesVsEMjYDaMrrdukam"
+    },
+    {
+      "band": "The John Barry Seven [4vzILq98l9gZRA9K2SdaTE]",
+      "expected_spotify_name": "The John Barry Seven",
+      "spotify_name": "John Barry Seven",
+      "spotify_id": "4vzILq98l9gZRA9K2SdaTE"
+    },
+    {
+      "band": "The John Barry Seven [6O9cIK0qYDPFnJlokZYJ7E]",
+      "expected_spotify_name": "The John Barry Seven",
+      "spotify_name": "John Barry Seven",
+      "spotify_id": "4vzILq98l9gZRA9K2SdaTE"
+    },
+    {
+      "band": "The John Barry Seven [6muP1JE9xPgdVME6p9YXud]",
+      "expected_spotify_name": "The John Barry Seven",
+      "spotify_name": "John Barry Seven & Orchestra",
+      "spotify_id": "2VtgYTJZonFeO3mBWFkKsZ"
+    },
+    {
+      "band": "The John Barry Seven [7na85rPu9SP3GlFpy4JJKk]",
+      "expected_spotify_name": "The John Barry Seven",
+      "spotify_name": "John Barry Seven",
+      "spotify_id": "4vzILq98l9gZRA9K2SdaTE"
+    },
+    {
+      "band": "The KLF [623YeFh2bNivR5ZxQcsjjP]",
+      "expected_spotify_name": "The KLF",
+      "spotify_name": "The Justified Ancients of Mu Mu",
+      "spotify_id": "623YeFh2bNivR5ZxQcsjjP"
+    },
+    {
+      "band": "The London Session Orchestra [1tZ9833Gqbgv7ycIrPxsLm]",
+      "expected_spotify_name": "The London Session Orchestra",
+      "spotify_name": "London Session Orchestra",
+      "spotify_id": "1tZ9833Gqbgv7ycIrPxsLm"
+    },
+    {
+      "band": "The Lords of the New Church [5JEhWD9S2znCiQRiGj2OUk]",
+      "expected_spotify_name": "The Lords of the New Church",
+      "spotify_name": "Lords Of The New Church",
+      "spotify_id": "5JEhWD9S2znCiQRiGj2OUk"
+    },
+    {
+      "band": "The Maccabees [7if0ctjVhSCvyIDmTmbriv]",
+      "expected_spotify_name": "The Maccabees",
+      "spotify_name": "Maccabees",
+      "spotify_id": "7if0ctjVhSCvyIDmTmbriv"
+    },
+    {
+      "band": "The Marmalade [1tttI1iC4FsS6BM5l38oe5]",
+      "expected_spotify_name": "The Marmalade",
+      "spotify_name": "Marmalade",
+      "spotify_id": "1tttI1iC4FsS6BM5l38oe5"
+    },
+    {
+      "band": "The Mekons [1Ag6UM6dow2OH9V06mxzV5]",
+      "expected_spotify_name": "The Mekons",
+      "spotify_name": "Mekons",
+      "spotify_id": "1Ag6UM6dow2OH9V06mxzV5"
+    },
+    {
+      "band": "The Pretenders [0GByy3DcfbQwDvXGCWmzv9]",
+      "expected_spotify_name": "The Pretenders",
+      "spotify_name": "Pretenders",
+      "spotify_id": "0GByy3DcfbQwDvXGCWmzv9"
+    },
+    {
+      "band": "The Sisters of Mercy [4HxBVyHaUa60eCSsJWxwWR]",
+      "expected_spotify_name": "The Sisters of Mercy",
+      "spotify_name": "Sisters of Mercy",
+      "spotify_id": "4HxBVyHaUa60eCSsJWxwWR"
+    },
+    {
+      "band": "The Step Music [1nZk8EEonvTctn11yGozzp]",
+      "expected_spotify_name": "The Step Music",
+      "spotify_name": "The Step",
+      "spotify_id": "1nZk8EEonvTctn11yGozzp"
+    },
+    {
+      "band": "The Sweet [3JaAGmSTpJK35DqWrDUzBz]",
+      "expected_spotify_name": "The Sweet",
+      "spotify_name": "Sweet",
+      "spotify_id": "3JaAGmSTpJK35DqWrDUzBz"
+    },
+    {
+      "band": "The Trash Can Sinatras [0i2IEcWvtHUBYPkYWwCgjC]",
+      "expected_spotify_name": "The Trash Can Sinatras",
+      "spotify_name": "Trashcan Sinatras",
+      "spotify_id": "0i2IEcWvtHUBYPkYWwCgjC"
+    },
+    {
+      "band": "The Trevor Horn Band [27666UzXcYSHcIyIhr2c2G]",
+      "expected_spotify_name": "The Trevor Horn Band",
+      "spotify_name": "Producers",
+      "spotify_id": "27666UzXcYSHcIyIhr2c2G"
+    },
+    {
+      "band": "The Wren Orchestra [6rP0ucEtuRHEe4WVDnNn1v]",
+      "expected_spotify_name": "The Wren Orchestra",
+      "spotify_name": "Wren Orchestra, The",
+      "spotify_id": "6rP0ucEtuRHEe4WVDnNn1v"
+    },
+    {
+      "band": "This Town Needs Guns [5TUa95aB5Vu2CzwCnZd6t0]",
+      "expected_spotify_name": "This Town Needs Guns",
+      "spotify_name": "TTNG",
+      "spotify_id": "5TUa95aB5Vu2CzwCnZd6t0"
+    },
+    {
+      "band": "Toy Dolls [747P2pvOwW22iRcFS9zQDv]",
+      "expected_spotify_name": "Toy Dolls",
+      "spotify_name": "The Toy Dolls",
+      "spotify_id": "747P2pvOwW22iRcFS9zQDv"
+    },
+    {
+      "band": "Two [7GLLaFZGjbDWTdnrg1mNyI]",
+      "expected_spotify_name": "Two",
+      "spotify_name": "2wo",
+      "spotify_id": "7GLLaFZGjbDWTdnrg1mNyI"
+    },
+    {
+      "band": "Vince Taylor and His Playboys [1NnCrPjtSLFHulsEZdLSEg]",
+      "expected_spotify_name": "Vince Taylor and His Playboys",
+      "spotify_name": "Vince Taylor & His Playboys",
+      "spotify_id": "1NnCrPjtSLFHulsEZdLSEg"
+    },
+    {
+      "band": "Wargasm [1NRudBLaT84LXxfsYdFMhB]",
+      "expected_spotify_name": "Wargasm",
+      "spotify_name": "WARGASM (UK)",
+      "spotify_id": "1NRudBLaT84LXxfsYdFMhB"
+    },
+    {
+      "band": "We've Got a Fuzzbox and We're Gonna Use It [6iKe6ON2rZrdXbuuhI3Gat]",
+      "expected_spotify_name": "We've Got a Fuzzbox and We're Gonna Use It",
+      "spotify_name": "Fuzzbox",
+      "spotify_id": "6iKe6ON2rZrdXbuuhI3Gat"
+    },
+    {
+      "band": "Wetton/Downes [6Gm87vMdB5U5J3cDil5Kwl]",
+      "expected_spotify_name": "Wetton/Downes",
+      "spotify_name": "Icon",
+      "spotify_id": "6Gm87vMdB5U5J3cDil5Kwl"
+    },
+    {
+      "band": "Years & Years [5vBSrE1xujD2FXYRarbAXc]",
+      "expected_spotify_name": "Years & Years",
+      "spotify_name": "Olly Alexander (Years & Years)",
+      "spotify_id": "5vBSrE1xujD2FXYRarbAXc"
+    },
+    {
+      "band": "Zodiac Mindwarp and the Love Reaction [1uciIo6exHGUwpVzpaABXz]",
+      "expected_spotify_name": "Zodiac Mindwarp and the Love Reaction",
+      "spotify_name": "Zodiac Mindwarp & The Love Reaction",
+      "spotify_id": "1uciIo6exHGUwpVzpaABXz"
+    }
+  ],
+  "complete": false,
+  "raw_path": "data/raw/spotify/uk_group_spotify_metrics_20260718T204522Z.json.gz",
+  "metrics_path": "data/processed/uk_group_spotify_metrics_20260718T204522Z.csv",
+  "canonical_files_modified": false
+}

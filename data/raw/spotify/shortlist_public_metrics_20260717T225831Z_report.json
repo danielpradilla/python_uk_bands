@@ -1,0 +1,17 @@
+{
+  "attempted_at_utc": "2026-07-17T22:58:50.858053+00:00",
+  "expected_rows": 50,
+  "metric_rows": 49,
+  "metric_failures": [
+    {
+      "band": "Dog Is Dead",
+      "spotify_id": "5hgMNzChyFC8E9S4djhgM3",
+      "error": "Public Spotify page has no exact monthly-listener count"
+    }
+  ],
+  "missing_followers": [],
+  "identity_review": [],
+  "candidate_ready": false,
+  "published_metrics_path": "data/processed/shortlist_spotify_metrics.json",
+  "published_metrics_modified": false
+}

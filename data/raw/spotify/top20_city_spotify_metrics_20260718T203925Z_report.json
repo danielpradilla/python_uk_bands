@@ -1,0 +1,21 @@
+{
+  "captured_at_utc": "2026-07-18T20:39:25.395063+00:00",
+  "input_path": "data/interim/top20_city_band_catalog_20260718T203922Z.csv",
+  "input_rows": 200,
+  "resolved_identifier_rows": 200,
+  "metrics_rows": 200,
+  "search_failures": [],
+  "metric_failures": [],
+  "name_review": [
+    {
+      "band": "TTNG",
+      "expected_spotify_name": "This Town Needs Guns",
+      "spotify_name": "TTNG",
+      "spotify_id": "5TUa95aB5Vu2CzwCnZd6t0"
+    }
+  ],
+  "complete": false,
+  "raw_path": "data/raw/spotify/top20_city_spotify_metrics_20260718T203925Z.json.gz",
+  "metrics_path": "data/processed/top20_city_spotify_metrics_20260718T203925Z.csv",
+  "canonical_files_modified": false
+}

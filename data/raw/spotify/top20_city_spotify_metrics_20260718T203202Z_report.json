@@ -1,0 +1,249 @@
+{
+  "captured_at_utc": "2026-07-18T20:32:02.514701+00:00",
+  "input_path": "data/interim/top20_city_band_catalog_20260718T203156Z.csv",
+  "input_rows": 200,
+  "resolved_identifier_rows": 187,
+  "metrics_rows": 187,
+  "search_failures": [
+    {
+      "band": "Prolapse",
+      "error": "no_unique_exact_name_result",
+      "exact_candidates": [
+        {
+          "spotify_id": "2fXWTI5Hz7wg05oRqDLBwg",
+          "spotify_name": "Prolapse",
+          "spotify_uri": "spotify:artist:2fXWTI5Hz7wg05oRqDLBwg"
+        },
+        {
+          "spotify_id": "72MtVCjypjC58rHLayz8V1",
+          "spotify_name": "Prolapse",
+          "spotify_uri": "spotify:artist:72MtVCjypjC58rHLayz8V1"
+        }
+      ]
+    },
+    {
+      "band": "hard life",
+      "error": "no_unique_exact_name_result",
+      "exact_candidates": [
+        {
+          "spotify_id": "7uwY65fDg3FVJ8MkJ5QuZK",
+          "spotify_name": "hard life",
+          "spotify_uri": "spotify:artist:7uwY65fDg3FVJ8MkJ5QuZK"
+        },
+        {
+          "spotify_id": "5tVJF4RFdBQeGiEKrFi9dX",
+          "spotify_name": "Hard Life",
+          "spotify_uri": "spotify:artist:5tVJF4RFdBQeGiEKrFi9dX"
+        },
+        {
+          "spotify_id": "2WM9I5u4jbcwiY3q6j6aHk",
+          "spotify_name": "Hard Life",
+          "spotify_uri": "spotify:artist:2WM9I5u4jbcwiY3q6j6aHk"
+        },
+        {
+          "spotify_id": "5eS9q8tfH8HXqgA2KpKNrR",
+          "spotify_name": "Hard Life",
+          "spotify_uri": "spotify:artist:5eS9q8tfH8HXqgA2KpKNrR"
+        }
+      ]
+    },
+    {
+      "band": "The Fire Engines",
+      "error": "no_unique_exact_name_result",
+      "exact_candidates": []
+    },
+    {
+      "band": "Rudi",
+      "error": "no_unique_exact_name_result",
+      "exact_candidates": []
+    },
+    {
+      "band": "The Outcasts",
+      "error": "no_unique_exact_name_result",
+      "exact_candidates": [
+        {
+          "spotify_id": "4DDiFKfkmzRaZEakCn1gjO",
+          "spotify_name": "The Outcasts",
+          "spotify_uri": "spotify:artist:4DDiFKfkmzRaZEakCn1gjO"
+        },
+        {
+          "spotify_id": "5r3Xn4cJgzsaqfgCLTjX5C",
+          "spotify_name": "The Outcasts",
+          "spotify_uri": "spotify:artist:5r3Xn4cJgzsaqfgCLTjX5C"
+        },
+        {
+          "spotify_id": "5VhAigY4pVqlf57Z1xVLsE",
+          "spotify_name": "The Outcasts",
+          "spotify_uri": "spotify:artist:5VhAigY4pVqlf57Z1xVLsE"
+        }
+      ]
+    },
+    {
+      "band": "Adorable",
+      "error": "no_unique_exact_name_result",
+      "exact_candidates": [
+        {
+          "spotify_id": "6xKL0fuDG1P7nivQtPY2fv",
+          "spotify_name": "Adorable",
+          "spotify_uri": "spotify:artist:6xKL0fuDG1P7nivQtPY2fv"
+        },
+        {
+          "spotify_id": "19TnJfIy1ZGVFwCf5tZESQ",
+          "spotify_name": "Adorable",
+          "spotify_uri": "spotify:artist:19TnJfIy1ZGVFwCf5tZESQ"
+        },
+        {
+          "spotify_id": "34ms7r73jDOqrvk2hNeGSN",
+          "spotify_name": "Adorable",
+          "spotify_uri": "spotify:artist:34ms7r73jDOqrvk2hNeGSN"
+        },
+        {
+          "spotify_id": "7Kla4aAyXEMxYu7mZmLpqI",
+          "spotify_name": "Adorable",
+          "spotify_uri": "spotify:artist:7Kla4aAyXEMxYu7mZmLpqI"
+        },
+        {
+          "spotify_id": "1eXbZVLFgrIjgEmDtgCmgM",
+          "spotify_name": "Adorable",
+          "spotify_uri": "spotify:artist:1eXbZVLFgrIjgEmDtgCmgM"
+        }
+      ]
+    },
+    {
+      "band": "King",
+      "error": "no_unique_exact_name_result",
+      "exact_candidates": []
+    },
+    {
+      "band": "The Candyskins",
+      "error": "no_unique_exact_name_result",
+      "exact_candidates": [
+        {
+          "spotify_id": "4o0ptlsLWeQDDMutHwPA20",
+          "spotify_name": "The Candyskins",
+          "spotify_uri": "spotify:artist:4o0ptlsLWeQDDMutHwPA20"
+        },
+        {
+          "spotify_id": "2ziBT5KLkq792ntDr06JxV",
+          "spotify_name": "The Candy Skins",
+          "spotify_uri": "spotify:artist:2ziBT5KLkq792ntDr06JxV"
+        }
+      ]
+    },
+    {
+      "band": "Benefits",
+      "error": "no_unique_exact_name_result",
+      "exact_candidates": [
+        {
+          "spotify_id": "5nrO8X72nFeyu3sqYIkskQ",
+          "spotify_name": "Benefits",
+          "spotify_uri": "spotify:artist:5nrO8X72nFeyu3sqYIkskQ"
+        },
+        {
+          "spotify_id": "4dMPl1WLhgLUSgpEbjMguR",
+          "spotify_name": "Benefits",
+          "spotify_uri": "spotify:artist:4dMPl1WLhgLUSgpEbjMguR"
+        }
+      ]
+    },
+    {
+      "band": "Shrug",
+      "error": "no_unique_exact_name_result",
+      "exact_candidates": [
+        {
+          "spotify_id": "7sgMOdAMTw2sC2Dv5GEbqA",
+          "spotify_name": "Shrug",
+          "spotify_uri": "spotify:artist:7sgMOdAMTw2sC2Dv5GEbqA"
+        },
+        {
+          "spotify_id": "6hWxMWmvCKGxQDKphmcPMr",
+          "spotify_name": "Shrug",
+          "spotify_uri": "spotify:artist:6hWxMWmvCKGxQDKphmcPMr"
+        },
+        {
+          "spotify_id": "14LwXBOjcr1sldwcskisXj",
+          "spotify_name": "Shrug",
+          "spotify_uri": "spotify:artist:14LwXBOjcr1sldwcskisXj"
+        },
+        {
+          "spotify_id": "6QH1h0xJvow0MOeeCsUekW",
+          "spotify_name": "Shrug",
+          "spotify_uri": "spotify:artist:6QH1h0xJvow0MOeeCsUekW"
+        },
+        {
+          "spotify_id": "7j9ZLYmEJVyo5WDdCeE7fH",
+          "spotify_name": "Shrug",
+          "spotify_uri": "spotify:artist:7j9ZLYmEJVyo5WDdCeE7fH"
+        }
+      ]
+    },
+    {
+      "band": "The Wildcats of Kilkenny",
+      "error": "no_unique_exact_name_result",
+      "exact_candidates": []
+    },
+    {
+      "band": "Ricky",
+      "error": "no_unique_exact_name_result",
+      "exact_candidates": []
+    },
+    {
+      "band": "Torpedoes",
+      "error": "no_unique_exact_name_result",
+      "exact_candidates": [
+        {
+          "spotify_id": "42ad9rTjRD3fhR7gIvDuDj",
+          "spotify_name": "Torpedoes",
+          "spotify_uri": "spotify:artist:42ad9rTjRD3fhR7gIvDuDj"
+        },
+        {
+          "spotify_id": "4FcsN0U4hLd7NVspWc73D1",
+          "spotify_name": "Torpedoes",
+          "spotify_uri": "spotify:artist:4FcsN0U4hLd7NVspWc73D1"
+        }
+      ]
+    }
+  ],
+  "metric_failures": [],
+  "name_review": [
+    {
+      "band": "ELO",
+      "spotify_name": "Electric Light Orchestra",
+      "spotify_id": "7jefIIksOi1EazgRTfW2Pk"
+    },
+    {
+      "band": "The Mekons",
+      "spotify_name": "Mekons",
+      "spotify_id": "1Ag6UM6dow2OH9V06mxzV5"
+    },
+    {
+      "band": "The Mission",
+      "spotify_name": "The Mission UK",
+      "spotify_id": "3DLtpqLMAU6uc0BOJ7JmlM"
+    },
+    {
+      "band": "Gerry and the Pacemakers",
+      "spotify_name": "Gerry & The Pacemakers",
+      "spotify_id": "3UmBeGyNwr4iDWi1vTxWi8"
+    },
+    {
+      "band": "Florence and the Machine",
+      "spotify_name": "Florence + The Machine",
+      "spotify_id": "1moxjboGR7GNWYIMWsRjgG"
+    },
+    {
+      "band": "Max\u00efmo Park",
+      "spotify_name": "Maximo Park",
+      "spotify_id": "048FBwXjFYBWxSggPDipic"
+    },
+    {
+      "band": "Dog Is Dead",
+      "spotify_name": "D.I.D",
+      "spotify_id": "1XwRhEHqiCVgiEJQk66fyy"
+    }
+  ],
+  "complete": false,
+  "raw_path": "data/raw/spotify/top20_city_spotify_metrics_20260718T203202Z.json.gz",
+  "metrics_path": "data/processed/top20_city_spotify_metrics_20260718T203202Z.csv",
+  "canonical_files_modified": false
+}

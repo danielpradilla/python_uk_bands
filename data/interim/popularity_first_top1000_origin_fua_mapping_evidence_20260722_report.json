@@ -1,0 +1,27 @@
+{
+  "selected_bands": 1000,
+  "origin_clusters": 218,
+  "resolved_origin_bands": 734,
+  "mapped_bands": 660,
+  "mapped_band_share": 0.66,
+  "mapped_monthly_listener_share": 0.9051998963815953,
+  "mapped_follower_share": 0.9240917040546053,
+  "mapping_tier_counts": {
+    "strict": 153,
+    "excluded_no_defensible_fua": 57,
+    "excluded_non_uk": 5,
+    "reviewed_extended": 2,
+    "excluded_missing_population": 1
+  },
+  "inputs": {
+    "bands": "data/processed/popularity_first_top1000_20260718T204522Z_bands.csv",
+    "population": "data/processed/uk_fua_population_2021_20260718T201304Z.csv",
+    "municipalities": "data/raw/geography/oecd_uk_fua_municipality_crosswalk_20260722.csv",
+    "entities": "data/raw/wikidata/popularity_first_top1000_origin_admin_20260722.json",
+    "legacy_mapping": "reference/popularity_first_top200_origin_fua_mapping_20260718.csv"
+  },
+  "outputs": {
+    "mapping": "reference/popularity_first_top1000_origin_fua_mapping_20260718.csv",
+    "evidence": "data/interim/popularity_first_top1000_origin_fua_mapping_evidence_20260722.csv"
+  }
+}

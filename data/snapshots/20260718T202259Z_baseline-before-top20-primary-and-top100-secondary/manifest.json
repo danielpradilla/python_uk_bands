@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-07-18T20:22:59.946046+00:00",
+  "label": "baseline-before-top20-primary-and-top100-secondary",
+  "project_root": "/Users/dpradilla/dev/uk-music-cities",
+  "files": [
+    {
+      "path": "notebooks/final/uk_bands_punching_above_weight.ipynb",
+      "sha256": "bcfea250826692bcd935a62ae89d8d99121119f1358d4d2321285c2ca18fd859",
+      "size_bytes": 393881
+    },
+    {
+      "path": "notebooks/experiments/uk_bands_scene_depth_10_per_city.ipynb",
+      "sha256": "7c844570b58a55f160316e9a220d8ac2cbff1cca8e8e009ed484bb61d5fbcdc0",
+      "size_bytes": 247413
+    },
+    {
+      "path": "reference/scene_depth_bands.csv",
+      "sha256": "8754dfc07510231696bb3c0d7f51af00953656d2aa01ba1011730d9bb77bce0b",
+      "size_bytes": 18075
+    },
+    {
+      "path": "reference/built_up_areas.csv",
+      "sha256": "62c652b5418644c00e94d3deb0bce8e2898e4f25dce6c2e6544b82dbeac72da9",
+      "size_bytes": 617
+    },
+    {
+      "path": "reference/uk_fua_top20_2021.csv",
+      "sha256": "78f9cb40f5b82ea4e3c8060f23a41b59963e592e2be15fd5c0559df78bd34b84",
+      "size_bytes": 6012
+    },
+    {
+      "path": "reference/top20_city_band_additions.csv",
+      "sha256": "c9cc9caf23cb4ce1406ac346d1b6f3eea2ed3f3754a7174756fb47e86b13797c",
+      "size_bytes": 9182
+    }
+  ]
+}

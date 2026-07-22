@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-07-18T20:11:48.032445+00:00",
+  "label": "before-top20-and-top100-studies",
+  "project_root": "/Users/dpradilla/dev/uk-music-cities",
+  "files": [
+    {
+      "path": "data/processed/shortlist_spotify_metrics.json",
+      "sha256": "f658318c76d95ea85753396022850f32e61fc09e33a1dc743a66a52a11640288",
+      "size_bytes": 16287
+    },
+    {
+      "path": "reference/original_shortlist.csv",
+      "sha256": "f13da349b3e29b0533def6d856332056e1cc532e6d407e6b28e65da062971c47",
+      "size_bytes": 1201
+    },
+    {
+      "path": "reference/built_up_areas.csv",
+      "sha256": "62c652b5418644c00e94d3deb0bce8e2898e4f25dce6c2e6544b82dbeac72da9",
+      "size_bytes": 617
+    },
+    {
+      "path": "reference/reviewed_bands.csv",
+      "sha256": "644690329f693de5bf06d4e173d3c9f74f4d570db8d5b34a1c56f0497e1eed05",
+      "size_bytes": 223
+    },
+    {
+      "path": "reference/spotify_band_ids.json",
+      "sha256": "44dc291ddaa12bb5a9c67ef79c7d256025dfb2bd928b8261e62723193fb355f8",
+      "size_bytes": 10170
+    }
+  ]
+}

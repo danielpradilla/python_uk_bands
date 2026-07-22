@@ -1,0 +1,101 @@
+band_name,original_city_label,musicbrainz_id,origin_confidence,origin_evidence_url,editorial_review_flag,spotify_url,spotify_match_name,selection_source,notes
+The Rolling Stones,London,b071f9fa-14b0-4217-8e97-eb41da73f598,high,https://musicbrainz.org/artist/b071f9fa-14b0-4217-8e97-eb41da73f598,FALSE,,,existing_shortlist,
+The Clash,London,8f92558c-2baa-4758-8c38-615519e9deda,high,https://musicbrainz.org/artist/8f92558c-2baa-4758-8c38-615519e9deda,FALSE,,,existing_shortlist,
+Blur,London,ba853904-ae25-4ebb-89d6-c44cfbd71bd2,high,https://musicbrainz.org/artist/ba853904-ae25-4ebb-89d6-c44cfbd71bd2,FALSE,,,existing_shortlist,
+Coldplay,London,cc197bad-dc9c-440d-a5b5-d52ba2e14234,high,https://musicbrainz.org/artist/cc197bad-dc9c-440d-a5b5-d52ba2e14234,FALSE,,,existing_shortlist,
+Florence and the Machine,London,5fee3020-513b-48c2-b1f7-4681b01db0c6,high,https://musicbrainz.org/artist/5fee3020-513b-48c2-b1f7-4681b01db0c6,FALSE,,Florence + The Machine,existing_shortlist,
+Queen,London,0383dadf-2a4e-4d10-a46a-e9e041da8eb3,high,https://musicbrainz.org/artist/0383dadf-2a4e-4d10-a46a-e9e041da8eb3,FALSE,,,agent_addition,
+Led Zeppelin,London,678d88b2-87b0-403b-b63d-5da7465aecc3,high,https://musicbrainz.org/artist/678d88b2-87b0-403b-b63d-5da7465aecc3,FALSE,,,agent_addition,
+The Who,London,9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa,high,https://musicbrainz.org/artist/9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa,FALSE,,,agent_addition,
+The Kinks,London,17b53d9f-5c63-4a09-a593-dde4608e0db9,high,https://musicbrainz.org/artist/17b53d9f-5c63-4a09-a593-dde4608e0db9,FALSE,,,agent_addition,
+Fleetwood Mac,London,bd13909f-1c29-4c27-a874-d4aaf27c5b1a,high,https://musicbrainz.org/artist/bd13909f-1c29-4c27-a874-d4aaf27c5b1a,FALSE,,,agent_addition,
+Black Sabbath,Birmingham,5182c1d9-c7d2-4dad-afa0-ccfeada921a8,high,https://musicbrainz.org/artist/5182c1d9-c7d2-4dad-afa0-ccfeada921a8,FALSE,,,existing_shortlist,
+ELO,Birmingham,0c502791-4ee9-4c5f-9696-0602b721ff3b,high,https://musicbrainz.org/artist/0c502791-4ee9-4c5f-9696-0602b721ff3b,FALSE,,Electric Light Orchestra,existing_shortlist,
+Duran Duran,Birmingham,1a1cd7f3-e5df-4eca-bae2-2757c9e656b5,high,https://musicbrainz.org/artist/1a1cd7f3-e5df-4eca-bae2-2757c9e656b5,FALSE,,,existing_shortlist,
+UB40,Birmingham,7113aab7-628f-4050-ae49-dbecac110ca8,high,https://musicbrainz.org/artist/7113aab7-628f-4050-ae49-dbecac110ca8,FALSE,,,existing_shortlist,
+Editors,Birmingham,0efe858c-89e5-4e47-906a-356fa953fd6e,medium,https://musicbrainz.org/artist/0efe858c-89e5-4e47-906a-356fa953fd6e,FALSE,,,existing_shortlist,Members formed the early group at university in Stafford and established Editors in Birmingham.
+Judas Priest,Birmingham,6b335658-22c8-485d-93de-0bc29a1d0349,high,https://musicbrainz.org/artist/6b335658-22c8-485d-93de-0bc29a1d0349,FALSE,,,agent_addition,
+The Moody Blues,Birmingham,774666d2-2064-4d6c-856c-f8cda0aaf9f0,high,https://musicbrainz.org/artist/774666d2-2064-4d6c-856c-f8cda0aaf9f0,FALSE,,,agent_addition,
+The Spencer Davis Group,Birmingham,178fdfdf-e02e-4608-9b51-e53471e28a58,high,https://musicbrainz.org/artist/178fdfdf-e02e-4608-9b51-e53471e28a58,FALSE,,,agent_addition,
+Dexys Midnight Runners,Birmingham,ccce2053-7007-4c36-b1e7-f8fcf5023a12,high,https://musicbrainz.org/artist/ccce2053-7007-4c36-b1e7-f8fcf5023a12,FALSE,,,agent_addition,
+Ocean Colour Scene,Birmingham,601d793d-7e96-4bb6-b4a6-712d5c926259,high,https://musicbrainz.org/artist/601d793d-7e96-4bb6-b4a6-712d5c926259,FALSE,,,agent_addition,
+Oasis,Manchester,39ab1aed-75e0-4140-bd47-540276886b60,high,https://musicbrainz.org/artist/39ab1aed-75e0-4140-bd47-540276886b60,FALSE,,,existing_shortlist,
+The Smiths,Manchester,40f5d9e4-2de7-4f2d-ad41-e31a9a9fea27,high,https://musicbrainz.org/artist/40f5d9e4-2de7-4f2d-ad41-e31a9a9fea27,FALSE,,,existing_shortlist,
+New Order,Manchester,f1106b17-dcbb-45f6-b938-199ccfab50cc,medium,https://musicbrainz.org/artist/f1106b17-dcbb-45f6-b938-199ccfab50cc,FALSE,,,existing_shortlist,MusicBrainz gives Salford; included within the Greater Manchester built-up area.
+The Stone Roses,Manchester,b5fa29f1-6c22-4321-a488-b5f363b06b06,high,https://musicbrainz.org/artist/b5fa29f1-6c22-4321-a488-b5f363b06b06,FALSE,,,existing_shortlist,
+The 1975,Manchester,5b6ebfe0-f72b-4902-bba9-74c8af0f1af0,high,https://musicbrainz.org/artist/5b6ebfe0-f72b-4902-bba9-74c8af0f1af0,FALSE,,,existing_shortlist,
+Joy Division,Manchester,9a58fda3-f4ed-4080-a3a5-f457aac9fcdd,medium,https://musicbrainz.org/artist/9a58fda3-f4ed-4080-a3a5-f457aac9fcdd,FALSE,,,agent_addition,MusicBrainz gives Salford; included within the Greater Manchester built-up area.
+The Chemical Brothers,Manchester,1946a82a-f927-40c2-8235-38d64f50d043,high,https://musicbrainz.org/artist/1946a82a-f927-40c2-8235-38d64f50d043,FALSE,,,agent_addition,
+Simply Red,Manchester,a9100753-f539-43cf-bcc9-579566fb512e,high,https://musicbrainz.org/artist/a9100753-f539-43cf-bcc9-579566fb512e,TRUE,,,agent_addition,Formally eligible group; soul-pop editorial review.
+Take That,Manchester,24d2505b-388c-46cc-8a64-48223ea6d78d,high,https://musicbrainz.org/artist/24d2505b-388c-46cc-8a64-48223ea6d78d,TRUE,,,agent_addition,Formally eligible group; pop editorial review.
+Happy Mondays,Manchester,01f4fb92-6bf0-4de5-83dc-3fe194e763bf,medium,https://musicbrainz.org/artist/01f4fb92-6bf0-4de5-83dc-3fe194e763bf,FALSE,https://open.spotify.com/artist/339DNkQkuhHKEcHw6oK8f0,Happy Mondays,agent_addition,MusicBrainz gives Little Hulton; included within the Greater Manchester built-up area.
+Simple Minds,Glasgow,f41490ce-fe39-435d-86c0-ab5ce098b423,high,https://musicbrainz.org/artist/f41490ce-fe39-435d-86c0-ab5ce098b423,FALSE,,,existing_shortlist,
+Primal Scream,Glasgow,55704c38-224f-4b75-b29f-d43653f8bc9a,high,https://musicbrainz.org/artist/55704c38-224f-4b75-b29f-d43653f8bc9a,FALSE,,,existing_shortlist,
+Belle and Sebastian,Glasgow,e5c7b94f-e264-473c-bb0f-37c85d4d5c70,high,https://musicbrainz.org/artist/e5c7b94f-e264-473c-bb0f-37c85d4d5c70,FALSE,,,existing_shortlist,
+Franz Ferdinand,Glasgow,aa7a2827-f74b-473c-bd79-03d065835cf7,high,https://musicbrainz.org/artist/aa7a2827-f74b-473c-bd79-03d065835cf7,FALSE,,,existing_shortlist,
+CHVRCHES,Glasgow,6a93afbb-257f-4166-b389-9f2a1e5c5df8,high,https://musicbrainz.org/artist/6a93afbb-257f-4166-b389-9f2a1e5c5df8,FALSE,,,existing_shortlist,
+Mogwai,Glasgow,d700b3f5-45af-4d02-95ed-57d301bda93e,high,https://musicbrainz.org/artist/d700b3f5-45af-4d02-95ed-57d301bda93e,FALSE,,,agent_addition,
+Texas,Glasgow,7289d10d-d8d2-41ff-8308-c56ec9346e07,high,https://musicbrainz.org/artist/7289d10d-d8d2-41ff-8308-c56ec9346e07,FALSE,,,agent_addition,
+Deacon Blue,Glasgow,1d46cb3a-8071-45ba-855e-74e3cff20974,high,https://musicbrainz.org/artist/1d46cb3a-8071-45ba-855e-74e3cff20974,FALSE,,,agent_addition,
+Del Amitri,Glasgow,5b86617f-e775-4675-b6d3-c4ad95d05409,high,https://musicbrainz.org/artist/5b86617f-e775-4675-b6d3-c4ad95d05409,FALSE,,,agent_addition,
+The Fratellis,Glasgow,f4ad883e-9a92-45ed-a540-a49c2d1c36dd,high,https://musicbrainz.org/artist/f4ad883e-9a92-45ed-a540-a49c2d1c36dd,FALSE,,,agent_addition,
+The Beatles,Liverpool,b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d,high,https://musicbrainz.org/artist/b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d,FALSE,,,existing_shortlist,
+Echo & the Bunnymen,Liverpool,ccd4879c-5e88-4385-b131-bf65296bf245,high,https://musicbrainz.org/artist/ccd4879c-5e88-4385-b131-bf65296bf245,FALSE,,,existing_shortlist,
+Frankie Goes to Hollywood,Liverpool,c09c8263-40ef-4352-8031-e438b1ce68fc,high,https://musicbrainz.org/artist/c09c8263-40ef-4352-8031-e438b1ce68fc,FALSE,,,existing_shortlist,
+The La's,Liverpool,ff3e88b3-7354-4f30-967c-1a61ebc8c642,high,https://musicbrainz.org/artist/ff3e88b3-7354-4f30-967c-1a61ebc8c642,FALSE,,,existing_shortlist,
+The Wombats,Liverpool,e105c272-b5d7-4135-82ef-d60bded54345,high,https://musicbrainz.org/artist/e105c272-b5d7-4135-82ef-d60bded54345,FALSE,,,existing_shortlist,
+Dead or Alive,Liverpool,98720123-fcec-47be-9e88-29a310fb2942,high,https://musicbrainz.org/artist/98720123-fcec-47be-9e88-29a310fb2942,FALSE,,,agent_addition,
+Gerry and the Pacemakers,Liverpool,fe5fb618-2f8b-4158-92b6-464f31672bca,high,https://musicbrainz.org/artist/fe5fb618-2f8b-4158-92b6-464f31672bca,FALSE,,Gerry & The Pacemakers,agent_addition,
+A Flock of Seagulls,Liverpool,aaa436da-b331-4e58-a0fd-3d64d090c120,high,https://musicbrainz.org/artist/aaa436da-b331-4e58-a0fd-3d64d090c120,FALSE,https://open.spotify.com/artist/0uAjBatvB4ubpd4kCfjmNt,A Flock Of Seagulls,agent_addition,
+Atomic Kitten,Liverpool,6fda00c2-449a-4bf4-838f-038d41a07c73,high,https://musicbrainz.org/artist/6fda00c2-449a-4bf4-838f-038d41a07c73,TRUE,,,agent_addition,Formally eligible group; pop editorial review.
+The Lightning Seeds,Liverpool,1ba601a0-3401-4b28-8ddd-9af8203661e8,high,https://musicbrainz.org/artist/1ba601a0-3401-4b28-8ddd-9af8203661e8,TRUE,,,agent_addition,MusicBrainz treats this as a group but it began as Ian Broudie's studio project.
+Kaiser Chiefs,Leeds,90218af4-4d58-4821-8d41-2ee295ebbe21,high,https://musicbrainz.org/artist/90218af4-4d58-4821-8d41-2ee295ebbe21,FALSE,,,existing_shortlist,
+Soft Cell,Leeds,7fb50287-029d-47cc-825a-235ca28024b2,high,https://musicbrainz.org/artist/7fb50287-029d-47cc-825a-235ca28024b2,FALSE,,,existing_shortlist,
+Alt-J,Leeds,fc7bbf00-fbaa-4736-986b-b3ac0266ca9b,high,https://musicbrainz.org/artist/fc7bbf00-fbaa-4736-986b-b3ac0266ca9b,FALSE,,,existing_shortlist,
+Sisters of Mercy,Leeds,553d8166-27b0-49fe-b8e4-89a984e2c375,high,https://musicbrainz.org/artist/553d8166-27b0-49fe-b8e4-89a984e2c375,FALSE,,Sisters of Mercy,existing_shortlist,
+The Wedding Present,Leeds,707622da-475f-48e1-905d-248718df6521,high,https://musicbrainz.org/artist/707622da-475f-48e1-905d-248718df6521,FALSE,,,existing_shortlist,
+The Mission,Leeds,d85e95a3-07c7-4c04-a411-234290615113,high,https://musicbrainz.org/artist/d85e95a3-07c7-4c04-a411-234290615113,FALSE,,The Mission UK,agent_addition,
+Chumbawamba,Leeds,7b7b1e6f-e73e-41a0-9d72-8f0b30c6992d,high,https://musicbrainz.org/artist/7b7b1e6f-e73e-41a0-9d72-8f0b30c6992d,FALSE,,,agent_addition,
+The Mekons,Leeds,66d2169c-dea5-46d3-b4cb-52ed87b24ab0,high,https://musicbrainz.org/artist/66d2169c-dea5-46d3-b4cb-52ed87b24ab0,FALSE,,Mekons,agent_addition,
+Gang of Four,Leeds,d8661c02-f423-4d72-8044-40ff05daf7a1,high,https://musicbrainz.org/artist/d8661c02-f423-4d72-8044-40ff05daf7a1,FALSE,,,agent_addition,
+Nightmares on Wax,Leeds,b8c5cc4f-239f-4e02-b46f-b040b77c2030,high,https://musicbrainz.org/artist/b8c5cc4f-239f-4e02-b46f-b040b77c2030,FALSE,,,agent_addition,
+Def Leppard,Sheffield,7249b899-8db8-43e7-9e6e-22f1e736024e,high,https://musicbrainz.org/artist/7249b899-8db8-43e7-9e6e-22f1e736024e,FALSE,,,existing_shortlist,
+The Human League,Sheffield,7adaabfb-acfb-47bc-8c7c-59471c2f0db8,high,https://musicbrainz.org/artist/7adaabfb-acfb-47bc-8c7c-59471c2f0db8,FALSE,,,existing_shortlist,
+Pulp,Sheffield,76b2e842-5e85-4c97-ab62-d5bc315595b5,high,https://musicbrainz.org/artist/76b2e842-5e85-4c97-ab62-d5bc315595b5,FALSE,,,existing_shortlist,
+Arctic Monkeys,Sheffield,ada7a83c-e3e1-40f1-93f9-3e73dbc9298a,high,https://musicbrainz.org/artist/ada7a83c-e3e1-40f1-93f9-3e73dbc9298a,FALSE,,,existing_shortlist,
+Bring Me The Horizon,Sheffield,074e3847-f67f-49f9-81f1-8c8cea147e8e,high,https://musicbrainz.org/artist/074e3847-f67f-49f9-81f1-8c8cea147e8e,FALSE,,,existing_shortlist,
+Thompson Twins,Sheffield,228af6b5-f691-4ed2-a63b-10cc6fcc1144,high,https://musicbrainz.org/artist/228af6b5-f691-4ed2-a63b-10cc6fcc1144,FALSE,,,agent_addition,
+ABC,Sheffield,87199477-b0df-4ead-84ee-9b54b4abfc3d,high,https://musicbrainz.org/artist/87199477-b0df-4ead-84ee-9b54b4abfc3d,FALSE,https://open.spotify.com/artist/2s79xe5F6eUQkjwjww27Fh,ABC,agent_addition,
+Moloko,Sheffield,2f94016a-3880-4d8c-9af9-0e197ee77189,high,https://musicbrainz.org/artist/2f94016a-3880-4d8c-9af9-0e197ee77189,FALSE,,,agent_addition,
+Heaven 17,Sheffield,0796f847-09ca-4526-b17e-44390dd536ba,high,https://musicbrainz.org/artist/0796f847-09ca-4526-b17e-44390dd536ba,FALSE,,,agent_addition,
+Cabaret Voltaire,Sheffield,439a29ad-f4ef-4857-a7cd-3d4a551056c8,high,https://musicbrainz.org/artist/439a29ad-f4ef-4857-a7cd-3d4a551056c8,FALSE,https://open.spotify.com/artist/2kS4yz85MaZlxp2VaS3BEe,Cabaret Voltaire,agent_addition,
+Smokie,Bradford,165e2705-abf7-4f1b-8971-4ceed8769c4d,high,https://musicbrainz.org/artist/165e2705-abf7-4f1b-8971-4ceed8769c4d,FALSE,,,existing_shortlist,
+The Negatives,Bradford,78e78c9a-55f3-4004-be23-9e8e94d639f9,high,https://musicbrainz.org/artist/78e78c9a-55f3-4004-be23-9e8e94d639f9,FALSE,https://open.spotify.com/artist/36dRY3CYXgYmxkJIxFssyh,The Negatives,eligibility_replacement,Replaces solo artist Kiki Dee in the independent scene-depth catalogue.
+1919,Bradford,dca0d1d9-e9f6-439e-8567-96da7ada6611,high,https://musicbrainz.org/artist/dca0d1d9-e9f6-439e-8567-96da7ada6611,FALSE,,,eligibility_replacement,Replaces solo artist Tasmin Archer in the independent scene-depth catalogue.
+Poppy Factory,Bradford,a4504460-7d64-4732-b929-657c407c6f84,high,https://musicbrainz.org/artist/a4504460-7d64-4732-b929-657c407c6f84,FALSE,https://open.spotify.com/artist/4NELcwVSl3zqJQHqjbDbHW,Poppy Factory,eligibility_replacement,Replaces Ivyrise because reliable biographies place Ivyrise's formation in Portsmouth.
+The Passmore Sisters,Bradford,7439c49e-d9cd-4504-a640-70b33fda8888,medium,https://en.wikipedia.org/wiki/Passmore_Sisters,FALSE,,,eligibility_replacement,Replaces The Cult under a strict formation-origin rule.
+New Model Army,Bradford,e60e1f0b-1e8c-45e7-9d4a-222db9cb34f7,high,https://musicbrainz.org/artist/e60e1f0b-1e8c-45e7-9d4a-222db9cb34f7,FALSE,,,agent_addition,
+My Dying Bride,Bradford,2f04ad1f-9f97-41d0-a09c-59c40dfe9cd1,high,https://musicbrainz.org/artist/2f04ad1f-9f97-41d0-a09c-59c40dfe9cd1,FALSE,,,agent_addition,
+The Southern Death Cult,Bradford,5df6c0a8-c744-4097-b3b4-bcf32b52eea5,high,https://musicbrainz.org/artist/5df6c0a8-c744-4097-b3b4-bcf32b52eea5,FALSE,https://open.spotify.com/artist/6GERoHMM4dUkN8Edm5mXXJ,The Southern Death Cult,agent_addition,Predecessor scene lineage to The Cult; The Cult itself is not counted.
+Scars on 45,Bradford,c128319a-a151-41d5-9689-323e016d048b,high,https://musicbrainz.org/artist/c128319a-a151-41d5-9689-323e016d048b,FALSE,https://open.spotify.com/artist/5ltIfb6fKhN2sxGic1WRWy,Scars On 45,agent_addition,
+Anti-System,Bradford,d6dcc614-4c72-4a0b-95dd-1bf5087abd85,high,https://musicbrainz.org/artist/d6dcc614-4c72-4a0b-95dd-1bf5087abd85,FALSE,https://open.spotify.com/artist/160NmOGDz8qBoB4LNpF5w4,Anti-System,agent_addition,
+Massive Attack,Bristol,10adbe5e-a2c0-4bf3-8249-2b4cbf6e6ca8,high,https://musicbrainz.org/artist/10adbe5e-a2c0-4bf3-8249-2b4cbf6e6ca8,FALSE,,,existing_shortlist,
+Portishead,Bristol,8f6bd1e4-fbe1-4f50-aa9b-94c450ec0f11,high,https://musicbrainz.org/artist/8f6bd1e4-fbe1-4f50-aa9b-94c450ec0f11,FALSE,,,existing_shortlist,
+Smith & Mighty,Bristol,47cfcf6b-44d5-4a8d-ad12-47722c88468c,high,https://musicbrainz.org/artist/47cfcf6b-44d5-4a8d-ad12-47722c88468c,FALSE,,,eligibility_replacement,Replaces solo artist Tricky in the independent scene-depth catalogue.
+Idles,Bristol,be465d4f-c28d-4ba1-94ab-ebaada7db8af,high,https://musicbrainz.org/artist/be465d4f-c28d-4ba1-94ab-ebaada7db8af,FALSE,,IDLES,existing_shortlist,
+Kosheen,Bristol,4f4bda3c-d636-4135-b65a-6cc26bc75788,high,https://musicbrainz.org/artist/4f4bda3c-d636-4135-b65a-6cc26bc75788,FALSE,,,existing_shortlist,
+The Pop Group,Bristol,4c9f194e-6235-475a-bf7b-2fd54a0879ec,high,https://musicbrainz.org/artist/4c9f194e-6235-475a-bf7b-2fd54a0879ec,FALSE,,,agent_addition,
+Roni Size / Reprazent,Bristol,45e00f0f-f52b-4db8-a480-cf87b71c4800,high,https://musicbrainz.org/artist/45e00f0f-f52b-4db8-a480-cf87b71c4800,TRUE,,,agent_addition,Formally eligible named group; drum-and-bass editorial review.
+Fuck Buttons,Bristol,f4640b20-b76b-40d3-9ffc-a38b6718b273,high,https://musicbrainz.org/artist/f4640b20-b76b-40d3-9ffc-a38b6718b273,FALSE,,,agent_addition,
+Way Out West,Bristol,2c2a80cf-193d-4be6-992e-311428085474,high,https://musicbrainz.org/artist/2c2a80cf-193d-4be6-992e-311428085474,FALSE,,,agent_addition,
+The Blue Aeroplanes,Bristol,935295a6-8b6c-4de6-819c-da5113dac8fc,high,https://musicbrainz.org/artist/935295a6-8b6c-4de6-819c-da5113dac8fc,FALSE,,,agent_addition,
+Dog Is Dead,Nottingham,,high,https://en.wikipedia.org/wiki/Dog_Is_Dead,FALSE,https://open.spotify.com/artist/1XwRhEHqiCVgiEJQk66fyy,D.I.D,existing_shortlist,Corrects the known bad Spotify match only inside the independent scene-depth experiment.
+London Grammar,Nottingham,4dbe08c1-b40a-43b3-ab89-210000bd8ab2,high,https://musicbrainz.org/artist/4dbe08c1-b40a-43b3-ab89-210000bd8ab2,FALSE,,,existing_shortlist,
+Paper Lace,Nottingham,c62995d6-a622-43e0-ae11-12a0f8638deb,high,https://musicbrainz.org/artist/c62995d6-a622-43e0-ae11-12a0f8638deb,TRUE,,,eligibility_replacement,Replaces solo artist Jake Bugg in the independent scene-depth catalogue.
+Ten Years After,Nottingham,73faa89a-ee00-4e40-b68e-80e4891dbc45,medium,https://nottsmusicarchive.com/ten-years-after/,FALSE,,,existing_shortlist,MusicBrainz lists London but Nottingham sources document the band's local roots and formation.
+Sleaford Mods,Nottingham,09d8290b-6ada-422f-8ce3-19349fb1c15d,high,https://musicbrainz.org/artist/09d8290b-6ada-422f-8ce3-19349fb1c15d,FALSE,,,existing_shortlist,
+Tindersticks,Nottingham,4306a798-e2f8-4192-9a45-2fd41cdae60c,high,https://musicbrainz.org/artist/4306a798-e2f8-4192-9a45-2fd41cdae60c,FALSE,https://open.spotify.com/artist/3dmSPhg0tdao8ePj4pySJ5,Tindersticks,agent_addition,
+Six by Seven,Nottingham,5e2e050f-7280-464e-b251-0a1272c43300,high,https://musicbrainz.org/artist/5e2e050f-7280-464e-b251-0a1272c43300,FALSE,,,agent_addition,
+Bent,Nottingham,0a77bec1-12ef-4caa-b36a-f533001fcd29,high,https://musicbrainz.org/artist/0a77bec1-12ef-4caa-b36a-f533001fcd29,FALSE,,,agent_addition,
+Crazy P,Nottingham,45644225-982e-4b76-a529-d8f9688e9a7d,high,https://musicbrainz.org/artist/45644225-982e-4b76-a529-d8f9688e9a7d,FALSE,,,agent_addition,
+Pitchshifter,Nottingham,fe8ab7ee-c664-4d44-aec1-5b58ae937a5c,high,https://musicbrainz.org/artist/fe8ab7ee-c664-4d44-aec1-5b58ae937a5c,FALSE,,,agent_addition,

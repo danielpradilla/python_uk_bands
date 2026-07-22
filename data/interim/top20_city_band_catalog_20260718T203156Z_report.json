@@ -1,0 +1,340 @@
+{
+  "created_at_utc": "2026-07-18T20:31:56.480021+00:00",
+  "catalogue_rows": 200,
+  "cities": 20,
+  "bands_per_city": [
+    10
+  ],
+  "review_ready_rows": 147,
+  "pending_review_rows": 53,
+  "missing_spotify_ids": 29,
+  "status": "provisional_origin_review_incomplete",
+  "pending_bands": [
+    {
+      "band_name": "Diesel Park West",
+      "study_city_label": "Leicester",
+      "origin_review_status": "pending",
+      "spotify_id": "0GErzC8ZI8EEGJ01vAbNCX"
+    },
+    {
+      "band_name": "Family",
+      "study_city_label": "Leicester",
+      "origin_review_status": "pending",
+      "spotify_id": "0FtsBt4gg67x9q0CS5FhB6"
+    },
+    {
+      "band_name": "Gaye Bykers on Acid",
+      "study_city_label": "Leicester",
+      "origin_review_status": "pending",
+      "spotify_id": "1JK7CE0ig3GPpTVIzFMgfJ"
+    },
+    {
+      "band_name": "Prolapse",
+      "study_city_label": "Leicester",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "hard life",
+      "study_city_label": "Leicester",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "Kids in Glass Houses",
+      "study_city_label": "Cardiff",
+      "origin_review_status": "pending",
+      "spotify_id": "0d630stEgFcD3GTKZPZFzY"
+    },
+    {
+      "band_name": "Manic Street Preachers",
+      "study_city_label": "Cardiff",
+      "origin_review_status": "pending",
+      "spotify_id": "2uH0RyPcX7fnCcT90HFDQX"
+    },
+    {
+      "band_name": "Stereophonics",
+      "study_city_label": "Cardiff",
+      "origin_review_status": "pending",
+      "spotify_id": "21UJ7PRWb3Etgsu99f8yo8"
+    },
+    {
+      "band_name": "The Automatic",
+      "study_city_label": "Cardiff",
+      "origin_review_status": "pending",
+      "spotify_id": "7IZcg74X6CKzf0SfRliRrB"
+    },
+    {
+      "band_name": "The Fire Engines",
+      "study_city_label": "Edinburgh",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "The Waterboys",
+      "study_city_label": "Edinburgh",
+      "origin_review_status": "pending",
+      "spotify_id": "5TnuP42pw475UrjjeabtwZ"
+    },
+    {
+      "band_name": "And So I Watch You From Afar",
+      "study_city_label": "Belfast",
+      "origin_review_status": "pending",
+      "spotify_id": "7qKMNwlACMZOUdMG3acwst"
+    },
+    {
+      "band_name": "Bicep",
+      "study_city_label": "Belfast",
+      "origin_review_status": "pending",
+      "spotify_id": "73A3bLnfnz5BoQjb4gNCga"
+    },
+    {
+      "band_name": "New Pagans",
+      "study_city_label": "Belfast",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "Rudi",
+      "study_city_label": "Belfast",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "The Outcasts",
+      "study_city_label": "Belfast",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "Adorable",
+      "study_city_label": "Coventry",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "King",
+      "study_city_label": "Coventry",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "The Enemy",
+      "study_city_label": "Coventry",
+      "origin_review_status": "pending",
+      "spotify_id": "01ZP85CNi7Y9t1e0one46k"
+    },
+    {
+      "band_name": "The Primitives",
+      "study_city_label": "Coventry",
+      "origin_review_status": "pending",
+      "spotify_id": "4FPmAi3p4T3p0AsthfqHMA"
+    },
+    {
+      "band_name": "Artful Dodger",
+      "study_city_label": "Southampton",
+      "origin_review_status": "pending",
+      "spotify_id": "4L8MIM7AXmq6jb0tRix4JT"
+    },
+    {
+      "band_name": "Dead!",
+      "study_city_label": "Southampton",
+      "origin_review_status": "pending",
+      "spotify_id": "2uQCQ4BmANn12eOlOfkwqF"
+    },
+    {
+      "band_name": "Delays",
+      "study_city_label": "Southampton",
+      "origin_review_status": "pending",
+      "spotify_id": "0NAPmlw3oOKJ3BD7qcjLdQ"
+    },
+    {
+      "band_name": "Desolated",
+      "study_city_label": "Southampton",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "Our Hollow Our Home",
+      "study_city_label": "Southampton",
+      "origin_review_status": "pending",
+      "spotify_id": "6zrSK4adBQJaCJuhGNKJEl"
+    },
+    {
+      "band_name": "The Men They Couldn't Hang",
+      "study_city_label": "Southampton",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "Red Guitars",
+      "study_city_label": "Hull",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "Scarlet",
+      "study_city_label": "Hull",
+      "origin_review_status": "pending",
+      "spotify_id": "17slL8goxemQvfDtqeEavh"
+    },
+    {
+      "band_name": "The Housemartins",
+      "study_city_label": "Hull",
+      "origin_review_status": "pending",
+      "spotify_id": "77D38RDgCtlYNLpayStftL"
+    },
+    {
+      "band_name": "The Paddingtons",
+      "study_city_label": "Hull",
+      "origin_review_status": "pending",
+      "spotify_id": "15dpP4ak7Z35TvysdicaUr"
+    },
+    {
+      "band_name": "The Watersons",
+      "study_city_label": "Hull",
+      "origin_review_status": "pending",
+      "spotify_id": "59w4wGMXlt4HULBSTVxRAY"
+    },
+    {
+      "band_name": "TTNG",
+      "study_city_label": "Oxford",
+      "origin_review_status": "reviewed",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "The Candyskins",
+      "study_city_label": "Oxford",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "Benefits",
+      "study_city_label": "Middlesbrough",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "Cape Cub",
+      "study_city_label": "Middlesbrough",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "Cattle & Cane",
+      "study_city_label": "Middlesbrough",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "Collectors Club",
+      "study_city_label": "Middlesbrough",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "Mouses",
+      "study_city_label": "Middlesbrough",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "Shrug",
+      "study_city_label": "Middlesbrough",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "The Chapman Family",
+      "study_city_label": "Middlesbrough",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "The Wildcats of Kilkenny",
+      "study_city_label": "Middlesbrough",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "The Young'uns",
+      "study_city_label": "Middlesbrough",
+      "origin_review_status": "pending",
+      "spotify_id": "1yyXgzBSMpwYqd2GZN4OCS"
+    },
+    {
+      "band_name": "Young Rebel Set",
+      "study_city_label": "Middlesbrough",
+      "origin_review_status": "pending",
+      "spotify_id": "3tJb7sqk201WZ0bT0pJxeM"
+    },
+    {
+      "band_name": "Battery Hens",
+      "study_city_label": "Portsmouth",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "Cranes",
+      "study_city_label": "Portsmouth",
+      "origin_review_status": "pending",
+      "spotify_id": "5q2ehaRqAFmM6tLl4vaVwP"
+    },
+    {
+      "band_name": "Crystal Tides",
+      "study_city_label": "Portsmouth",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "Emptifish",
+      "study_city_label": "Portsmouth",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "Hallan",
+      "study_city_label": "Portsmouth",
+      "origin_review_status": "pending",
+      "spotify_id": "2cVFmKTidTQi4wVOWYcWi6"
+    },
+    {
+      "band_name": "Is Bliss",
+      "study_city_label": "Portsmouth",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "Kassassin Street",
+      "study_city_label": "Portsmouth",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "Ricky",
+      "study_city_label": "Portsmouth",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "The Strange Death of Liberal England",
+      "study_city_label": "Portsmouth",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "Torpedoes",
+      "study_city_label": "Portsmouth",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    }
+  ],
+  "input_paths": {
+    "scene_depth_catalog": "reference/scene_depth_bands.csv",
+    "existing_metrics": "data/processed/scene_depth_band_metrics_20260717T225650Z.csv",
+    "additions_review": "data/interim/top20_city_band_review_20260718T202426Z.csv",
+    "fua_universe": "reference/uk_fua_top20_2021.csv"
+  },
+  "output_path": "data/interim/top20_city_band_catalog_20260718T203156Z.csv",
+  "canonical_files_modified": false
+}

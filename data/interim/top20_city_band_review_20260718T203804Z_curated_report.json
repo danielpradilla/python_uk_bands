@@ -1,0 +1,196 @@
+{
+  "created_at_utc": "2026-07-18T20:38:04.441151+00:00",
+  "input_review": "data/interim/top20_city_band_review_20260718T202426Z.csv",
+  "overrides": "reference/top20_city_band_overrides_20260718.csv",
+  "output_path": "data/interim/top20_city_band_review_20260718T203804Z_curated.csv",
+  "rows": 110,
+  "review_ready_rows": 103,
+  "not_ready_rows": 7,
+  "not_ready_bands": [
+    {
+      "band_name": "Prolapse",
+      "study_city_label": "Leicester",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "Desolated",
+      "study_city_label": "Southampton",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "Red Guitars",
+      "study_city_label": "Hull",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "TTNG",
+      "study_city_label": "Oxford",
+      "origin_review_status": "reviewed",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "The Chapman Family",
+      "study_city_label": "Middlesbrough",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "The Strange Death of Liberal England",
+      "study_city_label": "Portsmouth",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    },
+    {
+      "band_name": "Emptifish",
+      "study_city_label": "Portsmouth",
+      "origin_review_status": "pending",
+      "spotify_id": ""
+    }
+  ],
+  "applied_overrides": [
+    {
+      "action": "update",
+      "from": "hard life",
+      "to": "hard life"
+    },
+    {
+      "action": "update",
+      "from": "The Fire Engines",
+      "to": "The Fire Engines"
+    },
+    {
+      "action": "replace",
+      "from": "The Waterboys",
+      "to": "Josef K"
+    },
+    {
+      "action": "update",
+      "from": "Bicep",
+      "to": "Bicep"
+    },
+    {
+      "action": "update",
+      "from": "New Pagans",
+      "to": "New Pagans"
+    },
+    {
+      "action": "update",
+      "from": "Rudi",
+      "to": "Rudi"
+    },
+    {
+      "action": "update",
+      "from": "The Outcasts",
+      "to": "The Outcasts"
+    },
+    {
+      "action": "update",
+      "from": "King",
+      "to": "King"
+    },
+    {
+      "action": "update",
+      "from": "Adorable",
+      "to": "Adorable"
+    },
+    {
+      "action": "replace",
+      "from": "The Men They Couldn't Hang",
+      "to": "The Lounge Kittens"
+    },
+    {
+      "action": "update",
+      "from": "Dead!",
+      "to": "Dead!"
+    },
+    {
+      "action": "update",
+      "from": "The Watersons",
+      "to": "The Watersons"
+    },
+    {
+      "action": "update",
+      "from": "The Candyskins",
+      "to": "The Candyskins"
+    },
+    {
+      "action": "update",
+      "from": "Cattle & Cane",
+      "to": "Cattle & Cane"
+    },
+    {
+      "action": "update",
+      "from": "The Young'uns",
+      "to": "The Young'uns"
+    },
+    {
+      "action": "update",
+      "from": "Mouses",
+      "to": "Mouses"
+    },
+    {
+      "action": "update",
+      "from": "Cape Cub",
+      "to": "Cape Cub"
+    },
+    {
+      "action": "update",
+      "from": "Benefits",
+      "to": "Benefits"
+    },
+    {
+      "action": "update",
+      "from": "Collectors Club",
+      "to": "Collectors Club"
+    },
+    {
+      "action": "replace",
+      "from": "Shrug",
+      "to": "Das Wanderlust"
+    },
+    {
+      "action": "replace",
+      "from": "The Wildcats of Kilkenny",
+      "to": "The Flaming Mussolinis"
+    },
+    {
+      "action": "update",
+      "from": "Kassassin Street",
+      "to": "Kassassin Street"
+    },
+    {
+      "action": "update",
+      "from": "Is Bliss",
+      "to": "Is Bliss"
+    },
+    {
+      "action": "update",
+      "from": "Hallan",
+      "to": "Hallan"
+    },
+    {
+      "action": "update",
+      "from": "Crystal Tides",
+      "to": "Crystal Tides"
+    },
+    {
+      "action": "replace",
+      "from": "Torpedoes",
+      "to": "Ivyrise"
+    },
+    {
+      "action": "replace",
+      "from": "Ricky",
+      "to": "Acres"
+    },
+    {
+      "action": "update",
+      "from": "Battery Hens",
+      "to": "Battery Hens"
+    }
+  ],
+  "original_candidate_file_modified": false
+}

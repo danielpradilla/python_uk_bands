@@ -1,0 +1,7 @@
+-r ../../../requirements.txt
+
+# Only needed by the preserved Google Trends notebooks and early scratch work.
+adjustText
+altair
+pytrends
+seaborn

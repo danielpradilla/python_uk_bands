@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-07-18T22:10:21.074933+00:00",
+  "label": "completed-final-band-composition-and-raw-impact",
+  "project_root": "/Users/dpradilla/dev/uk-music-cities",
+  "files": [
+    {
+      "path": "notebooks/final/uk_bands_punching_above_weight.ipynb",
+      "sha256": "37b4259a66bb40a4ab1122a05eddee69cd30f67dd6bc87be286b0dfdff84ded1",
+      "size_bytes": 469749
+    },
+    {
+      "path": "scripts/build_final_notebook.py",
+      "sha256": "1af9876970a6a476e06e2d60da8efa13e74119dd38de83a3707eecd350473daf",
+      "size_bytes": 29480
+    },
+    {
+      "path": "src/python_uk_bands/scene_depth.py",
+      "sha256": "74e12d183c24824a8077bc84d967f5427eb0cbea01e7f3b83ea21eca8cbcb67e",
+      "size_bytes": 9049
+    },
+    {
+      "path": "src/python_uk_bands/scene_depth_visuals.py",
+      "sha256": "afa937de45fced42ce3ca184598efd23c16745f870b00945679a11491baac068",
+      "size_bytes": 19812
+    },
+    {
+      "path": "tests/test_scene_depth.py",
+      "sha256": "9659bec21c09fee71a379c9a0b50984e6ed573eeadce323c667b090000daa135",
+      "size_bytes": 3090
+    },
+    {
+      "path": "artifacts/charts/chart_01_city_band_stack.png",
+      "sha256": "26865a7f2a93bc10dc4f2edfc273037ae86d3f2d56f2d18fcbe6bdc671d71a8d",
+      "size_bytes": 343218
+    },
+    {
+      "path": "artifacts/charts/chart_02_raw_city_totals.png",
+      "sha256": "7f171b4387153ca24e54753c4236e117834f3e0c78a6c67f903fe4befa518a5b",
+      "size_bytes": 99355
+    },
+    {
+      "path": "artifacts/charts/chart_03_population_normalized_total.png",
+      "sha256": "9588cd562c0dc2fa898bb5a3915b9247e73f71626816a287048d80deb279787c",
+      "size_bytes": 101830
+    },
+    {
+      "path": "artifacts/charts/chart_04_raw_normalized_scene_depth_ranks.png",
+      "sha256": "9d3e2dd9489ea5fa81027d6640a9bdf795b22f3157202ca74606a5ab01c36ab1",
+      "size_bytes": 116282
+    },
+    {
+      "path": "data/processed/scene_depth_band_metrics_20260717T225650Z.csv",
+      "sha256": "8b31ba42a4e9d1a4e67de2678251ab4046800153723a9c64ce27f4100a603384",
+      "size_bytes": 32037
+    },
+    {
+      "path": "data/processed/scene_depth_rankings_20260717T225650Z.csv",
+      "sha256": "ce0d5381981d0395bc7c411690e95364ad3e22a8d8f3f2968bdc0c7a40597e23",
+      "size_bytes": 3532
+    },
+    {
+      "path": "reference/scene_depth_bands.csv",
+      "sha256": "8754dfc07510231696bb3c0d7f51af00953656d2aa01ba1011730d9bb77bce0b",
+      "size_bytes": 18075
+    },
+    {
+      "path": "README.md",
+      "sha256": "1d9f81ecfae043c91385766381abf13393f7859e8a6ff409d02ed34996e22cd7",
+      "size_bytes": 9000
+    },
+    {
+      "path": "notebooks/README.md",
+      "sha256": "341130e40c888339232c19ceecdd51b7608d05e8e6edc28607dee7a43f35a9bf",
+      "size_bytes": 3765
+    },
+    {
+      "path": "TASKS.md",
+      "sha256": "afe719893fadd071bfca02deffd915ce3adad2a8decaf7974984ce15c1f66600",
+      "size_bytes": 19454
+    },
+    {
+      "path": "ANALYSIS_HISTORY.md",
+      "sha256": "d4eb2dec7582c4713d64a2d2cf11278214b7de61d2bd6ce2f275513ea2ac7d90",
+      "size_bytes": 6993
+    }
+  ]
+}

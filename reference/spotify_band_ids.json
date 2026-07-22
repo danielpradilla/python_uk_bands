@@ -1,0 +1,402 @@
+[
+  {
+    "band": "The Rolling Stones",
+    "city": "London",
+    "spotify_id": "22bE4uQ6baNwSHPVcDxLCe",
+    "spotify_name": "The Rolling Stones",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "The Clash",
+    "city": "London",
+    "spotify_id": "3RGLhK1IP9jnYFH4BRFJBS",
+    "spotify_name": "The Clash",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Blur",
+    "city": "London",
+    "spotify_id": "7MhMgCo0Bl0Kukl93PZbYS",
+    "spotify_name": "Blur",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Coldplay",
+    "city": "London",
+    "spotify_id": "4gzpq5DPGxSnKTe4SA8HAU",
+    "spotify_name": "Coldplay",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Florence and the Machine",
+    "city": "London",
+    "spotify_id": "1moxjboGR7GNWYIMWsRjgG",
+    "spotify_name": "Florence + The Machine",
+    "match_quality": "fallback",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Black Sabbath",
+    "city": "Birmingham",
+    "spotify_id": "5M52tdBnJaKSvOpJGz8mfZ",
+    "spotify_name": "Black Sabbath",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "ELO",
+    "city": "Birmingham",
+    "spotify_id": "7jefIIksOi1EazgRTfW2Pk",
+    "spotify_name": "Electric Light Orchestra",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Duran Duran",
+    "city": "Birmingham",
+    "spotify_id": "0lZoBs4Pzo7R89JM9lxwoT",
+    "spotify_name": "Duran Duran",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "UB40",
+    "city": "Birmingham",
+    "spotify_id": "69MEO1AADKg1IZrq2XLzo5",
+    "spotify_name": "UB40",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Editors",
+    "city": "Birmingham",
+    "spotify_id": "6e9wIFWhBPHLE9bXK8gtBI",
+    "spotify_name": "Editors",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Oasis",
+    "city": "Manchester",
+    "spotify_id": "2DaxqgrOhkeH0fpeiQq2f4",
+    "spotify_name": "Oasis",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "The Smiths",
+    "city": "Manchester",
+    "spotify_id": "3yY2gUcIsjMr8hjo51PoJ8",
+    "spotify_name": "The Smiths",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "New Order",
+    "city": "Manchester",
+    "spotify_id": "0yNLKJebCb8Aueb54LYya3",
+    "spotify_name": "New Order",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "The Stone Roses",
+    "city": "Manchester",
+    "spotify_id": "1lYT0A0LV5DUfxr6doRP3d",
+    "spotify_name": "The Stone Roses",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "The 1975",
+    "city": "Manchester",
+    "spotify_id": "3mIj9lX2MWuHmhNCA7LSCW",
+    "spotify_name": "The 1975",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Simple Minds",
+    "city": "Glasgow",
+    "spotify_id": "6hN9F0iuULZYWXppob22Aj",
+    "spotify_name": "Simple Minds",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Primal Scream",
+    "city": "Glasgow",
+    "spotify_id": "3wury2nd8idV4GecUg5xze",
+    "spotify_name": "Primal Scream",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Belle and Sebastian",
+    "city": "Glasgow",
+    "spotify_id": "4I2BJf80C0skQpp1sQmA0h",
+    "spotify_name": "Belle and Sebastian",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Franz Ferdinand",
+    "city": "Glasgow",
+    "spotify_id": "0XNa1vTidXlvJ2gHSsRi4A",
+    "spotify_name": "Franz Ferdinand",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "CHVRCHES",
+    "city": "Glasgow",
+    "spotify_id": "3CjlHNtplJyTf9npxaPl5w",
+    "spotify_name": "CHVRCHES",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "The Beatles",
+    "city": "Liverpool",
+    "spotify_id": "3WrFJ7ztbogyGnTHbHJFl2",
+    "spotify_name": "The Beatles",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Echo & the Bunnymen",
+    "city": "Liverpool",
+    "spotify_id": "0fgYKF9Avljex0L9Wt5b8Z",
+    "spotify_name": "Echo & the Bunnymen",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Frankie Goes to Hollywood",
+    "city": "Liverpool",
+    "spotify_id": "1mZu3rO7qSD09GdDpePHhY",
+    "spotify_name": "Frankie Goes To Hollywood",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "The La's",
+    "city": "Liverpool",
+    "spotify_id": "47Z8LEl3LnQkcpva0xSthT",
+    "spotify_name": "The La's",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "The Wombats",
+    "city": "Liverpool",
+    "spotify_id": "0Ya43ZKWHTKkAbkoJJkwIB",
+    "spotify_name": "The Wombats",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Kaiser Chiefs",
+    "city": "Leeds",
+    "spotify_id": "0LbLWjaweRbO4FDKYlbfNt",
+    "spotify_name": "Kaiser Chiefs",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Soft Cell",
+    "city": "Leeds",
+    "spotify_id": "6aq8T2RcspxVOGgMrTzjWc",
+    "spotify_name": "Soft Cell",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Alt-J",
+    "city": "Leeds",
+    "spotify_id": "3XHO7cRUPCLOr6jwp8vsx5",
+    "spotify_name": "alt-J",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Sisters of Mercy",
+    "city": "Leeds",
+    "spotify_id": "4HxBVyHaUa60eCSsJWxwWR",
+    "spotify_name": "Sisters of Mercy",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "The Wedding Present",
+    "city": "Leeds",
+    "spotify_id": "4tyCvqG48h4LdcbFfWBjR9",
+    "spotify_name": "The Wedding Present",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Def Leppard",
+    "city": "Sheffield",
+    "spotify_id": "6H1RjVyNruCmrBEWRbD0VZ",
+    "spotify_name": "Def Leppard",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "The Human League",
+    "city": "Sheffield",
+    "spotify_id": "1aX2dmV8XoHYCOQRxjPESG",
+    "spotify_name": "The Human League",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Pulp",
+    "city": "Sheffield",
+    "spotify_id": "36E7oYfz3LLRto6l2WmDcD",
+    "spotify_name": "Pulp",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Arctic Monkeys",
+    "city": "Sheffield",
+    "spotify_id": "7Ln80lUS6He07XvHI8qqHH",
+    "spotify_name": "Arctic Monkeys",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Bring Me The Horizon",
+    "city": "Sheffield",
+    "spotify_id": "1Ffb6ejR6Fe5IamqA5oRUF",
+    "spotify_name": "Bring Me The Horizon",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Smokie",
+    "city": "Bradford",
+    "spotify_id": "53K7zDzY3McLG1sAg6l2wZ",
+    "spotify_name": "Smokie",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Tasmin Archer",
+    "city": "Bradford",
+    "spotify_id": "6EgtYGZoF5jLydCpz43xu1",
+    "spotify_name": "Tasmin Archer",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Kiki Dee",
+    "city": "Bradford",
+    "spotify_id": "4vjGlQWexbru6aOUCLTVir",
+    "spotify_name": "Kiki Dee",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Ivyrise",
+    "city": "Bradford",
+    "spotify_id": "3Cpe6aAAVacasDfOQgb3fq",
+    "spotify_name": "Ivyrise",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "The Cult",
+    "city": "Bradford",
+    "spotify_id": "49DW3KvkyjHO35mK1JnSyS",
+    "spotify_name": "The Cult",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Massive Attack",
+    "city": "Bristol",
+    "spotify_id": "6FXMGgJwohJLUSr5nVlf9X",
+    "spotify_name": "Massive Attack",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Portishead",
+    "city": "Bristol",
+    "spotify_id": "6liAMWkVf5LH7YR9yfFy1Y",
+    "spotify_name": "Portishead",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Tricky",
+    "city": "Bristol",
+    "spotify_id": "6hhA8TKRNryM8FNzqCqdDO",
+    "spotify_name": "Tricky",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Idles",
+    "city": "Bristol",
+    "spotify_id": "75mafsNqNE1WSEVxIKuY5C",
+    "spotify_name": "IDLES",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Kosheen",
+    "city": "Bristol",
+    "spotify_id": "5squ8uM6fhMQY71t9xobJC",
+    "spotify_name": "Kosheen",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Jake Bugg",
+    "city": "Nottingham",
+    "spotify_id": "4hf3caW9H8uFwwbv5pFjcg",
+    "spotify_name": "Jake Bugg",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Dog Is Dead",
+    "city": "Nottingham",
+    "spotify_id": "5hgMNzChyFC8E9S4djhgM3",
+    "spotify_name": "Every 90's Dog is Dead",
+    "match_quality": "approximate",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "London Grammar",
+    "city": "Nottingham",
+    "spotify_id": "3Bd1cgCjtCI32PYvDC3ynO",
+    "spotify_name": "London Grammar",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Ten Years After",
+    "city": "Nottingham",
+    "spotify_id": "7nkLRaWHImCvWGHdNGnhVE",
+    "spotify_name": "Ten Years After",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  },
+  {
+    "band": "Sleaford Mods",
+    "city": "Nottingham",
+    "spotify_id": "0otAqZw8htTsGHfqR491Yh",
+    "spotify_name": "Sleaford Mods",
+    "match_quality": "exact",
+    "extracted_at": "2025-09-20"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "created_at_utc": "2026-07-18T20:45:18.739698+00:00",
+  "input_path": "data/raw/wikidata/uk_group_candidates_with_spotify_20260718T201100Z.json",
+  "output_path": "data/interim/uk_group_spotify_candidates_20260718T201100Z.csv",
+  "wikidata_bindings": 1928,
+  "candidate_spotify_ids": 1775,
+  "wikidata_entities": 1737,
+  "entities_with_multiple_spotify_ids": 31,
+  "unresolved_formation_labels": 12,
+  "empty_formation_labels": 603,
+  "selection_frame": "Wikidata entities returned by the archived UK musical-group query that have a Spotify artist identifier",
+  "canonical_files_modified": false
+}

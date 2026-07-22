@@ -1,0 +1,34 @@
+origin_cluster,fua_code,mapping_tier,mapping_method,notes
+London,UK001F,strict,exact_study_label,Origin cluster matches the OECD FUA study label.
+Manchester,UK008F,strict,exact_study_label,Origin cluster matches the OECD FUA study label.
+Birmingham,UK002F,strict,exact_study_label,Origin cluster matches the OECD FUA study label.
+Sheffield,UK010F,strict,exact_study_label,Origin cluster matches the OECD FUA study label.
+Liverpool,UK006F,strict,exact_study_label,Origin cluster matches the OECD FUA study label.
+Oxford,UK560F,strict,exact_study_label,Origin cluster matches the OECD FUA study label.
+Cambridge,UK017F,strict,exact_study_label,Origin cluster matches the OECD FUA study label.
+Glasgow,UK004F,strict,exact_study_label,Origin cluster matches the OECD FUA study label.
+Bristol,UK011F,strict,exact_study_label,Origin cluster matches the OECD FUA study label.
+Leeds,UK003F,strict,exact_study_label,Origin cluster matches the OECD FUA study label.
+Los Hornos,,excluded_non_uk,outside_uk_fua_universe,Reported formation place is outside the United Kingdom.
+Crawley,UK576F,strict,exact_study_label,Origin cluster matches the OECD FUA study label.
+Reigate,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made without an official locality-to-FUA crosswalk.
+Bath,UK031F,strict,reviewed_label_alias,Bath is the short study label for Bath and North East Somerset FUA.
+Battle,UK056F,reviewed_extended,nearby_fua_sensitivity,Included only in the extended sensitivity view as a reviewed association with Hastings FUA.
+Teignmouth,UK018F,reviewed_extended,nearby_fua_sensitivity,Included only in the extended sensitivity view as a reviewed association with Exeter FUA.
+Basildon,UK001F,reviewed_extended,metropolitan_fua_sensitivity,Included only in the extended sensitivity view as a reviewed association with London FUA.
+Sunderland,UK510F,strict,exact_study_label,Origin cluster matches the OECD FUA study label.
+Dundee,UK550F,strict,reviewed_label_alias,Dundee is the short study label for Dundee City FUA.
+Newcastle upon Tyne,UK013F,strict,exact_official_label,Origin cluster matches the official OECD FUA name.
+Bangor,UK012F,reviewed_extended,metropolitan_fua_sensitivity,Included only in the extended sensitivity view as a reviewed association with Belfast FUA.
+Guildford,UK033F,strict,exact_study_label,Origin cluster matches the OECD FUA study label.
+Bridlington,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made without an official locality-to-FUA crosswalk.
+Godalming,UK033F,reviewed_extended,nearby_fua_sensitivity,Included only in the extended sensitivity view as a reviewed association with Guildford FUA.
+Eastbourne,UK055F,strict,exact_study_label,Origin cluster matches the OECD FUA study label.
+Auchtermuchty,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made without an official locality-to-FUA crosswalk.
+Hertford,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made without an official locality-to-FUA crosswalk.
+Brighton,UK515F,strict,reviewed_label_alias,Brighton is the short study label for Brighton and Hove FUA.
+Middlesbrough,UK559F,strict,exact_study_label,Origin cluster matches the OECD FUA study label.
+Hereford,,excluded_no_defensible_fua,no_reviewed_assignment,No assignment is made without an official locality-to-FUA crosswalk.
+Paisley,UK004F,reviewed_extended,metropolitan_fua_sensitivity,Included only in the extended sensitivity view as a reviewed association with Glasgow FUA.
+West Lothian,UK007F,reviewed_extended,metropolitan_fua_sensitivity,Included only in the extended sensitivity view as a reviewed association with Edinburgh FUA.
+Kingston upon Hull,UK026F,strict,exact_official_label,Origin cluster matches the official OECD FUA name.

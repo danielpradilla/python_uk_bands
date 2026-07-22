@@ -1,0 +1,9 @@
+{
+  "captured_at_utc": "2026-07-22T21:16:22.156479+00:00",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/data/datasets/oecd-definition-of-cities-and-functional-urban-areas/list_of_municipalities_in_FUAs_and_Cities.csv",
+  "source_sha256": "1775a19b343289f37fbf98528228c7a530267c88f289f69ca4c96f08df4c63e5",
+  "source_rows": 34941,
+  "uk_rows": 267,
+  "uk_fuas": 84,
+  "output": "data/raw/geography/oecd_uk_fua_municipality_crosswalk_20260722.csv"
+}
