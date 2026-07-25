@@ -23,6 +23,6 @@ Both views retain band counts alongside rates because one-band FUAs are
 especially sensitive to a single globally dominant act.
 
 The executed canonical notebook is
-`notebooks/experiments/snapshots/uk_bands_top100_popularity_first_fua_20260718T204522Z.ipynb`.
+`notebooks/experiments/09_uk_bands_top100_popularity_first_fua.ipynb`.
 The earlier raw-only and population-adjusted companion notebooks remain
 preserved as predecessor branches.

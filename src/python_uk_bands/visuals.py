@@ -3,11 +3,16 @@
 from __future__ import annotations
 
 from collections.abc import Sequence
+import math
 from pathlib import Path
 
 import matplotlib.pyplot as plt
 from matplotlib.axes import Axes
 from matplotlib.figure import Figure
+from matplotlib.lines import Line2D
+from matplotlib.offsetbox import AnchoredOffsetbox, DrawingArea, HPacker, TextArea, VPacker
+from matplotlib.patches import Circle, Rectangle
+from matplotlib.text import Text
 from matplotlib.ticker import FuncFormatter, MultipleLocator
 import pandas as pd
 
@@ -56,6 +61,173 @@ def apply_chart_style() -> None:
             "grid.linewidth": 0.8,
         }
     )
+
+
+def _legend_item_box(item: dict[str, object]) -> HPacker:
+    """Build one compact marker, line or patch row for a custom legend."""
+
+    marker_area = DrawingArea(20, 13, 0, 0)
+    kind = str(item.get("kind", "marker"))
+    if kind == "line":
+        marker_area.add_artist(
+            Line2D(
+                [1, 19],
+                [6.5, 6.5],
+                color=str(item.get("color", HOUSE["ink_soft"])),
+                linewidth=float(item.get("linewidth", 1.5)),
+                linestyle=item.get("linestyle", "-"),
+            )
+        )
+    elif kind == "patch":
+        marker_area.add_artist(
+            Rectangle(
+                (2, 2.5),
+                16,
+                8,
+                facecolor=str(item.get("facecolor", HOUSE["rule"])),
+                edgecolor=str(item.get("edgecolor", "none")),
+                linewidth=float(item.get("linewidth", 0.8)),
+                alpha=float(item.get("alpha", 1.0)),
+            )
+        )
+    else:
+        marker_area.add_artist(
+            Line2D(
+                [10],
+                [6.5],
+                marker=str(item.get("marker", "o")),
+                markersize=float(item.get("markersize", 7.5)),
+                markerfacecolor=str(item.get("facecolor", HOUSE["page"])),
+                markeredgecolor=str(item.get("edgecolor", HOUSE["ink_soft"])),
+                markeredgewidth=float(item.get("linewidth", 1.0)),
+                color="none",
+                linestyle="none",
+            )
+        )
+    label = TextArea(
+        str(item["label"]),
+        textprops={"fontsize": 8.7, "color": HOUSE["ink_soft"]},
+    )
+    return HPacker(children=[marker_area, label], align="center", pad=0, sep=3)
+
+
+def add_superposed_bubble_legend(
+    ax: Axes,
+    *,
+    title: str,
+    areas: Sequence[float],
+    labels: Sequence[str],
+    items: Sequence[dict[str, object]] = (),
+    item_columns: int = 1,
+    loc: str = "lower right",
+) -> AnchoredOffsetbox:
+    """Draw a consolidated legend with bottom-aligned superposed bubbles."""
+
+    if len(areas) != len(labels) or not areas:
+        raise ValueError("Bubble legend areas and labels must be non-empty and align")
+    if any(area <= 0 for area in areas):
+        raise ValueError("Bubble legend areas must be positive")
+    if item_columns < 1:
+        raise ValueError("item_columns must be positive")
+
+    maximum_area = max(float(area) for area in areas)
+    maximum_radius = 23.0
+    bottom = 2.5
+    centre_x = maximum_radius + 2.0
+    label_x = 2 * maximum_radius + 24.0
+    bubble_area = DrawingArea(label_x + 54, 2 * maximum_radius + 7, 0, 0)
+    bubble_area.add_artist(
+        Line2D(
+            [centre_x, label_x - 4],
+            [bottom, bottom],
+            color=HOUSE["secondary"],
+            linewidth=0.7,
+            linestyle=(0, (2, 2)),
+        )
+    )
+    bubble_area.add_artist(
+        Text(
+            label_x,
+            bottom,
+            "0",
+            va="center",
+            fontsize=8.5,
+            color=HOUSE["ink_soft"],
+        )
+    )
+
+    ordered = sorted(
+        zip(areas, labels, strict=True),
+        key=lambda pair: float(pair[0]),
+        reverse=True,
+    )
+    for area, label in ordered:
+        radius = maximum_radius * math.sqrt(float(area) / maximum_area)
+        top = bottom + 2 * radius
+        bubble_area.add_artist(
+            Circle(
+                (centre_x, bottom + radius),
+                radius,
+                facecolor=HOUSE["page"],
+                edgecolor=HOUSE["ink_soft"],
+                linewidth=0.9,
+            )
+        )
+        bubble_area.add_artist(
+            Line2D(
+                [centre_x, label_x - 4],
+                [top, top],
+                color=HOUSE["secondary"],
+                linewidth=0.7,
+                linestyle=(0, (2, 2)),
+            )
+        )
+        bubble_area.add_artist(
+            Text(
+                label_x,
+                top,
+                str(label),
+                va="center",
+                fontsize=8.5,
+                color=HOUSE["ink_soft"],
+            )
+        )
+
+    children: list[object] = [
+        TextArea(
+            title,
+            textprops={
+                "fontsize": 9.2,
+                "color": HOUSE["ink"],
+                "fontweight": "normal",
+            },
+        ),
+        bubble_area,
+    ]
+    if items:
+        item_boxes = [_legend_item_box(item) for item in items]
+        item_rows = [
+            HPacker(
+                children=item_boxes[index : index + item_columns],
+                align="center",
+                pad=0,
+                sep=12,
+            )
+            for index in range(0, len(item_boxes), item_columns)
+        ]
+        children.extend(item_rows)
+
+    legend_box = VPacker(children=children, align="left", pad=0, sep=2)
+    anchored = AnchoredOffsetbox(
+        loc=loc,
+        child=legend_box,
+        pad=0.2,
+        borderpad=0.35,
+        frameon=False,
+    )
+    anchored.set_zorder(30)
+    ax.add_artist(anchored)
+    return anchored
 
 
 def _new_chart(figsize: tuple[float, float] = (10, 6.2)) -> tuple[Figure, Axes]:

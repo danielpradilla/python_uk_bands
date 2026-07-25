@@ -39,8 +39,7 @@ def main(argv: list[str] | None = None) -> int:
         or PROJECT_ROOT
         / "notebooks"
         / "experiments"
-        / "snapshots"
-        / f"uk_bands_top100_popularity_first_{args.snapshot_id}.ipynb"
+        / "06_uk_bands_top100_popularity_first.ipynb"
     ).resolve()
     if output_path.exists() and not args.force:
         raise FileExistsError(
@@ -113,7 +112,7 @@ display(Markdown(
     )
     cells.append(
         nbf.v4.new_markdown_cell(
-            """## 1. Selection rule and lineage
+            """## 01. Selection rule and lineage
 
 1. Start with the archived Wikidata query response for entities returned as UK
    musical groups, bands, or duos with a Spotify artist ID.
@@ -160,7 +159,7 @@ display(lineage.style.hide(axis="index"))"""
     )
     cells.append(
         nbf.v4.new_markdown_cell(
-            """## 2. Capture and identity quality
+            """## 02. Capture and identity quality
 
 The counts below keep the incomplete and rejected rows visible. A missing
 listener metric or mismatched name is not silently converted to zero."""
@@ -204,7 +203,7 @@ display(reviewed_exceptions.style.hide(axis="index"))"""
     )
     cells.append(
         nbf.v4.new_markdown_cell(
-            """## 3. The selected top 100
+            """## 03. The selected top 100
 
 Monthly listeners are a volatile global reach measure, not a timeless quality
 score. The full table is shown so the cutoff and every origin assignment remain
@@ -260,7 +259,7 @@ display(Markdown("*Blue denotes a London origin cluster; grey denotes every othe
     )
     cells.append(
         nbf.v4.new_markdown_cell(
-            """## 4. Geographic concentration
+            """## 04. Geographic concentration
 
 Counts answer “how many of the selected 100 came from each origin?” Listener
 share answers “how much of the selected sample’s captured reach came from each
@@ -308,7 +307,7 @@ effective_origins_count = 1 / report["origin_hhi_band_count_resolved"]
 effective_origins_reach = 1 / report["origin_hhi_reach_resolved"]
 
 display(Markdown(
-    f\"\"\"## 5. Result
+    f\"\"\"## 05. Result
 
 - **London contributes {int(london['band_count'])} of the selected 100 groups**
   ({london['listener_share']:.1%} of captured reach).
@@ -332,7 +331,7 @@ different question answered by the city-first study.\"\"\"
     )
     cells.append(
         nbf.v4.new_markdown_cell(
-            """## 6. Limitations
+            """## 06. Limitations
 
 - The candidate frame inherits Wikidata coverage, classifications, Spotify-ID
   errors, and multi-country edge cases. It is reproducible, but not exhaustive.

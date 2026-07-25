@@ -13,12 +13,15 @@ influence, live audiences or listening by local residents.
 ## Current deliverables
 
 - [Executed analysis notebook](notebooks/final/uk_bands_punching_above_weight.ipynb)
-- [Top-20 FUA experiment with the same structure](notebooks/experiments/snapshots/uk_bands_top20_fua_final_structure_20260718T204000Z.ipynb)
-- [Ten-band scene-depth experiment](notebooks/experiments/uk_bands_scene_depth_10_per_city.ipynb)
-- [Earlier top-20 symmetric-trim experiment](notebooks/experiments/snapshots/uk_bands_top20_city_first_20260718T204000Z.ipynb)
-- [Canonical top-200 popularity-first FUA experiment](notebooks/experiments/snapshots/uk_bands_top200_popularity_first_fua_20260718T204522Z.ipynb)
-- [Top-200 music-output-share versus population experiment](notebooks/experiments/snapshots/uk_bands_top200_output_share_vs_population_20260718T204522Z.ipynb)
-- [Top-1,000 follower-share versus population experiment](notebooks/experiments/snapshots/uk_bands_top1000_output_share_vs_population_20260718T204522Z.ipynb)
+- [Top-20 FUA experiment with the same structure](notebooks/experiments/08_uk_bands_top20_fua_final_structure.ipynb)
+- [Ten-band scene-depth experiment](notebooks/experiments/01_uk_bands_scene_depth_10_per_city.ipynb)
+- [Earlier top-20 symmetric-trim experiment](notebooks/experiments/05_uk_bands_top20_city_first.ipynb)
+- [Canonical top-200 popularity-first FUA experiment](notebooks/experiments/10_uk_bands_top200_popularity_first_fua.ipynb)
+- [Top-200 music-output-share versus population experiment](notebooks/experiments/11_uk_bands_top200_output_share_vs_population.ipynb)
+- [Top-1,000 follower-share versus population experiment](notebooks/experiments/12_uk_bands_top1000_output_share_vs_population.ipynb)
+- [Top-1,000 UK follower bubble, leading-band photo and output-quotient maps](notebooks/experiments/15_uk_bands_top1000_follower_maps.ipynb)
+- [Top-1,000 negative-binomial band-count scaling model](notebooks/experiments/13_uk_bands_top1000_negative_binomial_scaling.ipynb)
+- [Top-1,000 log–log follower scaling model](notebooks/experiments/14_uk_bands_top1000_loglog_follower_scaling.ipynb)
 - [Current reader-facing charts](artifacts/charts/)
 - [Archived 50-band publication](notebooks/archive/published-v1/uk_bands_punching_above_weight.ipynb)
 - [Scene-depth experiment charts](artifacts/scene_depth/)
@@ -86,7 +89,7 @@ python -m jupyter nbconvert \
   --execute \
   --to notebook \
   --inplace \
-  notebooks/experiments/snapshots/uk_bands_top20_fua_final_structure_20260718T204000Z.ipynb \
+  notebooks/experiments/08_uk_bands_top20_fua_final_structure.ipynb \
   --ExecutePreprocessor.timeout=240
 ```
 
@@ -97,7 +100,7 @@ python scripts/build_scene_depth_notebook.py
 python -m jupyter nbconvert \
   --execute \
   --to notebook \
-  --inplace notebooks/experiments/uk_bands_scene_depth_10_per_city.ipynb \
+  --inplace notebooks/experiments/01_uk_bands_scene_depth_10_per_city.ipynb \
   --ExecutePreprocessor.timeout=180
 ```
 
@@ -111,7 +114,7 @@ python -m jupyter nbconvert \
   --execute \
   --to notebook \
   --inplace \
-  notebooks/experiments/snapshots/uk_bands_top200_popularity_first_fua_20260718T204522Z.ipynb \
+  notebooks/experiments/10_uk_bands_top200_popularity_first_fua.ipynb \
   --ExecutePreprocessor.timeout=240
 ```
 

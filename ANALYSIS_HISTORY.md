@@ -5,10 +5,32 @@ explicit frozen inputs and do not refresh network data when executed. Each
 completion snapshot contains a manifest with SHA-256 checksums for the notebook,
 inputs, outputs, raw responses, and exported charts.
 
+## 23 July 2026 — top-1,000 population-scaling model comparison
+
+- Added separate executed notebooks for two distinct questions:
+  `notebooks/experiments/13_uk_bands_top1000_negative_binomial_scaling.ipynb`
+  models mapped band counts for all 83 FUAs, while
+  `notebooks/experiments/14_uk_bands_top1000_loglog_follower_scaling.ipynb`
+  models follower totals for the 61 positive-output FUAs.
+- The negative-binomial population exponent is 1.37 (95% CI 1.19–1.56).
+  Negative binomial fits its count outcome better than Poisson (AIC 327.7
+  versus 369.7) and retains all 22 zero-band FUAs.
+- The log–log follower exponent is 1.52 with HC3 95% CI 1.20–1.84. Its slope
+  remains 1.54 under Huber regression and 1.47 after removing London, but
+  leave-one-out error is large and the strongest city residual is a one-band
+  result.
+- Conclusion: use negative binomial as the primary scene-breadth model and the
+  log–log fit as an audience-impact companion. The models have different
+  outcomes, so their AIC values are not compared with each other.
+- Tables, summaries, comparison CSV and four charts are isolated under
+  `artifacts/experiments/top1000_scaling_models/20260718T204522Z/`.
+- No live Spotify or geography collection was performed; both notebooks use
+  the frozen 18 July 2026 top-1,000 and 2021 FUA population inputs.
+
 ## 22 July 2026 — music-output-share versus population experiment
 
 - Executed notebook:
-  `notebooks/experiments/snapshots/uk_bands_top200_output_share_vs_population_20260718T204522Z.ipynb`
+  `notebooks/experiments/11_uk_bands_top200_output_share_vs_population.ipynb`
 - Scope: compare every represented FUA's share of the frozen selected top-200
   catalogue with its share of the complete 83-FUA population universe. The
   chart uses band share as position and follower share as bubble area; the
@@ -45,7 +67,7 @@ inputs, outputs, raw responses, and exported charts.
 - Corrected the earlier Totnes sensitivity assignment: the official crosswalk
   places South Hams in Plymouth FUA, not Torbay.
 - Executed notebook:
-  `notebooks/experiments/snapshots/uk_bands_top1000_output_share_vs_population_20260718T204522Z.ipynb`.
+  `notebooks/experiments/12_uk_bands_top1000_output_share_vs_population.ipynb`.
 - Primary visual: follower share versus population share, with selected-band
   count encoded by bubble area. The band-share chart remains as a companion so
   its one-band row is explicit rather than mistaken for a plotting error.
@@ -64,7 +86,7 @@ inputs, outputs, raw responses, and exported charts.
 ## 18 July 2026 — city-first primary-design experiment
 
 - Executed notebook:
-  `notebooks/experiments/snapshots/uk_bands_top20_city_first_20260718T204000Z.ipynb`
+  `notebooks/experiments/05_uk_bands_top20_city_first.ipynb`
 - Scope: the twenty largest UK OECD/EU Functional Urban Areas by 2021
   population, ten reviewed bands per area, all-ten result followed by a
   symmetric trim of one highest and one lowest band.
@@ -80,7 +102,7 @@ inputs, outputs, raw responses, and exported charts.
 ## 18 July 2026 — popularity-first secondary experiment
 
 - Executed notebook:
-  `notebooks/experiments/snapshots/uk_bands_top100_popularity_first_20260718T204522Z.ipynb`
+  `notebooks/experiments/06_uk_bands_top100_popularity_first.ipynb`
 - Scope: select the 100 largest monthly-listener counts from an archived
   Wikidata-derived UK musical-group candidate universe after identity,
   redirect, and group-type review; then map origins and measure concentration.
@@ -115,7 +137,7 @@ inputs, outputs, raw responses, and exported charts.
 ## 18 July 2026 — population-adjusted popularity-first companion
 
 - Executed notebook:
-  `notebooks/experiments/snapshots/uk_bands_top100_popularity_first_population_adjusted_20260718T204522Z.ipynb`
+  `notebooks/experiments/07_uk_bands_top100_popularity_first_population_adjusted.ipynb`
 - Scope: preserve the raw top-100 origin concentration, then normalize both
   selected-band count and captured global listener reach by 2021 OECD/EU
   Functional Urban Area population.
@@ -199,7 +221,7 @@ inputs, outputs, raw responses, and exported charts.
   `data/processed/fua_top10_band_metrics_20260718T204000Z.csv` and
   `data/processed/fua_top10_rankings_20260718T204000Z.csv`.
 - New same-structure top-20 experiment:
-  `notebooks/experiments/snapshots/uk_bands_top20_fua_final_structure_20260718T204000Z.ipynb`.
+  `notebooks/experiments/08_uk_bands_top20_fua_final_structure.ipynb`.
 - Its standardized frozen inputs are
   `data/processed/fua_top20_band_metrics_20260718T204000Z.csv` and
   `data/processed/fua_top20_rankings_20260718T204000Z.csv`.
@@ -213,7 +235,7 @@ inputs, outputs, raw responses, and exported charts.
 ## 19 July 2026 — consolidate the Crawley-inclusive top-100 experiment
 
 - Canonical executed notebook:
-  `notebooks/experiments/snapshots/uk_bands_top100_popularity_first_fua_20260718T204522Z.ipynb`.
+  `notebooks/experiments/09_uk_bands_top100_popularity_first_fua.ipynb`.
 - Resolution: the earlier raw-only and population-adjusted top-100 notebooks
   used the same frozen selection and both contained The Cure/Crawley. The
   second appeared different because only it applied the FUA denominator.
@@ -262,7 +284,7 @@ inputs, outputs, raw responses, and exported charts.
 ## 19 July 2026 — replace the canonical top-100 experiment with top 200
 
 - New canonical executed notebook:
-  `notebooks/experiments/snapshots/uk_bands_top200_popularity_first_fua_20260718T204522Z.ipynb`.
+  `notebooks/experiments/10_uk_bands_top200_popularity_first_fua.ipynb`.
 - The popularity-first selection now retains 200 groups from the same frozen
   Spotify snapshot `20260718T204522Z`; no live capture was performed.
 - Added a top-200-specific override file:
@@ -294,6 +316,6 @@ inputs, outputs, raw responses, and exported charts.
 ## Working convention
 
 Before a new capture or methodological branch, create a labeled snapshot. Keep
-new analyses in a dated notebook under `notebooks/experiments/snapshots/`, use
+new analyses in the next numbered notebook under `notebooks/experiments/`, use
 dated raw and processed inputs, and add the completed state here. Promote no
 experiment into `notebooks/final/` without a separate publication decision.

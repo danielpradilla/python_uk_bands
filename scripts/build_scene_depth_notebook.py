@@ -17,7 +17,7 @@ DEFAULT_OUTPUT_PATH = (
     PROJECT_ROOT
     / "notebooks"
     / "experiments"
-    / "uk_bands_scene_depth_10_per_city.ipynb"
+    / "01_uk_bands_scene_depth_10_per_city.ipynb"
 )
 DEFAULT_SNAPSHOT_SELECTOR = "20260717T203002Z"
 SRC_DIR = PROJECT_ROOT / "src"
@@ -158,7 +158,7 @@ The top-excluded and symmetric-trim variants produce the same city order. Manche
         ),
         markdown(
             """
-## Context & Methods
+## 01. Context & Methods
 
 The published notebook uses `reference/original_shortlist.csv`: 50 bands, five per city. This experiment uses `reference/scene_depth_bands.csv`: 100 bands, ten per city.
 
@@ -227,7 +227,7 @@ apply_chart_style()
         ),
         markdown(
             f"""
-## Data
+## 02. Data
 
 Notebook execution is offline and reads only frozen local inputs:
 
@@ -316,9 +316,9 @@ display(quality_summary)
         ),
         markdown(
             """
-## Results
+## 03. Results
 
-### 1. Recalculate and verify the saved result
+### 03.01 Recalculate and verify the saved result
 
 The ranking is recomputed from the frozen band-level metrics. The cell then compares every saved output column with the timestamped result. Any discrepancy stops execution.
             """
@@ -387,7 +387,7 @@ Under the symmetric trim, {facts['symmetric_top']} are the top three cities.
         ),
         markdown(
             """
-### 2. Population-normalized trimmed mean
+### 03.02 Population-normalized trimmed mean
 
 The population-normalized trimmed mean averages the middle eight bands' monthly listeners and divides that mean by built-up-area population. It is a comparative normalization ratio, not a local listening rate.
             """
@@ -410,7 +410,7 @@ London and Birmingham are effectively tied: their population-normalized trimmed 
         ),
         markdown(
             """
-### 3. Superstar concentration
+### 03.03 Superstar concentration
 
 The following chart shows the share of each untrimmed ten-band total contributed by its largest band. A large share indicates that a city is more exposed to a single act's current popularity.
             """
@@ -433,7 +433,7 @@ The Beatles account for {facts['liverpool_concentration']:.1%} of Liverpool's se
         ),
         markdown(
             """
-### 4. Comparison with the published five-band baseline
+### 03.04 Comparison with the published five-band baseline
 
 The published notebook uses five bands per city, a 100,000-follower eligibility threshold, the top three eligible bands and a September 2025 Spotify snapshot. This experiment uses ten bands, no follower threshold and a July 2026 snapshot. The comparison is a sensitivity check, not an apples-to-apples causal decomposition.
             """
@@ -486,7 +486,7 @@ display(
         ),
         markdown(
             f"""
-## Takeaways
+## 04. Takeaways
 
 - The published top three are {facts['published_top']}; the expanded symmetric-trim top three are {facts['symmetric_top']}.
 - Manchester has the strongest result after the largest act is removed.
@@ -494,7 +494,7 @@ display(
 - Liverpool is more sensitive to the Beatles and falls two places after the largest act is removed.
 - Removing the lowest act has no additional rank effect in this snapshot.
 
-### Limitations
+### 04.01 Limitations
 
 This experiment is reproducible for the frozen files, but the manually curated selection is still subjective. {facts['review_rows']} origin assignments are medium confidence and flagged for review. Spotify monthly listeners change over time, and a refreshed snapshot may change both values and ranks. The experiment supports a robustness statement about this catalogue; it does not establish a definitive ranking of British music scenes.
             """
@@ -545,8 +545,7 @@ def _default_output_path(snapshot_id: str) -> Path:
         PROJECT_ROOT
         / "notebooks"
         / "experiments"
-        / "snapshots"
-        / f"uk_bands_scene_depth_{snapshot_id}.ipynb"
+        / "02_uk_bands_scene_depth.ipynb"
     )
 
 

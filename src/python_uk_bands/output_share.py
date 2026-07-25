@@ -7,11 +7,10 @@ from collections.abc import Iterable
 from pathlib import Path
 
 import matplotlib.pyplot as plt
-from matplotlib.lines import Line2D
 from matplotlib.ticker import FuncFormatter
 import pandas as pd
 
-from .visuals import HOUSE, apply_chart_style
+from .visuals import HOUSE, add_superposed_bubble_legend, apply_chart_style
 
 
 INCLUDED_MAPPING_TIERS = {"strict", "reviewed_extended"}
@@ -398,52 +397,30 @@ def plot_follower_share_vs_population_share(
             zorder=6,
         )
 
-    status_legend = ax.legend(
-        handles=[
-            Line2D(
-                [0],
-                [0],
-                marker="o",
-                color="none",
-                markerfacecolor=HOUSE["blue_soft"],
-                markeredgecolor=HOUSE["blue"],
-                markersize=9,
-                label="Multi-band cities",
-            ),
-            Line2D(
-                [0],
-                [0],
-                marker="o",
-                color="none",
-                markerfacecolor=HOUSE["page"],
-                markeredgecolor=HOUSE["warning"],
-                markersize=9,
-                label="Single-band cities",
-            ),
-        ],
-        frameon=False,
-        loc="upper left",
-    )
-    ax.add_artist(status_legend)
     count_references = [1, 10, 100]
-    count_handles = [
-        ax.scatter(
-            [],
-            [],
-            s=_bubble_size(value, max_band_count),
-            facecolor=HOUSE["page"],
-            edgecolor=HOUSE["secondary"],
-            linewidth=0.8,
-            label=f"{value}",
-        )
-        for value in count_references
-    ]
-    ax.legend(
-        handles=count_handles,
+    add_superposed_bubble_legend(
+        ax,
         title="Bubble area · selected bands",
-        frameon=False,
+        areas=[
+            _bubble_size(value, max_band_count)
+            for value in count_references
+        ],
+        labels=[f"{value}" for value in count_references],
+        items=[
+            {
+                "kind": "marker",
+                "label": "Multi-band cities",
+                "facecolor": HOUSE["blue_soft"],
+                "edgecolor": HOUSE["blue"],
+            },
+            {
+                "kind": "marker",
+                "label": "Single-band cities",
+                "facecolor": HOUSE["page"],
+                "edgecolor": HOUSE["warning"],
+            },
+        ],
         loc="lower right",
-        labelspacing=1.2,
     )
 
     ax.set_title(
@@ -458,7 +435,7 @@ def plot_follower_share_vs_population_share(
         1.018,
         (
             f"Top {selected_count} UK groups · Spotify snapshot {snapshot_date} · "
-            f"{mapping_label} · circle area shows selected-band count"
+            f"{mapping_label} · bubble area shows selected-band count"
         ),
         transform=ax.transAxes,
         color=HOUSE["secondary"],
@@ -642,52 +619,30 @@ def plot_band_share_vs_population_share(
             zorder=6,
         )
 
-    status_legend = ax.legend(
-        handles=[
-            Line2D(
-                [0],
-                [0],
-                marker="o",
-                color="none",
-                markerfacecolor=HOUSE["blue_soft"],
-                markeredgecolor=HOUSE["blue"],
-                markersize=9,
-                label="Multi-band cities",
-            ),
-            Line2D(
-                [0],
-                [0],
-                marker="o",
-                color="none",
-                markerfacecolor=HOUSE["page"],
-                markeredgecolor=HOUSE["warning"],
-                markersize=9,
-                label="Single-band cities",
-            ),
-        ],
-        frameon=False,
-        loc="upper left",
-    )
-    ax.add_artist(status_legend)
     follower_reference_shares = [0.01, 0.10, 0.50]
-    follower_handles = [
-        ax.scatter(
-            [],
-            [],
-            s=_bubble_size(value, max_follower_share),
-            facecolor=HOUSE["page"],
-            edgecolor=HOUSE["secondary"],
-            linewidth=0.8,
-            label=f"{value:.0%}",
-        )
-        for value in follower_reference_shares
-    ]
-    ax.legend(
-        handles=follower_handles,
+    add_superposed_bubble_legend(
+        ax,
         title="Bubble area · follower share",
-        frameon=False,
+        areas=[
+            _bubble_size(value, max_follower_share)
+            for value in follower_reference_shares
+        ],
+        labels=[f"{value:.0%}" for value in follower_reference_shares],
+        items=[
+            {
+                "kind": "marker",
+                "label": "Multi-band cities",
+                "facecolor": HOUSE["blue_soft"],
+                "edgecolor": HOUSE["blue"],
+            },
+            {
+                "kind": "marker",
+                "label": "Single-band cities",
+                "facecolor": HOUSE["page"],
+                "edgecolor": HOUSE["warning"],
+            },
+        ],
         loc="lower right",
-        labelspacing=1.2,
     )
 
     ax.set_title(
@@ -702,7 +657,7 @@ def plot_band_share_vs_population_share(
         1.018,
         (
             f"Top {selected_count} UK groups · Spotify snapshot {snapshot_date} · "
-            f"{mapping_label} · circle area shows follower share"
+            f"{mapping_label} · bubble area shows follower share"
         ),
         transform=ax.transAxes,
         color=HOUSE["secondary"],
@@ -715,7 +670,8 @@ def plot_band_share_vs_population_share(
         (
             f"{len(plot_data)} represented FUAs shown; {zero_count} zero-band FUAs "
             "remain in the population denominator but cannot appear on log axes. "
-            "Shares use the full selected-band denominator, including unmapped bands."
+            "Shares use the full selected-band denominator, including unmapped "
+            "bands."
         ),
         color=HOUSE["secondary"],
         fontsize=8.7,

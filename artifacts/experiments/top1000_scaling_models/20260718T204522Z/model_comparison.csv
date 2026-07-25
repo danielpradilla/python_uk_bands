@@ -1,0 +1,6 @@
+dimension,negative_binomial,loglog_followers,assessment
+Question,How many mapped bands does population predict?,How does mapped follower reach scale with population?,Different outcomes; AIC is not comparable across them.
+FUA coverage,"83/83, including 22 zeros",61/83 positive-output FUAs,Negative binomial has better population coverage.
+Population exponent,1.37 (1.19–1.56),1.52 (1.20–1.84),Both reject proportional scaling in this catalogue.
+Main vulnerability,Unmapped identities and catalogue cutoff,Zero exclusion and superstar-dominated totals,Follower residuals need stronger concentration caveats.
+Recommended role,Primary model for scene breadth,Secondary model for audience impact,Negative binomial is better for the stated expected-band question.

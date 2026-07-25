@@ -1,0 +1,27 @@
+{
+  "asset_date": "20260723",
+  "captured_at_utc": "2026-07-23T20:43:57.270498+00:00",
+  "top_city_count": 10,
+  "study_snapshot_id": "20260718T204522Z",
+  "population_snapshot_id": "20260718T201304Z",
+  "natural_earth": {
+    "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson",
+    "source_page_url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-0-countries-2/",
+    "terms_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+    "license": "Public domain",
+    "local_path": "data/raw/geography/natural_earth_50m_united_kingdom_20260723.geojson",
+    "sha256": "826a3c0e21195aee0a7f0cdf3d19a5dd7caeee1fc018f78b7747871e7270f41b"
+  },
+  "wikidata": {
+    "api_url": "https://www.wikidata.org/w/api.php",
+    "coordinate_property": "P625",
+    "license": "CC0 1.0",
+    "license_url": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+    "local_path": "reference/top1000_fua_map_coordinates_20260723.csv"
+  },
+  "wikimedia_commons": {
+    "api_url": "https://commons.wikimedia.org/w/api.php",
+    "manifest_path": "reference/top1000_city_band_photo_manifest_20260723.csv",
+    "note": "Per-file creators and licences are stored in the manifest."
+  }
+}

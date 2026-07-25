@@ -1,0 +1,11 @@
+fua_code,study_city_label,city_qid,wikidata_label,latitude,longitude,coordinate_source_url,captured_at_utc
+UK001F,London,Q84,London,51.507222222222,-0.1275,https://www.wikidata.org/wiki/Q84,2026-07-23T20:43:57.270498+00:00
+UK008F,Manchester,Q18125,Manchester,53.466666666667,-2.2333333333333,https://www.wikidata.org/wiki/Q18125,2026-07-23T20:43:57.270498+00:00
+UK010F,Sheffield,Q42448,Sheffield,53.380833333333335,-1.4702777777777778,https://www.wikidata.org/wiki/Q42448,2026-07-23T20:43:57.270498+00:00
+UK006F,Liverpool,Q24826,Liverpool,53.407222222222224,-2.9916666666666667,https://www.wikidata.org/wiki/Q24826,2026-07-23T20:43:57.270498+00:00
+UK002F,Birmingham,Q2256,Birmingham,52.48,-1.9025,https://www.wikidata.org/wiki/Q2256,2026-07-23T20:43:57.270498+00:00
+UK560F,Oxford,Q34217,Oxford,51.751944444444,-1.2577777777778,https://www.wikidata.org/wiki/Q34217,2026-07-23T20:43:57.270498+00:00
+UK004F,Glasgow,Q4093,Glasgow,55.861111111111114,-4.25,https://www.wikidata.org/wiki/Q4093,2026-07-23T20:43:57.270498+00:00
+UK003F,Leeds,Q39121,Leeds,53.7975,-1.5436111111111113,https://www.wikidata.org/wiki/Q39121,2026-07-23T20:43:57.270498+00:00
+UK018F,Exeter,Q134672,Exeter,50.72555555555556,-3.526944444444444,https://www.wikidata.org/wiki/Q134672,2026-07-23T20:43:57.270498+00:00
+UK576F,Crawley,Q844908,Crawley,51.1157,-0.1937,https://www.wikidata.org/wiki/Q844908,2026-07-23T20:43:57.270498+00:00

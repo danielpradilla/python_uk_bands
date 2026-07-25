@@ -587,8 +587,7 @@ def main(argv: list[str] | None = None) -> None:
         else PROJECT_ROOT
         / "notebooks"
         / "experiments"
-        / "snapshots"
-        / f"uk_bands_snapshot_comparison_{comparison_id}.ipynb"
+        / "04_uk_bands_snapshot_comparison.ipynb"
     )
     chart_output_dir = (
         _absolute_project_path(args.chart_dir)

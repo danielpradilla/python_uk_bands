@@ -1,12 +1,10 @@
 # Where the bands came from
 
-I grew up dreaming about places I thought I would never visit. Strange but familiar names on the other side of the world: Athens, Georgia; Manchester; Liverpool; Seattle.
+For years, I thought it was completely normal to know where every band came from. Radio DJs had a lot to do with it. Instead of repeating the name of a band, they would say things like "the Liverpool quartet", "the boys from Manchester". Music magazines and reviews did the same. I grew used to hearing geography woven into music talk, so I absorbed it without noticing.
 
-For years, I thought it was completely normal to know where every band came from. Radio DJs probably had a lot to do with it. Instead of repeating the name of a band, they would say "the Liverpool quartet" or refer to some group by its hometown. Music magazines and reviews did the same. I grew accustomed to hearing geography woven into the way people talked about music, so I absorbed it without noticing.
+It also made me dream about places that, as a latinamerican kid, I was very sure I wouldn't be able to visit.
 
-Later, after I emigrated and began meeting people from the United Kingdom, something peculiar happened. They would tell me where they were from and a band would immediately appear in my head. Someone would say, "Newcastle," and my mind would answer: The Animals.
-
-Sometimes I said it out loud. Sometimes I managed to keep it to myself. It took me a while to realize that this was a particular obsession of mine and not an entirely normal way to respond when meeting someone.
+Later, after I emigrated and began meeting people from the UK, they would tell me where they were from and a band would immediately appear in my head. Someone would say, "Newcastle," and my mind would answer The Animals. Sometimes I said it out loud. It took me a while to realize that this was a particular trait of mine and not an entirely normal way to respond when meeting someone.
 
 I tend to save it for the smaller places. I would not comment on Liverpool, London or Manchester, where the associations are too obvious. Manchester is a special case anyway. To me, it may be the ultimate city of late-1980s cultural impact. First came Joy Division and New Order, then The Smiths, and then Madchester: The Stone Roses, Happy Mondays and the rest of that strange, brief explosion.
 

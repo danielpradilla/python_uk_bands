@@ -45,6 +45,7 @@ def _relative(path: Path) -> Path:
 
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
+    experiment_prefix = {200: "11_", 1000: "12_"}.get(args.top_n, "")
     prefix = f"popularity_first_top{args.top_n}_{args.snapshot_id}"
     bands_path = (
         args.bands
@@ -81,11 +82,7 @@ def main(argv: list[str] | None = None) -> int:
         or PROJECT_ROOT
         / "notebooks"
         / "experiments"
-        / "snapshots"
-        / (
-            f"uk_bands_top{args.top_n}_output_share_vs_population_"
-            f"{args.snapshot_id}.ipynb"
-        )
+        / f"{experiment_prefix}uk_bands_top{args.top_n}_output_share_vs_population.ipynb"
     ).resolve()
     if output_path.exists() and not args.force:
         raise FileExistsError(
@@ -173,7 +170,7 @@ rankings when the same universes and denominators are used."""
     )
     cells.append(
         nbf.v4.new_markdown_cell(
-            f"""## Context & Methods
+            f"""## 01. Context & Methods
 
 The selected music universe is the frozen popularity-first top {args.top_n} of
 eligible UK groups ranked by captured Spotify monthly listeners. Origins are
@@ -195,7 +192,7 @@ The experiment calculates three versions:
 3. **Monthly-listener impact:** share of the frozen monthly-listener total.
 
 The primary chart puts population share on the x-axis and follower share on the
-y-axis. Its bubble area encodes selected-band count. Points above the parity
+y-axis. Its bubble area is scaled by selected-band count. Points above the parity
 line have a follower output quotient greater than `1.0×`. A secondary chart
 retains band share on the y-axis so breadth remains visible.
 
@@ -213,13 +210,13 @@ retains band share on the y-axis so breadth remains visible.
   choices, not a census of British music."""
         )
     )
-    cells.append(nbf.v4.new_markdown_cell("## Data"))
+    cells.append(nbf.v4.new_markdown_cell("## 02. Data"))
     cells.append(
         nbf.v4.new_code_cell(
             f"""from pathlib import Path
 
 import pandas as pd
-from IPython.display import Markdown, display
+from IPython.display import Image, Markdown, display
 
 ROOT = next(
     (
@@ -310,10 +307,10 @@ retaining the full catalogue denominator. The stricter view is useful for
 checking whether reviewed boundary assignments change the interpretation."""
         )
     )
-    cells.append(nbf.v4.new_markdown_cell("## Results"))
+    cells.append(nbf.v4.new_markdown_cell("## 03. Results"))
     cells.append(
         nbf.v4.new_markdown_cell(
-            """### Follower-share chart
+            """### 03.01 Follower-share chart
 
 Follower share supplies the vertical position and selected-band count supplies
 bubble area. Marker treatment distinguishes one-band cases from FUAs with at
@@ -330,6 +327,7 @@ and exported table but cannot be positioned on a log y-axis."""
     mapping_label="strict + reviewed-extended FUA mapping",
     output_dir=CHART_OUTPUT_DIR,
 )
+display(Image(filename=str(chart_path)))
 display(Markdown(f"Exported to `{{chart_path.relative_to(ROOT)}}`."))"""
         )
     )
@@ -342,7 +340,7 @@ result."""
         )
     )
     cells.append(
-        nbf.v4.new_markdown_cell("### Exact quotients and concentration")
+        nbf.v4.new_markdown_cell("### 03.02 Exact quotients and concentration")
     )
     cells.append(
         nbf.v4.new_code_cell(
@@ -396,12 +394,13 @@ display(
     )
     cells.append(
         nbf.v4.new_markdown_cell(
-            """### Band-representation companion
+            """### 03.03 Band-representation companion
 
 The companion chart returns to selected-band share on the y-axis. It measures
 breadth rather than audience impact. One-band FUAs necessarily align at
 `1 / TOP_N`; this discrete row is a property of the count metric, not a plotting
-error."""
+error. Here bubble area is scaled by follower share, with the quantitative
+references shown in the consolidated legend."""
         )
     )
     cells.append(
@@ -414,11 +413,12 @@ error."""
     output_dir=CHART_OUTPUT_DIR,
     filename="chart_02_band_share_vs_population_share.png",
 )
+display(Image(filename=str(band_chart_path)))
 display(Markdown(f"Exported to `{{band_chart_path.relative_to(ROOT)}}`."))"""
         )
     )
     cells.append(
-        nbf.v4.new_markdown_cell("### Calculation checks")
+        nbf.v4.new_markdown_cell("### 03.04 Calculation checks")
     )
     cells.append(
         nbf.v4.new_code_cell(
@@ -454,7 +454,7 @@ print(
 )"""
         )
     )
-    cells.append(nbf.v4.new_markdown_cell("## Takeaways"))
+    cells.append(nbf.v4.new_markdown_cell("## 04. Takeaways"))
     cells.append(
         nbf.v4.new_markdown_cell(
             f"""1. **The share framing works.** It makes the expected-output
@@ -475,7 +475,7 @@ print(
    log-log or count model should test whether output scales linearly with
    population rather than assuming the parity line is the correct expectation.
 
-### Status
+### 04.01 Status
 
 **Share with caveats.** The calculations are internally reproducible and the
 chart honestly represents the frozen data, but the catalogue, origin mapping,

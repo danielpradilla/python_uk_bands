@@ -817,8 +817,7 @@ def default_output_path(city_count: int, snapshot_id: str) -> Path:
         PROJECT_ROOT
         / "notebooks"
         / "experiments"
-        / "snapshots"
-        / f"uk_bands_top20_fua_final_structure_{snapshot_id}.ipynb"
+        / "08_uk_bands_top20_fua_final_structure.ipynb"
     )
 
 

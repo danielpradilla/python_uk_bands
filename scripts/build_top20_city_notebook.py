@@ -41,8 +41,7 @@ def main(argv: list[str] | None = None) -> int:
         PROJECT_ROOT
         / "notebooks"
         / "experiments"
-        / "snapshots"
-        / f"uk_bands_top20_city_first_{snapshot_id}.ipynb"
+        / "05_uk_bands_top20_city_first.ipynb"
     )
     if output_path.exists() and not args.force:
         raise FileExistsError(
@@ -131,7 +130,7 @@ display(Markdown(
     )
     cells.append(
         nbf.v4.new_markdown_cell(
-            """## 1. Study design and data lineage
+            """## 01. Study design and data lineage
 
 Population selection comes first: OECD/EU Functional Urban Areas are ranked
 using the OECD's 2021 population observations. This gives one harmonized
@@ -178,7 +177,7 @@ display(lineage.style.hide(axis="index"))"""
     )
     cells.append(
         nbf.v4.new_markdown_cell(
-            """## 2. The population-selected universe
+            """## 02. The population-selected universe
 
 The population column below is the denominator used by the study. All twenty
 areas remain visible here even though later narrative charts show the top ten."""
@@ -209,7 +208,7 @@ display(
     )
     cells.append(
         nbf.v4.new_markdown_cell(
-            """## 3. Baseline: all ten selected bands
+            """## 03. Baseline: all ten selected bands
 
 The baseline adds the ten bands' monthly listeners and divides that total by
 FUA population. This measures selected global Spotify reach per resident; it
@@ -280,7 +279,7 @@ print(chart_path.relative_to(ROOT))"""
     )
     cells.append(
         nbf.v4.new_markdown_cell(
-            """## 4. Scene-depth test: remove one band from each tail
+            """## 04. Scene-depth test: remove one band from each tail
 
 For each FUA, the highest- and lowest-listener band are removed. The remaining
 eight bands form a **10% trimmed mean at each tail** (20% removed in total).
@@ -354,7 +353,7 @@ print(chart_path.relative_to(ROOT))"""
     )
     cells.append(
         nbf.v4.new_markdown_cell(
-            """## 5. What changes after trimming?
+            """## 05. What changes after trimming?
 
 Rank movement distinguishes a scene supported by several acts from one whose
 baseline is especially dependent on a single giant band."""
@@ -392,7 +391,7 @@ display(
     )
     cells.append(
         nbf.v4.new_markdown_cell(
-            """## 6. Reading the result
+            """## 06. Reading the result
 
 - **Oxford ranks first in both specifications.** Radiohead accounts for a
   large share of the ten-band total, but Oxford still leads after Radiohead
@@ -408,7 +407,7 @@ display(
     )
     cells.append(
         nbf.v4.new_markdown_cell(
-            """## 7. Audit the selected bands
+            """## 07. Audit the selected bands
 
 This table retains the full 200-band catalogue, origin evidence, Spotify
 identity and current metric. It is deliberately long: the narrative can show
@@ -439,7 +438,7 @@ display(
     )
     cells.append(
         nbf.v4.new_markdown_cell(
-            """## 8. Limitations and publication status
+            """## 08. Limitations and publication status
 
 This completed experiment is reproducible from frozen local files, but it
 remains an exploratory ranking:

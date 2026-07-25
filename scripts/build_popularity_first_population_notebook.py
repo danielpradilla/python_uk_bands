@@ -43,11 +43,7 @@ def main(argv: list[str] | None = None) -> int:
         or PROJECT_ROOT
         / "notebooks"
         / "experiments"
-        / "snapshots"
-        / (
-            "uk_bands_top100_popularity_first_population_adjusted_"
-            f"{args.snapshot_id}.ipynb"
-        )
+        / "07_uk_bands_top100_popularity_first_population_adjusted.ipynb"
     ).resolve()
     if output_path.exists() and not args.force:
         raise FileExistsError(
@@ -137,7 +133,7 @@ display(Markdown(
     )
     cells.append(
         nbf.v4.new_markdown_cell(
-            """## 1. What changes when population enters the denominator?
+            """## 01. What changes when population enters the denominator?
 
 The original analysis measures concentration inside a popularity-selected
 sample. This companion retains that result, then calculates two rates:
@@ -183,7 +179,7 @@ display(lineage.style.hide(axis="index"))"""
     )
     cells.append(
         nbf.v4.new_markdown_cell(
-            """## 2. Keep the raw result visible
+            """## 02. Keep the raw result visible
 
 Population adjustment answers a different question, so the raw geographic
 concentration is not discarded. London still supplies the largest number of
@@ -227,7 +223,7 @@ display(
     )
     cells.append(
         nbf.v4.new_markdown_cell(
-            """## 3. Denominator coverage
+            """## 03. Denominator coverage
 
 The main result uses only exact FUA label matches and three transparent label
 aliases: Bath, Brighton and Dundee. It does not silently force every formation
@@ -286,7 +282,7 @@ display(
     )
     cells.append(
         nbf.v4.new_markdown_cell(
-            """## 4. Main result: captured reach per resident
+            """## 04. Main result: captured reach per resident
 
 Every strict-mapped FUA remains in the result. Bars supported by two or more
 bands are coloured; one-band results are grey and explicitly labelled."""
@@ -366,7 +362,7 @@ display(
     )
     cells.append(
         nbf.v4.new_markdown_cell(
-            """## 5. Stability view: require at least two selected bands
+            """## 05. Stability view: require at least two selected bands
 
 The full ranking above is the main result. This diagnostic removes no
 observations from the calculations; it simply focuses the display on FUAs whose
@@ -420,7 +416,7 @@ stable_ranked = (
 stable_names = stable_ranked.head(5)["study_city_label"].tolist()
 
 display(Markdown(
-    f\"\"\"## 6. Interpretation
+    f\"\"\"## 06. Interpretation
 
 - **{top_fua['study_city_label']} ranks first in the complete strict view**, but
   its rate is based on one band: **{', '.join(top_fua_bands)}**. That is a
@@ -437,7 +433,7 @@ display(Markdown(
     )
     cells.append(
         nbf.v4.new_markdown_cell(
-            """## 7. Extended mapping sensitivity
+            """## 07. Extended mapping sensitivity
 
 The extended view adds seven reviewed associations for places that do not match
 an FUA label directly. These are deliberately treated as sensitivity
@@ -504,7 +500,7 @@ display(
     )
     cells.append(
         nbf.v4.new_markdown_cell(
-            """## 8. Conclusion and limitations
+            """## 08. Conclusion and limitations
 
 Population adjustment is useful here, but it changes the estimand. The raw
 view answers where the selected top 100 came from; the adjusted view answers

@@ -74,6 +74,7 @@ def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     snapshot_id = args.snapshot_id
     top_n = args.top_n
+    experiment_prefix = {100: "09_", 200: "10_"}.get(top_n, "")
     paths = {
         name: (
             getattr(args, name).resolve()
@@ -99,8 +100,7 @@ def main(argv: list[str] | None = None) -> int:
         or PROJECT_ROOT
         / "notebooks"
         / "experiments"
-        / "snapshots"
-        / f"uk_bands_top{top_n}_popularity_first_fua_{snapshot_id}.ipynb"
+        / f"{experiment_prefix}uk_bands_top{top_n}_popularity_first_fua.ipynb"
     ).resolve()
     if output_path.exists() and not args.force:
         raise FileExistsError(
@@ -189,17 +189,14 @@ def main(argv: list[str] | None = None) -> int:
         f"artifacts/experiments/top{top_n}_popularity_first_fua/{snapshot_id}"
     )
     predecessor_canonical = (
-        "notebooks/experiments/snapshots/"
-        f"uk_bands_top100_popularity_first_fua_{snapshot_id}.ipynb"
+        "notebooks/experiments/09_uk_bands_top100_popularity_first_fua.ipynb"
     )
     predecessor_raw = (
-        "notebooks/experiments/snapshots/"
-        f"uk_bands_top100_popularity_first_{snapshot_id}.ipynb"
+        "notebooks/experiments/06_uk_bands_top100_popularity_first.ipynb"
     )
     predecessor_adjusted = (
-        "notebooks/experiments/snapshots/"
-        "uk_bands_top100_popularity_first_population_adjusted_"
-        f"{snapshot_id}.ipynb"
+        "notebooks/experiments/"
+        "07_uk_bands_top100_popularity_first_population_adjusted.ipynb"
     )
 
     cells: list = []

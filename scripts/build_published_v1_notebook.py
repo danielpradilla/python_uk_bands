@@ -778,8 +778,7 @@ def main(argv: list[str] | None = None) -> None:
             PROJECT_ROOT
             / "notebooks"
             / "experiments"
-            / "snapshots"
-            / f"uk_bands_publication_preview_{suffix}.ipynb"
+            / "03_uk_bands_publication_preview.ipynb"
         )
 
     if args.chart_dir:
