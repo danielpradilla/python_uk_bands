@@ -1,0 +1,645 @@
+{
+  "surface": "report",
+  "manifest": {
+    "version": 1,
+    "surface": "report",
+    "title": "A three-study path for the UK music-cities project",
+    "description": "A publication-strategy review of experiments 16–23.",
+    "generatedAt": "2026-07-25T19:41:20Z",
+    "charts": [
+      {
+        "id": "portfolio_position",
+        "title": "Experiment portfolio position",
+        "subtitle": "Structured editorial assessment on 1–5 scales; higher is stronger",
+        "showDescription": true,
+        "intent": "relationship",
+        "question": "Which experiments combine enough evidence maturity with enough publication potential to determine the research programme?",
+        "rationale": "A labelled scatter separates what is ready now from ideas with high upside but substantial evidence gaps.",
+        "comparisonContext": {
+          "baseline": "Common editorial rubric",
+          "denominator": "One assessment per experiment",
+          "grain": "Experiment",
+          "normalization": "Both axes use a 1–5 editorial scale",
+          "semanticFamily": "Portfolio prioritisation",
+          "unit": "score"
+        },
+        "type": "scatter",
+        "dataset": "portfolio",
+        "sourceId": "portfolio_review",
+        "encodings": {
+          "x": {
+            "field": "evidence_readiness",
+            "type": "quantitative",
+            "label": "Evidence readiness",
+            "unit": "1–5"
+          },
+          "y": {
+            "field": "publication_upside",
+            "type": "quantitative",
+            "label": "Publication upside",
+            "unit": "1–5"
+          },
+          "color": {
+            "field": "proposed_study",
+            "type": "nominal",
+            "label": "Proposed study"
+          },
+          "label": {
+            "field": "experiment_label",
+            "type": "text",
+            "label": "Experiment"
+          },
+          "tooltip": [
+            {
+              "field": "title",
+              "type": "text",
+              "label": "Experiment"
+            },
+            {
+              "field": "surprise_value",
+              "type": "quantitative",
+              "label": "Surprise value"
+            },
+            {
+              "field": "recommended_role",
+              "type": "text",
+              "label": "Recommended role"
+            },
+            {
+              "field": "confidence",
+              "type": "text",
+              "label": "Current confidence"
+            }
+          ]
+        },
+        "layout": "full",
+        "maxRows": 8,
+        "palette": {
+          "kind": "categorical",
+          "name": "research-programme"
+        },
+        "legend": {
+          "position": "bottom",
+          "sort": "labelAsc",
+          "title": "Proposed study"
+        },
+        "surface": {
+          "surface": "explorer",
+          "interactiveLegend": true,
+          "showControls": true,
+          "viewMode": "both"
+        }
+      }
+    ],
+    "tables": [
+      {
+        "id": "experiment_verdicts",
+        "title": "Verdict on all eight experiments",
+        "subtitle": "Current evidential status, recommended role and the limitation that controls each conclusion",
+        "showDescription": true,
+        "dataset": "portfolio",
+        "sourceId": "portfolio_review",
+        "defaultSort": {
+          "field": "experiment_id",
+          "direction": "asc"
+        },
+        "density": "spacious",
+        "layout": "full",
+        "columns": [
+          {
+            "field": "experiment_id",
+            "label": "Experiment",
+            "format": "number"
+          },
+          {
+            "field": "title",
+            "label": "Title",
+            "type": "text"
+          },
+          {
+            "field": "confidence",
+            "label": "Current status",
+            "type": "text"
+          },
+          {
+            "field": "recommended_role",
+            "label": "Recommended role",
+            "type": "text"
+          },
+          {
+            "field": "proposed_study",
+            "label": "Programme home",
+            "type": "text"
+          },
+          {
+            "field": "key_result",
+            "label": "Result that matters",
+            "type": "text"
+          },
+          {
+            "field": "main_limit",
+            "label": "Controlling limitation",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "surprising_results",
+        "title": "Results that change the direction of the project",
+        "subtitle": "Ordered by their importance to the publication strategy, not by effect size",
+        "showDescription": true,
+        "dataset": "surprises",
+        "sourceId": "surprises_review",
+        "defaultSort": {
+          "field": "priority",
+          "direction": "asc"
+        },
+        "density": "spacious",
+        "layout": "full",
+        "columns": [
+          {
+            "field": "priority",
+            "label": "Order",
+            "format": "number"
+          },
+          {
+            "field": "finding",
+            "label": "Finding",
+            "type": "text"
+          },
+          {
+            "field": "evidence",
+            "label": "Evidence",
+            "type": "text"
+          },
+          {
+            "field": "implication",
+            "label": "How it changes the study",
+            "type": "text"
+          },
+          {
+            "field": "claim_strength",
+            "label": "Claim strength",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "study_programme",
+        "title": "Recommended research programme",
+        "subtitle": "Three distinct questions with progressively deeper evidence requirements",
+        "showDescription": true,
+        "dataset": "programme",
+        "sourceId": "study_programme",
+        "defaultSort": {
+          "field": "sequence",
+          "direction": "asc"
+        },
+        "density": "spacious",
+        "layout": "full",
+        "columns": [
+          {
+            "field": "sequence",
+            "label": "Study",
+            "format": "number"
+          },
+          {
+            "field": "working_title",
+            "label": "Working title",
+            "type": "text"
+          },
+          {
+            "field": "central_question",
+            "label": "Central question",
+            "type": "text"
+          },
+          {
+            "field": "existing_evidence",
+            "label": "Existing evidence",
+            "type": "text"
+          },
+          {
+            "field": "required_next_work",
+            "label": "Required next work",
+            "type": "text"
+          },
+          {
+            "field": "publication_shape",
+            "label": "Publication shape",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "portfolio_review",
+        "label": "Experiment evidence matrix",
+        "path": "experiment_evidence_matrix.csv"
+      },
+      {
+        "id": "strategy_synthesis",
+        "label": "Publication-strategy synthesis notes",
+        "path": "report_notes.md"
+      },
+      {
+        "id": "surprises_review",
+        "label": "Surprising-results review table",
+        "path": "surprising_results.csv"
+      },
+      {
+        "id": "study_programme",
+        "label": "Recommended study programme",
+        "path": "study_programme.csv"
+      }
+    ],
+    "blocks": [
+      {
+        "id": "title",
+        "type": "markdown",
+        "body": "# A three-study path for the UK music-cities project",
+        "layout": "full"
+      },
+      {
+        "id": "executive_summary",
+        "type": "markdown",
+        "body": "## Executive Summary\n\n- **Publish the first piece as a measurement study, not a definitive city ranking.** Experiments 16 and 17 supply the strongest, most distinctive argument: the apparent winner changes with the catalogue, geography, metric and scoring rule, while population-adjusted output is not the same as scene depth. Experiment 23 adds a credible independent attention measure.\n\n- **The biggest surprise is not that one city wins; it is that different defensible meanings of “music city” produce different winners.** Sheffield is a recurring strong performer, but its multiverse rank still spans 1–15. Crawley spans 1–27 and London 1–35. That instability is the publishable result.\n\n- **The best second study is about mechanisms: genre lineages, institutions and networks.** Experiments 19–21 reveal promising tensions, especially the 0.72 raw infrastructure/depth correlation versus 0.14 after per-capita comparison, and the dominance of label links over member links. Those are hypotheses for a historical study, not causal findings.\n\n- **The best third study is longitudinal and multi-platform.** Experiment 22 shows why followers and monthly listeners cannot be treated as interchangeable: every band gained followers, only 28 of 50 gained listeners, and their change ranks correlate only 0.23. A fixed monthly panel can turn that warning into a new paper.",
+        "layout": "full",
+        "sourceId": "portfolio_review"
+      },
+      {
+        "id": "study_one_case",
+        "type": "markdown",
+        "body": "## The first publication should explain how rankings are constructed\n\n**The most professional first paper is the one that makes the uncertainty the subject.** Keep the personal opening in `POST.md`, then replace the question “Which city wins?” with “How do definitions of city, band, weight and depth change the answer?”\n\nA strong three-act narrative already exists:\n\n1. **Raw scale:** London dominates large popularity catalogues.\n2. **Per-capita surprise:** smaller places can jump to the top, sometimes because one exceptional band meets a small denominator. Crawley is the clearest case.\n3. **Depth and stability:** multiverse ranks and effective-band counts reveal which places remain strong across definitions and which are superstar-sensitive. Sheffield becomes a credible recurring contender, not a universal winner.\n\nUse the popularity-first catalogue as the backbone, show experiment 16's rank ranges beside the primary specification, and use experiment 17 to distinguish output from depth. Experiment 23 can close the evidence path by showing that Wikipedia attention and Spotify followers overlap strongly but do not describe the same cultural signal. Experiment 22 belongs here only as a measurement warning: follower stock and rolling listener activity must remain separate metrics.\n\n**Readiness assessment: share with caveats as a visual data essay.** It is not ready to support “Britain's best music city,” but it is ready to support “the winner depends on what we decide to measure.”",
+        "layout": "full",
+        "sourceId": "portfolio_review"
+      },
+      {
+        "id": "portfolio_explainer",
+        "type": "markdown",
+        "body": "## The portfolio separates ready evidence from high-upside research\n\nThe chart positions each experiment on two explicit editorial judgments: how defensible its current evidence is, and how much publication potential it has after the stated next work. These are prioritisation scores, not statistical estimates. The upper-right experiments should shape the first paper; the upper-left experiments justify new data collection rather than immediate claims.",
+        "layout": "full",
+        "sourceId": "strategy_synthesis"
+      },
+      {
+        "id": "portfolio_chart",
+        "type": "chart",
+        "chartId": "portfolio_position",
+        "layout": "full"
+      },
+      {
+        "id": "portfolio_interpretation",
+        "type": "markdown",
+        "body": "**Experiments 16 and 17 are the publication core.** Experiment 23 is mature enough to strengthen the first paper without taking it over. Experiments 20 and 22 have exceptional upside because their tensions are memorable, but their designs are not yet deep enough for explanatory claims. Experiments 18, 19 and 21 are valuable because they define exactly what the second study must collect and review.",
+        "layout": "full",
+        "sourceId": "portfolio_review"
+      },
+      {
+        "id": "verdict_table_intro",
+        "type": "markdown",
+        "body": "## What each experiment has earned\n\nA professional portfolio does not force every experiment into the same role. Some results are publication evidence, some are robustness checks, some are feasibility audits, and some are hypothesis generators. The controlling limitation in the last column determines the strongest defensible claim today.",
+        "layout": "full"
+      },
+      {
+        "id": "verdict_table",
+        "type": "table",
+        "tableId": "experiment_verdicts",
+        "layout": "full"
+      },
+      {
+        "id": "surprises_intro",
+        "type": "markdown",
+        "body": "## The surprises point away from a league table and toward a research programme\n\nThe most useful surprises are contradictions between measures. They reveal that the project has been combining distinct concepts: scale, per-capita overperformance, scene breadth, accumulated platform following, current listening activity, cultural attention and institutional infrastructure. Separating those concepts is what makes the work look rigorous rather than merely elaborate.",
+        "layout": "full",
+        "sourceId": "portfolio_review"
+      },
+      {
+        "id": "surprises_table",
+        "type": "table",
+        "tableId": "surprising_results",
+        "layout": "full"
+      },
+      {
+        "id": "programme_intro",
+        "type": "markdown",
+        "body": "## Treat the work as three studies, not three increasingly complicated versions\n\nCalling these “versions” suggests that later work corrects an inferior first attempt. A stronger professional framing is a cumulative research programme: Study 1 establishes how measurement choices construct a music-city ranking; Study 2 investigates the urban and musical mechanisms behind sustained output; Study 3 separates durable cultural footprint from short-term platform momentum. Each paper answers a different question and earns a different level of inference.",
+        "layout": "full",
+        "sourceId": "strategy_synthesis"
+      },
+      {
+        "id": "programme_table",
+        "type": "table",
+        "tableId": "study_programme",
+        "layout": "full"
+      },
+      {
+        "id": "recommendations",
+        "type": "markdown",
+        "body": "## Recommended next steps\n\n1. **Freeze Study 1's estimand and thesis now.** Name the measure “selected-band Spotify footprint,” make the popularity-first frame primary, and use the disagreement between Sheffield, Crawley, Oxford and London as the story.\n\n2. **Promote experiments 16 and 17 into the published evidence path.** Show rank ranges or top-five frequencies and effective-band count beside any preferred rank. Add experiment 23 as independent attention triangulation and one concise experiment 22 warning about metric non-equivalence.\n\n3. **Keep experiments 18–21 out of the first paper's headline conclusions.** Present them, if at all, as a research agenda. Before Study 2, review formation years and genre assignments, reconstruct historical venue and label data, use period-appropriate populations, and pre-register which network and institutional hypotheses will be tested.\n\n4. **Start Study 3's data collection immediately.** A paper can wait, but monthly observations cannot be collected retrospectively. Hold Spotify IDs and extraction method fixed; record releases, tours, reissues, viral moments, deaths and membership changes.\n\n5. **Add the credibility checks that readers cannot see in a chart.** Complete origin-confidence fields, independently review influential and ambiguous bands, write a deterministic inclusion decision tree, and keep the full test suite in continuous integration.\n\n6. **Publish the programme, not just the result.** A short methods box should say which question belongs to each study and which claims are deliberately deferred. That signals judgement and gives readers a reason to return for the deeper papers.",
+        "layout": "full",
+        "sourceId": "strategy_synthesis"
+      },
+      {
+        "id": "further_questions",
+        "type": "markdown",
+        "body": "## Questions that should be answered before the deeper studies\n\n- Can formation place, first common base and scene association be recorded separately rather than forced into one city credit?\n- Can Study 2 obtain historical venue openings, closures, labels, education links, rents, transport and arts funding at a common geographic grain?\n- Which network edges represent local collaboration, which represent industry distribution, and which have comparable coverage across cities?\n- How long must the fixed panel run before releases, tours and other events can be separated from background movement?\n- Which additional measures represent listening, commercial success, cultural attention and critical influence without collapsing them into one composite score?\n- Is the target for Study 2 descriptive association, prediction, or a causal claim? The answer determines the data and design required.",
+        "layout": "full"
+      },
+      {
+        "id": "caveats",
+        "type": "markdown",
+        "body": "## Caveats and assumptions\n\n- **Overall validation status: share with caveats.** The first-study recommendation is strong, but a definitive UK league table remains unsupported.\n- All eight experiments use selected catalogues rather than a census of UK bands; multiverse ranges describe design sensitivity, not sampling uncertainty.\n- The top-1,000 mapping captures most follower weight but only 660 bands, which can bias depth measures toward documented and successful acts.\n- Experiment 20 measures current OpenStreetMap documentation in 15 km circles, not historical infrastructure within OECD FUAs; its correlations are non-causal.\n- Experiment 21 has uneven relationship coverage, and shared labels are not equivalent to shared members or local collaboration.\n- Experiment 22 has two observations and a change in extraction method. It establishes metric divergence in this panel, not a trend or event effect.\n- Experiment 23 compares a year of English Wikipedia attention with a point-in-time follower stock. Neither is a universal measure of cultural importance.\n- Experiments 18 and 19 use different catalogues and sources, so 54% versus 96% year coverage is a data-strategy clue, not a direct source-quality comparison.\n- The portfolio scores in this report are transparent editorial judgments used for prioritisation; they are not outputs of a statistical model.",
+        "layout": "full",
+        "sourceId": "portfolio_review"
+      }
+    ]
+  },
+  "snapshot": {
+    "version": 1,
+    "generatedAt": "2026-07-25T19:41:20Z",
+    "status": "ready",
+    "datasets": {
+      "portfolio": [
+        {
+          "experiment_id": 16,
+          "experiment_label": "16 Multiverse",
+          "title": "Specification multiverse",
+          "evidence_readiness": 5.0,
+          "publication_upside": 5.0,
+          "surprise_value": 5.0,
+          "confidence": "Ready to share with explicit scope",
+          "recommended_role": "Backbone",
+          "proposed_study": "Study 1",
+          "key_result": "Across 32 specifications Sheffield is top five in 21 but ranges from rank 1 to 15; Crawley ranges from 1 to 27 and London from 1 to 35.",
+          "main_limit": "Specifications differ in eligibility and receive equal descriptive weight; ranges are not probability intervals."
+        },
+        {
+          "experiment_id": 17,
+          "experiment_label": "17 Scene depth",
+          "title": "Scene depth and concentration",
+          "evidence_readiness": 4.5,
+          "publication_upside": 5.0,
+          "surprise_value": 5.0,
+          "confidence": "Share with caveats",
+          "recommended_role": "Core diagnostic",
+          "proposed_study": "Study 1",
+          "key_result": "London has 20.2 effective bands while Crawley's 3.59x follower output quotient rests on an effective-band count of 1.0.",
+          "main_limit": "The mapped top-1000 catalogue is not a census and missing smaller bands can bias depth more than follower output."
+        },
+        {
+          "experiment_id": 18,
+          "experiment_label": "18 Generations",
+          "title": "Generations by decade",
+          "evidence_readiness": 2.0,
+          "publication_upside": 3.5,
+          "surprise_value": 3.0,
+          "confidence": "Feasibility audit only",
+          "recommended_role": "Data-gap audit",
+          "proposed_study": "Study 2",
+          "key_result": "MusicBrainz formation-year coverage is 108 of 200 bands and uneven enough that no city ranking is defensible.",
+          "main_limit": "Coverage is 54 percent overall and zero in two FUAs; the result is about data readiness rather than music-city generations."
+        },
+        {
+          "experiment_id": 19,
+          "experiment_label": "19 Genre history",
+          "title": "Genre-specific city histories",
+          "evidence_readiness": 3.5,
+          "publication_upside": 4.5,
+          "surprise_value": 4.0,
+          "confidence": "Exploratory and shareable with caveats",
+          "recommended_role": "Genre and period module",
+          "proposed_study": "Study 2",
+          "key_result": "Wikidata provides genre for 924 of 1,000 bands and inception year for 822; 599 mapped bands have both.",
+          "main_limit": "Broad automated genre families erase meaningful lineages and formation years still need review and period-appropriate denominators."
+        },
+        {
+          "experiment_id": 20,
+          "experiment_label": "20 Infrastructure",
+          "title": "Scene infrastructure",
+          "evidence_readiness": 2.0,
+          "publication_upside": 5.0,
+          "surprise_value": 5.0,
+          "confidence": "Hypothesis-generating only",
+          "recommended_role": "Mechanism hypothesis generator",
+          "proposed_study": "Study 2",
+          "key_result": "Raw mapped-place count correlates 0.72 with effective-band count but infrastructure per capita correlates only 0.14 with follower output quotient.",
+          "main_limit": "The inventory is current OpenStreetMap data in 15 km circles; city size, mapping effort and historical mismatch prevent causal interpretation."
+        },
+        {
+          "experiment_id": 21,
+          "experiment_label": "21 Networks",
+          "title": "Band networks",
+          "evidence_readiness": 2.5,
+          "publication_upside": 4.5,
+          "surprise_value": 4.0,
+          "confidence": "Prototype requiring source enrichment",
+          "recommended_role": "Network mechanism module",
+          "proposed_study": "Study 2",
+          "key_result": "Among 660 mapped top-1,000 bands, the graph contains 272 shared-member pairs and 5,786 shared-label pairs; 240 bands have a documented member connection.",
+          "main_limit": "Relationship coverage is incomplete and label links often describe industry structure rather than local scene interaction."
+        },
+        {
+          "experiment_id": 22,
+          "experiment_label": "22 Longitudinal",
+          "title": "Longitudinal platform reach",
+          "evidence_readiness": 3.0,
+          "publication_upside": 5.0,
+          "surprise_value": 5.0,
+          "confidence": "Share only as a two-point diagnostic",
+          "recommended_role": "Measurement guardrail and future backbone",
+          "proposed_study": "Study 3",
+          "key_result": "All 50 bands gain followers but only 28 gain monthly listeners; change ranks correlate only 0.23.",
+          "main_limit": "There are only two observations and the extraction method changed; releases, tours and viral events are not annotated."
+        },
+        {
+          "experiment_id": 23,
+          "experiment_label": "23 Beyond Spotify",
+          "title": "Beyond Spotify",
+          "evidence_readiness": 4.0,
+          "publication_upside": 4.5,
+          "surprise_value": 4.0,
+          "confidence": "Share with caveats",
+          "recommended_role": "Independent triangulation",
+          "proposed_study": "Study 1",
+          "key_result": "English Wikipedia coverage is 955 of 1,000 and its rank correlation with Spotify followers is 0.78.",
+          "main_limit": "Pageviews measure English-language attention over a year while followers are a point-in-time stock; residuals may reflect identity matching or news events."
+        }
+      ],
+      "surprises": [
+        {
+          "priority": 1,
+          "finding": "The ranking itself is specification-sensitive.",
+          "evidence": "Across experiment 16, Sheffield ranges from 1–15, Crawley 1–27 and London 1–35.",
+          "implication": "The first publication should be about how definitions construct the winner, not about declaring one universal winner.",
+          "claim_strength": "Strong descriptive result"
+        },
+        {
+          "priority": 2,
+          "finding": "Per-capita output and scene depth are different phenomena.",
+          "evidence": "Crawley has a 3.59x output quotient with 1.0 effective band; London has 20.2 effective bands.",
+          "implication": "Every normalized rank needs an adjacent depth or concentration measure; one-band outliers are part of the story.",
+          "claim_strength": "Strong within the selected catalogue"
+        },
+        {
+          "priority": 3,
+          "finding": "Followers behave like a stock while listeners behave like a volatile flow.",
+          "evidence": "All 50 panel bands gain followers, only 28 gain listeners, and change ranks correlate 0.23.",
+          "implication": "The metrics must not be interchangeable; repeated captures can support a dedicated dynamics paper.",
+          "claim_strength": "Moderate; two dates and a method change"
+        },
+        {
+          "priority": 4,
+          "finding": "Infrastructure aligns with scale more than with per-capita overperformance.",
+          "evidence": "Raw place count versus depth correlates 0.72; infrastructure density versus output quotient correlates 0.14.",
+          "implication": "A simple 'more venues cause success' claim is unlikely to survive; Study 2 needs historical and institutional mechanisms.",
+          "claim_strength": "Hypothesis only; current OSM inventory"
+        },
+        {
+          "priority": 5,
+          "finding": "A network's meaning depends on the edge definition.",
+          "evidence": "Among 660 mapped bands there are 272 shared-member pairs and 5,786 shared-label pairs.",
+          "implication": "Member, producer, label, venue and education networks must remain separate rather than becoming one centrality score.",
+          "claim_strength": "Moderate as a source-coverage finding"
+        },
+        {
+          "priority": 6,
+          "finding": "Independent attention broadly agrees with Spotify but preserves meaningful exceptions.",
+          "evidence": "Wikipedia pageviews cover 955 of 1,000 bands and correlate 0.78 with followers; The Sweet has the largest positive residual.",
+          "implication": "Spotify is informative but not sufficient; residuals require identity and event review before interpretation.",
+          "claim_strength": "Strong descriptive association"
+        },
+        {
+          "priority": 7,
+          "finding": "Source choice can determine whether a historical study appears feasible.",
+          "evidence": "MusicBrainz year coverage is 54 percent in experiment 18, while Wikidata inception coverage is 82.2 percent in experiment 19's different top-1,000 catalogue.",
+          "implication": "Study 2 should create a reviewed canonical formation-year field rather than accept one source's missingness as the historical limit.",
+          "claim_strength": "Directional only; catalogues and sources differ"
+        }
+      ],
+      "programme": [
+        {
+          "sequence": 1,
+          "working_title": "When the Winner Depends on the Rules: Measuring Britain's Music Cities",
+          "central_question": "How do defensible definitions of band, city, popularity and scene depth change which places appear to punch above their population weight?",
+          "existing_evidence": "Experiments 16, 17 and 23, with experiment 22 as a metric warning and the popularity-first analyses as the backbone.",
+          "required_next_work": "Lock the estimand and inclusion rule; complete origin-confidence QA; audit influential records; rewrite the article around rank ranges and depth.",
+          "publication_shape": "Publishable visual data essay now; expandable into a cultural-measurement article."
+        },
+        {
+          "sequence": 2,
+          "working_title": "Scenes, Not Superstars: Institutions, Genre Lineages and Networks",
+          "central_question": "Which urban institutions and musical networks are associated with sustained multi-act production across genres and generations?",
+          "existing_evidence": "Experiments 18–21 provide coverage audits, genre cohorts, infrastructure hypotheses and first member/label networks.",
+          "required_next_work": "Review genre and formation fields; collect historical venues, labels, education, rents, transport and funding; use period populations and pre-register hypotheses.",
+          "publication_shape": "Second study for cultural analytics or urban-cultural-policy audiences after substantial data enrichment."
+        },
+        {
+          "sequence": 3,
+          "working_title": "Cultural Footprint and Platform Momentum",
+          "central_question": "Which signals capture durable cultural footprint and which capture short-term attention, listening and event-driven momentum?",
+          "existing_evidence": "Experiments 22 and 23 establish metric divergence and a high-coverage independent attention measure.",
+          "required_next_work": "Collect a fixed monthly panel for 18–24 months with one extraction method and annotate releases, tours, reissues, viral events, deaths and membership changes.",
+          "publication_shape": "Third study on digital platforms and music attention once the panel is long enough to analyse trajectories."
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "portfolio_review",
+      "label": "Experiment evidence matrix",
+      "path": "experiment_evidence_matrix.csv",
+      "query": {
+        "engine": "duckdb",
+        "sql": "SELECT * FROM read_csv_auto('experiment_evidence_matrix.csv') ORDER BY experiment_id",
+        "description": "Structured review of executed experiments 16–23 and their saved outputs.",
+        "executed_at": "2026-07-25T19:41:20Z",
+        "language": "sql",
+        "filters": [
+          "Experiments 16–23 only",
+          "Claims reconciled to executed notebook summaries and saved artifacts",
+          "Publication recommendations separate current evidence from required future work"
+        ],
+        "metric_definitions": [
+          "Evidence readiness: 1–5 editorial assessment of reproducibility, source coverage and claim-design alignment.",
+          "Publication upside: 1–5 editorial assessment of distinctiveness and potential after required next work.",
+          "Surprise value: 1–5 editorial assessment of how much the result changes the project's interpretation."
+        ],
+        "tables_used": [
+          "notebooks/experiments/16_uk_bands_specification_multiverse.ipynb",
+          "notebooks/experiments/17_uk_bands_scene_depth_and_concentration.ipynb",
+          "notebooks/experiments/18_uk_bands_generations_by_decade.ipynb",
+          "notebooks/experiments/19_uk_bands_genre_city_histories.ipynb",
+          "notebooks/experiments/20_uk_bands_scene_infrastructure.ipynb",
+          "notebooks/experiments/21_uk_bands_band_networks.ipynb",
+          "notebooks/experiments/22_uk_bands_longitudinal_reach.ipynb",
+          "notebooks/experiments/23_uk_bands_beyond_spotify.ipynb",
+          "notebooks/final/uk_bands_punching_above_weight.ipynb",
+          "STUDY_REVIEW_1.md",
+          "POST.md"
+        ]
+      }
+    },
+    {
+      "id": "surprises_review",
+      "label": "Surprising-results review table",
+      "path": "surprising_results.csv",
+      "query": {
+        "engine": "duckdb",
+        "sql": "SELECT * FROM read_csv_auto('surprising_results.csv') ORDER BY priority",
+        "description": "Loads the reviewed findings that most materially change the publication strategy.",
+        "executed_at": "2026-07-25T19:41:20Z",
+        "language": "sql",
+        "filters": [
+          "Only findings that change the publication thesis or next-study design"
+        ],
+        "metric_definitions": [
+          "Priority orders publication-strategy importance and is not an effect-size ranking."
+        ],
+        "tables_used": [
+          "surprising_results.csv"
+        ]
+      }
+    },
+    {
+      "id": "study_programme",
+      "label": "Recommended study programme",
+      "path": "study_programme.csv",
+      "query": {
+        "engine": "duckdb",
+        "sql": "SELECT * FROM read_csv_auto('study_programme.csv') ORDER BY sequence",
+        "description": "Loads the recommended three-study sequence and its evidence requirements.",
+        "executed_at": "2026-07-25T19:41:20Z",
+        "language": "sql",
+        "filters": [
+          "One measurement study",
+          "One mechanism study",
+          "One longitudinal platform study"
+        ],
+        "tables_used": [
+          "study_programme.csv"
+        ]
+      }
+    },
+    {
+      "id": "strategy_synthesis",
+      "label": "Publication-strategy synthesis notes",
+      "path": "report_notes.md",
+      "query": {
+        "engine": "editorial synthesis",
+        "description": "Decision framework, scoring rubric, chart map, source inventory and validation notes for the publication roadmap.",
+        "executed_at": "2026-07-25T19:41:20Z",
+        "language": "markdown",
+        "filters": [
+          "One coherent first publication",
+          "One mechanism-focused second study",
+          "One longitudinal third study"
+        ],
+        "tables_used": [
+          "experiment_evidence_matrix.csv",
+          "report_notes.md"
+        ]
+      }
+    }
+  ]
+}

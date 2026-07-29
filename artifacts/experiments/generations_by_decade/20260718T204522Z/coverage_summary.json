@@ -1,0 +1,15 @@
+{
+  "bands_with_year": 108,
+  "cities": 20,
+  "cities_with_complete_years": 4,
+  "cities_with_no_years": 2,
+  "earliest_observed_year": 1959,
+  "formation_year_coverage": 0.54,
+  "formation_year_sources": [
+    "data/raw/musicbrainz/artists_a1f4b9641e_latest.json",
+    "data/raw/musicbrainz/artists_fd8e208783_latest.json",
+    "data/raw/musicbrainz/top20_band_resolution_20260718T202426Z.json"
+  ],
+  "latest_observed_year": 2018,
+  "selected_bands": 200
+}

@@ -1,0 +1,33 @@
+specification,family,universe,mapping,metric,scoring,eligible_cities
+balanced_10_monthly_listeners_raw_total,balanced city-first,balanced top-10 FUAs,catalogue-assigned FUA,monthly listeners,raw total,10
+balanced_10_monthly_listeners_per_million_residents,balanced city-first,balanced top-10 FUAs,catalogue-assigned FUA,monthly listeners,per million residents,10
+balanced_10_monthly_listeners_largest_band_excluded_per_million_residents,balanced city-first,balanced top-10 FUAs,catalogue-assigned FUA,monthly listeners,largest band excluded per million residents,10
+balanced_10_followers_raw_total,balanced city-first,balanced top-10 FUAs,catalogue-assigned FUA,followers,raw total,10
+balanced_10_followers_per_million_residents,balanced city-first,balanced top-10 FUAs,catalogue-assigned FUA,followers,per million residents,10
+balanced_10_followers_largest_band_excluded_per_million_residents,balanced city-first,balanced top-10 FUAs,catalogue-assigned FUA,followers,largest band excluded per million residents,10
+balanced_20_monthly_listeners_raw_total,balanced city-first,balanced top-20 FUAs,catalogue-assigned FUA,monthly listeners,raw total,20
+balanced_20_monthly_listeners_per_million_residents,balanced city-first,balanced top-20 FUAs,catalogue-assigned FUA,monthly listeners,per million residents,20
+balanced_20_monthly_listeners_largest_band_excluded_per_million_residents,balanced city-first,balanced top-20 FUAs,catalogue-assigned FUA,monthly listeners,largest band excluded per million residents,20
+balanced_20_followers_raw_total,balanced city-first,balanced top-20 FUAs,catalogue-assigned FUA,followers,raw total,20
+balanced_20_followers_per_million_residents,balanced city-first,balanced top-20 FUAs,catalogue-assigned FUA,followers,per million residents,20
+balanced_20_followers_largest_band_excluded_per_million_residents,balanced city-first,balanced top-20 FUAs,catalogue-assigned FUA,followers,largest band excluded per million residents,20
+popularity_100_strict_selected_band_output_quotient,popularity-first output quotient,popularity-first top 100,strict,selected-band output quotient,output share / population share,83
+popularity_100_strict_monthly_listener_output_quotient,popularity-first output quotient,popularity-first top 100,strict,monthly-listener output quotient,output share / population share,83
+popularity_100_strict_follower_output_quotient,popularity-first output quotient,popularity-first top 100,strict,follower output quotient,output share / population share,83
+popularity_100_reviewed_extended_selected_band_output_quotient,popularity-first output quotient,popularity-first top 100,reviewed extended,selected-band output quotient,output share / population share,83
+popularity_100_reviewed_extended_monthly_listener_output_quotient,popularity-first output quotient,popularity-first top 100,reviewed extended,monthly-listener output quotient,output share / population share,83
+popularity_100_reviewed_extended_follower_output_quotient,popularity-first output quotient,popularity-first top 100,reviewed extended,follower output quotient,output share / population share,83
+popularity_200_strict_selected_band_output_quotient,popularity-first output quotient,popularity-first top 200,strict,selected-band output quotient,output share / population share,83
+popularity_200_strict_monthly_listener_output_quotient,popularity-first output quotient,popularity-first top 200,strict,monthly-listener output quotient,output share / population share,83
+popularity_200_strict_follower_output_quotient,popularity-first output quotient,popularity-first top 200,strict,follower output quotient,output share / population share,83
+popularity_200_reviewed_extended_selected_band_output_quotient,popularity-first output quotient,popularity-first top 200,reviewed extended,selected-band output quotient,output share / population share,83
+popularity_200_reviewed_extended_monthly_listener_output_quotient,popularity-first output quotient,popularity-first top 200,reviewed extended,monthly-listener output quotient,output share / population share,83
+popularity_200_reviewed_extended_follower_output_quotient,popularity-first output quotient,popularity-first top 200,reviewed extended,follower output quotient,output share / population share,83
+popularity_1000_strict_selected_band_output_quotient,popularity-first output quotient,popularity-first top 1000,strict,selected-band output quotient,output share / population share,83
+popularity_1000_strict_monthly_listener_output_quotient,popularity-first output quotient,popularity-first top 1000,strict,monthly-listener output quotient,output share / population share,83
+popularity_1000_strict_follower_output_quotient,popularity-first output quotient,popularity-first top 1000,strict,follower output quotient,output share / population share,83
+popularity_1000_reviewed_extended_selected_band_output_quotient,popularity-first output quotient,popularity-first top 1000,reviewed extended,selected-band output quotient,output share / population share,83
+popularity_1000_reviewed_extended_monthly_listener_output_quotient,popularity-first output quotient,popularity-first top 1000,reviewed extended,monthly-listener output quotient,output share / population share,83
+popularity_1000_reviewed_extended_follower_output_quotient,popularity-first output quotient,popularity-first top 1000,reviewed extended,follower output quotient,output share / population share,83
+top1000_negative_binomial_count_residual,expected-output residual,"popularity-first top 1,000",reviewed extended,mapped-band count,negative-binomial Pearson residual,83
+top1000_loglog_follower_residual,expected-output residual,"popularity-first top 1,000 positive-output FUAs",reviewed extended,followers,log-log residual,61

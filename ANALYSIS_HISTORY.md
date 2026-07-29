@@ -1,9 +1,54 @@
 # Analysis history
 
-This file is the index of preserved analysis states. Timestamped notebooks read
+This file is the index of preserved analysis states. Experiment notebooks read
 explicit frozen inputs and do not refresh network data when executed. Each
 completion snapshot contains a manifest with SHA-256 checksums for the notebook,
 inputs, outputs, raw responses, and exported charts.
+
+## 25 July 2026 — study-review follow-up experiments
+
+- Added the executed
+  `notebooks/experiments/16_uk_bands_specification_multiverse.ipynb`, combining
+  32 specifications across catalogue design, size, metric, normalization,
+  mapping and expected-output residuals. It publishes observed rank ranges and
+  top-five frequencies rather than a single exact league table.
+- Added
+  `notebooks/experiments/17_uk_bands_scene_depth_and_concentration.ipynb`,
+  measuring inverse-Herfindahl effective-band counts, largest-band and
+  top-three shares and fixed follower thresholds for 660 mapped bands across
+  61 positive-output FUAs.
+- Added `notebooks/experiments/18_uk_bands_generations_by_decade.ipynb` as a
+  formation-year coverage experiment. Frozen MusicBrainz inputs cover 108 of
+  200 balanced top-20 bands; only four FUAs are complete and two have no
+  observed years, so no generational ranking is claimed.
+- Added `notebooks/experiments/19_uk_bands_genre_city_histories.ipynb`, using
+  captured Wikidata genre and inception claims for 1,000 popularity-first bands.
+  Genre coverage is 92.4% and inception-year coverage is 82.2%; multi-genre
+  bands receive fractional credit.
+- Added `notebooks/experiments/20_uk_bands_scene_infrastructure.ipynb`, based
+  on 1,702 classified OpenStreetMap elements in fixed 15 km circles around
+  twenty city centres. The current mapped inventory is explicitly not treated
+  as a historical FUA census or causal estimate.
+- Added `notebooks/experiments/21_uk_bands_band_networks.ipynb`, separating
+  272 shared-member edges from 5,786 shared-label edges among the 660 mapped
+  top-1,000 bands. Of those bands, 240 have at least one documented member
+  connection and 519 have at least one documented label connection.
+- Added `notebooks/experiments/22_uk_bands_longitudinal_reach.ipynb`, comparing
+  the same 50 Spotify IDs at two frozen dates. All 50 gained followers while
+  28 gained monthly listeners; the notebook describes change, not a trend.
+- Added `notebooks/experiments/23_uk_bands_beyond_spotify.ipynb`, comparing
+  Spotify followers with July 2025–June 2026 English Wikipedia user pageviews.
+  Pageviews are available for 955 of 1,000 bands and are treated as attention,
+  not listening.
+- Frozen source captures for the extension experiments are stored under
+  `data/raw/wikidata/`, `data/raw/musicbrainz/`, `data/raw/openstreetmap/` and
+  `data/raw/wikimedia/`, with request provenance embedded in each JSON file.
+- The sixteen exported charts and supporting CSV/JSON outputs are isolated under
+  `artifacts/experiments/specification_multiverse/`,
+  `artifacts/experiments/scene_depth_concentration/` and
+  `artifacts/experiments/generations_by_decade/`, plus the five experiment
+  directories for genre history, infrastructure, networks, longitudinal reach
+  and beyond-Spotify triangulation.
 
 ## 23 July 2026 — top-1,000 population-scaling model comparison
 

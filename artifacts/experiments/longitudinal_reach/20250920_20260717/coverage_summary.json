@@ -1,0 +1,11 @@
+{
+  "bands": 50,
+  "bands_with_follower_growth": 50,
+  "bands_with_listener_growth": 28,
+  "baseline_date": "2025-09-20",
+  "cities": 10,
+  "current_date": "2026-07-17",
+  "median_follower_change_pct": 8.194538108641348,
+  "median_listener_change_pct": 1.9892619463394907,
+  "rank_correlation_listener_vs_follower_change": 0.2322689075630252
+}
