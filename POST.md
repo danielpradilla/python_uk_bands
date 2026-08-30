@@ -45,7 +45,7 @@ This is the largest weakness in the exercise. The lists mix my original shortlis
 
 The result is therefore a comparison of these catalogues, not a rigorous census of British music. I may have missed your favorite band, and at the same time commited additional statistical sins.
 
-I checked each origin. The final selection has 99 high-confidence assignments and one dubious case: Chumbawamba. It was formed in Burnley, while others place it in the Armley squat in Leeds. I kept Leeds provisionally and tested the result without the band. Leeds's rank does not change.
+I checked each origin. The final selection has 99 high-confidence assignments and one dubious case: Chumbawamba. It was formed in Burnley, but they matured in a squat in Leeds. So I kept Leeds, and tested the result with and without the band and Leeds's rank did not change.
 
 You can inspect the [origin audit](reference/final_origin_confidence_audit_20260822.md), the [inclusion rules](reference/final_study_methodology.md) and the [executed notebook](notebooks/final/uk_bands_punching_above_weight.ipynb) if that is your idea of a good evening. It is, apparently, mine.
 
