@@ -150,6 +150,14 @@ The two-digit filename prefix is the experiment number. Snapshot dates remain in
 
 **Why it matters:** The 0.78 rank correlation shows substantial overlap without equivalence. Wikipedia adds an independent attention measure and highlights cases that require identity, current-event and audience-context review rather than automatic interpretation as cultural impact.
 
+## Phase 5 — publication follow-up
+
+### 24. [Catalogue-selection sensitivity](24_uk_bands_catalogue_selection_sensitivity.ipynb)
+
+**What it tests:** Replaces the editorial ten-band catalogues with each eligible FUA's ten most-listened mapped bands from the popularity-first top-1,000 pool, while holding the Spotify metric, 2021 population denominator and catalogue size fixed.
+
+**Why it matters:** Only 50 of 80 selections overlap, but the first four primary-index ranks remain Sheffield, Liverpool, Manchester and London. The dominant-band-excluded ranking moves more, and Bristol and Leicester lack enough mapped candidates for the matched comparison. The result supports a narrow selection-sensitivity claim, not representativeness.
+
 ## Source families
 
 - **Spotify:** frozen artist-level monthly-listener and follower captures; each notebook records its exact snapshot and local input path.
@@ -159,4 +167,4 @@ The two-digit filename prefix is the experiment number. Snapshot dates remain in
 - **Independent attention:** [Wikimedia Analytics API](https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/reference/page-views.html) pageview captures for English Wikipedia articles.
 - **Map assets:** frozen Natural Earth geography and locally stored Wikimedia Commons images with per-file attribution in experiment 15.
 
-Generated figures and audit tables live under [`../../artifacts/experiments/`](../../artifacts/experiments/). Dated lineage, frozen inputs and rollback points are recorded in [`../../ANALYSIS_HISTORY.md`](../../ANALYSIS_HISTORY.md).
+Generated figures and audit tables live under [`../../artifacts/experiments/`](../../artifacts/experiments/). Dated lineage and frozen inputs are recorded in [`../../ANALYSIS_HISTORY.md`](../../ANALYSIS_HISTORY.md).

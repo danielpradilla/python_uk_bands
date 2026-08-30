@@ -1,0 +1,11 @@
+uk_population_rank,fua_code,study_city_label,population,mapped_candidates,matched_comparison_eligible
+1,UK001F,London,12274097,299,True
+2,UK008F,Manchester,3432092,52,True
+3,UK002F,Birmingham,3135994,28,True
+4,UK003F,Leeds,2969034,24,True
+5,UK004F,Glasgow,1831890,31,True
+6,UK006F,Liverpool,1540817,39,True
+7,UK013F,Newcastle,1173303,10,True
+8,UK010F,Sheffield,1168389,21,True
+9,UK011F,Bristol,979556,8,False
+10,UK014F,Leicester,922812,2,False

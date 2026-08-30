@@ -5,6 +5,17 @@ from __future__ import annotations
 import pandas as pd
 
 
+def _validate_metric(bands: pd.DataFrame, metric: str) -> None:
+    if metric not in bands.columns:
+        raise ValueError(f"Unknown metric: {metric}")
+    if not pd.api.types.is_numeric_dtype(bands[metric]):
+        raise ValueError(f"Metric must be numeric: {metric}")
+    if bands[metric].isna().any():
+        raise ValueError(f"Metric contains null values: {metric}")
+    if (bands[metric] < 0).any():
+        raise ValueError(f"Metric cannot be negative: {metric}")
+
+
 def validate_scene_depth_dataset(
     bands: pd.DataFrame,
     *,
@@ -64,14 +75,7 @@ def build_primary_scene_depth_rankings(
         expected_cities=expected_cities,
         bands_per_city=bands_per_city,
     )
-    if metric not in bands.columns:
-        raise ValueError(f"Unknown metric: {metric}")
-    if not pd.api.types.is_numeric_dtype(bands[metric]):
-        raise ValueError(f"Metric must be numeric: {metric}")
-    if bands[metric].isna().any():
-        raise ValueError(f"Metric contains null values: {metric}")
-    if (bands[metric] < 0).any():
-        raise ValueError(f"Metric cannot be negative: {metric}")
+    _validate_metric(bands, metric)
 
     rows: list[dict] = []
     for city, group in bands.groupby("city", sort=True):
@@ -143,14 +147,7 @@ def build_scene_depth_rankings(
         expected_cities=expected_cities,
         bands_per_city=bands_per_city,
     )
-    if metric not in bands.columns:
-        raise ValueError(f"Unknown metric: {metric}")
-    if not pd.api.types.is_numeric_dtype(bands[metric]):
-        raise ValueError(f"Metric must be numeric: {metric}")
-    if bands[metric].isna().any():
-        raise ValueError(f"Metric contains null values: {metric}")
-    if (bands[metric] < 0).any():
-        raise ValueError(f"Metric cannot be negative: {metric}")
+    _validate_metric(bands, metric)
     if trim_each_tail < 1:
         raise ValueError("trim_each_tail must be at least 1")
     if bands_per_city <= trim_each_tail * 2:

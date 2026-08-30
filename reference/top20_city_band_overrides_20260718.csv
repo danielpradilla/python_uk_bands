@@ -1,6 +1,8 @@
 action,existing_band_name,replacement_band_name,claimed_formation_place,spotify_id,origin_review_status,origin_alignment,evidence_url,selection_source,notes
-update,Prolapse,,Leicester,2fXWTI5Hz7wg05oRqDLBwg,reviewed,manual_review,https://prolapse2.bandcamp.com/,manual identity and origin review,Official Bandcamp identifies Leicester formation.
-update,hard life,,Leicester,7uwY65fDg3FVJ8MkJ5QuZK,reviewed,manual_review,https://en.wikipedia.org/wiki/Hard_Life,manual identity and origin review,Same act previously known as Easy Life.
+update,Little Comets,,Jarrow,7cfhZmKaLWzNLwHDxzugUH,reviewed,exact,https://www.itv.com/news/tyne-tees/2015-02-20/north-east-indie-group-little-comets-break-top-20,manual origin review,"ITV documents members from Jarrow and Washington; the frozen OECD crosswalk assigns South Tyneside, including Jarrow, to Newcastle FUA."
+update,Prolapse,,Leicester,2fXWTI5Hz7wg05oRqDLBwg,reviewed,exact,https://prolapse2.bandcamp.com/,manual identity and origin review,Official Bandcamp identifies Leicester formation.
+update,Showaddywaddy,,Leicester,3zIIUxcnIoUMouVQdphkeC,reviewed,exact,https://www.showaddywaddy.net/biogs/history.html,manual origin review,The band's official history identifies Leicester formation.
+update,hard life,,Leicester,7uwY65fDg3FVJ8MkJ5QuZK,reviewed,exact,https://www.allmusic.com/artist/hard-life-mn0004837245,manual identity and origin review,AllMusic identifies Leicester formation; the same act previously released as Easy Life.
 update,The Fire Engines,,Edinburgh,3Glx297fyff7hKkl7nBrwu,reviewed,manual_review,https://www.allmusic.com/artist/fire-engines-mn0000339713,manual identity and origin review,Spotify omits the leading article from the artist name.
 replace,The Waterboys,Josef K,Edinburgh,1wAvVTxYw932BnBO5JhrXJ,reviewed,manual_review,https://www.ltmrecordings.com/josef_k.html,manual replacement,The Waterboys formed in London; replaced with an Edinburgh-formed band.
 update,Bicep,,Belfast,73A3bLnfnz5BoQjb4gNCga,reviewed,manual_review,https://bicepmusic.com/about,manual identity and origin review,Belfast-born duo treated as a Belfast-origin act.

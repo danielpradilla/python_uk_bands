@@ -1,0 +1,21 @@
+{
+  "created_at_utc": "2026-08-22T18:05:50.044505+00:00",
+  "catalogue_rows": 200,
+  "cities": 20,
+  "bands_per_city": [
+    10
+  ],
+  "review_ready_rows": 200,
+  "pending_review_rows": 0,
+  "missing_spotify_ids": 0,
+  "status": "publication_ready",
+  "pending_bands": [],
+  "input_paths": {
+    "scene_depth_catalog": "reference/scene_depth_bands.csv",
+    "existing_metrics": "data/processed/scene_depth_band_metrics_20260717T225650Z.csv",
+    "additions_review": "data/interim/top20_city_band_review_20260822T180546Z_curated.csv",
+    "fua_universe": "reference/uk_fua_top20_2021.csv"
+  },
+  "output_path": "data/interim/top20_city_band_catalog_20260822T180550Z.csv",
+  "canonical_files_modified": false
+}

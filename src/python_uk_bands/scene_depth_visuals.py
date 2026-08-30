@@ -93,87 +93,6 @@ def plot_scene_depth_rank_comparison(
     )
 
 
-def plot_primary_vs_top_excluded_rank_comparison(
-    rankings: pd.DataFrame,
-    *,
-    snapshot_date: str,
-    output_dir: Path = SCENE_DEPTH_CHART_DIR,
-    number: int = 4,
-    filename: str = "chart_04_all_ten_vs_largest_excluded_rank.png",
-) -> Path:
-    """Compare the primary all-ten rank with the largest-band-excluded rank."""
-
-    plot_data = rankings.sort_values(
-        "all_ten_rank", ascending=False
-    ).reset_index(drop=True)
-    y_positions = list(range(len(plot_data)))
-
-    figure_height = max(6.8, 0.46 * len(plot_data) + 2.2)
-    _, ax = _new_chart(figsize=(10.5, figure_height))
-    for y_position, row in zip(
-        y_positions, plot_data.itertuples(index=False)
-    ):
-        ax.plot(
-            [row.all_ten_rank, row.top_excluded_rank],
-            [y_position, y_position],
-            color=HOUSE["rule"],
-            linewidth=1.2,
-            zorder=1,
-        )
-
-    method_styles = (
-        (
-            "all_ten_rank",
-            "Primary: all ten bands",
-            -0.08,
-            "o",
-            HOUSE["page"],
-            HOUSE["ink"],
-        ),
-        (
-            "top_excluded_rank",
-            "Scene depth: largest band removed",
-            0.08,
-            "s",
-            HOUSE["warning_soft"],
-            HOUSE["warning"],
-        ),
-    )
-    for column, label, offset, marker, fill, edge in method_styles:
-        ax.scatter(
-            plot_data[column],
-            [position + offset for position in y_positions],
-            s=72,
-            marker=marker,
-            color=fill,
-            edgecolor=edge,
-            linewidth=1,
-            label=label,
-            zorder=2,
-        )
-
-    ax.set_yticks(y_positions, plot_data["city"])
-    ax.set_xticks(range(1, len(plot_data) + 1))
-    ax.set_xlim(0.5, len(plot_data) + 0.5)
-    ax.set_xlabel("City rank (1 is strongest)")
-    ax.set_ylabel("")
-    ax.grid(axis="x")
-    ax.set_axisbelow(True)
-    ax.legend(frameon=False, loc="upper right")
-
-    return _finish_chart(
-        ax,
-        number=number,
-        title="City rank before and after removing the largest band",
-        subtitle=(
-            "Population-normalized current global Spotify reach · "
-            f"Spotify snapshot {snapshot_date}"
-        ),
-        filename=filename,
-        output_dir=output_dir,
-    )
-
-
 def plot_raw_normalized_scene_depth_rank_comparison(
     rankings: pd.DataFrame,
     *,
@@ -182,7 +101,7 @@ def plot_raw_normalized_scene_depth_rank_comparison(
     number: int = 4,
     filename: str = "chart_04_raw_normalized_scene_depth_ranks.png",
 ) -> Path:
-    """Compare raw, population-normalized, and scene-depth city ranks."""
+    """Compare raw, population-normalized, and dominant-band-sensitivity ranks."""
 
     plot_data = rankings.sort_values(
         "all_ten_rank", ascending=False
@@ -226,7 +145,7 @@ def plot_raw_normalized_scene_depth_rank_comparison(
         ),
         (
             "top_excluded_rank",
-            "Scene depth: largest band removed",
+            "Sensitivity: largest band removed",
             0.14,
             "s",
             HOUSE["warning_soft"],
@@ -249,16 +168,17 @@ def plot_raw_normalized_scene_depth_rank_comparison(
     ax.set_yticks(y_positions, plot_data["city"])
     ax.set_xticks(range(1, len(plot_data) + 1))
     ax.set_xlim(0.5, len(plot_data) + 0.5)
+    ax.invert_xaxis()
     ax.set_xlabel("Area rank (1 is strongest)")
     ax.set_ylabel("")
     ax.grid(axis="x")
     ax.set_axisbelow(True)
-    ax.legend(frameon=False, loc="upper right")
+    ax.legend(frameon=False, loc="lower right")
 
     return _finish_chart(
         ax,
         number=number,
-        title="Area rank across raw, normalized and scene-depth views",
+        title="Area rank across three selected-catalogue views",
         subtitle=(
             "Same ten-band catalogue · FUA population denominator in blue and gold · "
             f"Spotify snapshot {snapshot_date}"
@@ -561,30 +481,6 @@ def plot_ten_band_population_normalized_total(
         output_dir=output_dir,
         tick_step=10,
         denominator_description=denominator_description,
-    )
-
-
-def plot_top_excluded_population_normalized_total(
-    rankings: pd.DataFrame,
-    *,
-    snapshot_date: str,
-    output_dir: Path = SCENE_DEPTH_CHART_DIR,
-    number: int = 3,
-    filename: str = "chart_03_largest_band_excluded.png",
-) -> Path:
-    """Plot the other nine selected bands after removing each city's leader."""
-    return _plot_population_normalized_total(
-        rankings,
-        score_column="top_excluded_ratio",
-        rank_column="top_excluded_rank",
-        snapshot_date=snapshot_date,
-        retained_description="Largest selected band excluded; other nine summed",
-        title="Current global Spotify reach after removing the largest band",
-        number=number,
-        filename=filename,
-        output_dir=output_dir,
-        tick_step=5,
-        denominator_description="area population denominator",
     )
 
 

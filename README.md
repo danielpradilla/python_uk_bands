@@ -10,6 +10,11 @@ Before population normalization, London, Manchester and Sheffield have the large
 
 ![Current global Spotify reach across ten selected bands, divided by FUA population](artifacts/charts/chart_03_fua_population_normalized_total.png)
 
+> **What this does not mean:** This is not a measure of local listening,
+> evidence that a city caused a band's success, a ranking of historical
+> cultural importance, or a complete census of each area's music. It is a
+> comparison of one frozen, selected-band catalogue.
+
 Removing each area’s largest selected band provides a separate scene-depth sensitivity test. Sheffield remains first, Manchester moves to second and Birmingham moves to third. Liverpool falls from second to fifth because the Beatles supply 59% of its selected monthly-listener total; Arctic Monkeys supply 57% of Sheffield’s total, while Oasis supplies 32% of Manchester’s.
 
 ![Raw, population-normalized and largest-band-excluded ranks](artifacts/charts/chart_04_raw_normalized_scene_depth_fua_ranks.png)
@@ -38,7 +43,7 @@ Monthly-listener counts are summed artist-level platform metrics, not unique peo
 
 The result describes this fixed 100-band catalogue across the ten largest UK FUAs. It is evidence about selected current global Spotify reach relative to a consistent population denominator.
 
-It is not a census of British bands, a measure of historical cultural importance, a local listening rate, or an estimate of how many residents listen to bands from their area. The catalogue is manually curated and genre-influenced; two formation-place assignments are marked low confidence and require review. Dividing global reach by local population adjusts for area size but does not imply that the listeners live there. The appropriate publication status is therefore **share with caveats**.
+It is not a census of British bands, a measure of historical cultural importance, a local listening rate, or an estimate of how many residents listen to bands from their area. The catalogue is manually curated and genre-influenced; all 100 formation-place assignments have reviewed evidence, but that does not make the selection representative. An independent audit records 99 assignments as high-confidence and retains Chumbawamba's Leeds assignment as medium-confidence because credible histories disagree between Leeds and Burnley. Dividing global reach by local population adjusts for area size but does not imply that the listeners live there. The appropriate publication status is therefore **share with caveats**.
 
 ## Sources
 
@@ -51,8 +56,9 @@ It is not a census of British bands, a measure of historical cultural importance
 ### Band identities, formation places and Spotify reach
 
 - [Final 100-band analysis table](data/processed/fua_top10_band_metrics_20260718T204000Z.csv), containing the reviewed formation place, row-level origin evidence URL, confidence, Spotify artist ID, captured monthly listeners, followers, population and source fields for every selected band
+- [Final origin-confidence audit](reference/final_origin_confidence_audit_20260822.md) and its [34-record evidence table](data/processed/final_origin_confidence_audit_20260822.csv), independently reviewing every band contributing at least 10% of an FUA's selected total plus all pre-audit medium-confidence records
 - [Spotify capture report](data/raw/spotify/top20_city_spotify_metrics_20260718T204000Z_report.json), recording completeness and capture provenance for the frozen source snapshot
-- [MusicBrainz](https://musicbrainz.org/) and [Wikidata](https://www.wikidata.org/) records, linked at row level from the final analysis table and used as evidence for band identity and formation place
+- Formation-place sources are linked at row level from the final analysis table and include official artist histories, MusicBrainz, Wikidata and established music-reference sources.
 
 The Spotify values were captured from Spotify’s web-player artist overview. That read-only endpoint is undocumented, so the frozen local snapshot—not a live request—is the reproducible source for this study.
 
@@ -60,22 +66,36 @@ The Spotify values were captured from Spotify’s web-player artist overview. Th
 
 - [Final ranking table](data/processed/fua_top10_rankings_20260718T204000Z.csv), containing the raw, population-normalized and largest-band-excluded values and ranks
 - [Final study build report](data/processed/fua_top10_study_20260718T204000Z_report.json), recording the snapshot, input paths, catalogue dimensions and three leading areas under each calculation
-- [Notebook generator](scripts/build_final_notebook.py) and [shared FUA study builder](scripts/build_fua_study_notebook.py), which define the notebook narrative, formulas, validations and charts
+- [Inclusion rules and frozen data dictionary](reference/final_study_methodology.md), defining every published field and the exact row, calculation and tie rules
+- [Final study notebook](notebooks/final/uk_bands_punching_above_weight.ipynb), which contains the narrative, formulas, validations and chart calls
 
 ## Reproduce the final study
 
-Create an environment and install the project dependencies:
+The published result can be reproduced from the frozen files in this
+repository. No Spotify credentials or network requests are needed after the
+Python dependencies are installed.
+
+Use Python 3.10 or newer and run every command below from the repository root.
+For a fresh checkout:
 
 ```bash
+git clone git@github.com:danielpradilla/uk-music-cities.git
+cd uk-music-cities
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
 ```
 
-Rebuild the notebook from its versioned cell definitions and execute it against the exact frozen snapshot:
+First, verify the calculations and frozen outputs:
 
 ```bash
-python scripts/build_final_notebook.py --snapshot 20260718T204000Z
+PYTHONPATH=src python -m unittest discover -s tests
+```
+
+The command should finish with `OK`. Then execute the versioned notebook
+against the exact frozen snapshot:
+
+```bash
 python -m jupyter nbconvert \
   --execute \
   --to notebook \
@@ -83,13 +103,25 @@ python -m jupyter nbconvert \
   --ExecutePreprocessor.timeout=180
 ```
 
-Notebook execution reads only local frozen inputs and rewrites the four reader-facing charts under [`artifacts/charts/`](artifacts/charts/). It cannot silently refresh Spotify values.
+Notebook execution reads only local frozen inputs. It cannot silently refresh
+Spotify values. It updates the executed notebook in place and rewrites these
+four reader-facing charts:
 
-Run the calculation and saved-data checks with:
+- `artifacts/charts/chart_01_fua_band_share_stack.png`
+- `artifacts/charts/chart_02_raw_fua_totals.png`
+- `artifacts/charts/chart_03_fua_population_normalized_total.png`
+- `artifacts/charts/chart_04_raw_normalized_scene_depth_fua_ranks.png`
+
+Review the regenerated files with:
 
 ```bash
-PYTHONPATH=src python -m unittest discover -s tests
+git status --short notebooks/final artifacts/charts
 ```
+
+If Python cannot import `python_uk_bands`, confirm that the command is running
+from the repository root and includes `PYTHONPATH=src`. Data-refresh and
+capture scripts are separate historical workflows and are not required to
+reproduce the published result.
 
 ## Final study files
 
@@ -97,4 +129,16 @@ PYTHONPATH=src python -m unittest discover -s tests
 - [Frozen band-level input](data/processed/fua_top10_band_metrics_20260718T204000Z.csv)
 - [Frozen ranking output](data/processed/fua_top10_rankings_20260718T204000Z.csv)
 - [Reader-facing charts](artifacts/charts/)
-- [Notebook generator](scripts/build_final_notebook.py)
+
+## Repository map
+
+- `notebooks/final/` contains the supported reader-facing study.
+- `notebooks/experiments/` contains numbered research branches that may become
+  later publications.
+- `src/python_uk_bands/` contains calculations and chart code shared by the
+  notebooks.
+- `scripts/` contains data-capture and dataset-building commands.
+- `data/` progresses from frozen raw captures through interim review tables to
+  processed analysis inputs and outputs.
+- `reference/` contains reviewed catalogues, overrides and methodology.
+- `artifacts/` contains generated charts, audit tables and experiment outputs.
