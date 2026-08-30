@@ -2,28 +2,7 @@
   "schema_version": 1,
   "created_at_utc": "2026-07-18T22:32:02.277733+00:00",
   "label": "before-canonical-crawley-top100-experiment",
-  "project_root": "/Users/dpradilla/dev/uk-music-cities",
   "files": [
-    {
-      "path": "notebooks/experiments/snapshots/uk_bands_top100_popularity_first_20260718T204522Z.ipynb",
-      "sha256": "912bdd02895e9e9693744d35c4c8ac8a3a9bc4a5e751ece1309961743fd0164b",
-      "size_bytes": 191217
-    },
-    {
-      "path": "notebooks/experiments/snapshots/uk_bands_top100_popularity_first_population_adjusted_20260718T204522Z.ipynb",
-      "sha256": "bac0398d37640e606fc8e0d5cf9e927074a561bbca95d550995ccf0e62c74b70",
-      "size_bytes": 226725
-    },
-    {
-      "path": "scripts/build_popularity_first_notebook.py",
-      "sha256": "a08ac08700d09210972467c45631632199e154d4a04a138cae4512ff58fce4c8",
-      "size_bytes": 13764
-    },
-    {
-      "path": "scripts/build_popularity_first_population_notebook.py",
-      "sha256": "8e40860a72e4d59b9234444ae0216e216665e088996073cc3bdde784e04121d0",
-      "size_bytes": 18482
-    },
     {
       "path": "data/processed/popularity_first_top100_20260718T204522Z_bands.csv",
       "sha256": "5919cd1c347c6716c55a2ca14a4038cdee0454222ed7e1a001e66dc06ed77682",
@@ -48,26 +27,6 @@
       "path": "data/interim/popularity_first_top100_20260718T204522Z_fua_mapping_audit.csv",
       "sha256": "b20117f3ce4036ba82adb372b5e99895af341b3a98728234e7e8bbbb02b8ec8b",
       "size_bytes": 17854
-    },
-    {
-      "path": "README.md",
-      "sha256": "f5379a62a65bd605960932cfe59529d7e02f89f43987ae8aef89aacbc20a8dab",
-      "size_bytes": 10526
-    },
-    {
-      "path": "notebooks/README.md",
-      "sha256": "e7beb5a409c96efe22c388b10ec3d7310b3e3c43bd392951ff573278a1d36d60",
-      "size_bytes": 4269
-    },
-    {
-      "path": "ANALYSIS_HISTORY.md",
-      "sha256": "eb4856831fe43b68099488b1b4501b7db593afa01de06494e981f245b6d2938d",
-      "size_bytes": 9010
-    },
-    {
-      "path": "TASKS.md",
-      "sha256": "912cbe8b192c877e534101deb8b5ee200a0c467f1134355df9b032211228d0f5",
-      "size_bytes": 19951
     }
   ]
 }

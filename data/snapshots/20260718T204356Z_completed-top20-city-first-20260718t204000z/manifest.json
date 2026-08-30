@@ -2,13 +2,7 @@
   "schema_version": 1,
   "created_at_utc": "2026-07-18T20:43:56.540255+00:00",
   "label": "completed-top20-city-first-20260718T204000Z",
-  "project_root": "/Users/dpradilla/dev/uk-music-cities",
   "files": [
-    {
-      "path": "notebooks/experiments/snapshots/uk_bands_top20_city_first_20260718T204000Z.ipynb",
-      "sha256": "01b3b8f0e202b53723d284a7fc73bb55345cf18d70898f16b1a95e0b0b3afdd4",
-      "size_bytes": 334540
-    },
     {
       "path": "reference/uk_fua_top20_2021.csv",
       "sha256": "78f9cb40f5b82ea4e3c8060f23a41b59963e592e2be15fd5c0559df78bd34b84",
@@ -73,16 +67,6 @@
       "path": "data/processed/top20_city_analysis_20260718T204000Z_report.json",
       "sha256": "ae378d5ea671a7cd49ce9ef56a817bb3675c8ece27393d251757697a3aa1d843",
       "size_bytes": 2012
-    },
-    {
-      "path": "artifacts/top20_city_first/20260718T204000Z/01_untrimmed_top10.png",
-      "sha256": "8f9dfefa9ea51b0125af2ef5b52db0a7486de44d1d991be752645da8d266f4d5",
-      "size_bytes": 45217
-    },
-    {
-      "path": "artifacts/top20_city_first/20260718T204000Z/02_trimmed_top10.png",
-      "sha256": "da33f0b330c9ac7a2796fb7d47f964ee7926c9fa69d6b364e43bb0ee553a46b8",
-      "size_bytes": 46060
     }
   ]
 }

@@ -2,43 +2,7 @@
   "schema_version": 1,
   "created_at_utc": "2026-07-18T22:22:31.554972+00:00",
   "label": "before-final-switch-to-fua-and-top20-mirror",
-  "project_root": "/Users/dpradilla/dev/uk-music-cities",
   "files": [
-    {
-      "path": "notebooks/final/uk_bands_punching_above_weight.ipynb",
-      "sha256": "15319c3f308c72edb83a65450fb7564c4bd1a6eab5734d4f4e7a11b47cd2ab91",
-      "size_bytes": 477176
-    },
-    {
-      "path": "scripts/build_final_notebook.py",
-      "sha256": "b0d8c6f67a11bfe136e577f313fd7b27bb0f49e313cf3ad39aa27e2600ab56cd",
-      "size_bytes": 29609
-    },
-    {
-      "path": "src/python_uk_bands/scene_depth_visuals.py",
-      "sha256": "150dbda6ce2326cd34a0a17d49b82ba5291d95bd4403da5f20ee5948d24a1b07",
-      "size_bytes": 20146
-    },
-    {
-      "path": "artifacts/charts/chart_01_city_band_stack.png",
-      "sha256": "497e1420e673342932174d5a3c585a21275f37e7ce5c8b70963c02483300982c",
-      "size_bytes": 353409
-    },
-    {
-      "path": "artifacts/charts/chart_02_raw_city_totals.png",
-      "sha256": "7f171b4387153ca24e54753c4236e117834f3e0c78a6c67f903fe4befa518a5b",
-      "size_bytes": 99355
-    },
-    {
-      "path": "artifacts/charts/chart_03_population_normalized_total.png",
-      "sha256": "9588cd562c0dc2fa898bb5a3915b9247e73f71626816a287048d80deb279787c",
-      "size_bytes": 101830
-    },
-    {
-      "path": "artifacts/charts/chart_04_raw_normalized_scene_depth_ranks.png",
-      "sha256": "9d3e2dd9489ea5fa81027d6640a9bdf795b22f3157202ca74606a5ab01c36ab1",
-      "size_bytes": 116282
-    },
     {
       "path": "data/processed/scene_depth_band_metrics_20260717T225650Z.csv",
       "sha256": "8b31ba42a4e9d1a4e67de2678251ab4046800153723a9c64ce27f4100a603384",
@@ -58,26 +22,6 @@
       "path": "reference/uk_fua_top20_2021.csv",
       "sha256": "78f9cb40f5b82ea4e3c8060f23a41b59963e592e2be15fd5c0559df78bd34b84",
       "size_bytes": 6012
-    },
-    {
-      "path": "ANALYSIS_HISTORY.md",
-      "sha256": "227ded03b8e8c425a81eeab92a9d7dbe5446b536ec228b61f779456e5034b3a3",
-      "size_bytes": 7731
-    },
-    {
-      "path": "README.md",
-      "sha256": "1d9f81ecfae043c91385766381abf13393f7859e8a6ff409d02ed34996e22cd7",
-      "size_bytes": 9000
-    },
-    {
-      "path": "notebooks/README.md",
-      "sha256": "341130e40c888339232c19ceecdd51b7608d05e8e6edc28607dee7a43f35a9bf",
-      "size_bytes": 3765
-    },
-    {
-      "path": "TASKS.md",
-      "sha256": "afe719893fadd071bfca02deffd915ce3adad2a8decaf7974984ce15c1f66600",
-      "size_bytes": 19454
     }
   ]
 }

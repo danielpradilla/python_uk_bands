@@ -2,48 +2,7 @@
   "schema_version": 1,
   "created_at_utc": "2026-07-18T22:04:04.911119+00:00",
   "label": "before-final-band-composition-and-raw-impact",
-  "project_root": "/Users/dpradilla/dev/uk-music-cities",
   "files": [
-    {
-      "path": "notebooks/final/uk_bands_punching_above_weight.ipynb",
-      "sha256": "26dacbb5bd0ef972c624a717972d4580c9612b6ed5691e7a66ebb5ebe7f55cde",
-      "size_bytes": 324224
-    },
-    {
-      "path": "scripts/build_final_notebook.py",
-      "sha256": "9365993646d926d3f1ffba2d00a0331f606887ddcdaa3aded045cbe2ef6fd4fc",
-      "size_bytes": 26808
-    },
-    {
-      "path": "src/python_uk_bands/scene_depth.py",
-      "sha256": "b068fe7fed6dc4354b4105f39aa0979fa6a6b6288a1393b499b8a5be2927ecf1",
-      "size_bytes": 8908
-    },
-    {
-      "path": "src/python_uk_bands/scene_depth_visuals.py",
-      "sha256": "1b155189db2a7dc846b994895fe18a10ac37648cf8e8cbb6f0c3daa290ab6bb8",
-      "size_bytes": 11852
-    },
-    {
-      "path": "artifacts/charts/chart_01_ten_band_population_normalized_total.png",
-      "sha256": "dd31fcf82c4e3a06c8e92bcb4879a5cf469c3de101055be0fe47b25a9f18a169",
-      "size_bytes": 101194
-    },
-    {
-      "path": "artifacts/charts/chart_02_largest_band_concentration.png",
-      "sha256": "601bcea4fbb7205fb3e46ca139ff75f489d8425af1c2f9f7a42fa25f2ef406c0",
-      "size_bytes": 127372
-    },
-    {
-      "path": "artifacts/charts/chart_03_largest_band_excluded.png",
-      "sha256": "8f964aac183cd39e813cca776f1bea06492455f3f62ba0bb7daf3fed1f9d7d3b",
-      "size_bytes": 106211
-    },
-    {
-      "path": "artifacts/charts/chart_04_all_ten_vs_largest_excluded_rank.png",
-      "sha256": "8cf6af1625409a7ec34a8d684f4dbd15339c123e85edf6a3abd9cd9cee6f3119",
-      "size_bytes": 104399
-    },
     {
       "path": "data/processed/scene_depth_band_metrics_20260717T225650Z.csv",
       "sha256": "8b31ba42a4e9d1a4e67de2678251ab4046800153723a9c64ce27f4100a603384",
@@ -58,26 +17,6 @@
       "path": "reference/scene_depth_bands.csv",
       "sha256": "8754dfc07510231696bb3c0d7f51af00953656d2aa01ba1011730d9bb77bce0b",
       "size_bytes": 18075
-    },
-    {
-      "path": "ANALYSIS_HISTORY.md",
-      "sha256": "ddf44be154f323544c3911f733ddf1edd2e52c46a0931f484d18c1af33038a7b",
-      "size_bytes": 6064
-    },
-    {
-      "path": "README.md",
-      "sha256": "b9e8c206182f15a4d7db27e7ea04fdf6849884835cef2330b4c524605e0d97f0",
-      "size_bytes": 8851
-    },
-    {
-      "path": "TASKS.md",
-      "sha256": "31c3609d04f8485d1c90c28242cb327e8ea9a7884b35f895cf1b57cd9e3b2339",
-      "size_bytes": 19194
-    },
-    {
-      "path": "notebooks/README.md",
-      "sha256": "6ff43f9c8a4e9467a1f9c4fa11ce249aad08fbbd05f3d34bf90ef127b2904bbb",
-      "size_bytes": 3622
     }
   ]
 }

@@ -25,7 +25,6 @@ from python_uk_bands.config import (
 )
 from python_uk_bands.io import write_json
 from python_uk_bands.metrics import fetch_spotscraper_metrics, validate_metric_candidate
-from python_uk_bands.snapshots import create_data_snapshot
 
 def _read_rows(path: Path) -> list[dict]:
     payload = json.loads(path.read_text())
@@ -74,10 +73,8 @@ def main(argv: list[str] | None = None) -> int:
     write_json(candidate, candidate_path)
 
     if args.promote and report["promotion_ready"]:
-        rollback = create_data_snapshot(label=f"pre-spotify-promotion-{timestamp}")
         shutil.copy2(candidate_path, SHORTLIST_METRICS_PATH)
         report["promoted"] = True
-        report["rollback_snapshot"] = str(rollback.relative_to(PROJECT_ROOT))
 
     write_json(report, report_path)
     print(f"Candidate rows: {len(candidate)}/{len(identifiers)}")

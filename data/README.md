@@ -4,8 +4,8 @@
   needed for an audit; remove incomplete retries once their cause is understood.
 - `interim/` contains reviewable pipeline output that is not yet canonical.
 - `processed/` contains analysis-ready inputs and outputs.
-- `snapshots/` contains checksummed rollback points for canonical inputs. Use
-  this instead of creating separate backup directories.
+- `snapshots/` contains historical, checksummed data-only checkpoints. Git
+  history retains the corresponding code and notebooks.
 
 For repeated experiments, retain the latest complete run and any deliberately
 named milestone. Do not keep every failed or superseded attempt.

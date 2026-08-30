@@ -2,38 +2,7 @@
   "schema_version": 1,
   "created_at_utc": "2026-07-18T23:20:59.852607+00:00",
   "label": "completed-canonical-top200-popularity-first-study",
-  "project_root": "/Users/dpradilla/dev/uk-music-cities",
   "files": [
-    {
-      "path": "scripts/build_popularity_first_analysis.py",
-      "sha256": "f367a635a0e01848c9f4e106e916aaecb2c5583762a864ecb7649fe6220cd242",
-      "size_bytes": 6264
-    },
-    {
-      "path": "scripts/build_popularity_first_population_adjusted.py",
-      "sha256": "95aae868d5a55a9c3060b16c70a9a3199fbb99832f7cae2eedc2ef54ac571c22",
-      "size_bytes": 6302
-    },
-    {
-      "path": "scripts/build_popularity_first_canonical_notebook.py",
-      "sha256": "cd2b3c36aaedf2f56b9fa958ad80498d1d56bcbf115e38642b171ac6c3113f53",
-      "size_bytes": 29923
-    },
-    {
-      "path": "src/python_uk_bands/popularity_first.py",
-      "sha256": "2e6241d383e496a62b51f878a269a1025266214f533a65a38bc733e29834d7da",
-      "size_bytes": 13067
-    },
-    {
-      "path": "src/python_uk_bands/popularity_first_visuals.py",
-      "sha256": "dee3c70d30b2563ff9335a38c88d2326365648e743e8591c2cbf167df50a9d85",
-      "size_bytes": 13866
-    },
-    {
-      "path": "tests/test_popularity_first.py",
-      "sha256": "5f887c04c3e1cca7315ce980cb860afb847d087a95a250efca891ef10a7940a4",
-      "size_bytes": 8117
-    },
     {
       "path": "reference/popularity_first_top200_overrides_20260718.csv",
       "sha256": "1e995767f14162530fc336abaf276eb6f710ad7fd4cf7a80410f96b19c471e34",
@@ -88,56 +57,6 @@
       "path": "data/processed/popularity_first_top200_20260718T204522Z_population_adjusted_report.json",
       "sha256": "efee7f21304e09e37f6facb2e1ed0d7a051c02e748581d8ac32ad7c033b5574f",
       "size_bytes": 7827
-    },
-    {
-      "path": "notebooks/experiments/snapshots/uk_bands_top200_popularity_first_fua_20260718T204522Z.ipynb",
-      "sha256": "95cc879b3f71ae936ec302a048cab58bb0ae9fd9b5b161f2e7fac29a767b3f7a",
-      "size_bytes": 833308
-    },
-    {
-      "path": "artifacts/experiments/top200_popularity_first_fua/20260718T204522Z/chart_01_top_selected_bands.png",
-      "sha256": "52d8225dd1a5aedf624d58cf1800d272a7af254bea0e030d977ce3fd04bdc46f",
-      "size_bytes": 169785
-    },
-    {
-      "path": "artifacts/experiments/top200_popularity_first_fua/20260718T204522Z/chart_02_raw_fua_reach.png",
-      "sha256": "164f2f9a95d2280fbf1c68fcbcbe20641a9cdb69449ad110cb15148c9751de73",
-      "size_bytes": 191074
-    },
-    {
-      "path": "artifacts/experiments/top200_popularity_first_fua/20260718T204522Z/chart_03_population_adjusted_fua_reach.png",
-      "sha256": "77198e19a5fadd20a02adc43116a3c5cb83e7d524d484672f52b53f5e3de3d0d",
-      "size_bytes": 222678
-    },
-    {
-      "path": "artifacts/experiments/top200_popularity_first_fua/20260718T204522Z/chart_04_multiband_stability.png",
-      "sha256": "a898dba1c3348341238668544975ca37f36df6c65ae0bf704e85f9f54b1d892e",
-      "size_bytes": 140375
-    },
-    {
-      "path": "artifacts/experiments/top200_popularity_first_fua/20260718T204522Z/chart_05_raw_vs_normalized_fua_ranks.png",
-      "sha256": "2f2dcdf8d40d1ad8b4c341a6f4fc36eb629a7cadb013ea1702cad168b92d6f1e",
-      "size_bytes": 203479
-    },
-    {
-      "path": "README.md",
-      "sha256": "d3748355946ecedd8cb9a1cfe74ab2ef466ced53c2b0d69269f8edb727e53b2a",
-      "size_bytes": 11401
-    },
-    {
-      "path": "notebooks/README.md",
-      "sha256": "64dab4faa90611536ece41b763735fe9878d680469bec99b6439ebf2994b53d5",
-      "size_bytes": 4923
-    },
-    {
-      "path": "TASKS.md",
-      "sha256": "4b5040110202756a53948bf03f63b5d462c9c05f8f05257ddad486a055f1cf9f",
-      "size_bytes": 20334
-    },
-    {
-      "path": "ANALYSIS_HISTORY.md",
-      "sha256": "7a689552886330972b25fa776cf280c6917dfa6cbee8606bed4582148854ab1e",
-      "size_bytes": 13571
     }
   ]
 }

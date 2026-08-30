@@ -1,366 +1,77 @@
 # Analysis history
 
-This file is the index of preserved analysis states. Experiment notebooks read
-explicit frozen inputs and do not refresh network data when executed. Each
-completion snapshot contains a manifest with SHA-256 checksums for the notebook,
-inputs, outputs, raw responses, and exported charts.
+This is the short provenance record for the published study and its major
+experimental branches. The executed notebooks use frozen local inputs and do
+not refresh network data.
 
-## 25 July 2026 — study-review follow-up experiments
+## 18–19 July 2026 — canonical study design
 
-- Added the executed
-  `notebooks/experiments/16_uk_bands_specification_multiverse.ipynb`, combining
-  32 specifications across catalogue design, size, metric, normalization,
-  mapping and expected-output residuals. It publishes observed rank ranges and
-  top-five frequencies rather than a single exact league table.
-- Added
-  `notebooks/experiments/17_uk_bands_scene_depth_and_concentration.ipynb`,
-  measuring inverse-Herfindahl effective-band counts, largest-band and
-  top-three shares and fixed follower thresholds for 660 mapped bands across
-  61 positive-output FUAs.
-- Added `notebooks/experiments/18_uk_bands_generations_by_decade.ipynb` as a
-  formation-year coverage experiment. Frozen MusicBrainz inputs cover 108 of
-  200 balanced top-20 bands; only four FUAs are complete and two have no
-  observed years, so no generational ranking is claimed.
-- Added `notebooks/experiments/19_uk_bands_genre_city_histories.ipynb`, using
-  captured Wikidata genre and inception claims for 1,000 popularity-first bands.
-  Genre coverage is 92.4% and inception-year coverage is 82.2%; multi-genre
-  bands receive fractional credit.
-- Added `notebooks/experiments/20_uk_bands_scene_infrastructure.ipynb`, based
-  on 1,702 classified OpenStreetMap elements in fixed 15 km circles around
-  twenty city centres. The current mapped inventory is explicitly not treated
-  as a historical FUA census or causal estimate.
-- Added `notebooks/experiments/21_uk_bands_band_networks.ipynb`, separating
-  272 shared-member edges from 5,786 shared-label edges among the 660 mapped
-  top-1,000 bands. Of those bands, 240 have at least one documented member
-  connection and 519 have at least one documented label connection.
-- Added `notebooks/experiments/22_uk_bands_longitudinal_reach.ipynb`, comparing
-  the same 50 Spotify IDs at two frozen dates. All 50 gained followers while
-  28 gained monthly listeners; the notebook describes change, not a trend.
-- Added `notebooks/experiments/23_uk_bands_beyond_spotify.ipynb`, comparing
-  Spotify followers with July 2025–June 2026 English Wikipedia user pageviews.
-  Pageviews are available for 955 of 1,000 bands and are treated as attention,
-  not listening.
-- Frozen source captures for the extension experiments are stored under
-  `data/raw/wikidata/`, `data/raw/musicbrainz/`, `data/raw/openstreetmap/` and
-  `data/raw/wikimedia/`, with request provenance embedded in each JSON file.
-- The sixteen exported charts and supporting CSV/JSON outputs are isolated under
-  `artifacts/experiments/specification_multiverse/`,
-  `artifacts/experiments/scene_depth_concentration/` and
-  `artifacts/experiments/generations_by_decade/`, plus the five experiment
-  directories for genre history, infrastructure, networks, longitudinal reach
-  and beyond-Spotify triangulation.
-
-## 23 July 2026 — top-1,000 population-scaling model comparison
-
-- Added separate executed notebooks for two distinct questions:
-  `notebooks/experiments/13_uk_bands_top1000_negative_binomial_scaling.ipynb`
-  models mapped band counts for all 83 FUAs, while
-  `notebooks/experiments/14_uk_bands_top1000_loglog_follower_scaling.ipynb`
-  models follower totals for the 61 positive-output FUAs.
-- The negative-binomial population exponent is 1.37 (95% CI 1.19–1.56).
-  Negative binomial fits its count outcome better than Poisson (AIC 327.7
-  versus 369.7) and retains all 22 zero-band FUAs.
-- The log–log follower exponent is 1.52 with HC3 95% CI 1.20–1.84. Its slope
-  remains 1.54 under Huber regression and 1.47 after removing London, but
-  leave-one-out error is large and the strongest city residual is a one-band
-  result.
-- Conclusion: use negative binomial as the primary scene-breadth model and the
-  log–log fit as an audience-impact companion. The models have different
-  outcomes, so their AIC values are not compared with each other.
-- Tables, summaries, comparison CSV and four charts are isolated under
-  `artifacts/experiments/top1000_scaling_models/20260718T204522Z/`.
-- No live Spotify or geography collection was performed; both notebooks use
-  the frozen 18 July 2026 top-1,000 and 2021 FUA population inputs.
-
-## 22 July 2026 — music-output-share versus population experiment
-
-- Executed notebook:
-  `notebooks/experiments/11_uk_bands_top200_output_share_vs_population.ipynb`
-- Scope: compare every represented FUA's share of the frozen selected top-200
-  catalogue with its share of the complete 83-FUA population universe. The
-  chart uses band share as position and follower share as bubble area; the
-  notebook also reports follower and monthly-listener output quotients.
-- Denominator policy: all 83 FUAs remain in the population denominator and all
-  200 selected bands remain in the output denominators. Unmapped bands are not
-  redistributed or removed when calculating shares.
-- Mapping coverage: the primary strict-plus-reviewed-extended view maps 169 of
-  200 bands, 93.9% of followers and 91.1% of monthly listeners to 35 FUAs.
-- Exported outputs:
-  `artifacts/experiments/top200_output_share_vs_population/20260718T204522Z/`.
-- Publication status: separate exploratory analysis; it does not modify the
-  final notebook or replace the canonical popularity-first experiment.
-
-## 22 July 2026 — top-1,000 FUA mapping and follower-share experiment
-
-- Expanded the frozen popularity-first selection to 1,000 eligible identities
-  without refreshing Spotify data. The selection cutoff is 26,180 monthly
-  listeners in the 18 July 2026 capture.
-- Captured the official OECD UK municipality-to-FUA crosswalk: 267
-  municipalities across 84 FUAs. The frozen population denominator contains 83
-  of those FUAs; Carlisle (`UK575F`) is absent and is explicitly excluded from
-  normalized results rather than silently dropped.
-- Captured Wikidata formation-place labels and `located in the administrative
-  territorial entity` ancestry for 235 seed entities and 575 entities in the
-  complete ancestry snapshot.
-- Generated the complete 218-origin decision file:
-  `reference/popularity_first_top1000_origin_fua_mapping_20260718.csv`.
-  Official municipality membership controls whenever available; only two
-  reviewed-extended legacy assignments remain.
-- Mapping coverage: 660 of 1,000 bands across 61 FUAs. This represents 66.0% of
-  band count, 92.4% of followers and 90.5% of monthly listeners. Unresolved,
-  regional, non-UK and non-FUA origins remain unallocated.
-- Corrected the earlier Totnes sensitivity assignment: the official crosswalk
-  places South Hams in Plymouth FUA, not Torbay.
-- Executed notebook:
-  `notebooks/experiments/12_uk_bands_top1000_output_share_vs_population.ipynb`.
-- Primary visual: follower share versus population share, with selected-band
-  count encoded by bubble area. The band-share chart remains as a companion so
-  its one-band row is explicit rather than mistaken for a plotting error.
-- Publication status: separate exploratory analysis; the final notebook and
-  canonical top-200 popularity-first notebook are unchanged.
-
-## Preserved baseline before the top-20/top-100 work
-
-- Snapshot:
-  `data/snapshots/20260718T202259Z_baseline-before-top20-primary-and-top100-secondary/`
-- Purpose: rollback point for the existing final notebook, earlier ten-band
-  experiment, catalogues, geography, and identifiers.
-- Existing final notebook checksum at that point:
-  `bcfea250826692bcd935a62ae89d8d99121119f1358d4d2321285c2ca18fd859`.
-
-## 18 July 2026 — city-first primary-design experiment
-
-- Executed notebook:
-  `notebooks/experiments/05_uk_bands_top20_city_first.ipynb`
-- Scope: the twenty largest UK OECD/EU Functional Urban Areas by 2021
-  population, ten reviewed bands per area, all-ten result followed by a
-  symmetric trim of one highest and one lowest band.
-- Frozen reach capture:
-  `data/processed/top20_city_spotify_metrics_20260718T204000Z.csv`
-- Saved rankings:
-  `data/processed/top20_city_rankings_20260718T204000Z.csv`
-- Completion snapshot:
-  `data/snapshots/20260718T204356Z_completed-top20-city-first-20260718t204000z/`
-- Publication status: experiment; it does not modify or replace the final
-  notebook.
-
-## 18 July 2026 — popularity-first secondary experiment
-
-- Executed notebook:
-  `notebooks/experiments/06_uk_bands_top100_popularity_first.ipynb`
-- Scope: select the 100 largest monthly-listener counts from an archived
-  Wikidata-derived UK musical-group candidate universe after identity,
-  redirect, and group-type review; then map origins and measure concentration.
-- Archived candidate query:
-  `data/raw/wikidata/uk_group_candidates_with_spotify_20260718T201100Z.json`
-- Frozen reach capture:
-  `data/processed/uk_group_spotify_metrics_20260718T204522Z.csv`
-- Saved selection and origin summary:
-  `data/processed/popularity_first_top100_20260718T204522Z_bands.csv` and
-  `data/processed/popularity_first_top100_20260718T204522Z_origins.csv`
-- Completion snapshot:
-  `data/snapshots/20260718T205319Z_completed-top100-popularity-first-20260718t204522z/`
-- Publication status: separate exploratory analysis; it does not modify or
-  replace the city-first or final notebooks.
-
-## 18 July 2026 — methodology-first published narrative
-
-- Revised notebook:
-  `notebooks/final/uk_bands_punching_above_weight.ipynb`
-- Change: reorganized the reader journey around the study question, fixed
-  panel, band-selection rules, data definitions, formulas, assumptions,
-  results, sensitivity tests and limitations.
-- Project history moved to the end: the earlier five-band comparison is
-  Appendix A and the useful dead ends are Appendix B.
-- Data and calculations remain fixed to scene-depth snapshot
-  `20260717T225650Z`; the notebook was rebuilt and executed top to bottom.
-- Pre-edit rollback point:
-  `data/snapshots/20260718T205602Z_before-methodology-first-published-notebook/`
-- Completed-state snapshot:
-  `data/snapshots/20260718T210021Z_methodology-first-published-notebook/`
-
-## 18 July 2026 — population-adjusted popularity-first companion
-
-- Executed notebook:
-  `notebooks/experiments/07_uk_bands_top100_popularity_first_population_adjusted.ipynb`
-- Scope: preserve the raw top-100 origin concentration, then normalize both
-  selected-band count and captured global listener reach by 2021 OECD/EU
-  Functional Urban Area population.
-- Strict mapping coverage: 87 of 100 bands and 89.0% of captured reach. An
-  extended reviewed-mapping sensitivity covers 94 bands and 94.7% of reach.
-- Stability diagnostic: retain the full ranking, then separately show FUAs
-  represented by at least two selected bands so one-superstar cases remain
-  visible without defining the broader comparison.
-- Saved outputs:
-  `data/processed/popularity_first_top100_20260718T204522Z_population_strict.csv`,
-  `data/processed/popularity_first_top100_20260718T204522Z_population_extended.csv`
-  and
-  `data/interim/popularity_first_top100_20260718T204522Z_fua_mapping_audit.csv`.
-- Publication status: separate exploratory sensitivity analysis; the original
-  popularity-first notebook and final published notebook were not modified.
-- Completion snapshot:
-  `data/snapshots/20260718T214601Z_completed-top100-population-adjusted-20260718t204522z/`.
-
-## 18 July 2026 — final hierarchy: primary result plus one scene-depth test
-
-- Revised notebook:
-  `notebooks/final/uk_bands_punching_above_weight.ipynb`
-- Change: made the all-ten, population-normalized ranking the unambiguous
-  primary result. The only alternative ranking in the final notebook now
-  removes each city's largest band as a scene-depth sensitivity.
-- The largest-band concentration chart remains as a diagnostic. The symmetric
-  trim and three-method rank chart were removed from the final narrative and
-  remain preserved in the earlier experiment and rollback snapshot.
-- The final rank-comparison chart now compares only the primary all-ten result
-  with the largest-band-excluded scene-depth result.
-- Data remain fixed to scene-depth snapshot `20260717T225650Z`.
-- Pre-edit rollback point:
-  `data/snapshots/20260718T214740Z_before-final-primary-plus-largest-only/`.
-- Intermediate executed-state snapshot before separating the published
-  calculation path from the broader experiment function:
-  `data/snapshots/20260718T215039Z_completed-final-primary-plus-largest-only/`.
-- Completed-state snapshot:
-  `data/snapshots/20260718T215248Z_completed-final-primary-plus-largest-only-v2/`.
-
-## 19 July 2026 — add composition and raw-impact context to final
-
-- Revised notebook:
-  `notebooks/final/uk_bands_punching_above_weight.ipynb`
-- Change: added a ten-band horizontal stacked bar for every city, followed by
-  the raw combined city totals before the existing population-normalized
-  primary result.
-- The separate concentration and scene-depth score bars were consolidated:
-  concentration is visible in the band stack, exact scene-depth results remain
-  in the table, and chart 04 now compares raw, normalized and scene-depth
-  ranks on one scale.
-- The primary conclusion remains population-normalized all-ten reach; the raw
-  total is descriptive context, and largest-band exclusion remains the only
-  alternative scene-depth ranking.
-- Data remain fixed to scene-depth snapshot `20260717T225650Z`.
-- Pre-edit rollback point:
-  `data/snapshots/20260718T220404Z_before-final-band-composition-and-raw-impact/`.
-- Completed-state snapshot:
-  `data/snapshots/20260718T221021Z_completed-final-band-composition-and-raw-impact/`.
-
-## 19 July 2026 — show band composition as 100% bars
-
-- Revised chart 04.01 so every city's horizontal bar has equal length and
-  totals 100%. Segment widths now encode each band's share of its city's
-  selected Spotify reach rather than absolute listener counts.
-- Absolute scale remains available immediately afterward in chart 04.02, so
-  the change separates the composition question from the city-impact question.
-- Pre-edit rollback point:
-  `data/snapshots/20260718T221510Z_before-100-percent-city-band-bars/`.
-- Completed-state snapshot:
-  `data/snapshots/20260718T221617Z_completed-100-percent-city-band-bars/`.
-
-## 19 July 2026 — switch final denominator to OECD/EU FUAs
-
-- The prior final used 2021 census built-up-area populations inherited from
-  the original ten-city panel; it did not use Functional Urban Areas.
-- The revised final starts from the ten largest UK OECD/EU FUAs in
-  `reference/uk_fua_top20_2021.csv`, using 2021 OECD population observations.
-  The top-ten panel is therefore London, Manchester, Birmingham, Leeds,
-  Glasgow, Liverpool, Newcastle, Sheffield, Bristol and Leicester.
-- Standardized frozen inputs:
+- Froze Spotify artist metrics at snapshot `20260718T204000Z` and 2021 OECD
+  Functional Urban Area populations.
+- Standardized the final universe as the ten largest UK FUAs with ten reviewed
+  bands per area. The canonical inputs are
   `data/processed/fua_top10_band_metrics_20260718T204000Z.csv` and
-  `data/processed/fua_top10_rankings_20260718T204000Z.csv`.
-- New same-structure top-20 experiment:
-  `notebooks/experiments/08_uk_bands_top20_fua_final_structure.ipynb`.
-- Its standardized frozen inputs are
-  `data/processed/fua_top20_band_metrics_20260718T204000Z.csv` and
-  `data/processed/fua_top20_rankings_20260718T204000Z.csv`.
-- Both use the already captured Spotify snapshot `20260718T204000Z`; no new
-  live collection was performed.
-- Pre-edit rollback point:
-  `data/snapshots/20260718T222231Z_before-final-switch-to-fua-and-top20-mirror/`.
-- Completed-state snapshot:
-  `data/snapshots/20260718T222922Z_completed-final-fua-and-top20-final-structure/`.
+  `reference/uk_fua_top20_2021.csv`.
+- Made summed global monthly listeners divided by FUA population the primary
+  comparison. Removing each area's largest selected band is the sole
+  dominant-band sensitivity calculation.
+- Added composition, raw-total, population-normalized and rank-comparison
+  charts to `notebooks/final/uk_bands_punching_above_weight.ipynb`.
+- Saved the canonical ranking and build report under `data/processed/` with the
+  same snapshot ID. A same-structure top-20 branch remains experiment 08.
 
-## 19 July 2026 — consolidate the Crawley-inclusive top-100 experiment
+## 19 July 2026 — popularity-first branches
 
-- Canonical executed notebook:
-  `notebooks/experiments/09_uk_bands_top100_popularity_first_fua.ipynb`.
-- Resolution: the earlier raw-only and population-adjusted top-100 notebooks
-  used the same frozen selection and both contained The Cure/Crawley. The
-  second appeared different because only it applied the FUA denominator.
-- The canonical narrative now presents selected bands, raw strict-FUA reach,
-  the strict population-adjusted result, an at-least-two-band stability
-  diagnostic and raw-versus-normalized rank movement in one sequence.
-- Crawley remains first in the complete strict population-adjusted result,
-  supported by The Cure alone. One-band FUAs are visibly hatched and labelled;
-  the leading multi-band diagnostic is Oxford, Cambridge and Sheffield.
-- Both predecessor notebooks remain unchanged and are explicitly documented
-  as preserved branches rather than competing current experiments.
-- Frozen data remain at Spotify snapshot `20260718T204522Z`; no live capture
-  was performed, and the city-first final notebook was not modified.
-- Pre-edit rollback point:
-  `data/snapshots/20260718T223202Z_before-canonical-crawley-top100-experiment/`.
-- Completed-state snapshot:
-  `data/snapshots/20260718T223834Z_completed-canonical-crawley-top100-experiment/`.
+- Experiments 06–10 reversed the editorial city-first design by selecting the
+  top 100 and then top 200 eligible UK groups from frozen Spotify data.
+- The top-200 branch retained reviewed identity and origin overrides, strict
+  and extended FUA mappings, and stability views for places represented by
+  multiple bands.
+- These branches remain exploratory and do not replace the balanced final
+  study.
 
-## 19 July 2026 — prepare a top-200 popularity-first review list
+## 22–23 July 2026 — top-1,000 mapping and scaling
 
-- Re-ran the existing popularity-first selector with `top_n=200` against the
-  same frozen Spotify snapshot `20260718T204522Z`; no live capture was
-  performed.
-- Full selected-band output:
-  `data/processed/popularity_first_top200_20260718T204522Z_bands.csv`.
-- Compact editorial review list:
-  `data/interim/popularity_first_top200_20260718T204522Z_review.csv`.
-  It retains rank, Spotify reach, identity and reported-origin fields, and
-  flags unresolved origins plus the known Bee Gees/Los Hornos mismatch.
-- At initial review-list generation, the first 100 selected rows exactly
-  reproduced
-  `data/processed/popularity_first_top100_20260718T204522Z_bands.csv`.
-  The later canonical top-200 branch retained the same ranks, identities and
-  metrics but corrected the Bee Gees origin from the erroneous archived
-  Wikidata label `Los Hornos` to `Redcliffe`; the complete rows therefore no
-  longer match byte for byte. The additional range begins with Stereophonics
-  at rank 101 and ends with Amber Run at rank 200 (2,165,390 monthly listeners
-  in the frozen capture).
-- This is a review branch only: no top-200 notebook or population-adjusted
-  result has been built or promoted.
-- Pre-run rollback point:
-  `data/snapshots/20260718T225712Z_before-top200-popularity-first-review-list/`.
-- Completed-state snapshot:
-  `data/snapshots/20260718T225853Z_completed-top200-popularity-first-review-list/`.
+- Expanded the frozen popularity-first universe to 1,000 bands and mapped 660
+  bands to 61 of the 83 FUAs in the population denominator.
+- Experiments 11–15 cover output share, count and follower scaling, and follower
+  maps. They keep zero-output FUAs and unresolved origins explicit rather than
+  redistributing them.
+- Frozen geography, mapping evidence and map-asset attribution remain under
+  `data/raw/`, `data/interim/` and `reference/`.
 
-## 19 July 2026 — replace the canonical top-100 experiment with top 200
+## 25 July 2026 — review follow-up experiments
 
-- New canonical executed notebook:
-  `notebooks/experiments/10_uk_bands_top200_popularity_first_fua.ipynb`.
-- The popularity-first selection now retains 200 groups from the same frozen
-  Spotify snapshot `20260718T204522Z`; no live capture was performed.
-- Added a top-200-specific override file:
-  `reference/popularity_first_top200_overrides_20260718.csv`.
-  It preserves the reviewed top-100 identity decisions and corrects three
-  unreadable or erroneous origins: Bee Gees/Redcliffe, Wet Leg/Isle of Wight
-  and The Cult/Bradford.
-- Added the complete audited mapping universe:
-  `reference/popularity_first_top200_origin_fua_mapping_20260718.csv`.
-  The strict result maps 154 bands to 28 FUAs and covers 84.8% of selected
-  captured reach. The reviewed-extended sensitivity maps 169 bands to 35 FUAs
-  and covers 91.1% of reach.
-- London remains the raw-reach leader. Crawley remains first in the complete
-  strict population-adjusted result through The Cure alone. Bath and North
-  East Somerset, Oxford and Cambridge lead the at-least-two-band stability
-  diagnostic.
-- Population-adjusted output columns now have catalogue-neutral
-  `selected_*` names. The legacy `top100_*` aliases remain so the frozen
-  top-100 notebooks are still rerunnable.
-- The former canonical top-100 notebook and its raw-only and
-  population-adjusted predecessors remain unchanged and linked from the new
-  notebook appendix and notebook map.
-- The city-first final notebook was not modified.
-- Pre-edit rollback point:
-  `data/snapshots/20260718T231256Z_before-replacing-top100-with-top200-popularity-first-study/`.
-- Completed-state snapshot:
-  `data/snapshots/20260718T232059Z_completed-canonical-top200-popularity-first-study/`.
+- Experiments 16–23 test specification sensitivity, scene concentration,
+  formation decades, genre history, infrastructure, band networks,
+  longitudinal Spotify change and Wikipedia attention.
+- Their claims remain descriptive and exploratory; none modifies the final
+  notebook's ranking or interpretation.
+
+## 22 August 2026 — final audit and selection sensitivity
+
+- Published deterministic inclusion rules and the frozen data dictionary in
+  `reference/final_study_methodology.md`.
+- Audited every material origin assignment. The final catalogue records 99 as
+  high-confidence and Chumbawamba's Leeds assignment as medium-confidence
+  because credible histories disagree.
+- Experiment 24 compared the editorial catalogue with popularity-selected
+  ten-band catalogues. Fifty of 80 comparable selections overlap, while the
+  first four primary-index ranks remain unchanged. This is a follow-up branch,
+  not part of the first article's claim.
+
+## Preservation
+
+- The full experiment index is `notebooks/experiments/README.md`; generated
+  outputs are under `artifacts/experiments/`.
+- `data/snapshots/` retains checksummed historical data and reference files
+  only. Git tag `archive/pre-data-snapshot-prune-2026-08-30` preserves the
+  removed code, notebook, chart and task-ledger copies.
+- The archived task ledger can be inspected with
+  `git show archive/pre-data-snapshot-prune-2026-08-30:TASKS.md`.
 
 ## Working convention
 
-Before a new capture or methodological branch, create a labeled snapshot. Keep
-new analyses in the next numbered notebook under `notebooks/experiments/`, use
-dated raw and processed inputs, and add the completed state here. Promote no
+Keep new analyses in the next numbered experiment notebook, use dated frozen
+inputs, and record only publication-relevant milestones here. Promote no
 experiment into `notebooks/final/` without a separate publication decision.

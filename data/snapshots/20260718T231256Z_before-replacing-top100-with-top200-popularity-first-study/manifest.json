@@ -2,33 +2,7 @@
   "schema_version": 1,
   "created_at_utc": "2026-07-18T23:12:56.670659+00:00",
   "label": "before-replacing-top100-with-top200-popularity-first-study",
-  "project_root": "/Users/dpradilla/dev/uk-music-cities",
   "files": [
-    {
-      "path": "scripts/build_popularity_first_analysis.py",
-      "sha256": "f367a635a0e01848c9f4e106e916aaecb2c5583762a864ecb7649fe6220cd242",
-      "size_bytes": 6264
-    },
-    {
-      "path": "scripts/build_popularity_first_population_adjusted.py",
-      "sha256": "153c802507c17afb2c7cce68ff978f969a4e17e12de46c3eefdb284fed0def89",
-      "size_bytes": 6060
-    },
-    {
-      "path": "scripts/build_popularity_first_canonical_notebook.py",
-      "sha256": "feb82d5902739db3bb52abd53d158f597b8845d6271e2d638f22553722770a48",
-      "size_bytes": 27468
-    },
-    {
-      "path": "src/python_uk_bands/popularity_first.py",
-      "sha256": "549084423e9f918d4e537aef0508fa6d7a3aef4b197b0d07016fc99a3cc01c46",
-      "size_bytes": 12684
-    },
-    {
-      "path": "src/python_uk_bands/popularity_first_visuals.py",
-      "sha256": "09e043260dfaa57d95199f2b4aac7e72ec0fbf8597bed534b01a35c0032d8585",
-      "size_bytes": 13379
-    },
     {
       "path": "reference/popularity_first_overrides_20260718.csv",
       "sha256": "8c0c5dfd83be0c62f587bab5a8ba6944ea261fd08ce93d1a2d48ced2ae14bf82",
@@ -58,31 +32,6 @@
       "path": "data/interim/popularity_first_top200_20260718T204522Z_review.csv",
       "sha256": "a2f00a3c41dd1915658173b7c56f8a7524b2844245d9701740e1506bf57843ba",
       "size_bytes": 40419
-    },
-    {
-      "path": "notebooks/experiments/snapshots/uk_bands_top100_popularity_first_fua_20260718T204522Z.ipynb",
-      "sha256": "d5532177798d9383852d5f52516a10725be677df003af44459ab000aeb90b2b9",
-      "size_bytes": 674968
-    },
-    {
-      "path": "README.md",
-      "sha256": "887148717f7b6fe753da21aae790c6ceef3943135fc75ba04f8cc0b27989266a",
-      "size_bytes": 11213
-    },
-    {
-      "path": "notebooks/README.md",
-      "sha256": "332f4d94d42c71876757bec13b88a5be74010a5f6f93999565345ba61b2fde28",
-      "size_bytes": 4673
-    },
-    {
-      "path": "TASKS.md",
-      "sha256": "72bca5aa331b64ea60f939ac857783691a3927dc4efe133c0344a4bdc61888c7",
-      "size_bytes": 20325
-    },
-    {
-      "path": "ANALYSIS_HISTORY.md",
-      "sha256": "c05de7a6d6cb789739ccf52c40a4008fd3615138ee47b12bce9c159266a006a4",
-      "size_bytes": 11573
     }
   ]
 }

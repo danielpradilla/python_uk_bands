@@ -2,13 +2,7 @@
   "schema_version": 1,
   "created_at_utc": "2026-07-18T20:53:19.167398+00:00",
   "label": "completed-top100-popularity-first-20260718T204522Z",
-  "project_root": "/Users/dpradilla/dev/uk-music-cities",
   "files": [
-    {
-      "path": "notebooks/experiments/snapshots/uk_bands_top100_popularity_first_20260718T204522Z.ipynb",
-      "sha256": "912bdd02895e9e9693744d35c4c8ac8a3a9bc4a5e751ece1309961743fd0164b",
-      "size_bytes": 191217
-    },
     {
       "path": "data/raw/wikidata/uk_group_candidates_with_spotify_20260718T201100Z.json",
       "sha256": "b78232336351a5454fec97b08a1187b5e5b66c9948ad318dea5061eaf7d63599",
@@ -63,16 +57,6 @@
       "path": "data/processed/popularity_first_top100_20260718T204522Z_report.json",
       "sha256": "57be82abf0192ce8e5d038bdbb6a1ef0b5e72e6dd9e75ce5ddf30cb2c7806365",
       "size_bytes": 1341
-    },
-    {
-      "path": "artifacts/top100_popularity_first/20260718T204522Z/01_top20_groups.png",
-      "sha256": "d75ad275fb4f224f28221d95d614139d9d9431c91155e0431176a5537c1553b3",
-      "size_bytes": 83462
-    },
-    {
-      "path": "artifacts/top100_popularity_first/20260718T204522Z/02_origin_band_counts.png",
-      "sha256": "840e3dfa7b871ffadbb6d922257bbb4f8bbc62b0eeec7b2add05b8c8dc03b2a3",
-      "size_bytes": 57120
     }
   ]
 }
