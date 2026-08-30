@@ -44,6 +44,19 @@ class MetricsTests(unittest.TestCase):
         self.assertFalse(report["promotion_ready"])
         self.assertEqual(report["missing_bands"], ["B"])
 
+    def test_duplicate_candidate_values_are_reported(self) -> None:
+        candidate = [
+            {"band": "A", "spotify_id": "1", "stats_extracted_at": "2026-07-11"},
+            {"band": "A", "spotify_id": "1", "stats_extracted_at": "2026-07-11"},
+        ]
+        report = validate_metric_candidate(
+            candidate,
+            [{"band": "A", "spotify_id": "1"}],
+            [],
+        )
+        self.assertEqual(report["duplicate_bands"], ["A"])
+        self.assertEqual(report["duplicate_spotify_ids"], ["1"])
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import re
-from typing import Iterable
 import unicodedata
 
 
@@ -31,17 +30,3 @@ def infer_match_confidence(target_name: str, candidate_name: str, *, is_first_re
     if is_first_result:
         return "fallback"
     return "low"
-
-
-def pick_best_candidate(target_name: str, candidates: Iterable[dict]) -> tuple[dict | None, str]:
-    """Select the best candidate from a Spotify search result list."""
-    candidate_list = list(candidates)
-    for candidate in candidate_list:
-        if infer_match_confidence(target_name, candidate.get("name", ""), is_first_result=False) == "exact":
-            return candidate, "exact"
-    for candidate in candidate_list:
-        if infer_match_confidence(target_name, candidate.get("name", ""), is_first_result=False) == "approximate":
-            return candidate, "approximate"
-    if candidate_list:
-        return candidate_list[0], "fallback"
-    return None, "none"

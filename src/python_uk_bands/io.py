@@ -12,11 +12,6 @@ def ensure_parent(path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
 
 
-def read_csv(path: Path) -> pd.DataFrame:
-    """Load a CSV file into a DataFrame."""
-    return pd.read_csv(path)
-
-
 def write_csv(df: pd.DataFrame, path: Path) -> None:
     """Write a DataFrame to CSV, creating parent directories when needed."""
     ensure_parent(path)

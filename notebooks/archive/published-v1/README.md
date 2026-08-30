@@ -14,7 +14,9 @@ version into a separate `rebuild/` subdirectory without touching either the
 archived original or the canonical final notebook and charts:
 
 ```bash
-python scripts/build_published_v1_notebook.py --metrics-snapshot publication
+mkdir -p notebooks/archive/published-v1/rebuild
+cp notebooks/archive/published-v1/uk_bands_punching_above_weight.ipynb \
+  notebooks/archive/published-v1/rebuild/
 python -m jupyter nbconvert \
   --execute \
   --to notebook \

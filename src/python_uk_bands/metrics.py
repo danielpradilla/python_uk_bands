@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from collections import Counter
 from datetime import datetime, timezone
 import time
 from typing import Callable
@@ -162,14 +163,13 @@ def validate_metric_candidate(
     missing_bands = sorted(set(expected_by_band) - set(candidate_by_band))
     unexpected_bands = sorted(set(candidate_by_band) - set(expected_by_band))
     duplicate_bands = sorted(
-        {row.get("band") for row in candidate if sum(r.get("band") == row.get("band") for r in candidate) > 1}
+        value for value, count in Counter(row.get("band") for row in candidate).items()
+        if count > 1
     )
     duplicate_ids = sorted(
-        {
-            row.get("spotify_id")
-            for row in candidate
-            if sum(r.get("spotify_id") == row.get("spotify_id") for r in candidate) > 1
-        }
+        value
+        for value, count in Counter(row.get("spotify_id") for row in candidate).items()
+        if count > 1
     )
     id_changes = sorted(
         band

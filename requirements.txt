@@ -1,10 +1,7 @@
-altair
 ipykernel
 matplotlib
 nbconvert
-nbformat
+numpy
 pandas
-pycountry
 python-dotenv
 requests
-spotipy

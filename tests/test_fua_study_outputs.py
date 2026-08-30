@@ -1,4 +1,4 @@
-"""Regression tests for the frozen top-10 and top-20 FUA studies."""
+"""Regression tests for the frozen final FUA study."""
 
 from __future__ import annotations
 
@@ -8,6 +8,7 @@ import pandas as pd
 from pandas.testing import assert_frame_equal
 
 from python_uk_bands.config import PROJECT_ROOT
+from python_uk_bands.fua import validate_top_fua_universe
 from python_uk_bands.scene_depth import build_primary_scene_depth_rankings
 
 
@@ -19,6 +20,7 @@ class FrozenFuaStudyTests(unittest.TestCase):
         universe = pd.read_csv(
             PROJECT_ROOT / "reference" / "uk_fua_top20_2021.csv"
         ).head(10)
+        validate_top_fua_universe(universe, expected_rows=10, year=2021)
         bands = pd.read_csv(
             PROJECT_ROOT
             / "data"
@@ -54,37 +56,32 @@ class FrozenFuaStudyTests(unittest.TestCase):
         self.assertEqual(len(bands), 100)
         self.assertTrue(bands.groupby("city").size().eq(10).all())
 
-    def test_saved_rankings_recompute_for_both_study_sizes(self) -> None:
-        for city_count in (10, 20):
-            with self.subTest(city_count=city_count):
-                bands = pd.read_csv(
-                    PROJECT_ROOT
-                    / "data"
-                    / "processed"
-                    / (
-                        f"fua_top{city_count}_band_metrics_"
-                        f"{SNAPSHOT_ID}.csv"
-                    )
-                )
-                saved = pd.read_csv(
-                    PROJECT_ROOT
-                    / "data"
-                    / "processed"
-                    / f"fua_top{city_count}_rankings_{SNAPSHOT_ID}.csv"
-                )
-                recalculated = build_primary_scene_depth_rankings(
-                    bands,
-                    metric="monthly_listeners",
-                    expected_cities=city_count,
-                    bands_per_city=10,
-                )
-                assert_frame_equal(
-                    recalculated.sort_values("city").reset_index(drop=True),
-                    saved.sort_values("city").reset_index(drop=True),
-                    check_exact=False,
-                    rtol=1e-12,
-                    atol=1e-12,
-                )
+    def test_saved_final_rankings_recompute(self) -> None:
+        bands = pd.read_csv(
+            PROJECT_ROOT
+            / "data"
+            / "processed"
+            / f"fua_top10_band_metrics_{SNAPSHOT_ID}.csv"
+        )
+        saved = pd.read_csv(
+            PROJECT_ROOT
+            / "data"
+            / "processed"
+            / f"fua_top10_rankings_{SNAPSHOT_ID}.csv"
+        )
+        recalculated = build_primary_scene_depth_rankings(
+            bands,
+            metric="monthly_listeners",
+            expected_cities=10,
+            bands_per_city=10,
+        )
+        assert_frame_equal(
+            recalculated.sort_values("city").reset_index(drop=True),
+            saved.sort_values("city").reset_index(drop=True),
+            check_exact=False,
+            rtol=1e-12,
+            atol=1e-12,
+        )
 
 
 if __name__ == "__main__":
