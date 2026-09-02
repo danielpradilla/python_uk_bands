@@ -2,6 +2,8 @@
 
 Static explorer for the popularity-first top-1,000 band catalog. It switches between raw totals for reviewed `origin_cluster` assignments and population-normalized results for strict FUA mappings. It does not use the balanced final-study 100-band dataset.
 
+For the formal study's definitions of Functional Urban Areas, band assignment, Spotify reach, population normalization, and analytical limitations, see the [main study methodology](../README.md#study-design). The sections below document where this larger explorer intentionally differs.
+
 ## Requirements
 
 - Python 3.10 or newer

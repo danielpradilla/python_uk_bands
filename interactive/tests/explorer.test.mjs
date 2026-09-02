@@ -629,11 +629,13 @@ test("frontend provenance has no timestamp fallback literals", async () => {
 test("project GitHub links target the canonical master branch", async () => {
   const html = await readFile(path.join(projectDir, "index.html"), "utf8");
   const main = await readFile(path.join(projectDir, "src/main.js"), "utf8");
+  const explorerReadme = await readFile(path.join(projectDir, "README.md"), "utf8");
   const post = await readFile(path.join(projectDir, "../POST.md"), "utf8");
-  for (const source of [html, main, post]) {
+  for (const source of [html, main, explorerReadme, post]) {
     assert.doesNotMatch(source, /github\.com\/danielpradilla\/uk-music-cities\/blob\/main\//);
   }
-  assert.match(html, /uk-music-cities\/blob\/master\/POST\.md/);
+  assert.match(html, /uk-music-cities\/blob\/master\/interactive\/README\.md/);
+  assert.match(explorerReadme, /\[main study methodology\]\(\.\.\/README\.md#study-design\)/);
   assert.match(main, /uk-music-cities\/blob\/master\//);
   assert.match(post, /uk-music-cities\/blob\/master\/notebooks\//);
 });
