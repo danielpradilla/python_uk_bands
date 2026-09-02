@@ -640,6 +640,15 @@ test("project GitHub links target the canonical master branch", async () => {
   assert.match(post, /uk-music-cities\/blob\/master\/notebooks\//);
 });
 
+test("explorer uses the project-aligned public title", async () => {
+  const html = await readFile(path.join(projectDir, "index.html"), "utf8");
+  const explorerReadme = await readFile(path.join(projectDir, "README.md"), "utf8");
+  assert.match(html, /<title>UK Music Cities Explorer<\/title>/);
+  assert.match(html, /<h1 id="page-title">UK Music Cities Explorer<\/h1>/);
+  assert.match(explorerReadme, /^# UK Music Cities Explorer/m);
+  assert.doesNotMatch(html, /UK Band Origins Explorer/);
+});
+
 test("stable packaged URLs resolve beneath a deployment base path", () => {
   assert.equal(resolveAssetUrl("/data/dashboard.json"), "/data/dashboard.json");
   assert.equal(
