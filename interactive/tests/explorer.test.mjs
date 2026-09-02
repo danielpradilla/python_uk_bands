@@ -526,7 +526,7 @@ test("the explorer opens directly on the working surface without top navigation"
   assert.doesNotMatch(html, /class="site-header"|class="header-inner"|class="project-mark"|class="method-link"/);
   assert.doesNotMatch(styles, /\.site-header|\.header-inner|\.project-mark|\.method-link/);
   assert.match(html, /<main id="explorer-main">\s*<section class="intro"/);
-  assert.match(html, /Read the methodology ↗/);
+  assert.match(html, /Read the post ↗/);
 });
 
 test("band detail keeps catalog rank beneath the links and exposes only supported Spotify metrics", async () => {
@@ -626,7 +626,7 @@ test("frontend provenance has no timestamp fallback literals", async () => {
   assert.match(main, /dashboard\.meta\.sourceFilename/);
 });
 
-test("project GitHub links target the canonical master branch", async () => {
+test("project links target the published post and canonical master branch", async () => {
   const html = await readFile(path.join(projectDir, "index.html"), "utf8");
   const main = await readFile(path.join(projectDir, "src/main.js"), "utf8");
   const explorerReadme = await readFile(path.join(projectDir, "README.md"), "utf8");
@@ -634,7 +634,11 @@ test("project GitHub links target the canonical master branch", async () => {
   for (const source of [html, main, explorerReadme, post]) {
     assert.doesNotMatch(source, /github\.com\/danielpradilla\/uk-music-cities\/blob\/main\//);
   }
-  assert.match(html, /uk-music-cities\/blob\/master\/interactive\/README\.md/);
+  assert.match(
+    html,
+    /https:\/\/www\.danielpradilla\.info\/blog\/which-british-music-city-punches-furthest-above-its-weight\//,
+  );
+  assert.match(html, />Read the post ↗<\/a>/);
   assert.match(explorerReadme, /\[main study methodology\]\(\.\.\/README\.md#study-design\)/);
   assert.match(main, /uk-music-cities\/blob\/master\//);
   assert.match(post, /uk-music-cities\/blob\/master\/notebooks\//);
