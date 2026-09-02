@@ -25,7 +25,7 @@ if str(SRC_DIR) not in sys.path:
     sys.path.insert(0, str(SRC_DIR))
 
 from python_uk_bands.config import (
-    BUILT_UP_AREAS_PATH,
+    FUA_POPULATION_PATH,
     INTERIM_DATA_DIR,
     PROCESSED_DATA_DIR,
     REFERENCE_DIR,
@@ -43,7 +43,7 @@ from python_uk_bands.spotify_public import (
 
 
 DEFAULT_CATALOG = REFERENCE_DIR / "scene_depth_bands.csv"
-POPULATIONS_PATH = BUILT_UP_AREAS_PATH
+POPULATIONS_PATH = FUA_POPULATION_PATH
 EXISTING_IDENTIFIERS_PATH = SPOTIFY_IDENTIFIERS_PATH
 RAW_SPOTIFY_DIR = SPOTIFY_RAW_DIR
 INTERIM_DIR = INTERIM_DATA_DIR
@@ -305,6 +305,10 @@ def main(argv: list[str] | None = None) -> int:
 
     metrics_frame = pd.DataFrame(metrics)
     populations = pd.read_csv(POPULATIONS_PATH)
+    population_labels = catalog["original_city_label"].replace(
+        {"Bradford": "Leeds"}
+    )
+    catalog = catalog.assign(population_geography=population_labels)
     analysis = (
         catalog.rename(
             columns={
@@ -314,12 +318,12 @@ def main(argv: list[str] | None = None) -> int:
         )
         .merge(metrics_frame, on=["band", "city"], validate="one_to_one")
         .merge(
-            populations[["bua_name", "population"]],
-            left_on="city",
-            right_on="bua_name",
+            populations[["study_city_label", "population"]],
+            left_on="population_geography",
+            right_on="study_city_label",
             validate="many_to_one",
         )
-        .drop(columns=["bua_name"])
+        .drop(columns=["study_city_label"])
     )
     write_csv(analysis, band_metrics_path)
 

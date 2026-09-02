@@ -47,6 +47,9 @@ coverage summaries, the final notebook, `POST.md`, and `STUDY_REVIEW_1.md`.
 
 - The numerical claims in the evidence matrix were reconciled to notebook
   `tl;dr` and takeaway cells and to the saved coverage summaries.
+- Population-sensitive claims use the frozen 2024 OECD FUA observations. The
+  Spotify numerator is frozen in 2026, so those claims retain the documented
+  two-year numerator/denominator mismatch.
 - Experiment 18 and experiment 19 use different catalogues and different
   upstream sources; their coverage rates must not be presented as a direct
   source benchmark without a matched-record audit.

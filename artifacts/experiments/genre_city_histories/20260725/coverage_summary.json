@@ -1,9 +1,9 @@
 {
-  "bands_with_genre": 924,
-  "bands_with_inception_year": 822,
-  "genre_coverage": 0.924,
-  "inception_year_coverage": 0.822,
-  "mapped_bands": 660,
-  "mapped_bands_with_genre_and_year": 599,
+  "bands_with_genre": 928,
+  "bands_with_inception_year": 828,
+  "genre_coverage": 0.928,
+  "inception_year_coverage": 0.828,
+  "mapped_bands": 666,
+  "mapped_bands_with_genre_and_year": 606,
   "selected_bands": 1000
 }

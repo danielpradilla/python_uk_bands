@@ -195,13 +195,13 @@ def build_origin_fua_mapping(
                 )
             )
 
+        has_override = origin_bands["origin_override"].ne("").any()
         usable_qids = [
             qid
             for qid, label in zip(qids, direct_labels)
             if (
                 normalize_admin_name(label) == origin_normalized
-                or len(qids) == 1
-                or origin_bands["origin_override"].ne("").any()
+                or (len(qids) == 1 and not has_override)
             )
         ]
         for qid in usable_qids:

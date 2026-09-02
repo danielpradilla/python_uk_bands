@@ -307,7 +307,7 @@ def plot_top_three_ratio(
         edgecolor=HOUSE["ink"],
         linewidth=0.5,
     )
-    ax.set_xlabel("Global monthly-listener count divided by built-up-area population")
+    ax.set_xlabel("Global monthly-listener count divided by 2024 FUA population")
     ax.set_ylabel("")
     ax.set_xlim(0, plot_data["top_n_ratio"].max() * 1.18)
     ax.xaxis.set_major_locator(MultipleLocator(10))

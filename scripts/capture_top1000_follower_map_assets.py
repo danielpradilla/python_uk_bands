@@ -25,7 +25,8 @@ from python_uk_bands.output_share import build_output_share_metrics  # noqa: E40
 
 
 SNAPSHOT_ID = "20260718T204522Z"
-POPULATION_SNAPSHOT_ID = "20260718T201304Z"
+POPULATION_YEAR = 2024
+POPULATION_SNAPSHOT_ID = "20260830T221015Z"
 ASSET_DATE = "20260723"
 TOP_CITY_COUNT = 10
 USER_AGENT = (
@@ -207,7 +208,7 @@ def _load_top_cities() -> pd.DataFrame:
     population = pd.read_csv(
         PROJECT_ROOT
         / (
-            "data/processed/uk_fua_population_2021_"
+            f"data/processed/uk_fua_population_{POPULATION_YEAR}_"
             f"{POPULATION_SNAPSHOT_ID}.csv"
         ),
         keep_default_na=False,

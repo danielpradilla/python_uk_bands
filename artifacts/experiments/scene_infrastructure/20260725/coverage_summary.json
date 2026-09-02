@@ -3,6 +3,7 @@
   "cities_with_scene_depth": 19,
   "classified_elements": 1702,
   "named_row_share": 0.9682726204465335,
-  "rank_correlation_count_vs_depth": 0.7225639308097495,
-  "rank_correlation_density_vs_output": 0.13508771929824562
+  "population_year": 2024,
+  "rank_correlation_count_vs_depth": 0.7058826249951867,
+  "rank_correlation_density_vs_output": 0.07017543859649124
 }

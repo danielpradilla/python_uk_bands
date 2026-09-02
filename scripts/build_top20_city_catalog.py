@@ -45,7 +45,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--fua-universe",
         type=Path,
-        default=PROJECT_ROOT / "reference" / "uk_fua_top20_2021.csv",
+        default=PROJECT_ROOT / "reference" / "uk_fua_top20_2024.csv",
     )
     return parser
 

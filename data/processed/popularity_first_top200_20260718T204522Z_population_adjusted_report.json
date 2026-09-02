@@ -2,20 +2,20 @@
   "snapshot_id": "20260718T204522Z",
   "study_kind": "popularity-first population-adjusted sensitivity",
   "population_definition": "OECD/EU Functional Urban Area",
-  "population_year": 2021,
+  "population_year": 2024,
   "formulas": {
     "selected_bands_per_million_residents": "selected top-200 band count / FUA population * 1,000,000",
     "selected_monthly_listeners_per_resident": "sum of captured monthly listeners for selected top-200 bands / FUA population"
   },
   "strict_mapping": {
     "selected_bands": 200,
-    "mapped_bands": 154,
-    "mapped_band_share": 0.77,
-    "selected_listener_reach": 1973221075,
-    "mapped_listener_reach": 1673201219,
-    "mapped_listener_reach_share": 0.8479542612831662,
-    "mapped_origin_clusters": 34,
-    "mapped_fuas": 28,
+    "mapped_bands": 177,
+    "mapped_band_share": 0.885,
+    "selected_listener_reach": 1995343432,
+    "mapped_listener_reach": 1875667548,
+    "mapped_listener_reach_share": 0.9400224131441649,
+    "mapped_origin_clusters": 51,
+    "mapped_fuas": 35,
     "included_tiers": [
       "strict"
     ],
@@ -25,23 +25,23 @@
       "Bath and North East Somerset",
       "Oxford",
       "Cambridge",
-      "Sheffield",
       "London",
+      "Sheffield",
+      "Guildford",
       "Manchester",
       "Liverpool",
-      "Brighton and Hove",
-      "Glasgow",
-      "Birmingham"
+      "Birmingham",
+      "Hull"
     ]
   },
   "extended_mapping_sensitivity": {
     "selected_bands": 200,
-    "mapped_bands": 169,
-    "mapped_band_share": 0.845,
-    "selected_listener_reach": 1973221075,
-    "mapped_listener_reach": 1797606363,
-    "mapped_listener_reach_share": 0.9110009951621868,
-    "mapped_origin_clusters": 48,
+    "mapped_bands": 178,
+    "mapped_band_share": 0.89,
+    "selected_listener_reach": 1995343432,
+    "mapped_listener_reach": 1880008734,
+    "mapped_listener_reach_share": 0.9421980716951587,
+    "mapped_origin_clusters": 52,
     "mapped_fuas": 35,
     "included_tiers": [
       "strict",
@@ -57,27 +57,9 @@
       "mapping_tier": "excluded_non_uk"
     },
     {
-      "spotify_name": "Disclosure",
-      "origin_cluster": "Reigate",
-      "monthly_listeners": 25360907,
-      "mapping_tier": "excluded_no_defensible_fua"
-    },
-    {
-      "spotify_name": "Seafret",
-      "origin_cluster": "Bridlington",
-      "monthly_listeners": 9520023,
-      "mapping_tier": "excluded_no_defensible_fua"
-    },
-    {
       "spotify_name": "The Proclaimers",
       "origin_cluster": "Auchtermuchty",
       "monthly_listeners": 8100195,
-      "mapping_tier": "excluded_no_defensible_fua"
-    },
-    {
-      "spotify_name": "Deep Purple",
-      "origin_cluster": "Hertford",
-      "monthly_listeners": 6998809,
       "mapping_tier": "excluded_no_defensible_fua"
     },
     {
@@ -96,12 +78,6 @@
       "spotify_name": "The Prodigy",
       "origin_cluster": "Braintree",
       "monthly_listeners": 5031555,
-      "mapping_tier": "excluded_no_defensible_fua"
-    },
-    {
-      "spotify_name": "The Zombies",
-      "origin_cluster": "St Albans",
-      "monthly_listeners": 5025277,
       "mapping_tier": "excluded_no_defensible_fua"
     },
     {
@@ -159,12 +135,6 @@
       "mapping_tier": "excluded_no_defensible_fua"
     },
     {
-      "spotify_name": "Nothing But Thieves",
-      "origin_cluster": "Southend-on-Sea",
-      "monthly_listeners": 3587725,
-      "mapping_tier": "excluded_no_defensible_fua"
-    },
-    {
       "spotify_name": "Wet Leg",
       "origin_cluster": "Isle of Wight",
       "monthly_listeners": 3584069,
@@ -180,12 +150,6 @@
       "spotify_name": "Snakehips",
       "origin_cluster": "",
       "monthly_listeners": 3159265,
-      "mapping_tier": "excluded_no_defensible_fua"
-    },
-    {
-      "spotify_name": "BICEP",
-      "origin_cluster": "",
-      "monthly_listeners": 3141387,
       "mapping_tier": "excluded_no_defensible_fua"
     },
     {
@@ -207,33 +171,15 @@
       "mapping_tier": "excluded_no_defensible_fua"
     },
     {
-      "spotify_name": "The Waterboys",
-      "origin_cluster": "",
-      "monthly_listeners": 2670888,
+      "spotify_name": "Mike + The Mechanics",
+      "origin_cluster": "Dover",
+      "monthly_listeners": 2591206,
       "mapping_tier": "excluded_no_defensible_fua"
     },
     {
-      "spotify_name": "The Darkness",
-      "origin_cluster": "Lowestoft",
-      "monthly_listeners": 2453090,
-      "mapping_tier": "excluded_no_defensible_fua"
-    },
-    {
-      "spotify_name": "Rainbow",
-      "origin_cluster": "Hertford",
-      "monthly_listeners": 2270623,
-      "mapping_tier": "excluded_no_defensible_fua"
-    },
-    {
-      "spotify_name": "James",
-      "origin_cluster": "",
-      "monthly_listeners": 2205349,
-      "mapping_tier": "excluded_no_defensible_fua"
-    },
-    {
-      "spotify_name": "Amber Run",
-      "origin_cluster": "",
-      "monthly_listeners": 2165390,
+      "spotify_name": "Mungo Jerry",
+      "origin_cluster": "Ashford",
+      "monthly_listeners": 2528248,
       "mapping_tier": "excluded_no_defensible_fua"
     }
   ],
@@ -242,7 +188,7 @@
     "bands": "data/processed/popularity_first_top200_20260718T204522Z_bands.csv",
     "origins": "data/processed/popularity_first_top200_20260718T204522Z_origins.csv",
     "mapping": "reference/popularity_first_top200_origin_fua_mapping_20260718.csv",
-    "population": "data/processed/uk_fua_population_2021_20260718T201304Z.csv"
+    "population": "data/processed/uk_fua_population_2024_20260830T221015Z.csv"
   },
   "outputs": {
     "mapping_audit": "data/interim/popularity_first_top200_20260718T204522Z_fua_mapping_audit.csv",

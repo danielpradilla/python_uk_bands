@@ -1,17 +1,19 @@
 # Final origin-confidence audit
 
-**Reviewed:** 22 August 2026  
+**Reviewed:** 22 August 2026; catalogue replacements checked 2 September 2026
 **Scope:** final balanced 100-band catalogue  
 **Result:** publication-ready with one disclosed medium-confidence assignment
 
 ## Technical summary
 
-All 34 records selected for independent review passed through a second-source
-origin check: the 30 bands contributing at least 10% of their FUA's selected
-monthly-listener total, plus the four records that were still medium-confidence
-before this audit. Thirty-three now have high-confidence FUA assignments.
-Chumbawamba remains medium-confidence because credible accounts disagree between
-Burnley and the Armley squat in Leeds.
+All 34 records selected for the original independent review passed through a
+second-source origin check: the 30 bands contributing at least 10% of their
+FUA's selected monthly-listener total, plus the four records that were still
+medium-confidence before that audit. The 14 bands introduced during the final
+catalogue comparison were then checked against the completed 1,000-band origin
+fact-check. Every incoming band has a resolved FUA assignment. Chumbawamba
+remains the catalogue's only medium-confidence case because credible accounts
+disagree between Burnley and the Armley squat in Leeds.
 
 The four pre-audit medium-confidence records are resolved. Editors is explicitly
 recorded as formed in Birmingham. Happy Mondays, Joy Division and New Order have
@@ -19,13 +21,17 @@ Salford-area origins, and the frozen OECD crosswalk assigns Salford municipality
 to Manchester FUA. The audit also made The 1975's locality explicit: Wilmslow is
 in Cheshire East, which the crosswalk assigns to Manchester FUA.
 
-No published rank changes. Excluding Chumbawamba as a conservative bound lowers
-Leeds's all-ten quotient from 8.405 to 6.822 and its dominant-band-removed
-quotient from 5.674 to 4.090, but Leeds remains ninth and eighth respectively.
-Excluding Editors leaves Birmingham fifth and third.
+No published rank changes. Under the revised catalogue, excluding Chumbawamba
+as a conservative bound lowers Leeds's all-ten quotient from 8.989 to 7.459 and
+its dominant-band-removed quotient from 6.348 to 4.817, but Leeds remains ninth
+and eighth respectively. Excluding Editors leaves Birmingham fifth in both the
+primary and dominant-band-removed rankings.
 
-The machine-readable record is
+The machine-readable record of the original audit is
 [`final_origin_confidence_audit_20260822.csv`](../data/processed/final_origin_confidence_audit_20260822.csv).
+The replacement decisions are recorded in
+[`top1000_origin_fact_check_decisions_20260902.csv`](top1000_origin_fact_check_decisions_20260902.csv)
+and the current catalogue.
 
 ## Scope and method
 
@@ -41,6 +47,25 @@ against the frozen municipality-to-FUA crosswalk. The audit changed evidence
 metadata and confidence only; it did not refresh Spotify measurements or alter
 the selected ten-band catalogues.
 
+## Catalogue-replacement addendum
+
+The final comparison introduced 14 bands whose origins had already been checked
+in the 1,000-band audit:
+
+| FUA | Incoming bands | Origin decision |
+|---|---|---|
+| London | The Police; Pink Floyd | London confirmed. |
+| Birmingham | Fine Young Cannibals; Steel Pulse | Birmingham confirmed; Steel Pulse's more specific Handsworth label remains inside the same FUA. |
+| Manchester | The Verve | Wigan confirmed and mapped to Manchester FUA. |
+| Glasgow | Stealers Wheel; Travis; Wet Wet Wet | Paisley, Glasgow and Clydebank respectively, all mapped to Glasgow FUA. |
+| Liverpool | CamelPhat; Orchestral Manoeuvres in the Dark | Liverpool and Meols respectively, both mapped to Liverpool FUA. |
+| Leeds | The Cult; Yard Act | Bradford and Leeds respectively, both mapped to Leeds FUA. The Cult's Bradford formation was retained after adjudicating MusicBrainz's later London association. |
+| Sheffield | The Last Shadow Puppets; Ace | Sheffield confirmed. |
+
+The 14 decisions affect catalogue composition and listener totals, but none
+introduces an unresolved FUA mapping. The Cult's source variation and Steel
+Pulse's city-versus-neighbourhood wording are retained in the evidence trail.
+
 ## Records requiring a decision
 
 | Band | Finding | Decision |
@@ -54,7 +79,9 @@ the selected ten-band catalogues.
 
 ## Evidence coverage
 
-- 34 of 34 targeted records have a recorded independent source.
+- 34 of 34 originally targeted records have a recorded independent source.
+- All 14 incoming replacement bands have a resolved origin in the 1,000-band
+  fact-check.
 - 33 audited assignments are high-confidence; one is medium-confidence.
 - The full 100-band final catalogue is now 99 high-confidence and one
   medium-confidence, with no blank or `review_required` record.
@@ -69,7 +96,7 @@ rehearsal, communal base or first use of its final name. The Chumbawamba conflic
 is therefore retained instead of being forced into false precision.
 
 The ranking remains a comparative index of global Spotify attention in July
-2026 divided by 2021 FUA population. This audit does not turn it into a local
+2026 divided by 2024 FUA population. This audit does not turn it into a local
 listening rate or a historical productivity measure.
 
 ## Publication action

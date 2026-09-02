@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "schemaVersion": 3,
+  "snapshotId": "20260718T204522Z",
+  "sourceFilename": "popularity_first_top1000_20260718T204522Z_bands.csv",
+  "counts": {
+    "catalogBands": 1000,
+    "resolvedOriginBands": 749,
+    "ukLocatedBands": 743,
+    "outsideUkBands": 6,
+    "unresolvedOriginBands": 251,
+    "resolvedOriginPlaces": 220,
+    "ukOriginPlaces": 214,
+    "outsideUkPlaces": 6,
+    "bandsWithGenre": 928,
+    "bandsWithWikipedia": 956,
+    "strictFuaMappedBands": 663,
+    "strictFuaCount": 59
+  },
+  "checks": [
+    "1,000 unique Spotify artists and complete catalog ranks",
+    "deterministic Spotify and captured-title Wikipedia URLs",
+    "complete reviewed location status for every resolved origin",
+    "valid UK coordinates and null outside-UK map coordinates",
+    "deduplicated genres and contiguous place ranks",
+    "strict reviewed FUA assignments, positive 2024 denominators, and contiguous FUA ranks",
+    "UTC-aware freshness and config-matched provenance",
+    "coverage at or above reviewed baselines"
+  ]
+}

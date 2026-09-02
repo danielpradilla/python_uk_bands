@@ -263,7 +263,7 @@
       {
         "id": "executive_summary",
         "type": "markdown",
-        "body": "## Executive Summary\n\n- **Publish the first piece as a measurement study, not a definitive city ranking.** Experiments 16 and 17 supply the strongest, most distinctive argument: the apparent winner changes with the catalogue, geography, metric and scoring rule, while population-adjusted output is not the same as scene depth. Experiment 23 adds a credible independent attention measure.\n\n- **The biggest surprise is not that one city wins; it is that different defensible meanings of “music city” produce different winners.** Sheffield is a recurring strong performer, but its multiverse rank still spans 1–15. Crawley spans 1–27 and London 1–35. That instability is the publishable result.\n\n- **The best second study is about mechanisms: genre lineages, institutions and networks.** Experiments 19–21 reveal promising tensions, especially the 0.72 raw infrastructure/depth correlation versus 0.14 after per-capita comparison, and the dominance of label links over member links. Those are hypotheses for a historical study, not causal findings.\n\n- **The best third study is longitudinal and multi-platform.** Experiment 22 shows why followers and monthly listeners cannot be treated as interchangeable: every band gained followers, only 28 of 50 gained listeners, and their change ranks correlate only 0.23. A fixed monthly panel can turn that warning into a new paper.",
+        "body": "## Executive Summary\n\n- **Publish the first piece as a measurement study, not a definitive city ranking.** Experiments 16 and 17 supply the strongest, most distinctive argument: the apparent winner changes with the catalogue, geography, metric and scoring rule, while population-adjusted output is not the same as scene depth. Experiment 23 adds a credible independent attention measure.\n\n- **The biggest surprise is not that one city wins; it is that different defensible meanings of “music city” produce different winners.** Sheffield is a recurring strong performer, but its multiverse rank still spans 1–15. Crawley spans 1–27 and London 1–32. That instability is the publishable result.\n\n- **The best second study is about mechanisms: genre lineages, institutions and networks.** Experiments 19–21 reveal promising tensions, especially the 0.72 raw infrastructure/depth correlation versus 0.13 after per-capita comparison, and the dominance of label links over member links. Those are hypotheses for a historical study, not causal findings.\n\n- **The best third study is longitudinal and multi-platform.** Experiment 22 shows why followers and monthly listeners cannot be treated as interchangeable: every band gained followers, only 28 of 50 gained listeners, and their change ranks correlate only 0.23. A fixed monthly panel can turn that warning into a new paper.",
         "layout": "full",
         "sourceId": "portfolio_review"
       },
@@ -370,7 +370,7 @@
           "confidence": "Ready to share with explicit scope",
           "recommended_role": "Backbone",
           "proposed_study": "Study 1",
-          "key_result": "Across 32 specifications Sheffield is top five in 21 but ranges from rank 1 to 15; Crawley ranges from 1 to 27 and London from 1 to 35.",
+          "key_result": "Across 32 specifications Sheffield is top five in 21 but ranges from rank 1 to 15; Crawley ranges from 1 to 27 and London from 1 to 32.",
           "main_limit": "Specifications differ in eligibility and receive equal descriptive weight; ranges are not probability intervals."
         },
         {
@@ -383,7 +383,7 @@
           "confidence": "Share with caveats",
           "recommended_role": "Core diagnostic",
           "proposed_study": "Study 1",
-          "key_result": "London has 20.2 effective bands while Crawley's 3.59x follower output quotient rests on an effective-band count of 1.0.",
+          "key_result": "London has 20.2 effective bands while Crawley's 3.56x follower output quotient rests on an effective-band count of 1.0.",
           "main_limit": "The mapped top-1000 catalogue is not a census and missing smaller bands can bias depth more than follower output."
         },
         {
@@ -422,7 +422,7 @@
           "confidence": "Hypothesis-generating only",
           "recommended_role": "Mechanism hypothesis generator",
           "proposed_study": "Study 2",
-          "key_result": "Raw mapped-place count correlates 0.72 with effective-band count but infrastructure per capita correlates only 0.14 with follower output quotient.",
+          "key_result": "Raw mapped-place count correlates 0.72 with effective-band count but infrastructure per capita correlates only 0.13 with follower output quotient.",
           "main_limit": "The inventory is current OpenStreetMap data in 15 km circles; city size, mapping effort and historical mismatch prevent causal interpretation."
         },
         {
@@ -469,14 +469,14 @@
         {
           "priority": 1,
           "finding": "The ranking itself is specification-sensitive.",
-          "evidence": "Across experiment 16, Sheffield ranges from 1–15, Crawley 1–27 and London 1–35.",
+          "evidence": "Across experiment 16, Sheffield ranges from 1–15, Crawley 1–27 and London 1–32.",
           "implication": "The first publication should be about how definitions construct the winner, not about declaring one universal winner.",
           "claim_strength": "Strong descriptive result"
         },
         {
           "priority": 2,
           "finding": "Per-capita output and scene depth are different phenomena.",
-          "evidence": "Crawley has a 3.59x output quotient with 1.0 effective band; London has 20.2 effective bands.",
+          "evidence": "Crawley has a 3.56x output quotient with 1.0 effective band; London has 20.2 effective bands.",
           "implication": "Every normalized rank needs an adjacent depth or concentration measure; one-band outliers are part of the story.",
           "claim_strength": "Strong within the selected catalogue"
         },
@@ -490,7 +490,7 @@
         {
           "priority": 4,
           "finding": "Infrastructure aligns with scale more than with per-capita overperformance.",
-          "evidence": "Raw place count versus depth correlates 0.72; infrastructure density versus output quotient correlates 0.14.",
+          "evidence": "Raw place count versus depth correlates 0.72; infrastructure density versus output quotient correlates 0.13.",
           "implication": "A simple 'more venues cause success' claim is unlikely to survive; Study 2 needs historical and institutional mechanisms.",
           "claim_strength": "Hypothesis only; current OSM inventory"
         },

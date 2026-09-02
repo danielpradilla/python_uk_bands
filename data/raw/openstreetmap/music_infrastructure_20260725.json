@@ -11,7 +11,7 @@
     {
       "fua_code": "UK012F",
       "study_city_label": "Belfast",
-      "population": 803943,
+      "population": 817574,
       "latitude": 54.596391,
       "longitude": -5.9301829,
       "radius_metres": 15000,
@@ -553,12 +553,13 @@
             "name": "Queen's University Sport"
           }
         }
-      ]
+      ],
+      "population_year": 2024
     },
     {
       "fua_code": "UK002F",
       "study_city_label": "Birmingham",
-      "population": 3135994,
+      "population": 3247941,
       "latitude": 52.48,
       "longitude": -1.9025,
       "radius_metres": 15000,
@@ -3500,12 +3501,13 @@
             "website": "https://www.birmingham.ac.uk/study/accommodation/our-villages/selly-oak-village"
           }
         }
-      ]
+      ],
+      "population_year": 2024
     },
     {
       "fua_code": "UK011F",
       "study_city_label": "Bristol",
-      "population": 979556,
+      "population": 1025309,
       "latitude": 51.4430162,
       "longitude": -2.581661,
       "radius_metres": 15000,
@@ -5320,12 +5322,13 @@
             "ref:GB:uprn": "352667;370821;32454"
           }
         }
-      ]
+      ],
+      "population_year": 2024
     },
     {
       "fua_code": "UK009F",
       "study_city_label": "Cardiff",
-      "population": 905859,
+      "population": 939371,
       "latitude": 51.4816546,
       "longitude": -3.1791934,
       "radius_metres": 15000,
@@ -5887,12 +5890,13 @@
             "website": "https://university.open.ac.uk/wales/"
           }
         }
-      ]
+      ],
+      "population_year": 2024
     },
     {
       "fua_code": "UK025F",
       "study_city_label": "Coventry",
-      "population": 741982,
+      "population": 787858,
       "latitude": 52.4081812,
       "longitude": -1.510477,
       "radius_metres": 15000,
@@ -6373,12 +6377,13 @@
             "area": "yes"
           }
         }
-      ]
+      ],
+      "population_year": 2024
     },
     {
       "fua_code": "UK007F",
       "study_city_label": "Edinburgh",
-      "population": 893610,
+      "population": 932180,
       "latitude": 55.9533456,
       "longitude": -3.1883749,
       "radius_metres": 15000,
@@ -8084,12 +8089,13 @@
             "university": "institute"
           }
         }
-      ]
+      ],
+      "population_year": 2024
     },
     {
       "fua_code": "UK004F",
       "study_city_label": "Glasgow",
-      "population": 1831890,
+      "population": 1895840,
       "latitude": 55.861111111111114,
       "longitude": -4.25,
       "radius_metres": 15000,
@@ -9401,12 +9407,13 @@
             "name": "University of Glasgow Garscube Campus"
           }
         }
-      ]
+      ],
+      "population_year": 2024
     },
     {
       "fua_code": "UK026F",
       "study_city_label": "Hull",
-      "population": 609661,
+      "population": 631285,
       "latitude": 53.7623863,
       "longitude": -0.3301214,
       "radius_metres": 15000,
@@ -9724,12 +9731,13 @@
             "wifi": "no"
           }
         }
-      ]
+      ],
+      "population_year": 2024
     },
     {
       "fua_code": "UK003F",
       "study_city_label": "Leeds",
-      "population": 2969034,
+      "population": 3070506,
       "latitude": 53.7975,
       "longitude": -1.5436111111111113,
       "radius_metres": 15000,
@@ -10953,12 +10961,13 @@
             "name": "Cheekiez"
           }
         }
-      ]
+      ],
+      "population_year": 2024
     },
     {
       "fua_code": "UK014F",
       "study_city_label": "Leicester",
-      "population": 922812,
+      "population": 967988,
       "latitude": 52.6362,
       "longitude": -1.1331969,
       "radius_metres": 15000,
@@ -11242,12 +11251,13 @@
             "amenity": "university"
           }
         }
-      ]
+      ],
+      "population_year": 2024
     },
     {
       "fua_code": "UK006F",
       "study_city_label": "Liverpool",
-      "population": 1540817,
+      "population": 1597536,
       "latitude": 53.407222222222224,
       "longitude": -2.9916666666666667,
       "radius_metres": 15000,
@@ -12215,12 +12225,13 @@
             "shop": "music"
           }
         }
-      ]
+      ],
+      "population_year": 2024
     },
     {
       "fua_code": "UK001F",
       "study_city_label": "London",
-      "population": 12274097,
+      "population": 12666099,
       "latitude": 51.507222222222,
       "longitude": -0.1275,
       "radius_metres": 15000,
@@ -22127,12 +22138,13 @@
             "wheelchair": "yes"
           }
         }
-      ]
+      ],
+      "population_year": 2024
     },
     {
       "fua_code": "UK008F",
       "study_city_label": "Manchester",
-      "population": 3432092,
+      "population": 3595966,
       "latitude": 53.466666666667,
       "longitude": -2.2333333333333,
       "radius_metres": 15000,
@@ -23485,12 +23497,13 @@
             "education": "university"
           }
         }
-      ]
+      ],
+      "population_year": 2024
     },
     {
       "fua_code": "UK559F",
       "study_city_label": "Middlesbrough",
-      "population": 570155,
+      "population": 600369,
       "latitude": 54.5760419,
       "longitude": -1.2344047,
       "radius_metres": 15000,
@@ -23804,12 +23817,13 @@
             "wheelchair": "no"
           }
         }
-      ]
+      ],
+      "population_year": 2024
     },
     {
       "fua_code": "UK013F",
       "study_city_label": "Newcastle",
-      "population": 1173303,
+      "population": 1221203,
       "latitude": 54.9738474,
       "longitude": -1.6131572,
       "radius_metres": 15000,
@@ -24815,12 +24829,13 @@
             "website": "https://marrontheatrearts.co.uk/"
           }
         }
-      ]
+      ],
+      "population_year": 2024
     },
     {
       "fua_code": "UK029F",
       "study_city_label": "Nottingham",
-      "population": 906878,
+      "population": 936382,
       "latitude": 52.9534193,
       "longitude": -1.1496461,
       "radius_metres": 15000,
@@ -25858,12 +25873,13 @@
             "tourism": "attraction"
           }
         }
-      ]
+      ],
+      "population_year": 2024
     },
     {
       "fua_code": "UK560F",
       "study_city_label": "Oxford",
-      "population": 576725,
+      "population": 606748,
       "latitude": 51.751944444444,
       "longitude": -1.2577777777778,
       "radius_metres": 15000,
@@ -27497,12 +27513,13 @@
             "wikipedia": "en:Arts at the Old Fire Station"
           }
         }
-      ]
+      ],
+      "population_year": 2024
     },
     {
       "fua_code": "UK023F",
       "study_city_label": "Portsmouth",
-      "population": 528707,
+      "population": 539655,
       "latitude": 50.800031,
       "longitude": -1.0906023,
       "radius_metres": 15000,
@@ -27951,12 +27968,13 @@
             "website": "https://www.pandvrecords.co.uk/"
           }
         }
-      ]
+      ],
+      "population_year": 2024
     },
     {
       "fua_code": "UK010F",
       "study_city_label": "Sheffield",
-      "population": 1168389,
+      "population": 1217504,
       "latitude": 53.380833333333335,
       "longitude": -1.4702777777777778,
       "radius_metres": 15000,
@@ -28978,12 +28996,13 @@
             "website": "https://www.southbankwarehouse.co.uk"
           }
         }
-      ]
+      ],
+      "population_year": 2024
     },
     {
       "fua_code": "UK520F",
       "study_city_label": "Southampton",
-      "population": 692010,
+      "population": 713674,
       "latitude": 50.9025349,
       "longitude": -1.404189,
       "radius_metres": 15000,
@@ -29547,7 +29566,11 @@
             "wikidata": "Q5758488"
           }
         }
-      ]
+      ],
+      "population_year": 2024
     }
-  ]
+  ],
+  "population_path": "data/processed/uk_fua_population_2024_20260830T221015Z.csv",
+  "population_year": 2024,
+  "population_captured_at_utc": "2026-08-30T22:10:15.096348+00:00"
 }

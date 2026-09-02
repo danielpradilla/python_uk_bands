@@ -12,6 +12,7 @@ from matplotlib.ticker import FuncFormatter
 import numpy as np
 import pandas as pd
 
+from .config import FINAL_STUDY_BAND_METRICS_PATH
 from .visuals import HOUSE, apply_chart_style
 
 
@@ -379,11 +380,12 @@ def build_specification_multiverse(
         )
 
     for city_count in [10, 20]:
-        path = (
-            project_root
-            / "data/processed"
-            / f"fua_top{city_count}_band_metrics_20260718T204000Z.csv"
-        )
+        path = FINAL_STUDY_BAND_METRICS_PATH
+        if city_count == 20:
+            path = (
+                project_root
+                / "data/processed/fua_top20_band_metrics_20260718T204000Z.csv"
+            )
         bands = pd.read_csv(path, keep_default_na=False)
         grouped = (
             bands.groupby("study_city_label", as_index=False)
@@ -435,7 +437,7 @@ def build_specification_multiverse(
 
     population = pd.read_csv(
         project_root
-        / "data/processed/uk_fua_population_2021_20260718T201304Z.csv",
+        / "data/processed/uk_fua_population_2024_20260830T221015Z.csv",
         keep_default_na=False,
     )
     for selected_count in [100, 200, 1000]:
@@ -555,7 +557,7 @@ def build_top1000_scene_depth(
     )
     population = pd.read_csv(
         project_root
-        / "data/processed/uk_fua_population_2021_20260718T201304Z.csv",
+        / "data/processed/uk_fua_population_2024_20260830T221015Z.csv",
         keep_default_na=False,
     )
     mapped = bands[

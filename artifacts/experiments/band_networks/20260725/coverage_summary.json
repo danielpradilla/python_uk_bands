@@ -1,16 +1,16 @@
 {
-  "affiliations": 5602,
-  "band_edges": 5996,
-  "connected_band_share": 0.8272727272727273,
-  "connected_bands": 546,
-  "label_connected_bands": 519,
-  "label_edges": 5786,
-  "mapped_bands": 660,
-  "member_connected_bands": 240,
-  "member_edges": 272,
-  "musicbrainz_covered_bands": 659,
-  "musicbrainz_name_matched_records": 663,
+  "affiliations": 5516,
+  "band_edges": 6543,
+  "connected_band_share": 0.8303303303303303,
+  "connected_bands": 553,
+  "label_connected_bands": 527,
+  "label_edges": 6338,
+  "mapped_bands": 666,
+  "member_connected_bands": 234,
+  "member_edges": 263,
+  "musicbrainz_covered_bands": 634,
+  "musicbrainz_name_matched_records": 638,
   "musicbrainz_name_rejected_records": 19,
   "selected_bands": 1000,
-  "wikidata_label_covered_bands": 660
+  "wikidata_label_covered_bands": 666
 }

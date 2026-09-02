@@ -1,11 +1,11 @@
 {
-  "bands_with_pageviews": 955,
-  "comparable_bands": 955,
-  "log_model_intercept": 1.0179557261770178,
-  "log_model_slope": 0.7174753109743437,
-  "pageview_coverage": 0.955,
+  "bands_with_pageviews": 924,
+  "comparable_bands": 924,
+  "log_model_intercept": 1.033315584719183,
+  "log_model_slope": 0.7150809159014258,
+  "pageview_coverage": 0.924,
   "pageview_end": "2026063000",
   "pageview_start": "2025070100",
-  "rank_correlation_followers_vs_pageviews": 0.7751869699708025,
+  "rank_correlation_followers_vs_pageviews": 0.770955042452447,
   "selected_bands": 1000
 }

@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import FuncFormatter, MultipleLocator, PercentFormatter
 import pandas as pd
 
-from .config import PROJECT_ROOT
+from .config import FUA_POPULATION_YEAR, PROJECT_ROOT
 from .visuals import HOUSE, _finish_chart, _new_chart
 
 
@@ -85,7 +85,8 @@ def plot_scene_depth_rank_comparison(
         number=number,
         title="City rank under three ten-band scoring variants",
         subtitle=(
-            "Current global Spotify monthly listeners divided by population · "
+            "Current global Spotify monthly listeners divided by "
+            f"{FUA_POPULATION_YEAR} OECD FUA population · "
             f"Spotify snapshot {snapshot_date}"
         ),
         filename=filename,
@@ -168,12 +169,11 @@ def plot_raw_normalized_scene_depth_rank_comparison(
     ax.set_yticks(y_positions, plot_data["city"])
     ax.set_xticks(range(1, len(plot_data) + 1))
     ax.set_xlim(0.5, len(plot_data) + 0.5)
-    ax.invert_xaxis()
     ax.set_xlabel("Area rank (1 is strongest)")
     ax.set_ylabel("")
     ax.grid(axis="x")
     ax.set_axisbelow(True)
-    ax.legend(frameon=False, loc="lower right")
+    ax.legend(frameon=False, loc="upper right")
 
     return _finish_chart(
         ax,
@@ -235,7 +235,7 @@ def plot_ten_band_city_stack(
         layout="constrained",
     )
     grid = figure.add_gridspec(
-        1, 2, width_ratios=[1.25, 1.75], wspace=0.04
+        1, 2, width_ratios=[1.65, 1.35], wspace=0.04
     )
     ax = figure.add_subplot(grid[0, 0])
     key_ax = figure.add_subplot(grid[0, 1])
@@ -456,7 +456,9 @@ def plot_ten_band_population_normalized_total(
     output_dir: Path = SCENE_DEPTH_CHART_DIR,
     number: int = 1,
     filename: str = "chart_01_ten_band_population_normalized_total.png",
-    denominator_description: str = "area population denominator",
+    denominator_description: str = (
+        f"{FUA_POPULATION_YEAR} OECD FUA population denominator"
+    ),
 ) -> Path:
     """Plot all ten selected bands relative to city population."""
     score_column = (
@@ -533,7 +535,8 @@ def plot_scene_depth_scores(
         number=number,
         title="Population-normalized trimmed mean",
         subtitle=(
-            "Mean current global reach of middle eight divided by population · "
+            "Mean current global reach of middle eight divided by "
+            f"{FUA_POPULATION_YEAR} OECD FUA population · "
             f"Spotify snapshot {snapshot_date}"
         ),
         filename=filename,

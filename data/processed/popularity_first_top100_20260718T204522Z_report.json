@@ -5,28 +5,31 @@
   "metrics_rows": 1749,
   "metric_failures": 26,
   "identity_name_reviews": 121,
-  "identity_accepted_rows": 1630,
-  "orchestra_rows_excluded": 47,
+  "identity_accepted_rows": 1695,
+  "orchestra_rows_excluded": 27,
+  "non_band_entity_rows_excluded": 53,
   "redirect_duplicate_rows": 7,
+  "entity_duplicate_rows": 31,
   "selected_bands": 100,
   "origin_resolved_bands": 100,
   "origin_coverage": 1.0,
-  "origin_hhi_band_count_resolved": 0.21499999999999997,
-  "origin_hhi_reach_resolved": 0.2646311401159813,
+  "origin_hhi_band_count_resolved": 0.2308,
+  "origin_hhi_reach_resolved": 0.2789185404044973,
   "top_origin_by_band_count": "London",
-  "top_origin_band_count": 44,
+  "top_origin_band_count": 46,
   "radiohead_selected": true,
   "radiohead_origin": "Oxford",
   "inputs": {
     "candidates": "data/interim/uk_group_spotify_candidates_20260718T201100Z.csv",
     "metrics": "data/processed/uk_group_spotify_metrics_20260718T204522Z.csv",
     "capture_report": "data/raw/spotify/uk_group_spotify_metrics_20260718T204522Z_report.json",
-    "overrides": "reference/popularity_first_overrides_20260718.csv"
+    "overrides": "reference/popularity_first_top1000_overrides_20260718.csv"
   },
   "outputs": {
     "bands": "data/processed/popularity_first_top100_20260718T204522Z_bands.csv",
     "origins": "data/processed/popularity_first_top100_20260718T204522Z_origins.csv",
-    "identity_audit": "data/interim/popularity_first_top100_20260718T204522Z_identity_audit.csv"
+    "identity_audit": "data/interim/popularity_first_top100_20260718T204522Z_identity_audit.csv",
+    "review": "data/interim/popularity_first_top100_20260718T204522Z_review.csv"
   },
   "canonical_files_modified": false
 }

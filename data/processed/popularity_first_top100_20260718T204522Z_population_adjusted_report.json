@@ -2,20 +2,20 @@
   "snapshot_id": "20260718T204522Z",
   "study_kind": "popularity-first population-adjusted sensitivity",
   "population_definition": "OECD/EU Functional Urban Area",
-  "population_year": 2021,
+  "population_year": 2024,
   "formulas": {
-    "top100_bands_per_million_residents": "selected top-100 band count / FUA population * 1,000,000",
-    "top100_monthly_listeners_per_resident": "sum of captured monthly listeners for selected top-100 bands / FUA population"
+    "selected_bands_per_million_residents": "selected top-100 band count / FUA population * 1,000,000",
+    "selected_monthly_listeners_per_resident": "sum of captured monthly listeners for selected top-100 bands / FUA population"
   },
   "strict_mapping": {
     "selected_bands": 100,
-    "mapped_bands": 87,
-    "mapped_band_share": 0.87,
-    "selected_listener_reach": 1623548673,
-    "mapped_listener_reach": 1445710777,
-    "mapped_listener_reach_share": 0.8904634650272663,
-    "mapped_origin_clusters": 20,
-    "mapped_fuas": 20,
+    "mapped_bands": 97,
+    "mapped_band_share": 0.97,
+    "selected_listener_reach": 1636569832,
+    "mapped_listener_reach": 1593138124,
+    "mapped_listener_reach_share": 0.9734617447109339,
+    "mapped_origin_clusters": 29,
+    "mapped_fuas": 23,
     "included_tiers": [
       "strict"
     ],
@@ -24,25 +24,25 @@
     "top_stable_fuas_with_at_least_two_bands": [
       "Oxford",
       "Cambridge",
-      "Sheffield",
       "London",
+      "Sheffield",
+      "Guildford",
       "Manchester",
       "Liverpool",
+      "Hull",
       "Birmingham",
-      "Bristol",
-      "Glasgow",
-      "Leeds"
+      "Bristol"
     ]
   },
   "extended_mapping_sensitivity": {
     "selected_bands": 100,
-    "mapped_bands": 94,
-    "mapped_band_share": 0.94,
-    "selected_listener_reach": 1623548673,
-    "mapped_listener_reach": 1538237226,
-    "mapped_listener_reach_share": 0.9474537176379436,
-    "mapped_origin_clusters": 27,
-    "mapped_fuas": 24,
+    "mapped_bands": 97,
+    "mapped_band_share": 0.97,
+    "selected_listener_reach": 1636569832,
+    "mapped_listener_reach": 1593138124,
+    "mapped_listener_reach_share": 0.9734617447109339,
+    "mapped_origin_clusters": 29,
+    "mapped_fuas": 23,
     "included_tiers": [
       "strict",
       "reviewed_extended"
@@ -52,32 +52,14 @@
   "unmapped_after_extended_review": [
     {
       "spotify_name": "Bee Gees",
-      "origin_cluster": "Los Hornos",
+      "origin_cluster": "Redcliffe",
       "monthly_listeners": 29286539,
       "mapping_tier": "excluded_non_uk"
-    },
-    {
-      "spotify_name": "Disclosure",
-      "origin_cluster": "Reigate",
-      "monthly_listeners": 25360907,
-      "mapping_tier": "excluded_no_defensible_fua"
-    },
-    {
-      "spotify_name": "Seafret",
-      "origin_cluster": "Bridlington",
-      "monthly_listeners": 9520023,
-      "mapping_tier": "excluded_no_defensible_fua"
     },
     {
       "spotify_name": "The Proclaimers",
       "origin_cluster": "Auchtermuchty",
       "monthly_listeners": 8100195,
-      "mapping_tier": "excluded_no_defensible_fua"
-    },
-    {
-      "spotify_name": "Deep Purple",
-      "origin_cluster": "Hertford",
-      "monthly_listeners": 6998809,
       "mapping_tier": "excluded_no_defensible_fua"
     },
     {
@@ -92,7 +74,7 @@
     "bands": "data/processed/popularity_first_top100_20260718T204522Z_bands.csv",
     "origins": "data/processed/popularity_first_top100_20260718T204522Z_origins.csv",
     "mapping": "reference/popularity_first_origin_fua_mapping_20260718.csv",
-    "population": "data/processed/uk_fua_population_2021_20260718T201304Z.csv"
+    "population": "data/processed/uk_fua_population_2024_20260830T221015Z.csv"
   },
   "outputs": {
     "mapping_audit": "data/interim/popularity_first_top100_20260718T204522Z_fua_mapping_audit.csv",

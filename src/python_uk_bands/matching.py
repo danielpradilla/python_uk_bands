@@ -14,6 +14,8 @@ def normalize_name(value: str | None) -> str:
         "ascii",
         "ignore",
     ).decode("ascii")
+    ascii_value = re.sub(r"\s*(?:&|\+)\s*", " and ", ascii_value)
+    ascii_value = re.sub(r"^\s*the\b\s*", "", ascii_value, flags=re.IGNORECASE)
     return re.sub(r"[^a-z0-9]+", "", ascii_value.lower())
 
 

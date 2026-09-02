@@ -12,3 +12,65 @@ spotify_id,identity_decision,origin_override,reason,source_url
 7n1EM42Fseebd9H2p8eWWS,,Bradford,The archived Wikidata label service returned Q22905; that Wikidata item is Bradford.,https://www.wikidata.org/wiki/Q22905
 7iMWWdRNiCJwGOGEIYr02z,,Bradford,The archived Wikidata label service returned Q22905; that Wikidata item is Bradford.,https://www.wikidata.org/wiki/Q22905
 0L9xkvBPcEp1nrhDrodxc5,,Isle of Wight,The archived Wikidata label service returned Q9679; that Wikidata item is the Isle of Wight.,https://www.wikidata.org/wiki/Q9679
+0MvSBMGRQJY3mRwIbJsqF1,reject,,Royal Philharmonic Orchestra is an orchestra and is outside the bands-and-duos scope.,https://www.rpo.co.uk/
+7Ah35lhlp7p3HOVmmzJh2I,reject,,Duplicate Royal Philharmonic Orchestra candidate; orchestras are outside scope.,https://www.rpo.co.uk/
+3PfJE6ebCbCHeuqO4BfNeA,reject,,London Philharmonic Orchestra is an orchestra and is outside the bands-and-duos scope.,https://lpo.org.uk/
+4zBSlKX0hLrCJ60FSBvAnA,reject,,Mantovani and His Orchestra is an orchestra and is outside the bands-and-duos scope.,https://en.wikipedia.org/wiki/Mantovani
+6Rf6LvLjLWxrDtANvp9XRM,reject,,Duplicate Mantovani and His Orchestra candidate; orchestras are outside scope.,https://en.wikipedia.org/wiki/Mantovani
+4W9CuqPOk3XWnLpwT0mOTI,reject,,Geoff Love and His Orchestra is an orchestra and is outside the bands-and-duos scope.,https://en.wikipedia.org/wiki/Geoff_Love
+4Q6c37zCXu7UvWmUcROoVq,reject,,Orchestra of the Swan is an orchestra and is outside the bands-and-duos scope.,https://orchestraoftheswan.org/
+1zxDewzd2j1ZdSBGaYcr0y,,London,The band's official biography describes it as London-based and rooted in London's East End; Manchester is unsupported.,https://theoutfield.com/bio
+1PXHzxRDiLnjqNrRn2Xbsa,,Cardiff,The group began in Cardiff; Romford was a later base and relaunch location.,https://www.allmusic.com/artist/underworld-mn0000807949
+01pKrlgPJhm5dB4lneYAqS,,Leeds,"University of Leeds is an institution, not a place label; the duo formed while studying in Leeds.",https://en.wikipedia.org/wiki/Sigma_(DJs)
+0NKDgy9j66h3DLnN8qu1bB,,London,The duo formed in London; Sunderland is Dave Stewart's earlier home scene.,https://rockhall.com/wp-content/uploads/2024/03/Eurythmics_RNRHF_Final_2022-LR.pdf
+2m62cc253Xvd9qYQ8d2X3d,,London,Parsons and Woolfson met at Abbey Road and created the project in London.,https://www.the-alan-parsons-project.com/timeline
+0sHeX8oQ6o7xic3wMf4NBU,,Oxford,Official Charts identifies Oxford; Wheatley is associated with the precursor band and members.,https://www.officialcharts.com/artist/9825/supergrass/
+73A3bLnfnz5BoQjb4gNCga,,Belfast,The band's official biography describes the duo as Belfast-born and rooted in Belfast's club scene before becoming London-based.,https://bicepmusic.com/about
+2S5hlvw4CMtMGswFtfdK15,,Worthing,Reuters reports that the duo began in Worthing; Brighton was the later development base.,https://uk.investing.com/news/general/britains-royal-blood-finds-spiritual-home-in-us-3139043
+5TnuP42pw475UrjjeabtwZ,,London,"Mike Scott is from Edinburgh, but the band was formed in London.",https://www.universalmusic.fr/artistes/20000160599
+0gcMPgunYh4rX1UOdvZKBn,,London,Both external origin sources identify London.,https://en.wikipedia.org/wiki/Londonbeat
+6e9wIFWhBPHLE9bXK8gtBI,,Stafford,The members founded the band while at university in Stafford and relocated to Birmingham after graduation.,https://www.surgemusic.com/bands/band_1021/details_Editors
+3vEL65ycUboLH76pgdtqlF,,Guildford,The band formed at university in Guildford and later became Oxford-based.,https://www.musicradar.com/artists/i-had-to-say-no-guys-i-swear-were-a-real-band-south-arcade-on-how-they-became-the-figureheads-of-a-growing-y2k-revival
+0nCiidE5GgDrc5kWN3NZgZ,,London,The trio formed in London; Bournemouth is an unsupported MusicBrainz begin-area.,"https://en.wikipedia.org/wiki/Emerson,_Lake_%26_Palmer"
+0un6YenPxWZ2VW4aFGMupM,,London,The duo formed in London; Liverpool is not supported as the group formation place.,https://en.wikipedia.org/wiki/Floetry
+223iUzG0kb5V166FJP9ovD,,London,Chris Corner founded the project in London after Sneaker Pimps.,https://en.wikipedia.org/wiki/IAMX
+3loflELg7MzgrOyNqERolN,,Woking,Both external origin sources identify Woking.,https://en.wikipedia.org/wiki/The_Style_Council
+03hfAxVdAWj7kxDnSG0fLD,,Cheshunt,The group's roots and first performances as the Drifters were in Cheshunt; London was the professional breakout location.,https://www.allmusic.com/artist/the-shadows-mn0000496405
+0ddfjKqJfbSiddqOvpZRWu,,Isle of Skye,MusicBrainz 'Skye' and Wikipedia 'Isle of Skye' are the same place.,https://en.wikipedia.org/wiki/Runrig
+2LMR8u7DOMF0FBseDpTsRa,,St Andrews,Both external origin sources identify St Andrews.,https://en.wikipedia.org/wiki/The_Beta_Band
+3VQXCMRCSzdKek71OkAL3Q,,London,"The available external origin identifies London, not Brighton.",https://en.wikipedia.org/wiki/World_News_(band)
+2qsc1hUhG2UrNZhByveJ6x,,Dundee,Both external origin sources identify Dundee.,https://en.wikipedia.org/wiki/Danny_Wilson_(band)
+2VL8sLEJ6lHEwocjc1pN9w,,Dagenham,Dagenham is the specific formation place; it was historically in Essex when the band formed.,https://en.wikipedia.org/wiki/The_Tremeloes
+3UqRgrDIQ208yNGiWKRMNt,,Meriden,Both external origin sources identify Meriden; Birmingham is the broader scene association.,https://en.wikipedia.org/wiki/Napalm_Death
+57YVY9QP1mhqc51WqHln0e,,London,Robinson was born in Cambridge but formed TRB after beginning his music career in London.,https://tomrobinson.com/bio/full-history/
+6UYwzZChuolxsylHcZcBBP,,Wallasey,Both external origin sources identify Wallasey.,https://en.wikipedia.org/wiki/The_Boo_Radleys
+3BqAAo5E60L15TcFgWI8xH,,Water Orton,Lawrence and Maurice Deebank formed the group from Water Orton; Birmingham is the nearby major city.,https://www.loudandquiet.com/interview/the-story-of-felt-lawrence-recalls-their-trip-into-indie-folklore-and-draws-a-line-under-the-80s-definitive-cult-band/
+7icDkrFloDss50hoqQ3Kkj,,Crosby,"Both external origin sources identify Crosby, Merseyside.",https://en.wikipedia.org/wiki/Clinic_(band)
+3bqOGIOIvLc9JsAIS7OfEb,,Wallasey,"Wallasey is on the Wirral; the two external labels are compatible, with Wallasey more specific.",https://en.wikipedia.org/wiki/Oceanic_(band)
+6EGQKKjGZOxDJ1iy7Pw25M,,Plymouth,Harvey Williams was born in Newlyn but started the project while studying in Plymouth; London was a later association.,https://en.wikipedia.org/wiki/Another_Sunny_Day
+0kkxsdcaWmWU2yWAqclDh4,approve,,Rixton and Push Baby are names used by the same band and Spotify artist page.,https://www.wikidata.org/wiki/Q16672928
+3fhOTtm0LBJ3Ojn4hIljLo,approve,,The Wikidata entity's Spotify artist ID resolves to Roxy Music; the archived label was an unresolved QID.,https://www.wikidata.org/wiki/Q334648
+1kM5rgJvkiDMOoKX56H6pX,approve,,S Club is the current name of S Club 7 and the requested Spotify page redirects to the same group.,https://www.wikidata.org/wiki/Q500759
+5BKsn7SCN2XmbF7apdCpRS,approve,,The Wikidata entity's Spotify artist ID resolves to Goldfrapp; the archived label was an unresolved QID.,https://www.wikidata.org/wiki/Q606250
+7uwY65fDg3FVJ8MkJ5QuZK,approve,,Easy Life renamed itself hard life; the Spotify artist page represents the same band.,https://www.wikidata.org/wiki/Q85684673
+16kd5X3pBMOtXdLlX5LcAw,approve,,BONES UK is the Spotify styling for the British band recorded as Bones.,https://www.wikidata.org/wiki/Q28340958
+4OoHneMX97SjUXKWgsyrP4,approve,,GPF is the abbreviation used by Greazy Puzzy Fuckerz.,https://www.wikidata.org/wiki/Q100414305
+1eVEVL20zNLcGrPDOR691N,approve,,The English Beat is the North American name used by The Beat.,https://www.wikidata.org/wiki/Q2165980
+1NRudBLaT84LXxfsYdFMhB,approve,,Spotify adds UK to distinguish Wargasm from namesakes; it is the same band.,https://www.wikidata.org/wiki/Q108696271
+2UyOnfaE8nWXKPwYQyp2La,reject,,Goreshit is a solo electronic-music project and is outside the bands-and-duos scope.,https://www.wikidata.org/wiki/Q113361759
+6ydvoGN30eRfE78bjTANF7,approve,,The Wikidata entity's Spotify artist ID resolves to Sad Night Dynamite; the archived label was an unresolved QID.,https://www.wikidata.org/wiki/Q128482668
+6imyM8T1Xbe8v2iZe41dR7,approve,,Haircut 100 and Haircut One Hundred are equivalent stylings of the same band.,https://www.wikidata.org/wiki/Q366679
+6WH1V41LwGDGmlPUhSZLHO,approve,,The Wikidata entity's Spotify artist ID resolves to Autechre; the archived label was an unresolved QID.,https://www.wikidata.org/wiki/Q247237
+6EQn1KgYQxe0bcheogqRTB,approve,,The Wikidata entity's Spotify artist ID resolves to the duo Wax; the archived label was an unresolved QID.,https://www.wikidata.org/wiki/Q1969654
+5TUa95aB5Vu2CzwCnZd6t0,approve,,TTNG is the abbreviation now used by This Town Needs Guns.,https://www.wikidata.org/wiki/Q3990545
+4AAf6BI1IJxvkqv98mDHin,approve,,Bad Company UK is the Spotify styling for the drum-and-bass group recorded as Bad Company.,https://www.wikidata.org/wiki/Q1982683
+0lqPfG8vAR30UX3cWDbCEn,approve,,The Wikidata entity's Spotify artist ID resolves to Friedberg; the archived label was an unresolved QID.,https://www.wikidata.org/wiki/Q131406896
+2kS4yz85MaZlxp2VaS3BEe,approve,,The Wikidata entity's Spotify artist ID resolves to Cabaret Voltaire; the archived label was an unresolved QID.,https://www.wikidata.org/wiki/Q1024747
+4jBSa0eitusIKxQHjAgsyd,approve,,Coverdale/Page and Coverdale and Page are equivalent stylings of the same duo.,https://www.wikidata.org/wiki/Q122627
+48QP1FCIq76VufzDPShGi5,approve,,Auger is the Spotify display name for the band recorded as Auger (band).,https://www.wikidata.org/wiki/Q140317314
+48US3n5ecZ1TS4RjzsdWrm,approve,,The Wikidata entity's Spotify artist ID resolves to the duo Baba Ali; the archived label was an unresolved QID.,https://www.wikidata.org/wiki/Q131406600
+1stGFX6w6VMHQPDPlBqX74,approve,,The Wikidata entity's Spotify artist ID resolves to Sons of Raphael; the archived label was an unresolved QID.,https://www.wikidata.org/wiki/Q122765662
+6Q7D1oEccgTc8MAYdMgtIx,approve,,The Bonzo Dog Band and Bonzo Dog Doo-Dah Band are names used by the same group.,https://www.wikidata.org/wiki/Q205356
+1luY92PbdGWRyBRY1ZR7o1,approve,Tyne and Wear,The identity is confirmed and the independent origin evidence places the group in Tyne and Wear.,https://en.wikipedia.org/wiki/The_Unthanks
+2LikjKVyI5gqANlB9S7DNW,approve,,The Wikidata entity's Spotify artist ID resolves to Ebbb; the archived label was an unresolved QID.,https://www.wikidata.org/wiki/Q136682676
+1tZ9833Gqbgv7ycIrPxsLm,reject,,London Session Orchestra is a session orchestra and is outside the bands-and-duos scope.,https://www.wikidata.org/wiki/Q128303615

@@ -1,661 +1,667 @@
 popularity_rank,band_name,spotify_id,wikidata_qid,followers,monthly_listeners,mapping_tier,fua_code,study_city_label,mapped_fua,musicbrainz_covered,wikidata_label_covered,network_degree,member_degree,label_degree,internal_degree,connected,member_connected,label_connected
-1,Coldplay,4gzpq5DPGxSnKTe4SA8HAU,Q45188,64732379,92034104,strict,UK001F,London,True,True,True,50,0,50,29,True,False,True
+1,Coldplay,4gzpq5DPGxSnKTe4SA8HAU,Q45188,64732379,92034104,strict,UK001F,London,True,True,True,53,0,53,30,True,False,True
 2,Arctic Monkeys,7Ln80lUS6He07XvHI8qqHH,Q170599,35028298,52301870,strict,UK010F,Sheffield,True,True,True,8,2,7,2,True,True,True
-3,Queen,1dfeR4HaWDbWqFHLkxsg1d,Q15862,58004701,51601234,strict,UK001F,London,True,True,True,92,0,92,49,True,False,True
-4,Fleetwood Mac,08GQAI4eElDnROBrJRGE0X,Q106648,15546243,50959935,strict,UK001F,London,True,True,True,103,4,100,49,True,True,True
-5,One Direction,4AK6F7OLvEQ5QYCBNiQWHq,Q146027,41728665,45724043,strict,UK001F,London,True,True,True,54,4,50,29,True,True,True
-6,Radiohead,4Z8W4fKeB5YxbusRsdQVPb,Q44190,16613975,43168156,strict,UK560F,Oxford,True,True,True,32,0,32,1,True,False,True
-7,The Police,5NGO30tJxFlKixkPSgXcFE,Q178095,8458469,39887109,strict,UK001F,London,True,True,True,15,0,15,8,True,False,True
-8,Oasis,2DaxqgrOhkeH0fpeiQq2f4,Q382890,13941515,39676473,strict,UK008F,Manchester,True,True,True,81,4,78,7,True,True,True
-9,Gorillaz,3AA28KZvwAUcZuOKwyblJQ,Q189991,16369649,38173160,strict,UK001F,London,True,True,True,64,1,63,33,True,True,True
-10,The Beatles,3WrFJ7ztbogyGnTHbHJFl2,Q1299,32385954,37927636,strict,UK006F,Liverpool,True,True,True,62,0,62,2,True,False,True
-11,Clean Bandit,6MDME20pz9RveH9rEXvrOM,Q11838808,6321202,35453400,strict,UK017F,Cambridge,True,True,True,36,4,32,1,True,True,True
-12,The Rolling Stones,22bE4uQ6baNwSHPVcDxLCe,Q11036,16651560,30690194,strict,UK001F,London,True,True,True,141,2,140,78,True,True,True
+3,Queen,1dfeR4HaWDbWqFHLkxsg1d,Q15862,58004701,51601234,strict,UK001F,London,True,True,True,97,0,97,52,True,False,True
+4,Fleetwood Mac,08GQAI4eElDnROBrJRGE0X,Q106648,15546243,50959935,strict,UK001F,London,True,True,True,109,4,106,53,True,True,True
+5,One Direction,4AK6F7OLvEQ5QYCBNiQWHq,Q146027,41728665,45724043,strict,UK001F,London,True,True,True,59,4,55,31,True,True,True
+6,Radiohead,4Z8W4fKeB5YxbusRsdQVPb,Q44190,16613975,43168156,strict,UK560F,Oxford,True,True,True,34,0,34,1,True,False,True
+7,The Police,5NGO30tJxFlKixkPSgXcFE,Q178095,8458469,39887109,strict,UK001F,London,True,True,True,16,0,16,8,True,False,True
+8,Oasis,2DaxqgrOhkeH0fpeiQq2f4,Q382890,13941515,39676473,strict,UK008F,Manchester,True,True,True,84,4,81,7,True,True,True
+9,Gorillaz,3AA28KZvwAUcZuOKwyblJQ,Q189991,16369649,38173160,strict,UK001F,London,True,True,True,70,1,69,36,True,True,True
+10,The Beatles,3WrFJ7ztbogyGnTHbHJFl2,Q1299,32385954,37927636,strict,UK006F,Liverpool,True,True,True,68,0,68,2,True,False,True
+11,Clean Bandit,6MDME20pz9RveH9rEXvrOM,Q11838808,6321202,35453400,strict,UK017F,Cambridge,True,True,True,38,4,34,1,True,True,True
+12,The Rolling Stones,22bE4uQ6baNwSHPVcDxLCe,Q11036,16651560,30690194,strict,UK001F,London,True,True,True,150,2,149,83,True,True,True
 14,Glass Animals,4yvcSjfu4PC0CYQyLy4wSq,Q16839267,4804844,27093208,strict,UK560F,Oxford,True,True,True,5,0,5,0,True,False,True
-15,Pink Floyd,0k17h0D3J5VfsdmQ1iZtE9,Q2306,24145634,26546155,strict,UK001F,London,True,True,True,89,0,89,45,True,False,True
-16,Dire Straits,0WwSkZ7LtFUFjGjMZBMt6T,Q50040,9643393,26242776,strict,UK001F,London,True,True,True,27,0,27,13,True,False,True
-17,Florence + The Machine,1moxjboGR7GNWYIMWsRjgG,Q217360,7587105,25836943,strict,UK001F,London,True,True,True,38,0,38,22,True,False,True
-18,The Cure,7bu3H8JO7d0UbMoVzbo70s,Q484427,7492117,25827890,strict,UK576F,Crawley,True,True,True,60,4,58,0,True,True,True
-19,Sade,47zz7sob9NUcODy0BTDvKx,Q658182,6060389,25528819,strict,UK001F,London,True,True,True,29,0,29,14,True,False,True
-20,Disclosure,6nS5roXSAGhTGr34W6n7Et,Q1228440,2482964,25360907,strict,UK001F,London,True,True,True,44,0,44,25,True,False,True
-21,Tears For Fears,4bthk9UfsYUYdcFyqxmSUU,Q269091,4593372,23781006,strict,UK031F,Bath and North East Somerset,True,True,True,50,0,50,0,True,False,True
-22,Keane,53A0W3U0s8diEn9RhXQhVz,Q484311,4211743,23259577,strict,UK056F,Hastings,True,True,True,36,0,36,0,True,False,True
-23,The Smiths,3yY2gUcIsjMr8hjo51PoJ8,Q180598,8767855,22515532,strict,UK008F,Manchester,True,True,True,40,5,36,3,True,True,True
-24,Bastille,7EQ0qTo7fWT7DPxmxtSYEc,Q689,5786448,22166012,strict,UK001F,London,True,True,True,27,4,23,15,True,True,True
-25,Muse,12Chz98pHFMPJEknJQMWvI,Q22151,8949427,20942571,strict,UK018F,Exeter,True,True,True,27,0,27,0,True,False,True
-26,Led Zeppelin,36QJpDe2go2KgaRleHCDTp,Q2331,16927470,20605707,strict,UK001F,London,True,True,True,36,1,35,20,True,True,True
-27,The 1975,3mIj9lX2MWuHmhNCA7LSCW,Q2811247,8582651,18915018,strict,UK008F,Manchester,True,True,True,40,0,40,3,True,False,True
-28,Black Sabbath,5M52tdBnJaKSvOpJGz8mfZ,Q47670,10711277,18288641,strict,UK002F,Birmingham,True,True,True,79,11,72,5,True,True,True
-29,The Outfield,1zxDewzd2j1ZdSBGaYcr0y,Q2093178,893650,17941634,strict,UK008F,Manchester,True,True,True,36,0,36,3,True,False,True
-30,Depeche Mode,762310PdDnwsDxAQxzQkfX,Q482964,7949283,17667155,strict,UK001F,London,True,True,True,104,1,104,53,True,True,True
-31,America,35U9lQaRWSQISxQAB94Meo,Q126852,2286400,17384987,strict,UK001F,London,True,True,True,43,0,43,23,True,False,True
-32,The Verve,2cGwlqi3k18jFpUyTrsR84,Q488916,3001478,16374768,strict,UK008F,Manchester,True,True,True,31,0,31,1,True,False,True
-33,Duran Duran,0lZoBs4Pzo7R89JM9lxwoT,Q58381,3958344,15134650,strict,UK002F,Birmingham,True,True,True,66,0,66,4,True,False,True
-34,Eurythmics,0NKDgy9j66h3DLnN8qu1bB,Q207706,2546395,14843560,strict,UK510F,Sunderland,True,True,True,8,0,8,0,True,False,True
-35,Little Mix,3e7awlrlDSwF3iM0WBjGMp,Q158419,12405563,14779473,strict,UK001F,London,True,True,True,36,0,36,20,True,False,True
-36,The Clash,3RGLhK1IP9jnYFH4BRFJBS,Q125603,3508323,14589467,strict,UK001F,London,True,True,True,44,4,41,26,True,True,True
-37,Mumford & Sons,3gd8FJtBJtkRxdfbTu19U2,Q953918,6882187,14381934,strict,UK001F,London,True,True,True,48,0,48,26,True,False,True
-38,Blur,7MhMgCo0Bl0Kukl93PZbYS,Q485820,4274924,14009757,strict,UK001F,London,True,True,True,62,0,62,30,True,False,True
-39,Bring Me The Horizon,1Ffb6ejR6Fe5IamqA5oRUF,Q494784,7131475,13707032,strict,UK010F,Sheffield,True,True,True,62,0,62,0,True,False,True
-40,Snow Patrol,3rIZMv9rysU7JkLzEaC5Jp,Q188407,3465980,13274460,strict,UK550F,Dundee City,True,True,True,8,0,8,1,True,False,True
-41,Spice Girls,0uq5PttqEjj3IH1bzwcrXF,Q55641,4560204,12877807,strict,UK001F,London,True,True,True,48,0,48,24,True,False,True
-42,The Animals,3ICflSq6ZgYAIrm2CTkfVP,Q131422,2812173,12324330,strict,UK013F,Newcastle,True,True,True,81,0,81,0,True,False,True
-43,Rudimental,4WN5naL3ofxrVBgFpguzKo,Q50971,1462225,11737472,strict,UK001F,London,True,True,True,27,0,27,15,True,False,True
-44,Faithless,5T4UKHhr4HGIC0VzdZQtAE,Q542071,796754,11726956,strict,UK001F,London,True,True,True,4,0,4,2,True,False,True
-45,Disciples,5EehXjjMktLuJmbRsM7YfB,Q24025201,299331,11691137,strict,UK001F,London,True,True,True,15,0,15,8,True,False,True
-46,Jungle,59oA5WbbQvomJz2BuRG071,Q17405943,1886516,11614048,strict,UK001F,London,True,True,True,6,0,6,5,True,False,True
-47,bôa,5jTtGLk1mGFMY5lQOvJYUj,Q285481,1380058,11444869,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-48,Cutting Crew,3cniTumSiUysiPWXapGx1i,Q977526,628518,10972839,strict,UK001F,London,True,True,True,24,1,23,14,True,True,True
-49,Franz Ferdinand,0XNa1vTidXlvJ2gHSsRi4A,Q173180,3218082,10807735,strict,UK004F,Glasgow,True,True,True,7,0,7,0,True,False,True
-50,Def Leppard,6H1RjVyNruCmrBEWRbD0VZ,Q182890,6056540,10792689,strict,UK010F,Sheffield,True,True,True,54,1,53,1,True,True,True
-51,Pet Shop Boys,2ycnb8Er79LoH2AsR5ldjh,Q485625,2426999,10634217,strict,UK001F,London,True,True,True,15,0,15,8,True,False,True
-52,The Hollies,6waa8mKu91GjzD4NlONlNJ,Q282925,1450461,10112715,strict,UK008F,Manchester,True,True,True,53,3,50,2,True,True,True
-53,Wham!,5lpH0xAS4fVfLkACg9DAuM,Q744087,3400543,10018855,strict,UK001F,London,True,True,True,60,0,60,31,True,False,True
-54,Two Door Cinema Club,536BYVgOnRky0xjsPT96zl,Q777302,2655723,9884423,strict,UK012F,Belfast,True,True,True,3,0,3,0,True,False,True
-55,The Stranglers,0RUEHcBiENFEqxgicqS2ig,Q1532854,862339,9836875,strict,UK033F,Guildford,True,True,True,67,1,67,1,True,True,True
-56,Simple Minds,6hN9F0iuULZYWXppob22Aj,Q748836,2504682,9628717,strict,UK004F,Glasgow,True,True,True,54,4,51,5,True,True,True
-57,Bronski Beat,2wpWOzQE5TpA0dVnh5YD08,Q927927,730877,9566679,strict,UK001F,London,True,True,True,11,0,11,7,True,False,True
-58,Seafret,4Ly0KABsxlx4fNj63zJTrF,Q28109766,1149369,9520023,strict,UK026F,Hull,True,True,True,36,0,36,0,True,False,True
-59,Genesis,3CkvROUTQ6nRi9yQOcsB50,Q151012,3958098,9434858,strict,UK033F,Guildford,True,True,True,43,0,43,2,True,False,True
-60,Spandau Ballet,2urZrEdsq72kx0UzfYN8Yv,Q16011,1587103,9335819,strict,UK001F,London,True,True,True,48,0,48,24,True,False,True
-61,UB40,69MEO1AADKg1IZrq2XLzo5,Q560153,2783787,9327767,strict,UK002F,Birmingham,True,True,True,14,0,14,0,True,False,True
-62,The Chemical Brothers,1GhPHrq36VKCY3ucVaZCfo,Q208507,2435363,9143502,strict,UK008F,Manchester,True,True,True,7,0,7,1,True,False,True
-63,Simply Red,1fa0cOhromAZdq2xRA4vv8,Q339430,2960800,9097250,strict,UK008F,Manchester,True,True,True,18,5,13,1,True,True,True
-64,Jamiroquai,6J7biCazzYhU3gM9j1wfid,Q202041,3053662,9068742,strict,UK001F,London,True,True,True,80,1,79,42,True,True,True
-65,Iron Maiden,6mdiAmATAx73kdxrNrnlao,Q42482,10931269,9029433,strict,UK001F,London,True,True,True,51,1,50,28,True,True,True
-66,Toploader,6xeFne1rkxMhKSW3ipvkdV,Q1742953,146489,8829850,strict,UK055F,Eastbourne,True,True,True,0,0,0,0,False,False,False
-67,New Order,0yNLKJebCb8Aueb54LYya3,Q214990,2651294,8786188,strict,UK008F,Manchester,True,True,True,55,3,54,9,True,True,True
-68,Massive Attack,6FXMGgJwohJLUSr5nVlf9X,Q357418,2943616,8692931,strict,UK011F,Bristol,True,True,True,31,0,31,0,True,False,True
-69,The Who,67ea9eGLXYMsO2eYQRui3w,Q93346,6100346,8659112,strict,UK001F,London,True,True,True,79,4,76,40,True,True,True
-70,D-Block Europe,5VadK1havLhK1OpKYsXv9y,Q63313993,1930307,8351560,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-71,alt-J,3XHO7cRUPCLOr6jwp8vsx5,Q47996,3499216,8110938,strict,UK003F,Leeds,True,True,True,26,0,26,0,True,False,True
-73,Dexys Midnight Runners,4QTVePrFu1xuGM9K0kNXkk,Q247259,384886,7999321,strict,UK002F,Birmingham,True,True,True,13,3,10,0,True,True,True
-74,The Kinks,1SQRv42e4PjEYfPhS0Tk9E,Q188713,2958309,7864488,strict,UK001F,London,True,True,True,67,6,63,36,True,True,True
-75,Supertramp,3JsMj0DEzyWc0VDlHuy9Bx,Q176457,4214119,7695790,strict,UK001F,London,True,True,True,31,1,31,17,True,True,True
-76,Oh Wonder,5cIc3SBFuBLVxJz58W2tU9,Q21452721,1128715,7552797,strict,UK001F,London,True,True,True,36,0,36,21,True,False,True
-77,Goodboys,2nm38smINjms1LtczR0Cei,Q65052503,130149,7292613,strict,UK001F,London,True,True,True,1,0,1,0,True,False,True
-78,The Wanted,2NhdGz9EDv2FeUw6udu2g1,Q34918,2480552,7143333,strict,UK001F,London,True,True,True,8,0,8,3,True,False,True
-79,Culture Club,6kz53iCdBSqhQCZ21CoLcc,Q50037,1913999,7076755,strict,UK001F,London,True,True,True,53,1,52,28,True,True,True
-80,Deep Purple,568ZhdwyaiCyOGJRtNYhWf,Q101505,6229490,6998809,strict,UK001F,London,True,True,True,103,5,100,49,True,True,True
-81,The Kooks,1GLtl8uqKmnyCWxHmw9tL4,Q211768,2737101,6950019,strict,UK515F,Brighton and Hove,True,True,True,29,1,28,0,True,True,True
-82,La Roux,3K2zB87GZv1krx031en5VA,Q200002,712440,6858904,strict,UK001F,London,True,True,True,35,0,35,18,True,False,True
-83,10cc,6i6WlGzQtXtz7GcC5H5st5,Q169145,952868,6808182,strict,UK008F,Manchester,True,True,True,7,7,0,1,True,True,False
-84,CamelPhat,240wlM8vDrf6S4zCyzGj2W,Q21008079,572358,6543464,strict,UK006F,Liverpool,True,True,True,2,1,2,1,True,True,True
-85,Take That,1XgFuvRd7r5g0h844A5ZUQ,Q152066,1517488,6539015,strict,UK008F,Manchester,True,True,True,7,0,7,0,True,False,True
-86,Whitesnake,3UbyYnvNIT5DFXU4WgiGpP,Q189965,3532823,6249726,strict,UK559F,Middlesbrough,True,True,True,17,9,8,0,True,True,True
-87,The Vamps,7gAppWoH7pcYmphCVTXkzs,Q15042553,5952843,6167219,strict,UK001F,London,True,True,True,27,0,27,13,True,False,True
-88,The Human League,1aX2dmV8XoHYCOQRxjPESG,Q730158,1370364,6085844,strict,UK010F,Sheffield,True,True,True,70,2,69,1,True,True,True
-90,AlunaGeorge,2VAnyOxzJuSAj7XIuEOT38,Q10353,456793,6010368,strict,UK001F,London,True,True,True,46,0,46,25,True,False,True
-91,Portishead,6liAMWkVf5LH7YR9yfFy1Y,Q191352,2540792,5958911,strict,UK011F,Bristol,True,True,True,38,1,37,0,True,True,True
-92,Frou Frou,6MUyqmIQ35inLjch0YzIEG,Q2629330,419619,5930276,strict,UK001F,London,True,True,True,36,0,36,21,True,False,True
-93,Soft Cell,6aq8T2RcspxVOGgMrTzjWc,Q1329303,869007,5766246,strict,UK003F,Leeds,True,True,True,3,1,3,0,True,True,True
-94,Stealers Wheel,7bPU7cvfoD20ixGD9Qnqki,Q283638,253056,5726001,strict,UK004F,Glasgow,True,True,True,15,1,14,2,True,True,True
-95,Katrina & The Waves,2TzHIUhVpeeDxyJPpQfnV3,Q934582,171867,5671000,strict,UK017F,Cambridge,True,True,True,46,0,46,1,True,False,True
-96,LF SYSTEM,0HxX6imltnNXJyQhu4nsiO,Q113022702,113693,5611864,strict,UK007F,Edinburgh,True,True,True,7,0,7,0,True,False,True
-97,Everything But The Girl,13ccXrK7AmXb4TddMkE7jy,Q313779,480010,5607393,strict,UK026F,Hull,True,True,True,31,0,31,0,True,False,True
-98,The La's,47Z8LEl3LnQkcpva0xSthT,Q1860769,320009,5581915,strict,UK006F,Liverpool,True,True,True,5,4,1,3,True,True,True
-99,The xx,3iOvXCl6edW5Um0fXEBRXy,Q869367,3911861,5459918,strict,UK001F,London,True,True,True,6,0,6,5,True,False,True
-100,Fine Young Cannibals,20p5D2KrE8CGuOjHtxsyTp,Q14528,1018624,5309505,strict,UK002F,Birmingham,True,True,True,18,0,18,2,True,False,True
-101,Stereophonics,21UJ7PRWb3Etgsu99f8yo8,Q28963,1843050,5187258,strict,UK009F,Cardiff,True,True,True,1,0,1,0,True,False,True
-102,Bush,78SHxLdtysAXgywQ4vE0Oa,Q247949,2264067,5127264,strict,UK001F,London,True,True,True,26,0,26,14,True,False,True
-103,Cocteau Twins,5Wabl1lPdNOeIn0SQ5A1mp,Q588820,1683661,5124023,strict,UK551F,Falkirk,True,True,True,11,0,11,0,True,False,True
-106,The Zombies,2jgPkn6LuUazBoBk6vvjh5,Q1163207,1164571,5025277,strict,UK001F,London,True,True,True,49,2,47,27,True,True,True
-107,Hot Chocolate,72VzFto8DYvKHocaHYNWSi,Q1368881,393132,5017699,strict,UK001F,London,True,True,True,6,0,6,3,True,False,True
-108,The Alan Parsons Project,2m62cc253Xvd9qYQ8d2X3d,Q533478,1804870,4991688,strict,UK004F,Glasgow,True,True,True,12,1,12,0,True,True,True
-109,Chase & Status,3jNkaOXasoc7RsxdchvEVq,Q1067983,1285130,4913546,strict,UK001F,London,True,True,True,20,0,20,9,True,False,True
-111,Hurts,3w4VAlllkAWI6m0AV0Gn6a,Q493042,380397,4854547,strict,UK008F,Manchester,True,True,True,10,0,10,0,True,False,True
-113,Chumbawamba,0TcYeHEK9sBtv7xPbKhzHz,Q1089523,225650,4700579,strict,UK050F,Burnley,True,True,True,34,0,34,0,True,False,True
-114,A Flock Of Seagulls,0uAjBatvB4ubpd4kCfjmNt,Q300409,774464,4670482,strict,UK006F,Liverpool,True,True,True,2,0,2,0,True,False,True
-115,Slowdive,72X6FHxaShda0XeQw3vbeF,Q1502037,1560399,4658345,strict,UK552F,Reading,True,True,True,12,0,12,0,True,False,True
-116,Supergrass,0sHeX8oQ6o7xic3wMf4NBU,Q1120684,719253,4645328,reviewed_extended,UK560F,Oxford,True,True,True,54,0,54,2,True,False,True
-117,Cream,74oJ4qxwOZvX6oSsu1DGnw,Q203736,2788886,4518268,strict,UK001F,London,True,True,True,41,3,40,22,True,True,True
-118,Motörhead,1DFr97A9HnbV3SKTJFu62M,Q19697,4680274,4453633,strict,UK001F,London,True,True,True,43,3,41,21,True,True,True
-119,Yes,7AC976RDJzL2asmZuz7qil,Q184386,2203167,4447983,strict,UK001F,London,True,True,True,41,2,39,22,True,True,True
-120,Nazareth,6fvN9GmMCVKb5LY0WsnjFP,Q683695,1724966,4341186,reviewed_extended,UK007F,Edinburgh,True,True,True,0,0,0,0,False,False,False
-121,Foals,6FQqZYVfTNQ1pCqfkwVFEa,Q728958,1504353,4201622,strict,UK560F,Oxford,True,True,True,32,0,32,0,True,False,True
-125,The Foundations,4GITZM5LCR2KcdlgEOrNLD,Q1421054,169026,4165829,strict,UK001F,London,True,True,True,7,2,5,4,True,True,True
-126,CHVRCHES,3CjlHNtplJyTf9npxaPl5w,Q5118436,1434807,4152413,strict,UK004F,Glasgow,True,True,True,25,0,25,1,True,False,True
-128,Joy Division,432R46LaYsJZV2Gmc4jUV5,Q172763,2965374,4140711,strict,UK008F,Manchester,True,True,True,8,3,7,6,True,True,True
-130,The Fratellis,3M4ThdJR28z9eSMcQHAZ5G,Q1127565,958629,4131358,strict,UK004F,Glasgow,True,True,True,44,0,44,0,True,False,True
-131,Judas Priest,2tRsMl4eGxwoNabM08Dm4I,Q83468,4744039,4112763,strict,UK002F,Birmingham,True,True,True,38,1,37,2,True,True,True
-132,T. Rex,3dBVyJ7JuOMt4GE9607Qin,Q211770,1266989,4010971,strict,UK001F,London,True,True,True,17,3,14,9,True,True,True
-133,Metronomy,54QMjE4toDfiCryzYWCpXX,Q151783,1135985,3971668,strict,UK516F,Plymouth,True,True,True,1,0,1,0,True,False,True
-134,Talk Talk,7Fo8TAyGJr4VmhE68QamMf,Q595705,712227,3944807,strict,UK001F,London,True,True,True,74,0,74,38,True,False,True
-136,Bananarama,3sc7iUG1Wwpwx7bHeZolgx,Q725926,929042,3805410,strict,UK001F,London,True,True,True,18,1,18,9,True,True,True
-137,Underworld,1PXHzxRDiLnjqNrRn2Xbsa,Q849429,827351,3783264,strict,UK001F,London,True,True,True,11,4,7,3,True,True,True
-138,Blue,2yEkZBBjhzKzt6LF5XMaFi,Q32825,822804,3677775,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-139,Kasabian,11wRdbnoYqRddKBrpHt4Ue,Q272517,1926968,3649101,strict,UK014F,Leicester,True,True,True,10,0,10,0,True,False,True
-141,Bad Company,5AEG63ajney2BoDXi0Vb84,Q745517,1458078,3616192,strict,UK001F,London,True,True,True,67,3,66,40,True,True,True
-142,Madness,4AYkFtEBnNnGuoo8HaHErd,Q745741,912052,3611935,strict,UK001F,London,True,True,True,27,0,27,16,True,False,True
-143,Nothing But Thieves,1kDGbuxWknIKx4FlgWxiSp,Q20684996,1421470,3587725,strict,UK001F,London,True,True,True,10,0,10,4,True,False,True
-145,Wolf Alice,3btzEQD6sugImIHPMRgkwV,Q8029799,973763,3575621,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-146,The Irrepressibles,1v5bOzXbhrQ57qSvRwGA6s,Q3020511,266977,3531545,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-148,The Stone Roses,1lYT0A0LV5DUfxr6doRP3d,Q29606,1863145,3488308,strict,UK008F,Manchester,True,True,True,3,3,0,1,True,True,False
-149,The Buggles,057gc1fxmJ2vkctjQJ7Tal,Q201568,190767,3487007,strict,UK001F,London,True,True,True,37,1,36,22,True,True,True
-150,Placebo,6RZUqkomCmb8zCRqc9eznB,Q484839,2201483,3460472,strict,UK001F,London,True,True,True,59,1,58,30,True,True,True
-151,The Sundays,4nlqDmbzFzbNITaqjJv7D7,Q3122789,684291,3421091,strict,UK001F,London,True,True,True,9,0,9,5,True,False,True
-152,Orchestral Manoeuvres In The Dark,7wJ9NwdRWtN92NunmXuwBk,Q956500,949812,3287803,strict,UK006F,Liverpool,True,True,True,30,0,30,2,True,False,True
-153,Dead Or Alive,5WWSL6rElJeUk3Uc1S2RyD,Q368961,490402,3275455,strict,UK006F,Liverpool,True,True,True,30,0,30,1,True,False,True
-154,Groove Armada,67tgMwUfnmqzYsNAtnP6YJ,Q117522,783480,3267951,strict,UK001F,London,True,True,True,36,0,36,20,True,False,True
-156,Generation X,1inWec2E2UgfzMAhwjgTXe,Q1157004,181331,3158701,strict,UK001F,London,True,True,True,22,3,19,11,True,True,True
-158,Yazoo,1G1mX30GpUJqOr1QU2eBSs,Q1410055,802850,3044119,strict,UK001F,London,True,True,True,5,1,5,3,True,True,True
-159,Bloc Party,3MM8mtgFzaEJsqbjZBSsHJ,Q205838,1261856,3039480,strict,UK001F,London,True,True,True,32,1,31,16,True,True,True
-160,Gorgon City,4VNQWV2y1E97Eqo2D5UTjx,Q16839700,552337,3028602,strict,UK001F,London,True,True,True,2,0,2,1,True,False,True
-161,Sugababes,7rZNSLWMjTbwdLNskFbzFf,Q193697,758443,3027300,strict,UK001F,London,True,True,True,62,1,61,33,True,True,True
-162,Architects,3ZztVuWxHzNpl0THurTFCv,Q620454,1369211,3025569,strict,UK515F,Brighton and Hove,True,True,True,7,1,6,0,True,True,True
-163,Kaiser Chiefs,0LbLWjaweRbO4FDKYlbfNt,Q192308,1422089,2999896,strict,UK003F,Leeds,True,True,True,51,0,51,0,True,False,True
-165,Basement Jaxx,4YrKBkKSVeqDamzBPWVnSJ,Q544018,623916,2938717,strict,UK001F,London,True,True,True,25,0,25,15,True,False,True
-166,Lighthouse Family,6edGSAX5dVpeJVwu1Q0NwJ,Q707351,660194,2921952,strict,UK013F,Newcastle,True,True,True,11,0,11,0,True,False,True
-167,The Struts,3lDpdwM8KILepMHqBWUhIA,Q17587679,468353,2895181,strict,UK518F,Derby,True,True,True,8,0,8,0,True,False,True
-168,The Wombats,0Ya43ZKWHTKkAbkoJJkwIB,Q1347289,1143548,2884656,strict,UK006F,Liverpool,True,True,True,0,0,0,0,False,False,False
-169,Travis,3bUwxJgNakzYKkqAVgZLlh,Q160103,1176704,2884486,strict,UK004F,Glasgow,True,True,True,29,0,29,1,True,False,True
-170,Mattafix,5KORW1YGiERJqfuYjXMCyz,Q21075,113982,2878488,strict,UK001F,London,True,True,True,23,0,23,13,True,False,True
-171,Royal Blood,2S5hlvw4CMtMGswFtfdK15,Q16632343,1759451,2873864,strict,UK515F,Brighton and Hove,True,True,True,27,0,27,0,True,False,True
-172,Free,2e53aHBQdCMKWqHDuyJsjC,Q45650,631085,2860415,strict,UK001F,London,True,True,True,49,2,48,28,True,True,True
-173,London Grammar,3Bd1cgCjtCI32PYvDC3ynO,Q14557360,1695264,2832139,strict,UK029F,Nottingham,True,True,True,36,0,36,1,True,False,True
-174,Pulp,36E7oYfz3LLRto6l2WmDcD,Q504464,1164307,2830863,strict,UK010F,Sheffield,True,True,True,38,1,37,2,True,True,True
-175,The Heavy,0bZCak2tcRMY1dzEIuwF42,Q181241,516287,2796068,strict,UK031F,Bath and North East Somerset,True,True,True,6,0,6,0,True,False,True
-176,Neck Deep,2TM0qnbJH4QPhGMCdPt7fH,Q16955493,1843051,2790501,strict,UK022F,Wrexham,True,True,True,0,0,0,0,False,False,False
-177,DNA,2rGm8R7YDTbqDCVlNssQyL,Q1154629,18304,2774617,strict,UK031F,Bath and North East Somerset,True,True,True,0,0,0,0,False,False,False
-178,Frankie Goes To Hollywood,1mZu3rO7qSD09GdDpePHhY,Q73597,960764,2758706,strict,UK006F,Liverpool,True,True,True,1,0,1,0,True,False,True
-179,Atomic Kitten,6JMHws5haIO6V35YNYDnDw,Q208392,525204,2751716,strict,UK006F,Liverpool,True,True,True,11,1,10,0,True,True,True
-183,Still Corners,4zKYrXs8iN4AeHmO8ZxNqp,Q7617018,415092,2608941,strict,UK001F,London,True,True,True,3,0,3,0,True,False,True
-184,Asking Alexandria,1caBfBEapzw8z2Qz9q0OaQ,Q731642,2530673,2592556,strict,UK533F,York,True,True,True,0,0,0,0,False,False,False
-185,All Saints,5TDVKqW9uhqGjwwwKGuma4,Q165386,609132,2567281,strict,UK001F,London,True,True,True,1,0,1,0,True,False,True
-186,Sigma,01pKrlgPJhm5dB4lneYAqS,Q16333772,360513,2550591,strict,UK003F,Leeds,True,True,True,4,0,4,0,True,False,True
-188,Moloko,4aaBjq7VqqQvpSF69GglvO,Q1121732,516418,2507932,strict,UK010F,Sheffield,True,True,True,1,0,1,0,True,False,True
-189,Status Quo,4gIdjgLlvgEOz7MexDZzpM,Q322265,872142,2503249,strict,UK001F,London,True,True,True,6,1,5,2,True,True,True
-190,The Darkness,5r1bdqzhgRoHC3YcCV6N5a,Q421794,510654,2453090,strict,UK569F,Ipswich,True,True,True,25,0,25,0,True,False,True
-191,Texas,5JsdVATHNPE0XdMFMRoSuf,Q916484,572024,2420479,strict,UK004F,Glasgow,True,True,True,25,1,24,2,True,True,True
-192,Edison Lighthouse,1NRzxuPpdGushT8YmF5NAa,Q1116554,80780,2393214,strict,UK001F,London,True,True,True,2,1,1,1,True,True,True
-193,Wang Chung,6Zh3xrWlA0SA9Fsfj9AVwm,Q2030370,413141,2358411,strict,UK001F,London,True,True,True,8,0,8,3,True,False,True
-194,The Cult,49DW3KvkyjHO35mK1JnSyS,Q887376,852449,2277310,strict,UK003F,Leeds,True,True,True,8,1,7,1,True,True,True
-195,Rainbow,6SLAMfhOi7UJI0fMztaK0m,Q16005,1739107,2270623,strict,UK001F,London,True,True,True,53,5,50,28,True,True,True
-196,Sohodolls,1KNXft7nnRQj82sENi7WGN,Q527586,321285,2252106,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-197,Echo & the Bunnymen,0fgYKF9Avljex0L9Wt5b8Z,Q925641,1120606,2210172,strict,UK006F,Liverpool,True,True,True,31,3,28,1,True,True,True
-199,The Shapeshifters,60FV7KyxIH9FH1uq7u8inP,Q664467,99295,2179710,strict,UK001F,London,True,True,True,31,0,31,15,True,False,True
-202,Above & Beyond,10gzBoINW3cLJfZUka8Zoe,Q323187,889088,2160062,strict,UK001F,London,True,True,True,1,1,1,1,True,True,True
-203,Daughter,46CitWgnWrvF9t70C2p1Me,Q5227901,1446477,2134237,strict,UK001F,London,True,True,True,13,0,13,6,True,False,True
-204,The Moody Blues,5BcZ22XONcRoLhTbZRuME1,Q211965,1500809,2129836,strict,UK002F,Birmingham,True,True,True,68,2,66,5,True,True,True
-205,Ten Years After,7nkLRaWHImCvWGHdNGnhVE,Q630808,656932,2124380,strict,UK029F,Nottingham,True,True,True,67,1,66,1,True,True,True
-208,Morcheeba,6bWxFw65IEJzBYjx3SxUXd,Q749019,988331,2099112,strict,UK001F,London,True,True,True,4,0,4,2,True,False,True
-210,Thompson Twins,5jVeqi3PNaTOajfvBa4uFn,Q1500069,750750,2069490,strict,UK010F,Sheffield,True,True,True,34,0,34,0,True,False,True
-211,Wet Wet Wet,2u0gw0uCWBMiqV7h0N8kai,Q49871,614358,2057236,strict,UK004F,Glasgow,True,True,True,1,1,0,0,True,True,False
-212,Loathe,4G9wSdX0klmoHfjm9i6DLd,Q30610109,613049,1996442,strict,UK006F,Liverpool,True,True,True,0,0,0,0,False,False,False
-213,Steel Pulse,6UL7BodGc5iVmQGlMwHR0g,Q1542680,736715,1883347,strict,UK002F,Birmingham,True,True,True,36,0,36,2,True,False,True
-214,The Psychedelic Furs,0O0lrN34wrcuBenkqlEDZe,Q276463,722130,1846381,strict,UK001F,London,True,True,True,37,1,36,21,True,True,True
-215,Siouxsie and the Banshees,1n65zfwYIj5kKEtNgxUlWb,Q323834,1457428,1823237,strict,UK001F,London,True,True,True,46,4,43,23,True,True,True
-216,DragonForce,2pH3wEn4eYlMMIIQyKPbVR,Q212715,1321799,1802181,strict,UK001F,London,True,True,True,2,0,2,0,True,False,True
-217,Noel Gallagher's High Flying Birds,7sjttK1WcZeyLPn3IsQ62L,Q194227,1117710,1799845,strict,UK008F,Manchester,True,True,True,1,1,0,1,True,True,False
-219,Zero 7,14H7ag1wpQOsPPQJOD6Dqr,Q191915,592881,1686407,strict,UK001F,London,True,True,True,25,0,25,14,True,False,True
-220,The Streets,4GvOygVQquMaPm8oAc0vXi,Q316029,601898,1675316,strict,UK002F,Birmingham,True,True,True,26,0,26,0,True,False,True
-221,Starsailor,0G8zjE6SsFTlbglCkU8pm3,Q1051417,247718,1655319,strict,UK008F,Manchester,True,True,True,48,0,48,1,True,False,True
-222,Black Box Recorder,6Hd3xhv1sj3rlojjvGLkGR,Q442456,243011,1619909,strict,UK001F,London,True,True,True,1,1,0,0,True,True,False
-223,Smokie,5rIqOJspxDq89aBBCUda1X,Q815849,728999,1611813,strict,UK003F,Leeds,True,True,True,4,0,4,0,True,False,True
-224,The Jam,2P560DaOMNDUACoH8ZhOCR,Q916461,862279,1609992,strict,UK001F,London,True,True,True,33,2,32,17,True,True,True
-226,Jethro Tull,6w6z8m4WXX7Tub4Rb6Lu7R,Q192353,2025126,1535908,strict,UK532F,Luton,True,True,True,97,8,91,0,True,True,True
-227,Saint Etienne,1N2FgBLehaq77UEdJhCt7f,Q1430158,195555,1513825,strict,UK001F,London,True,True,True,15,0,15,0,True,False,True
-228,Skindred,3jTlKw98Ql1jGRPYqhqHap,Q973760,681458,1507719,strict,UK558F,Newport,True,True,True,0,0,0,0,False,False,False
-229,NERO,4uRYpUQZrNrY5t8tAv3XrD,Q1066310,808732,1501385,strict,UK001F,London,True,True,True,8,0,8,4,True,False,True
-230,Manfred Mann's Earth Band,2utNxkLhreF1oIfO8kQT3q,Q1926913,487796,1497096,strict,UK001F,London,True,True,True,44,7,38,23,True,True,True
-231,Five,6rEzedK7cKWjeQWdAYvWVG,Q24791,551020,1473171,strict,UK001F,London,True,True,True,2,0,2,2,True,False,True
-234,The Specials,6xnvNmSzmeOE1bLKnYXKW3,Q19057,741585,1432373,strict,UK025F,Coventry,True,True,True,42,2,42,2,True,True,True
-235,The Real Thing,1NUD5By34MFynmuUynCfSj,Q458284,112151,1425692,strict,UK006F,Liverpool,True,True,True,5,0,5,1,True,False,True
-236,Sneaker Pimps,1EJWNhiYbOyeUHbsS7Kp1P,Q1754009,342340,1412387,strict,UK559F,Middlesbrough,True,True,True,2,0,2,0,True,False,True
-237,Johnny Hates Jazz,6zpPKMhpOoG646kJgZ7RKf,Q1294961,249325,1399373,strict,UK001F,London,True,True,True,5,1,4,3,True,True,True
-238,Procol Harum,0GbqW5TJr7n4is453VOY4C,Q214486,564567,1385101,strict,UK001F,London,True,True,True,80,1,79,43,True,True,True
-242,Blossoms,22RISwgVJyZu9lpqAcv1F5,Q23057702,515545,1329106,strict,UK008F,Manchester,True,True,True,0,0,0,0,False,False,False
-243,A1,5lPsVvHVDr6R5mDxRUXdOs,Q279634,574084,1308390,strict,UK001F,London,True,True,True,11,0,11,5,True,False,True
-244,The Last Shadow Puppets,2Z7UcsdweVlRbAk5wH5fsf,Q862520,1251280,1305891,strict,UK010F,Sheffield,True,True,True,7,1,7,1,True,True,True
-247,KNEECAP,1ZVACPeq7ccGCoUXwtafUU,Q65327538,558490,1263438,strict,UK012F,Belfast,True,True,True,4,0,4,0,True,False,True
-249,The Ting Tings,2wvUfjKGoXvcnDHq7GgMOa,Q219939,445083,1233876,strict,UK008F,Manchester,True,True,True,37,0,37,3,True,False,True
-250,Sex Pistols,1u7kkVrr14iBvrpYnZILJR,Q82545,2087179,1231532,strict,UK001F,London,True,True,True,95,2,94,50,True,True,True
-251,Kero Kero Bonito,6OqhFYFJDnBBHas02HopPT,Q19370850,611925,1201107,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-252,Pilot,6PwcexHTG0qJWQQwp05Bpm,Q1753527,78328,1181505,strict,UK007F,Edinburgh,True,True,True,9,3,6,1,True,True,True
-253,Skunk Anansie,5HlXA01kcjssYDT7EoqUJF,Q167977,449680,1179800,strict,UK001F,London,True,True,True,34,3,31,15,True,True,True
-254,Boards of Canada,2VAvhf61GgLYmC6C8anyX1,Q722778,844402,1177186,strict,UK007F,Edinburgh,True,True,True,2,0,2,0,True,False,True
-255,Primal Scream,3wury2nd8idV4GecUg5xze,Q666697,590819,1165795,strict,UK004F,Glasgow,True,True,True,20,5,18,3,True,True,True
-256,Ultravox,3iUjRVvYCsMfz7tuAQtBDI,Q316485,609815,1162862,strict,UK001F,London,True,True,True,36,0,36,21,True,False,True
-257,N-Trance,45InkbGypoMk5nVX6dsHkt,Q1959629,82658,1162155,strict,UK008F,Manchester,True,True,True,0,0,0,0,False,False,False
-259,Belle and Sebastian,4I2BJf80C0skQpp1sQmA0h,Q691568,747098,1141204,strict,UK004F,Glasgow,True,True,True,10,1,9,1,True,True,True
-261,Badfinger,4pJCawaKSZ40EnxN0YEYw3,Q798993,471790,1128068,strict,UK517F,Swansea,True,True,True,17,0,17,0,True,False,True
-263,The Spencer Davis Group,3i9hP422d2KMjaupTzBNVS,Q1049145,317136,1087690,strict,UK002F,Birmingham,True,True,True,58,4,56,4,True,True,True
-264,Imagination,2CkhxuagMCG9uvlbKm5G3m,Q142904,139019,1083676,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-265,The Beautiful South,4fomCZiFUMX73KJ0YQ0V90,Q1757677,498337,1074612,strict,UK026F,Hull,True,True,True,1,0,1,0,True,False,True
-269,IDLES,75mafsNqNE1WSEVxIKuY5C,Q39070668,893225,1060008,strict,UK011F,Bristol,True,True,True,0,0,0,0,False,False,False
-271,Mis-Teeq,6csA2rxNLkQJXeEa7lyGXn,Q1303048,147133,1053166,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-272,UFO,2Omy3P5hFZym7FKum1JA1s,Q251657,669681,1051240,strict,UK001F,London,True,True,True,26,9,19,14,True,True,True
-273,White Lies,6ssXMmc5EOUrauZxirM910,Q1331605,560678,1046821,strict,UK001F,London,True,True,True,8,0,8,4,True,False,True
-274,The Vaccines,0Ak6DLKHtpR6TEEnmcorKA,Q1458872,807443,1042137,strict,UK001F,London,True,True,True,36,0,36,20,True,False,True
-275,Modern English,0fYPQBOx0vsRMmjUba9HgF,Q1691644,242915,1039829,strict,UK546F,Colchester,True,True,True,11,0,11,0,True,False,True
-276,The Lightning Seeds,67YNiSqhrx1P8oPvIIvbP5,Q1973228,189073,1037603,strict,UK006F,Liverpool,True,True,True,29,6,23,4,True,True,True
-278,Squeeze,6Jrj26oAY96EEC2lqC6fua,Q591279,369318,1034511,strict,UK001F,London,True,True,True,22,1,21,9,True,True,True
-279,ABC,2s79xe5F6eUQkjwjww27Fh,Q287078,431631,1028147,strict,UK010F,Sheffield,True,True,True,13,3,10,2,True,True,True
-280,Ace,6QNkSI0c63lCTNXpHDBiqP,Q339889,40060,1026309,strict,UK010F,Sheffield,True,True,True,1,1,0,0,True,True,False
-281,Busted,3Z6IRCo7umuk8K2XQy0ZDj,Q826185,307292,1009124,strict,UK001F,London,True,True,True,41,1,41,24,True,True,True
-282,Girls Aloud,12EtLdLfJ41vUOoVzPZIUy,Q205473,552875,996906,strict,UK001F,London,True,True,True,32,0,32,17,True,False,True
-283,Bear's Den,0nJaMZM8paoA5HEUTUXPqi,Q18357134,345964,996827,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-284,Noah And The Whale,0aeLcja6hKzb7Uz2ou7ulP,Q1811037,469876,995813,strict,UK001F,London,True,True,True,17,0,17,8,True,False,True
-286,The Jesus and Mary Chain,4rjlerN21ygkIhmUv55irs,Q1126301,578109,975001,strict,UK004F,Glasgow,True,True,True,14,4,11,3,True,True,True
-287,Bombay Bicycle Club,3pTE9iaJTkWns3mxpNQlJV,Q891829,881071,970928,strict,UK001F,London,True,True,True,36,0,36,21,True,False,True
-288,You Me At Six,1kNQXvepPjaPgUfeDAF2h6,Q1512507,698799,967721,strict,UK001F,London,True,True,True,25,0,25,13,True,False,True
-290,Go West,7bKupnlF7XOfR1En3K8oAL,Q1533399,281420,925778,strict,UK001F,London,True,True,True,20,1,19,11,True,True,True
-291,Traffic,1CD77o9fbdyQFrHnUPUEsF,Q1048439,664568,924163,strict,UK002F,Birmingham,True,True,True,37,3,36,2,True,True,True
-292,Cornershop,3Kf7VEIRWquxrNIuyJZnfF,Q1134101,85161,920853,strict,UK014F,Leicester,True,True,True,2,1,1,0,True,True,True
-293,Hot Chip,37uLId6Z5ZXCx19vuruvv5,Q877512,723814,912686,strict,UK001F,London,True,True,True,24,0,24,10,True,False,True
-294,The Libertines,4fSPtBgFPZzygkY6MehwQ7,Q214350,943427,911120,strict,UK001F,London,True,True,True,9,1,9,5,True,True,True
-295,Heatwave,6D7h7R79IZjqJC2GM2wzyY,Q1592619,515706,907968,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-296,Manic Street Preachers,2uH0RyPcX7fnCcT90HFDQX,Q217025,751312,893282,strict,UK009F,Cardiff,True,True,True,36,0,36,1,True,False,True
-297,Elbow,0TJB3EE2efClsYIDQ8V2Jk,Q665798,578182,891884,strict,UK008F,Manchester,True,True,True,7,4,3,0,True,True,True
-299,The Troggs,57xdnSVt4ahJCIXYLieQ25,Q943253,337104,883780,strict,UK520F,Southampton,True,True,True,16,0,16,0,True,False,True
-301,Orbital,3csPCeXsj2wezyvkRFzvmV,Q515942,416016,874037,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-303,Crystal Fighters,75EZuo5MHV2572NRpMWotC,Q526130,356161,846287,strict,UK001F,London,True,True,True,25,0,25,14,True,False,True
-304,Herman's Hermits,48YxSlb23RAaCd4RyHcV9V,Q693597,542791,843685,strict,UK008F,Manchester,True,True,True,36,0,36,3,True,False,True
-306,Floetry,0un6YenPxWZ2VW4aFGMupM,Q3937955,827023,834779,strict,UK006F,Liverpool,True,True,True,32,0,32,2,True,False,True
-307,Average White Band,3tx8fyu3c4OBP5nejYtUOb,Q583556,473616,830950,strict,UK550F,Dundee City,True,True,True,25,0,25,0,True,False,True
-309,Del Amitri,2Q4FnG5T6NTUcAAZwuMV5K,Q1183784,117032,827530,strict,UK004F,Glasgow,True,True,True,20,1,19,2,True,True,True
-310,Courteeners,1NfJU4hy56Z4UM4iyIa1B2,Q1352997,366021,819255,strict,UK008F,Manchester,True,True,True,32,0,32,2,True,False,True
-312,Climie Fisher,3bpvhFSIErguVNQUiutctF,Q1101485,91736,814321,strict,UK001F,London,True,True,True,40,0,40,20,True,False,True
-313,Kokoroko,3u9rbdcmA6CxjxOAkjaeFr,Q104870323,405946,813289,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-314,Bauhaus,5N5tQ9Dx1h8Od7aRmGj7Fi,Q180582,1137691,808555,strict,UK528F,Northampton,True,True,True,16,2,16,2,True,True,True
-316,Steps,17UkABEasVRlCcIFZ3wHb7,Q1457831,446647,796161,strict,UK001F,London,True,True,True,2,0,2,1,True,False,True
-317,Klaxons,2qlAMLpUyBjZgnzuFXXZXI,Q840882,327144,791164,strict,UK001F,London,True,True,True,37,0,37,18,True,False,True
-318,Ultrabeat,596ByjVYnslGJIHxEBGjF8,Q4356488,60158,767735,strict,UK006F,Liverpool,True,True,True,2,1,2,1,True,True,True
-319,Enter Shikari,31jvzuB4ikftPQZJwrYfCF,Q912581,522047,764839,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-320,M People,3lcbKPLl0ci2mKRdcP5Etf,Q1882185,281163,762770,strict,UK008F,Manchester,True,True,True,0,0,0,0,False,False,False
-323,While She Sleeps,38LdIuxB548zgHoEY2AN7a,Q2543938,528146,740851,strict,UK010F,Sheffield,True,True,True,0,0,0,0,False,False,False
-324,The Dream Academy,1JVoO5bwfU8GNuAZLpBoHe,Q2002188,81792,735488,strict,UK001F,London,True,True,True,27,0,27,13,True,False,True
-325,Suede,6PHIK3kjWggLtVygsOtpqS,Q826255,569692,713390,strict,UK001F,London,True,True,True,38,1,37,21,True,True,True
-326,Circa Waves,6hl5k4gLl1p3sjhHcb57t2,Q18205953,319278,708315,strict,UK006F,Liverpool,True,True,True,2,0,2,0,True,False,True
-327,The Coral,6OiHleP2bHM18dXq4aZQWt,Q1777045,287640,707737,strict,UK006F,Liverpool,True,True,True,1,0,1,1,True,False,True
-328,XTC,2qT62DYO8Ajb276vUJmvhz,Q1413926,391755,705276,strict,UK535F,Swindon,True,True,True,41,0,41,0,True,False,True
-329,Audio Bullys,5kwHgbzNHq1iHkUSrAmjjQ,Q758846,83213,701846,strict,UK001F,London,True,True,True,7,0,7,4,True,False,True
-330,The Saturdays,15qI5w4XJFLRMwOp2VrlD5,Q756220,736766,701836,strict,UK001F,London,True,True,True,32,0,32,17,True,False,True
-333,Feeder,0ZZr6Y49NZWRJc0uCwqpMR,Q1049555,262471,679131,strict,UK558F,Newport,True,True,True,11,1,10,0,True,True,True
-335,Uriah Heep,45O9BwPMyywM755SYUK0sP,Q108666,860808,659174,strict,UK001F,London,True,True,True,54,8,51,28,True,True,True
-336,The Longest Johns,5k979N1TnPncUyqlXlaRSv,Q104759060,272973,653167,strict,UK011F,Bristol,True,True,True,0,0,0,0,False,False,False
-337,Happy Mondays,339DNkQkuhHKEcHw6oK8f0,Q1141495,462546,652616,strict,UK008F,Manchester,True,True,True,8,1,7,6,True,True,True
-340,Buzzcocks,2DxlS3lTLFIq70S7ap5H3y,Q939329,490422,638182,strict,UK008F,Manchester,True,True,True,9,2,7,2,True,True,True
-342,Ladytron,0ucLPotcQNI7AViFytdhBz,Q831841,333134,637497,strict,UK006F,Liverpool,True,True,True,0,0,0,0,False,False,False
-345,The Style Council,3loflELg7MzgrOyNqERolN,Q676522,368853,626814,strict,UK001F,London,True,True,True,39,3,37,18,True,True,True
-346,Big Country,1h8YIw9HLr6E8gdXVDRbVJ,Q858738,271022,622663,reviewed_extended,UK007F,Edinburgh,True,True,True,19,2,17,1,True,True,True
-347,New Hope Club,2WuKU0SYZOQyY3MmE4vtez,Q28677824,986109,617401,strict,UK008F,Manchester,True,True,True,1,0,1,0,True,False,True
-349,Deacon Blue,5jqKIZLB5WA5KquEihB3ND,Q1180767,256096,612759,strict,UK004F,Glasgow,True,True,True,52,0,52,3,True,False,True
-350,Slade,10n5lhNDoSMUHWLlnST1yw,Q156872,473230,612385,strict,UK002F,Birmingham,True,True,True,67,0,67,6,True,False,True
-351,Freemasons,49H2dQUNhIlso7VNkS8nFR,Q1453598,65062,607845,strict,UK515F,Brighton and Hove,True,True,True,0,0,0,0,False,False,False
-352,Ocean Colour Scene,5vIOGcdmx1eIkq3ZtuS12U,Q1332158,454701,606956,strict,UK002F,Birmingham,True,True,True,8,1,7,2,True,True,True
-356,Them,5BaHqGtf6UAZnHfqdPaTDA,Q1338638,155177,598923,strict,UK012F,Belfast,True,True,True,18,0,18,0,True,False,True
-357,UNKLE,2nszamLjZFgu3Yx77mKxuC,Q2032426,420500,596520,strict,UK001F,London,True,True,True,2,2,0,0,True,True,False
-359,JLS,5xi3SZpllRPAkoPVbjB6nc,Q1165439,520107,591899,strict,UK001F,London,True,True,True,36,0,36,19,True,False,True
-361,DON BROCO,1aOt6LvXOV6I8dv1A5Diia,Q5292322,285868,584790,strict,UK549F,Bedford,True,True,True,0,0,0,0,False,False,False
-362,Steve Harley & Cockney Rebel,6EL5GD53kaaVgJCHgdtdLz,Q1431236,66094,584745,strict,UK001F,London,True,True,True,11,1,10,5,True,True,True
-363,Sweet Female Attitude,1054JdBVMCPm9VpvkUcOYX,Q1377724,31030,582178,strict,UK008F,Manchester,True,True,True,0,0,0,0,False,False,False
-364,The Fixx,53RkHTcl0SJZjpzqogkBf4,Q1460975,284550,569663,strict,UK001F,London,True,True,True,6,0,6,3,True,False,True
-365,N-Dubz,52Syw7gkGRePCAYvEY2X9D,Q1140107,307419,569050,strict,UK001F,London,True,True,True,32,0,32,17,True,False,True
-366,Aztec Camera,7sbwBqdkynNUDgiWU3TQ5J,Q794148,155418,568826,strict,UK004F,Glasgow,True,True,True,27,1,27,1,True,True,True
-367,The Undertones,2WRStKp4ihGVUzlzWfv1Qt,Q1501348,274928,562915,strict,UK586F,Derry & Strabane Local Government District,True,True,True,6,0,6,0,True,False,True
-370,The Yardbirds,2lxX1ivRYp26soIavdG9bX,Q192725,1006505,543254,strict,UK001F,London,True,True,True,41,3,38,24,True,True,True
-371,Stereolab,3Rj0tDHoX7C5NFq5DKIpHt,Q334652,428315,542759,strict,UK001F,London,True,True,True,18,0,18,8,True,False,True
-372,The Staves,5G49Sq5mMzAkGL4ZP6eVPY,Q7766423,235928,540680,strict,UK001F,London,True,True,True,25,0,25,14,True,False,True
-373,Killing Joke,0Zy4ncr8h1jd7Nzr9946fD,Q250421,397648,538563,strict,UK001F,London,True,True,True,39,3,37,22,True,True,True
-374,Doves,0LVrQUinPUBFvVD5pLqmWY,Q126128,299777,533297,strict,UK008F,Manchester,True,True,True,4,0,4,0,True,False,True
-376,Blind Faith,5GUVj2b1lJ4DolQyHlzyaO,Q548656,474336,529325,strict,UK033F,Guildford,True,True,True,74,5,73,1,True,True,True
-378,Porcupine Tree,5NXHXK6hOCotCF8lvGM1I0,Q213923,808818,514183,strict,UK556F,Dacorum,True,True,True,26,1,25,0,True,True,True
-380,Hard-Fi,14Gi3Uph96lpNB3utkoVAD,Q1123510,200592,508027,strict,UK001F,London,True,True,True,25,0,25,14,True,False,True
-381,Los Campesinos!,6FlOCziOXI157pvUREAh3E,Q1856023,209086,507510,strict,UK009F,Cardiff,True,True,True,2,0,2,0,True,False,True
-382,The Hunna,7jZycSvTyx0W9poD4PjEIG,Q27792569,268983,506302,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-383,Swing Out Sister,4phr5rAgWhcZtWJu8w8lKv,Q955863,183037,502370,strict,UK008F,Manchester,True,True,True,18,1,17,4,True,True,True
-384,Bay City Rollers,3r9TXuXfOUxXjgYgAR0fP8,Q812073,225644,499865,strict,UK007F,Edinburgh,True,True,True,40,2,38,1,True,True,True
-386,Bury Tomorrow,6BD4lgmnh4vy6kkCaZRDWt,Q1017202,357588,497979,strict,UK520F,Southampton,True,True,True,5,0,5,0,True,False,True
-387,Olive,0r2TmTSwK6XAhAxNxTDOb4,Q2019953,31488,491693,strict,UK001F,London,True,True,True,11,1,10,4,True,True,True
-392,Gang Of Four,3AmWjMXXtBJOmNGpUFSOAl,Q1130624,292732,469462,strict,UK003F,Leeds,True,True,True,58,1,57,1,True,True,True
-393,The Subways,4BntNFyiN3VGG4hhRRZt9d,Q1470472,220739,467832,strict,UK001F,London,True,True,True,7,0,7,1,True,False,True
-394,The Big Push,4AOiNpcmfXTiWDB3uFszgn,Q135854861,233766,466052,strict,UK515F,Brighton and Hove,True,True,True,0,0,0,0,False,False,False
-396,Saxon,71vVmHeNgCVSa5SVmfvscU,Q504090,685716,460256,strict,UK010F,Sheffield,True,True,True,13,2,12,1,True,True,True
-397,The Damned,6VeL8VhaMjHTPc5uovFl3h,Q940536,442692,459791,strict,UK001F,London,True,True,True,22,5,17,12,True,True,True
-398,Eternal,7zYGAXxAaq15C9eM29M8Fj,Q540500,128019,453940,strict,UK001F,London,True,True,True,10,0,10,5,True,False,True
-400,Bleed From Within,5ZvwJikDgdP1PFU4PkAPVG,Q883441,289069,451660,strict,UK004F,Glasgow,True,True,True,5,1,4,0,True,True,True
-401,X-Press 2,1mlZXof4sEGLFspPzlQdFL,Q8041505,21792,450693,strict,UK001F,London,True,True,True,1,0,1,1,True,False,True
-402,Band Of Skulls,4ddt8PPvmWrI9mJQy1VrIG,Q2413479,272436,446823,strict,UK520F,Southampton,True,True,True,11,0,11,0,True,False,True
-403,The Hoosiers,4LlDtNr8qFwhrT8eL2wzH4,Q634158,219418,438135,strict,UK573F,Bracknell Forest,True,True,True,10,0,10,0,True,False,True
-405,East 17,6lOC7lwSO1ql4Gc2Y3QObY,Q1277715,135562,434704,strict,UK001F,London,True,True,True,11,0,11,7,True,False,True
-407,SOFT PLAY,3xByNj8XW17oW0wsJhgzYL,Q19604547,288282,433170,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-408,Small Faces,1YqGsKpdixxSVgpfaL2AEQ,Q222628,358793,431362,strict,UK001F,London,True,True,True,37,3,37,21,True,True,True
-411,Yard Act,2h3ooJn8m8X8cL2g1BZ1Rd,Q110269845,155450,416371,strict,UK003F,Leeds,True,True,True,0,0,0,0,False,False,False
-412,The Herbaliser,1O7aMVbDeSXY2LiVBhb13w,Q2499301,165562,415029,strict,UK001F,London,True,True,True,5,1,4,2,True,True,True
-413,Apollo 440,37f9cjf8Ic4t7vYNRYAzI7,Q619067,160231,414420,strict,UK006F,Liverpool,True,True,True,30,0,30,1,True,False,True
-414,Anathema,0ZXKT0FCsLWkSLCjoBJgBX,Q487396,447557,413525,strict,UK006F,Liverpool,True,True,True,2,2,1,1,True,True,True
-416,Embrace,74K7bX12L8GBAWvPuyIgJ7,Q1335100,181930,411812,strict,UK003F,Leeds,True,True,True,1,0,1,0,True,False,True
-417,Maximo Park,048FBwXjFYBWxSggPDipic,Q833332,259584,411159,strict,UK013F,Newcastle,True,True,True,2,0,2,0,True,False,True
-419,Boston Manor,4WjeQi9wm84lYTIWZ95QoM,Q48700689,192021,410364,strict,UK553F,Blackpool,True,True,True,0,0,0,0,False,False,False
-420,The Farm,3lN1TG4RIoaJCff6Ck9KUR,Q1428876,76908,408875,strict,UK006F,Liverpool,True,True,True,6,0,6,0,True,False,True
-421,Superorganism,0Wkm45quqfx3NepJpXDvwE,Q47137654,263802,402523,strict,UK001F,London,True,True,True,7,0,7,1,True,False,True
-423,Incognito,5moJNCJeiNwuQAhDLJXULs,Q615207,231010,401799,strict,UK001F,London,True,True,True,4,2,2,3,True,True,True
-425,Racey,1W4SfNO5hb1tdX0wQ87zxl,Q922363,50878,401016,strict,UK011F,Bristol,True,True,True,0,0,0,0,False,False,False
-427,Young Fathers,5mZC7ndY6oGMxJentRwsuV,Q8058113,272197,397759,strict,UK007F,Edinburgh,True,True,True,4,0,4,0,True,False,True
-428,Public Image Ltd.,70MMkLXtue3Edj3RJhJkYp,Q845265,359205,397001,strict,UK001F,London,True,True,True,39,10,30,21,True,True,True
-429,The Maccabees,0vW8z9pZMGCcRtGPGtyqiB,Q174627,379450,394513,strict,UK001F,London,True,True,True,8,0,8,4,True,False,True
-431,Pale Waves,0wOej91SVqB1zcYkW6xUtA,Q45964015,387390,390813,strict,UK008F,Manchester,True,True,True,8,0,8,1,True,False,True
-432,Leftfield,72hqBMsw7x5jnfxxwkii8L,Q277479,258734,390024,strict,UK001F,London,True,True,True,1,0,1,0,True,False,True
-433,Kula Shaker,6bGcpvHbRHg8s0wiNyIZK1,Q611878,266533,387963,strict,UK001F,London,True,True,True,36,0,36,20,True,False,True
-434,The Durutti Column,7fh7bwX9qV60tLxxsp9bTe,Q1724658,141887,384367,strict,UK008F,Manchester,True,True,True,7,0,7,5,True,False,True
-436,Lush,3ysp8GwsheDcBxP9q65lBg,Q1668512,315449,382347,strict,UK001F,London,True,True,True,13,2,11,6,True,True,True
-438,Cast,0vBDEQ1aLZpe4zgn2fPH6Z,Q780072,183638,381917,strict,UK006F,Liverpool,True,True,True,34,2,32,4,True,True,True
-440,Cassia,2413I9w4sRbBz4zi5zgwjX,Q123148190,69239,377418,strict,UK008F,Manchester,True,True,True,0,0,0,0,False,False,False
-441,Mogwai,34UhPkLbtFKRq3nmfFgejG,Q645980,647271,370209,strict,UK004F,Glasgow,True,True,True,11,1,10,4,True,True,True
-442,Electronic,3xYNGCooNIzKMAtJYKSOyq,Q624661,164721,367540,strict,UK008F,Manchester,True,True,True,9,4,7,6,True,True,True
-446,The Searchers,4QmkLL9JOqM9dusHS1Hghe,Q1132434,216702,355906,strict,UK006F,Liverpool,True,True,True,5,0,5,1,True,False,True
-448,Django Django,2ARO60gI5do88ho6azmzab,Q328221,252535,347616,strict,UK001F,London,True,True,True,1,0,1,0,True,False,True
-449,The KLF,6dYrdRlNZSKaVxYg5IrvCH,Q741316,144352,343591,strict,UK001F,London,True,True,True,9,1,8,4,True,True,True
-450,Heaven 17,5PYuBRQMHh7nWmdV076sH9,Q741663,273309,342911,strict,UK010F,Sheffield,True,True,True,33,3,31,2,True,True,True
-451,Babybird,1QCANeffsBIHjzhMqUIxBh,Q116385,21473,342115,strict,UK010F,Sheffield,True,True,True,0,0,0,0,False,False,False
-454,Paradise Lost,0gIo6kGl4KsCeIbqtZVHYp,Q750593,395901,336657,strict,UK003F,Leeds,True,True,True,5,1,4,1,True,True,True
-456,Lamb,08YvZ2qzFrDSITfHLbPKMP,Q1259392,269420,332261,strict,UK008F,Manchester,True,True,True,17,0,17,3,True,False,True
-457,Shakespears Sister,7ooOn6bokl4mGV4CEaUz6A,Q527789,126106,331052,strict,UK001F,London,True,True,True,11,1,11,7,True,True,True
-458,Shed Seven,3iejrAcqxYoVgyxp6zkWgs,Q2277663,175249,327277,strict,UK533F,York,True,True,True,32,0,32,0,True,False,True
-459,The Beta Band,2LMR8u7DOMF0FBseDpTsRa,Q1775665,135396,325029,strict,UK007F,Edinburgh,True,True,True,0,0,0,0,False,False,False
-461,Archive,1Q776wzj2mrtXrNu3iH6nk,Q635772,330186,318451,strict,UK001F,London,True,True,True,48,1,48,27,True,True,True
-462,Dodgy,1dekSPU23UC5hw5b8Uxk9W,Q1234401,70095,318066,strict,UK001F,London,True,True,True,16,2,14,8,True,True,True
-463,Everything Everything,1HOeqtP7tHkKNJNLzQ2tnr,Q1382296,310570,317529,strict,UK008F,Manchester,True,True,True,8,0,8,0,True,False,True
-464,Liberty X,6htUPs3clIStnkvg5jimKZ,Q1823053,157028,317064,strict,UK001F,London,True,True,True,4,1,3,2,True,True,True
-466,Love and Rockets,09mvgMBvJkxarNIDGdwPWg,Q643299,235396,313702,strict,UK528F,Northampton,True,True,True,6,2,6,2,True,True,True
-469,China Crisis,0WUphJOGHE5i95IeR87hsO,Q1073261,149310,306242,strict,UK006F,Liverpool,True,True,True,15,0,15,0,True,False,True
-470,Sundara Karma,4fgXfJCQnK6c44u4KzAtQP,Q29862757,206350,305536,strict,UK552F,Reading,True,True,True,10,0,10,0,True,False,True
-471,Camel,3Uz6jx81OY2J5K8Z4wmy2P,Q612471,441790,305476,strict,UK033F,Guildford,True,True,True,31,6,26,1,True,True,True
-473,Carcass,5lhaM01nwvsMZpmPY2HVER,Q283835,495994,303826,strict,UK006F,Liverpool,True,True,True,12,1,12,0,True,True,True
-474,Barclay James Harvest,2pVMD4bFwl4AyoYyyo51Qg,Q807957,187986,303511,strict,UK008F,Manchester,True,True,True,18,0,18,1,True,False,True
-478,Catatonia,4Bgfzia8wyaGaTn42egzTv,Q1050456,90480,301265,strict,UK009F,Cardiff,True,True,True,1,1,0,1,True,True,False
-479,Johnny Kidd & The Pirates,52y1cRHUkI0kQqIXCg6JuZ,Q6669284,37258,300280,strict,UK001F,London,True,True,True,1,1,0,1,True,True,False
-482,Ride,0WPY9nnBy01s5QOt4o4oQX,Q4371,272871,296215,strict,UK560F,Oxford,True,True,True,12,2,11,1,True,True,True
-486,Camera Obscura,5gInJ5P5gQnOKPM3SUEVFt,Q1028565,206573,295126,strict,UK004F,Glasgow,True,True,True,12,1,11,1,True,True,True
-488,Fairport Convention,2LIdnZDzySb04oH40be1fR,Q1145652,149174,294353,strict,UK001F,London,True,True,True,81,3,79,45,True,True,True
-490,Jive Bunny and the Mastermixers,4GzIiGnHYrOnq2LUiD6zdo,Q1689719,63077,294182,strict,UK010F,Sheffield,True,True,True,0,0,0,0,False,False,False
-492,Mystery Jets,09K1H1DgyIXHsMx2j7KTFX,Q1956918,170699,291320,strict,UK001F,London,True,True,True,5,0,5,2,True,False,True
-495,Sea Girls,45FqwUG4hTT6d39r2HUsUe,Q3476673,161623,289846,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-496,GoGo Penguin,19f2JXwlRU26376TCKmp6L,Q18151740,295895,289811,strict,UK008F,Manchester,True,True,True,1,0,1,0,True,False,True
-498,Inspiral Carpets,66GWpx9iLxrvvfhDsG9STP,Q500492,169178,285082,strict,UK008F,Manchester,True,True,True,5,0,5,1,True,False,True
-499,The Vapors,4K3NWDwBIxgktui14SccR2,Q1504687,63462,284360,strict,UK033F,Guildford,True,True,True,7,0,7,1,True,False,True
-500,Bad Manners,0GShYlUdyLahdsvgKdselx,Q798739,175516,283186,strict,UK001F,London,True,True,True,2,2,0,1,True,True,False
-501,Simian Mobile Disco,31DXlldabwPHwu6dYevuzK,Q585470,182922,281669,strict,UK001F,London,True,True,True,5,0,5,1,True,False,True
-502,The Boxer Rebellion,7DEseTqRODmSu3C7jxCHl5,Q1633685,126547,280654,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-504,The Blue Nile,1GWV70Reko15eV2nHCm0bM,Q1970440,109768,278387,strict,UK004F,Glasgow,True,True,True,27,0,27,1,True,False,True
-505,The Dave Clark Five,2HBbky0Z08ZcCKVsXWbNE4,Q1141454,252497,278011,strict,UK001F,London,True,True,True,70,0,70,37,True,False,True
-507,OceanLab,0aTdKgInKeMlNnwWSa1YPT,Q1971039,83360,276395,strict,UK001F,London,True,True,True,1,1,1,1,True,True,True
-508,The Cribs,51Eq6WMVEOjjx9KQMAnneG,Q1146764,212021,276100,strict,UK003F,Leeds,True,True,True,4,2,2,0,True,True,True
-509,World News,3VQXCMRCSzdKek71OkAL3Q,Q135966902,17710,276065,strict,UK515F,Brighton and Hove,True,False,True,0,0,0,0,False,False,False
-510,Wire,2i8ynmFv4qgRksyDlBgi6d,Q1135620,240002,272502,strict,UK001F,London,True,True,True,5,0,5,3,True,False,True
-511,Reverend And The Makers,14GEKKALFIO2oB9IdGXg2e,Q2146848,95993,271305,strict,UK010F,Sheffield,True,True,True,8,1,7,1,True,True,True
-514,Nu:Logic,5pL8Q5xbDLEDE6JvYMXX9u,Q7067693,41401,269288,strict,UK017F,Cambridge,True,True,True,2,0,2,0,True,False,True
-515,Stiff Little Fingers,2bt3I0VkmYuPvP57sxokab,Q1538935,236374,266703,strict,UK012F,Belfast,True,True,True,1,1,0,0,True,True,False
-517,lostprophets,7KnaZr690xW0sCihF9Z8oP,Q18852,179652,264396,strict,UK009F,Cardiff,True,True,True,63,0,63,2,True,False,True
-519,After The Fire,194g4SFwSSzyPtgkH7v3Cx,Q389095,24888,261736,strict,UK001F,London,True,True,True,36,0,36,20,True,False,True
-520,Bow Wow Wow,52K4ArhA4OgMO7AsyEgqCT,Q895390,131599,261338,strict,UK001F,London,True,True,True,6,0,6,3,True,False,True
-522,Levitation,231kUXNyI5BYxIvZacVbCu,Q6535703,7922,260389,strict,UK001F,London,True,True,True,10,1,9,6,True,True,True
-523,The Orb,5HAtRoEPUvGSA7ziTGB1cF,Q924993,214298,260320,strict,UK001F,London,True,True,True,80,4,77,45,True,True,True
-524,Mud,3cqIsBnzV3BabbPWKz8Txf,Q1471676,92756,259860,strict,UK001F,London,True,True,True,5,1,4,3,True,True,True
-529,The Zutons,2qV7axHq9Jk7QqFcB3f05A,Q1142296,160719,254373,strict,UK006F,Liverpool,True,True,True,1,0,1,1,True,False,True
-531,Portico Quartet,7sYipTRgDXS2JVOPEhRutx,Q3399302,213988,251925,strict,UK001F,London,True,True,True,1,0,1,0,True,False,True
-534,The Horrors,7EFB09NxZrMi9pGlOnuBpd,Q1138555,296621,251304,strict,UK001F,London,True,True,True,6,0,6,5,True,False,True
-535,Uniting Nations,6EK2381dTQEvcn3KrnMOWQ,Q1476064,11305,251123,strict,UK006F,Liverpool,True,True,True,1,0,1,1,True,False,True
-536,Viola Beach,7DruTvBV7owt1aSAZHsU58,Q22712305,146142,245749,strict,UK531F,Warrington,True,True,True,0,0,0,0,False,False,False
-537,VNV Nation,4KlYg0F5KG9QNDFKaeTNAy,Q727124,225268,245699,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-538,Big Audio Dynamite,7hqZBHSgDs1odG9aupMzEI,Q239474,159697,244576,strict,UK001F,London,True,True,True,8,1,8,5,True,True,True
-541,Sylosis,2RiGIRDi4GoJpDbjDnPVJl,Q1631741,189903,236596,strict,UK552F,Reading,True,True,True,7,2,5,0,True,True,True
-544,Humble Pie,2CxLP749mup3ncPrXgCnvU,Q664459,375622,234347,strict,UK001F,London,True,True,True,27,1,27,15,True,True,True
-547,Levellers,1TrwMxRrrlk0hZxJkw4jUF,Q1380135,94240,228842,strict,UK515F,Brighton and Hove,True,True,True,1,1,0,0,True,True,False
-548,New Model Army,7n1EM42Fseebd9H2p8eWWS,Q1501951,124775,226980,strict,UK003F,Leeds,True,True,True,41,2,39,0,True,True,True
-549,We Were Promised Jetpacks,3gnrmLahFhVXRI9DA1MImH,Q1488607,142629,226591,strict,UK007F,Edinburgh,True,True,True,0,0,0,0,False,False,False
-550,Athlete,6C0JkmxU2cgkVzotHJgfW7,Q580268,142136,225403,strict,UK001F,London,True,True,True,22,0,22,12,True,False,True
-551,Living In A Box,4W2dcPOyD7eSfJCPHCfwoA,Q1866528,94130,223338,strict,UK010F,Sheffield,True,True,True,19,0,19,0,True,False,True
-553,Spiritualized,6DKmuXxXASTF6xaJwcTfjv,Q1144015,285400,222247,strict,UK025F,Coventry,True,True,True,6,2,4,0,True,True,True
-554,Blancmange,3LtBdgNHdH0Ix8hCFZ4NJG,Q594199,123820,221240,strict,UK001F,London,True,True,True,11,0,11,7,True,False,True
-557,Friendly Fires,3mZqziCJj4pq3P2VBpmK6p,Q1464530,235528,215715,strict,UK001F,London,True,True,True,6,0,6,5,True,False,True
-559,Haken,2SRIVGDkdqQnrQdaXxDkJt,Q774774,248459,213215,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-560,Juno Reactor,1Pe3z1UqRzKsQtHsl25dm6,Q1410018,99783,212577,strict,UK001F,London,True,True,True,1,1,0,1,True,True,False
-563,The Sound,4hzCcF4Leos2sKnz79nwhz,Q732151,119926,207467,strict,UK001F,London,True,True,True,1,0,1,0,True,False,True
-566,Public Service Broadcasting,6VsiDFMZJlJ053P1uO4A6h,Q7257602,191872,204661,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-567,Paper Lace,33W24YuaMUEk85MwRX6cRs,Q2050633,42819,203759,strict,UK029F,Nottingham,True,True,True,32,0,32,0,True,False,True
-569,Venom,5fwaejlOHVBAw1KhIPPaQe,Q192861,617815,203523,strict,UK013F,Newcastle,True,True,True,7,1,6,0,True,True,True
-570,Lemon Jelly,5uh8Bhewltd8j0TLZjNImc,Q1444372,188511,203232,strict,UK001F,London,True,True,True,6,0,6,5,True,False,True
-571,The Go! Team,6veTV9sF06FBf2KN0xAdvo,Q1514317,101993,202864,strict,UK515F,Brighton and Hove,True,True,True,0,0,0,0,False,False,False
-575,Napalm Death,3UqRgrDIQ208yNGiWKRMNt,Q321762,453164,199401,strict,UK002F,Birmingham,True,True,True,13,4,12,3,True,True,True
-576,Wishbone Ash,77zwstbi3x1IxnbDFg6uns,Q137758,239755,199281,strict,UK561F,Torbay,True,True,True,27,4,24,0,True,True,True
-577,World Party,0THUMJMWUd5L8os9K6O4FE,Q2504465,59109,199197,strict,UK001F,London,True,True,True,20,1,19,11,True,True,True
-579,Diamond Head,3z3KnhKZObj216IgfHYGVf,Q552377,216505,199057,strict,UK002F,Birmingham,True,True,True,7,1,6,0,True,True,True
-580,Gomez,4zPGlyitRvJo7iz6OKlETa,Q1536853,139162,198405,strict,UK006F,Liverpool,True,True,True,2,0,2,0,True,False,True
-581,Babyshambles,0IBAqjHG8DSaD7PPCGnGiZ,Q797992,291010,198309,strict,UK001F,London,True,True,True,9,1,9,5,True,True,True
-584,Band Aid,35S20clEkkSNUo23ViaslZ,Q806231,53354,195618,strict,UK001F,London,True,True,True,8,0,8,5,True,False,True
-585,The View,1fy3AQc7grjf5LnCd7snSg,Q578954,156449,195510,strict,UK550F,Dundee City,True,True,True,0,0,0,0,False,False,False
-586,Thunderclap Newman,1USHlPahTZrCeJXS2v5pkF,Q2165685,20516,194255,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-587,Tommy Lefroy,3vldh5Ceynytj6Iglw4haP,Q115209312,94042,192772,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-589,The Fall,6WoTvA9qinpHtSRJuldYh6,Q909916,224200,190295,strict,UK008F,Manchester,True,True,True,24,2,22,1,True,True,True
-590,Teenage Fanclub,2Sp19cOHSqAUlE64hekARW,Q1515611,164920,186449,strict,UK004F,Glasgow,True,True,True,13,2,11,4,True,True,True
-592,The Pigeon Detectives,7FPkZue0zzjHaOPJb4WCw3,Q1469656,214476,184605,strict,UK003F,Leeds,True,True,True,0,0,0,0,False,False,False
-593,The Qemists,2McLd7klWE4UjkPLqqMwLv,Q2067701,105080,184241,strict,UK515F,Brighton and Hove,True,True,True,4,0,4,0,True,False,True
-596,Japan,7vPXrGlSGukcwpaPxUfKKR,Q174933,251906,183396,strict,UK001F,London,True,True,True,1,1,0,0,True,True,False
-598,The Future Sound Of London,2qhmNI4ZHPpeDutdg473Z3,Q168031,179121,181260,strict,UK008F,Manchester,True,True,True,7,0,7,1,True,False,True
-599,Stooshe,6RDAHUqUqJab8TZmyRHFss,Q1346917,81733,180657,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-600,Bolt Thrower,3EbMlZ7ZKmFWPTHrLzpzvs,Q662463,285017,180166,strict,UK025F,Coventry,True,True,True,9,1,8,1,True,True,True
-601,London Elektricity,4CbuwI3bEF7gQOwpxBKtal,Q1858715,102536,179973,strict,UK001F,London,True,True,True,2,0,2,0,True,False,True
-603,The Futureheads,3TBfn8PtXr42OrTPaoC3E8,Q141703,108938,175654,strict,UK510F,Sunderland,True,True,True,1,0,1,0,True,False,True
-605,Until The Ribbon Breaks,0PFM64sKw3GG4Sk8kqNIcp,Q19881622,44423,174393,strict,UK009F,Cardiff,True,True,True,0,0,0,0,False,False,False
-606,The Seahorses,3mbVe260Kgvs1P8YFcCyY7,Q7762808,134499,173184,strict,UK533F,York,True,True,True,10,2,8,0,True,True,True
-610,The Soup Dragons,5BEYGWk6aPdNXxBx9pwU8S,Q3066755,50553,171856,strict,UK004F,Glasgow,True,True,True,2,2,0,1,True,True,False
-611,The Corries,37QFe07xXVifiZf6t6t3PE,Q1349385,37863,171307,strict,UK007F,Edinburgh,True,True,True,0,0,0,0,False,False,False
-612,Bob Vylan,6XgIk9Y6qy6JCMZVime6DQ,Q111685240,188980,171179,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-615,Cock Sparrer,4NPManowiyiGa72hezruf2,Q600311,137956,166468,strict,UK001F,London,True,True,True,14,0,14,7,True,False,True
-616,Thunder,3SfrwwVPGtjYTI3vwQ4hEU,Q678521,122168,165055,strict,UK001F,London,True,True,True,1,1,0,0,True,True,False
-617,The Exploited,6NB4b8lltHCjOhW7vQZkAy,Q117684,272998,164967,strict,UK007F,Edinburgh,True,True,True,6,1,5,0,True,True,True
-618,The Slits,5O0RrEgz4NLCPLrDZiPggz,Q677115,155815,164826,strict,UK001F,London,True,True,True,38,2,36,23,True,True,True
-619,Stateless,6msJKphD3VXZPItnztefdH,Q3497309,31770,164345,strict,UK003F,Leeds,True,True,True,4,0,4,0,True,False,True
-620,Beady Eye,5yBDILLJyNFAjFpECkk7ys,Q753648,205926,164088,strict,UK001F,London,True,True,True,6,5,1,0,True,True,True
-621,Babylon Zoo,3k7uMwc8FLJmH8RHMh2HF8,Q696624,17699,163876,strict,UK002F,Birmingham,True,True,True,31,0,31,1,True,False,True
-623,The Swinging Blue Jeans,5gNduPlUGHsgy1w7f71obH,Q1310839,71064,161534,strict,UK006F,Liverpool,True,True,True,4,3,1,0,True,True,True
-624,Loadstar,0umDTRGYujQH31KZq9FdrU,Q15052759,38144,160497,strict,UK011F,Bristol,True,True,True,1,0,1,0,True,False,True
-625,The Magic Numbers,0P2q6xyNc2hVFkG3ThjYcJ,Q1474849,102124,160113,strict,UK001F,London,True,True,True,40,0,40,20,True,False,True
-626,Oxide & Neutrino,0uhNYfjHJyAmHh2xNZ4vqf,Q1428002,27287,159474,strict,UK001F,London,True,True,True,6,0,6,4,True,False,True
-628,Twin Atlantic,4A9xtvezlouTD7H0kyUje9,Q2365012,154793,158180,strict,UK004F,Glasgow,True,True,True,0,0,0,0,False,False,False
-630,Electrelane,7ulIMfVKiXh8ecEpAVHIAY,Q460115,67563,156130,strict,UK515F,Brighton and Hove,True,True,True,1,0,1,0,True,False,True
-633,TesseracT,23ytwhG1pzX6DIVWRWvW1r,Q1430984,359654,155442,strict,UK525F,Milton Keynes,True,True,True,4,0,4,0,True,False,True
-643,Dry Cleaning,7DlD7rLG9MKuvXtTeACzkO,Q105677002,170043,150253,strict,UK001F,London,True,True,True,11,0,11,5,True,False,True
-644,Fickle Friends,1nhSLEYdoBHG6cJ8NDwoF1,Q24895505,141833,149977,strict,UK515F,Brighton and Hove,True,True,True,32,0,32,0,True,False,True
-646,Super Furry Animals,0FOcXqJgJ1oq9XfzYTDZmZ,Q1135582,131452,149540,strict,UK009F,Cardiff,True,True,True,40,1,39,2,True,True,True
-647,Lo Fidelity Allstars,2YiWXa7E1raYyY0uQDLpgs,Q204934,29732,149493,strict,UK001F,London,True,True,True,1,0,1,1,True,False,True
-649,The Selecter,3wRksusBxJ6npu0PryYheF,Q1546385,144513,147657,strict,UK025F,Coventry,True,True,True,3,2,2,1,True,True,True
-650,Sleeper,0NbfEPYRgMczimdfM3skmH,Q640008,81522,146769,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-651,The Big Moon,0KU55rzxAihPhi27MAuz9O,Q28407726,117870,146229,strict,UK001F,London,True,True,True,8,0,8,4,True,False,True
-652,black midi,7Hvq85OU8T7Hsd63zNBwaL,Q65070663,325236,144902,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-655,Monaco,0N3oP3Si8ihzFUrU6kITZ8,Q1943982,32255,140035,strict,UK008F,Manchester,True,True,True,34,2,32,4,True,True,True
-656,Michael Schenker Group,5uSY4FF3dZMCVSkZslKCHi,Q638159,226255,139857,strict,UK001F,London,True,True,True,25,8,19,13,True,True,True
-658,Pop Will Eat Itself,5rIXueJu7zVE2gDZjUM6g8,Q1378050,45364,138949,strict,UK002F,Birmingham,True,True,True,12,1,11,1,True,True,True
-659,Foreign Beggars,0sQ1wgSdRpoysgsa1VnI4G,Q3077143,103677,138616,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-661,Hawkwind,2jK54ZlZhTF1TxygsVeR05,Q285966,145361,136226,strict,UK001F,London,True,True,True,24,7,19,8,True,True,True
-664,Acoustic Alchemy,29wYlrKAdlJOf9ayJIIPpJ,Q1144027,68974,133679,strict,UK001F,London,True,True,True,6,0,6,3,True,False,True
-665,The Joy Formidable,4LdZNE5MHGqvc0N9ivXNF3,Q953993,130580,133646,strict,UK568F,Cheshire West and Chester,True,True,True,25,0,25,0,True,False,True
-666,The Escape Club,6mRev5KzKOgQcZjWanwBdd,Q661797,13509,131312,strict,UK001F,London,True,True,True,31,0,31,15,True,False,True
-667,The Icicle Works,39afGThIZjTTMH5enuLXYI,Q2412078,50086,131181,strict,UK006F,Liverpool,True,True,True,19,9,10,2,True,True,True
-671,shame,4IeWU3NYBI9mISFVhzXG8f,Q48700714,201828,129743,strict,UK001F,London,True,True,True,1,0,1,0,True,False,True
-672,Five Star,4toJT7YydhWcrYNgWJK4hW,Q1421891,84034,128764,strict,UK001F,London,True,True,True,29,0,29,14,True,False,True
-673,Teleman,3wrtQM9ICPPeHwoc1GWiyV,Q25056198,59760,128713,strict,UK001F,London,True,True,True,3,0,3,2,True,False,True
-674,Altered Images,07h7JMfYWswTq4qpinC5q4,Q438314,94902,126082,strict,UK004F,Glasgow,True,True,True,30,1,29,2,True,True,True
-675,Space,76vZk3TWaVcNiP7H7in9fu,Q7572217,46037,125619,strict,UK006F,Liverpool,True,True,True,1,0,1,1,True,False,True
-677,Skids,2vwI9jlKSgJbne3dlTzaLO,Q547438,54513,123686,reviewed_extended,UK007F,Edinburgh,True,True,True,2,2,0,1,True,True,False
-678,Real Lies,1jucBaHU995Lf7ViACscFu,Q16735061,23084,122748,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-679,The Boo Radleys,6UYwzZChuolxsylHcZcBBP,Q1778436,54068,121170,strict,UK006F,Liverpool,True,True,True,12,1,11,0,True,True,True
-680,Savoy Brown,17obwOahRWI121iMUZznh2,Q1707816,148308,119814,strict,UK001F,London,True,True,True,20,2,18,10,True,True,True
-681,Honeyz,3Ps27dDfvubd75rh5A0wz9,Q16504388,93205,119707,strict,UK001F,London,True,True,True,17,0,17,8,True,False,True
-682,Catherine Wheel,1QPWAsWIjRcTfvY5uH8dov,Q502291,81520,119190,strict,UK051F,Great Yarmouth,True,True,True,59,0,59,0,True,False,True
-684,Sweet Sensation,0DSE3n3008wiKzfd8vNhWy,Q2372456,93792,116293,strict,UK008F,Manchester,True,True,True,13,0,13,0,True,False,True
-685,Rak-Su,5UyRaawCsdiVrro0WWgIVB,Q44590001,190495,115569,strict,UK001F,London,True,True,True,1,0,1,1,True,False,True
-687,Black Honey,2oVmQT6s29pVIKpqJkyxBS,Q55639325,109746,115099,strict,UK515F,Brighton and Hove,True,True,True,0,0,0,0,False,False,False
-688,Gentle Giant,1hrQ50kU6hMQBVLatqUqnO,Q943241,264530,114925,strict,UK001F,London,True,True,True,52,0,52,30,True,False,True
-689,Felt,3BqAAo5E60L15TcFgWI8xH,Q1404436,63078,114516,strict,UK002F,Birmingham,True,True,True,11,1,11,0,True,True,True
-691,Godley & Creme,02zGgCB9SiSPeDYMfwPJXK,Q1533857,60417,112480,strict,UK008F,Manchester,True,True,True,18,1,17,4,True,True,True
-694,The Raven Age,1Ia5iTYHMBsMQfi7Fbcbuw,Q24039212,102743,110546,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-695,The Pretty Things,5U16QlMnlSAhkQxBZpLyLO,Q1364657,132774,110197,strict,UK001F,London,True,True,True,39,4,35,17,True,True,True
-696,Mumm-ra,2cUnvdrMWIMACo3fSxCrWW,Q1254813,27210,109420,strict,UK056F,Hastings,True,True,True,36,0,36,0,True,False,True
-699,Ska Cubano,6lmoqMxughzdlxvQTsUXjF,Q3822260,53801,104757,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-701,Budgie,42RbQv212uOjyfIXECLKfR,Q508678,94464,102853,strict,UK009F,Cardiff,True,True,True,0,0,0,0,False,False,False
-702,King Hannah,7t00AYOoiQrcgNlpTkNer6,Q130315360,63768,102030,strict,UK006F,Liverpool,True,True,True,0,0,0,0,False,False,False
-703,The Ordinary Boys,2xPxXPgmZFs7x6xRFpHwkq,Q972093,31701,101724,strict,UK045F,Worthing,True,True,True,12,1,11,0,True,True,True
-704,The Overtones,6dXTZkBBwA1WOLD6OSuA0x,Q1296293,48910,101723,strict,UK001F,London,True,True,True,27,0,27,13,True,False,True
-705,Squid,685XjGzGztyivfR3fAjoxo,Q42886947,179206,101653,strict,UK515F,Brighton and Hove,True,True,True,0,0,0,0,False,False,False
-708,New Young Pony Club,3kdrMtLybQIl93rXJlvF3w,Q1217509,63710,99986,strict,UK001F,London,True,True,True,37,1,36,22,True,True,True
-709,Evile,1dwrMJAKBiLlj0O4R791Xo,Q1382461,131754,99821,strict,UK003F,Leeds,True,True,True,8,0,8,0,True,False,True
-710,Black Grape,147FGf3bdxV1L0mmVtgaJR,Q2500994,95076,99344,strict,UK008F,Manchester,True,True,True,3,3,0,1,True,True,False
-711,Creeper,0nV7SiEIVtPLTSJ6NwWDGj,Q23023097,102884,98969,strict,UK520F,Southampton,True,True,True,0,0,0,0,False,False,False
-712,The Wonder Stuff,0Uo1d5A6BR1I155GlD9WYo,Q500101,74322,98365,strict,UK002F,Birmingham,True,True,True,34,2,32,3,True,True,True
-714,My Dying Bride,7iMWWdRNiCJwGOGEIYr02z,Q498460,210924,98069,strict,UK003F,Leeds,True,True,True,2,2,1,1,True,True,True
-718,Argent,46VosWAvtZsBl7rvxufsWG,Q2301367,66357,96722,strict,UK001F,London,True,True,True,30,1,29,15,True,True,True
-719,The Rezillos,0nbaBQTlGxUPLQ07N7onwv,Q3269,63677,96370,strict,UK007F,Edinburgh,True,True,True,7,1,6,0,True,True,True
-720,Lower Than Atlantis,1kF0gYnHLUJvFuPdoowO02,Q1493713,114550,96324,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-721,Snapped Ankles,4iWOyexPqcvgycdx7mLUcl,Q39054831,52165,96130,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-722,Warning,215tdyVWdDYOjufDKf6UJg,Q2549534,39680,96100,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-724,Stealing Sheep,3ghT43Gj41br25PvBCDS22,Q18162543,29907,95519,strict,UK006F,Liverpool,True,True,True,4,0,4,0,True,False,True
-726,２８１４,2wBpW4bAGYVe0yJcBeCTyd,Q28843403,89132,95312,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-727,Magnum,3Nu9hoMBT4SkDcaNvmK4G1,Q1754885,78000,94112,strict,UK002F,Birmingham,True,True,True,3,3,0,0,True,True,False
-728,The Vaselines,4wWQkHhmUNlXvhbHRUSqZW,Q1542725,95866,94006,strict,UK004F,Glasgow,True,True,True,3,0,3,1,True,False,True
-729,Cook da Books,59VqwKtnkmMOdYKYRxO5Td,Q1128539,2321,92697,strict,UK006F,Liverpool,True,True,True,23,0,23,2,True,False,True
-730,The Quireboys,0d49iRrp4iVZggKbcpxnqI,Q1243743,63481,92662,strict,UK001F,London,True,True,True,31,0,31,15,True,False,True
-731,Longpigs,1o7zIbVAgDDHKijLVuLASg,Q4043165,53332,91435,strict,UK010F,Sheffield,True,True,True,1,1,0,1,True,True,False
-732,Girlschool,2TRtXTjjmyzK5oUGec1Gv8,Q1142870,103283,90933,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-733,U.K. Subs,4wsg78KGu80m8Xk37PY2uG,Q1479074,80069,90759,strict,UK001F,London,True,True,True,2,2,0,0,True,True,False
-735,The Chevin,2x9iKuuxMHGDm12dmNfOAh,Q2410218,8737,90538,strict,UK003F,Leeds,True,True,True,0,0,0,0,False,False,False
-736,Tygers Of Pan Tang,1MZ8NERIuOS610KBhr6yna,Q1753013,77762,89626,strict,UK013F,Newcastle,True,True,True,2,2,0,0,True,True,False
-740,Idlewild,1xdB9gS1NrKEYgZUEfoqIw,Q784088,72943,89257,strict,UK007F,Edinburgh,True,True,True,21,0,21,0,True,False,True
-741,Sons Of Kemet,3pvRbmrqOyFxB2Eext4Dki,Q17019747,163892,88881,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-742,KOAN Sound,1NCLweIUpq8knzemBwAwoo,Q6334752,121601,88384,strict,UK011F,Bristol,True,True,True,0,0,0,0,False,False,False
-743,The Slow Show,696uMzB97pg2uqfzmK3MvO,Q27058585,43986,87963,strict,UK008F,Manchester,True,True,True,0,0,0,0,False,False,False
-746,Swim Deep,2XddLUPFBmTonCFy8uB3uc,Q15052678,86828,86770,strict,UK002F,Birmingham,True,True,True,0,0,0,0,False,False,False
-747,Glasvegas,478peoEkoKPsTgRiVzkvPl,Q740692,64525,86543,strict,UK004F,Glasgow,True,True,True,41,0,41,2,True,False,True
-748,Gun,1dip2dCkBIylIFyDfZQfFu,Q462960,42357,85826,strict,UK004F,Glasgow,True,True,True,15,2,14,2,True,True,True
-750,Jockstrap,6S3Z6Me30mtdm526H17v8k,Q96384484,114087,85520,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-751,The Rumble Strips,2LrQtNcBWufq2AjaM6swf7,Q7761824,17312,85506,strict,UK516F,Plymouth,True,True,True,36,0,36,0,True,False,True
-753,Magnetic Man,40ttEBZPhAHbXH6aUg4GkL,Q1884353,58622,83637,strict,UK001F,London,True,True,True,36,0,36,20,True,False,True
-754,Oi Va Voi,1AzrlUnOS6dhH0iMV86ctS,Q1747594,64804,83446,strict,UK001F,London,True,True,True,3,0,3,2,True,False,True
-757,Let's Eat Grandma,4qNZw759AdHSMugyDMrIlF,Q24901294,113814,81221,strict,UK566F,Norwich,True,True,True,2,0,2,0,True,False,True
-758,Babe Ruth,0U04xAocTetRnA7v3TYQ2i,Q797616,26531,80353,strict,UK001F,London,True,True,True,6,2,4,3,True,True,True
-760,65daysofstatic,6DVVsQAnpHdJjb1nYuOQ6g,Q254285,147863,79997,strict,UK010F,Sheffield,True,True,True,0,0,0,0,False,False,False
-761,Arab Strap,6g8Jqb5JMfv92eB2r0awTN,Q2632762,87017,79984,strict,UK551F,Falkirk,True,True,True,3,0,3,0,True,False,True
-763,Mallory Knox,7bHTSvk96ULRLZPZr1SoCZ,Q15044899,81280,79587,strict,UK017F,Cambridge,True,True,True,0,0,0,0,False,False,False
-764,Alien Sex Fiend,6WVnBgqJfj9Iw9gpBed9fJ,Q1541561,163266,79219,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-765,Geordie,0IzJYdxaNLwrC7diSCu0iY,Q499366,31989,79034,strict,UK013F,Newcastle,True,True,True,2,0,2,0,True,False,True
-768,Discharge,5SRhOM75OnwuXH8BmCxD5a,Q1228418,153668,77256,strict,UK027F,Stoke-on-Trent,True,True,True,8,2,6,1,True,True,True
-771,LFO,2M0T4a1pkOC5nifN9W6e9e,Q1798055,57583,76989,strict,UK003F,Leeds,True,True,True,2,0,2,0,True,False,True
-772,Fightstar,3CI0BdDDxe6D21RmqTB5fn,Q1357682,84003,76830,strict,UK001F,London,True,True,True,40,1,40,23,True,True,True
-775,Wizzard,7823Dim2TzjiQQ9wRQxyi9,Q426015,54270,75390,strict,UK002F,Birmingham,True,True,True,57,2,55,4,True,True,True
-778,999,14IKysoZ0qyGRsIiTk1Ase,Q277297,57492,74540,strict,UK001F,London,True,True,True,7,0,7,1,True,False,True
-780,Nitzer Ebb,7EnAgffrVyerTWH628TJ6f,Q580943,106978,73454,strict,UK001F,London,True,True,True,5,0,5,3,True,False,True
-781,Fields Of The Nephilim,3m8KqUjgKDwmJ9L9uBHMMs,Q378948,150339,73403,strict,UK021F,Stevenage,True,True,True,40,0,40,0,True,False,True
-783,Spector,34nBPbcVc9F9eizQC4a5aT,Q7575150,52673,73172,strict,UK001F,London,True,True,True,8,0,8,4,True,False,True
-784,Red Box,4TvQ6wnXv3aDNv29JH6App,Q2135903,8971,72793,strict,UK001F,London,True,True,True,27,0,27,13,True,False,True
-791,Nine Black Alps,5fLbJGzlYux3GBwTifMMvR,Q1141817,20771,69153,strict,UK008F,Manchester,True,True,True,36,0,36,1,True,False,True
-792,Delta 5,2qe52cWdi4IRtgg14CLInb,Q5254556,43118,68871,strict,UK003F,Leeds,True,True,True,9,0,9,0,True,False,True
-794,Gene,5Rsu72e1qrjIUtxH6Zmy9K,Q3100438,46149,68357,strict,UK001F,London,True,True,True,32,0,32,17,True,False,True
-795,The Magic Gang,52pNByiBWx6SVMMqqcCA74,Q123560878,82851,68131,strict,UK515F,Brighton and Hove,True,True,True,0,0,0,0,False,False,False
-797,B-Movie,7zUgfhtNGSNLMl2ydFse4S,Q795108,18419,67864,strict,UK046F,Mansfield,True,True,True,11,0,11,0,True,False,True
-799,Stornoway,1UzKSuyOqKgUupcNNEtnF1,Q956521,54281,67498,strict,UK560F,Oxford,True,True,True,18,0,18,1,True,False,True
-800,Fat White Family,5ztBFCBEL7OtjdAt98RnD4,Q22312871,101328,66984,strict,UK001F,London,True,True,True,4,0,4,2,True,False,True
-801,Steeleye Span,4OrrjMGltjy6ojX6034f8u,Q1413921,64810,66623,strict,UK001F,London,True,True,True,20,1,19,11,True,True,True
-802,Shampoo,3wChfsJPsUnjVHXc79wRN1,Q1352141,18368,66590,strict,UK001F,London,True,True,True,2,0,2,1,True,False,True
-803,Clinic,7icDkrFloDss50hoqQ3Kkj,Q1993229,54069,66575,strict,UK006F,Liverpool,True,True,True,7,0,7,0,True,False,True
-804,Monarchy,4YXRO4slasYnty9nb73LrO,Q6898056,28175,66523,strict,UK001F,London,True,True,True,1,0,1,1,True,False,True
-806,Blazin' Squad,5dEFm1RwaTSXpQSpzpYKF2,Q444431,28124,65260,strict,UK001F,London,True,True,True,6,0,6,4,True,False,True
-811,Cockney Rejects,4EfSXeVFbCEYIde3E9k4wr,Q973104,81884,63708,strict,UK001F,London,True,True,True,31,1,31,15,True,True,True
-813,Tones On Tail,5aBEGOeWQCJfptic9xyaAb,Q2654513,80787,63031,strict,UK528F,Northampton,True,True,True,16,2,16,2,True,True,True
-814,Psychic TV,3oi0s3WIuxBU5oh87n7za2,Q2115954,88107,62944,strict,UK001F,London,True,True,True,5,4,3,2,True,True,True
-817,Orange Goblin,3nutnJ57QnbWEdCWn2EyWo,Q1671193,153342,61406,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-818,Pentangle,55wOEGTc3QKwBJ9gntcOxT,Q1427551,69361,61364,strict,UK001F,London,True,True,True,33,0,33,17,True,False,True
-819,Yuck,6l3BRLCpzfC8yxqf9thWAg,Q2683245,103291,61077,strict,UK001F,London,True,True,True,21,0,21,10,True,False,True
-820,The Move,2BLpGstUHxDc6vHfBEiaXm,Q1133828,76938,60997,strict,UK002F,Birmingham,True,True,True,12,3,9,3,True,True,True
-821,Coil,37KB5e6cGsN1AQAB9Omm1U,Q1107195,118774,60925,strict,UK001F,London,True,True,True,7,5,3,3,True,True,True
-822,DJ Food,4NZM5xKuDpGc4vEHDwGO1Q,Q3011302,53172,60881,strict,UK001F,London,True,True,True,4,0,4,1,True,False,True
-823,Carter The Unstoppable Sex Machine,5RFBPz01PqvSQ1QhEgaxOp,Q251289,51170,60865,strict,UK001F,London,True,True,True,9,0,9,5,True,False,True
-825,Anaal Nathrakh,7vrrJ5YlL3I8XUrh1ktGJV,Q483140,127543,60506,strict,UK002F,Birmingham,True,True,True,9,0,9,2,True,False,True
-827,Wolf Gang,6EkvDqOOEX08BotcQppKoD,Q1332142,60865,59456,strict,UK001F,London,True,True,True,2,1,1,2,True,True,True
-833,Gallows,0LpwbxbT8dPiqUnul4ngzu,Q1492599,78412,56900,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-834,Demon,7tI1ZOOgocYZT2O5M8iBz8,Q1186426,32960,56564,strict,UK027F,Stoke-on-Trent,True,True,True,2,2,0,1,True,True,False
-836,Benediction,1Lx9Dy5gi2OLlJBBs7GYO7,Q250319,106195,56352,strict,UK002F,Birmingham,True,True,True,7,2,5,1,True,True,True
-837,Antimatter,2k4duorvZ5lTq33ljpT0sc,Q577837,97021,56130,strict,UK006F,Liverpool,True,True,True,1,1,0,1,True,True,False
-838,Jack Beats,5dUIQXIt7WeBKpETFZyTFW,Q7205605,33729,56114,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-839,Throbbing Gristle,1UYhxPY1oqFUg1HfF8nV3k,Q1165655,131943,56065,strict,UK026F,Hull,True,True,True,2,2,0,0,True,True,False
-840,Godflesh,5A4ebXQf38xWIq0xSWLhsS,Q1533787,105031,55777,strict,UK002F,Birmingham,True,True,True,9,2,8,2,True,True,True
-842,The Colourfield,06Rbwc8jaQ1d5fDPZiasE0,Q7726877,28746,55168,strict,UK025F,Coventry,True,True,True,19,1,19,1,True,True,True
-845,Swervedriver,0Sd7X8SxWV0AyDLbvd4uEu,Q924292,81061,54373,strict,UK560F,Oxford,True,True,True,11,0,11,1,True,False,True
-847,The Whip,4M2H1fDQR5ygAi7MMOVxAA,Q1078032,29678,54058,strict,UK008F,Manchester,True,True,True,3,0,3,0,True,False,True
-848,Skeletal Family,78OgxRnIdBCdFBmKhP2Fz2,Q1137836,77225,53859,strict,UK003F,Leeds,True,True,True,1,0,1,1,True,False,True
-849,Terrorvision,3jNwnthjUjHYvjyvRGfWuQ,Q4992961,36238,53778,strict,UK003F,Leeds,True,True,True,31,0,31,1,True,False,True
-852,Anavae,0JseT2AZzVMKsBlrAywFcO,Q4752397,29336,52164,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-853,Mclusky,3xA9AB0f4BVjsSlyQc12iE,Q1761282,50828,51917,strict,UK009F,Cardiff,True,True,True,1,0,1,0,True,False,True
-857,Empathy Test,4WM2JNPCcZ7f6M72C0bTyM,Q63203779,38799,51330,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-858,Goldie Lookin Chain,0pobPzcYFoVSprUnwY2Bio,Q4039563,37598,51269,strict,UK558F,Newport,True,True,True,25,0,25,0,True,False,True
-859,Black Tongue,5vTCEZ15eybRnoqUAra4Ys,Q19689005,96043,50504,strict,UK026F,Hull,True,True,True,0,0,0,0,False,False,False
-863,Flesh For Lulu,6ahlwhwCBtwhSeDO5vYMh5,Q5458717,33594,49698,strict,UK001F,London,True,True,True,33,1,32,17,True,True,True
-866,Van Der Graaf Generator,02frazNrWgZCxUEf4UTfHt,Q752170,154738,48618,strict,UK008F,Manchester,True,True,True,21,0,21,3,True,False,True
-869,Angel Witch,6L48AOtGmQL1ELLoKML7cS,Q531934,107188,48153,strict,UK001F,London,True,True,True,12,1,11,5,True,True,True
-871,Osibisa,12X85dtebfc7JTZ8iMBT2o,Q1890473,47531,47843,strict,UK001F,London,True,True,True,4,0,4,4,True,False,True
-876,The Vibrators,0DkpQq8B7ZAKebZEjlzVmd,Q1754027,75847,46560,strict,UK001F,London,True,True,True,34,1,34,18,True,True,True
-880,Ímar,0BdsizQXvwb1BPeEKqfuVs,Q97587415,15182,45827,strict,UK004F,Glasgow,True,True,True,0,0,0,0,False,False,False
-881,Conan,11tiA94VlUZOUTVCdQYw3a,Q19872238,82354,45815,strict,UK006F,Liverpool,True,True,True,0,0,0,0,False,False,False
-882,The Wedding Present,4tyCvqG48h4LdcbFfWBjR9,Q4372,65575,45749,strict,UK003F,Leeds,True,True,True,36,0,36,0,True,False,True
-883,The Big Pink,4xM0Rz2FbjZevoVLVJUgEQ,Q1668695,39674,45735,strict,UK001F,London,True,True,True,11,0,11,5,True,False,True
-890,Pitchshifter,10aXVE8RSUCeMzaFvBnZ2i,Q2005871,48946,43987,strict,UK029F,Nottingham,True,True,True,8,0,8,0,True,False,True
-894,Lanterns on the Lake,7sx3r4lMo079vO7lIi0fng,Q14158905,38093,43202,strict,UK013F,Newcastle,True,True,True,0,0,0,0,False,False,False
-895,The Crazy World Of Arthur Brown,2LpdhgwN0mYKMjnzrBQU8H,Q377770,16217,43146,strict,UK001F,London,True,True,True,27,2,25,15,True,True,True
-897,Alisha's Attic,43lLY3aEg3yQz8sYhyvdn5,Q6601851,19496,42752,strict,UK001F,London,True,True,True,18,0,18,8,True,False,True
-898,A Certain Ratio,2vygNfdnPBXah21ZrqhxYk,Q300348,46261,42710,strict,UK008F,Manchester,True,True,True,19,2,18,7,True,True,True
-899,The Rifles,3Sr1muUE6DYihFufoHpnfc,Q493700,74510,42702,strict,UK001F,London,True,True,True,1,0,1,0,True,False,True
-901,Young Marble Giants,0tQ2Q4y9iUkKszxXyB14ZH,Q2164036,62664,42598,strict,UK009F,Cardiff,True,True,True,16,0,16,0,True,False,True
-902,Cathedral,5O7ziOtiFUyRMBJN1J4Tpv,Q1050878,96540,42528,strict,UK025F,Coventry,True,True,True,48,2,47,1,True,True,True
-904,Onslaught,71lhIVHJ24x9hEcwFSWuOf,Q1417965,106888,41973,strict,UK011F,Bristol,True,True,True,11,0,11,0,True,False,True
-905,The Associates,7GsdZ6T45uXudJ8Wsko9sB,Q743137,50912,41622,strict,UK550F,Dundee City,True,True,True,8,1,8,1,True,True,True
-907,Rolo Tomassi,3uHCTHxtg3IVAvhyrYsZvI,Q7361393,78649,41494,strict,UK010F,Sheffield,True,True,True,1,0,1,0,True,False,True
-908,Lonely The Brave,7Ks1xbMXEQjy9aQObTJdId,Q20127907,47704,40908,strict,UK017F,Cambridge,True,True,True,1,0,1,0,True,False,True
-912,bis,2CLWZP9ZwueC8Yx9ORbxlW,Q471241,13258,40316,strict,UK004F,Glasgow,True,True,True,4,0,4,2,True,False,True
-913,Morning Runner,3UvsX37JzJrmhTea2t3Wei,Q1948294,8121,40259,strict,UK552F,Reading,True,True,True,15,0,15,0,True,False,True
-916,Plump DJs,1daC6WKGAm52YZbL5G7zYg,Q6317600,39640,39025,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-917,The Rakes,7mDQwcnDUGuSoggxbUtVc1,Q1762436,55169,38909,strict,UK001F,London,True,True,True,4,1,3,3,True,True,True
-918,Red Lorry Yellow Lorry,6ixeWfTvnU1VOVPEVP5Bcq,Q1575233,51142,38041,strict,UK003F,Leeds,True,True,True,8,1,7,2,True,True,True
-920,Slow Club,75Kh0eqgzo9f43Dan1JzSV,Q1688137,57600,37665,strict,UK010F,Sheffield,True,True,True,3,0,3,0,True,False,True
-922,Angelic Upstarts,5z96yaS2s1USscDldCCDgw,Q521396,52277,37083,strict,UK013F,Newcastle,True,True,True,55,1,55,0,True,True,True
-923,Pigs Pigs Pigs Pigs Pigs Pigs Pigs,1F7QDWyZTLGzkyGLgFjEhU,Q93962241,72472,37035,strict,UK013F,Newcastle,True,True,True,0,0,0,0,False,False,False
-924,The Sweet,64JgVJdkSDXU6AEJUOnspK,Q487919,11359,36967,strict,UK001F,London,True,True,True,56,0,56,30,True,False,True
-925,Savages,1WFsBUAgQmrGQQEUyFKS60,Q5404233,130669,36562,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-928,Peter and the Test Tube Babies,2mHQfi32bOrYcD42cazcmh,Q2000167,46920,35963,strict,UK515F,Brighton and Hove,True,True,True,2,1,1,0,True,True,True
-930,Puressence,1cFIgop2t8jZzlM7TVePLY,Q3410949,14385,35668,strict,UK008F,Manchester,True,True,True,36,0,36,1,True,False,True
-932,[spunge],6vxyuUNiILvDzBfLxgu0KT,Q3494280,21846,35282,strict,UK571F,Cheltenham,True,True,True,0,0,0,0,False,False,False
-934,Sky,6OzpbdankE26K03oeoHhPN,Q1564341,12841,35087,strict,UK001F,London,True,True,True,45,1,44,22,True,True,True
-935,One Eskimo,1K1m6K2IZOcbyabxB2jXjg,Q4045817,11103,35030,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-936,Dubstar,3SRTWBeGhX3o5DCQ2zzTdI,Q372843,17970,34962,strict,UK013F,Newcastle,True,True,True,2,0,2,0,True,False,True
-937,Goat Girl,1ukEEwzjucRtFTxiw2DrDZ,Q78534002,81408,34711,strict,UK001F,London,True,True,True,9,0,9,5,True,False,True
-939,The Wild Swans,63yEaRONzlJVu1ozymo4Fk,Q7774898,17544,34532,strict,UK006F,Liverpool,True,True,True,0,0,0,0,False,False,False
-940,Ambrosian Singers,3zDEBkBUs36ij8r5Hyz2CN,Q2588958,962,34498,strict,UK001F,London,True,True,True,46,0,46,23,True,False,True
-941,The Wake,39aYm70XPfUpkMIKSfeeig,Q3523258,26671,34392,strict,UK004F,Glasgow,True,True,True,9,2,7,2,True,True,True
-946,Current 93,7vF3DcPluq6lZI36VniagW,Q739657,83424,33791,strict,UK001F,London,True,True,True,2,2,0,2,True,True,False
-949,Cleopatra,7mu52yh5bBhhJOyVndAEZW,Q3680523,33076,31723,strict,UK008F,Manchester,True,True,True,0,0,0,0,False,False,False
-951,Witchfinder General,3tDg9XbUbQS0dbaSnFNvvk,Q1814408,64357,31258,strict,UK002F,Birmingham,True,True,True,0,0,0,0,False,False,False
-952,The Incredible String Band,0tQzBYPjAardhWpGkqVdNW,Q1500510,60628,31217,strict,UK007F,Edinburgh,True,True,True,42,0,42,0,True,False,True
-953,Vessels,6Y1nACvxtuuTjKx2b4Rwmb,Q7923356,35493,31211,strict,UK003F,Leeds,True,True,True,0,0,0,0,False,False,False
-955,The Field Mice,3KH6DLHeoFZgVbtKiLXb6L,Q7733724,29459,31075,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-956,Rudimentary Peni,6NCFDKbtkbJhgjQcFicLBi,Q2719617,42267,31002,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-959,Tigertailz,1xo5zONg7VWkVmR0I0YO4d,Q2712179,28199,30839,strict,UK009F,Cardiff,True,True,True,6,0,6,0,True,False,True
-961,The Tiger Lillies,72o2T9aqYR2PFNYpzYrMmw,Q724783,68137,30200,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-963,FM,3BxngwxP94n0itZ8q1hwf9,Q3737249,29860,30171,strict,UK001F,London,True,True,True,1,1,0,0,True,True,False
-966,Treetop Flyers,6Um25UMHv0fzcEHYGQJPXv,Q7837745,9167,29843,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-970,Demented Are Go,7fvToIpjDfwtLhAoZdVF5W,Q494215,57898,29315,strict,UK009F,Cardiff,True,True,True,0,0,0,0,False,False,False
-972,Snuff,39Yw8FPJXDJyf5L4vK7TD3,Q1418489,31826,29124,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-977,Xentrix,5lYOBorQmZgCCPxJYCjSmO,Q278428,43772,28811,strict,UK562F,Preston,True,True,True,2,0,2,0,True,False,True
-980,Au Pairs,5nGQE2ehuRkkK1iNUQQthd,Q758380,40413,28536,strict,UK002F,Birmingham,True,True,True,0,0,0,0,False,False,False
-982,Edgar Broughton Band,3vq20FWRCImmgoatehNMmg,Q1639834,21814,27912,strict,UK025F,Coventry,True,True,True,7,3,4,0,True,True,True
-984,Fanfarlo,2Ag3w3cSdRHgzPNi60WABE,Q2624757,42762,27870,strict,UK001F,London,True,True,True,25,0,25,14,True,False,True
-989,The Duke Spirit,5lModM3s3qlPQKYjtwWuXD,Q4992445,28248,27367,strict,UK001F,London,True,True,True,8,0,8,4,True,False,True
-990,O. Children,7J7hOGRAdXQdhMXeqf020e,Q3347461,30220,27293,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
-991,Oceansize,0Opj9xi9HHrH0L9uHAKnKm,Q1753688,50162,27190,strict,UK008F,Manchester,True,True,True,6,0,6,0,True,False,True
-992,Close Lobsters,6v8lYzIVcmeuPkoobFl7Dx,Q2979635,13959,27169,strict,UK004F,Glasgow,True,True,True,1,0,1,0,True,False,True
-993,The Delgados,4wavWMHhIiUXxwCuWsHzXo,Q1888034,25240,26800,strict,UK004F,Glasgow,True,True,True,3,0,3,2,True,False,True
-994,Hacktivist,3hZtRePYRKW6wLtZ3gpnk7,Q14936549,62883,26779,strict,UK525F,Milton Keynes,True,True,True,0,0,0,0,False,False,False
-995,The Wytches,46cDW79OcUXlCbYPj7Ds5L,Q17031558,52002,26774,strict,UK545F,Peterborough,True,True,True,8,0,8,0,True,False,True
-996,Rialto,3JEZFF5iZhEtpeTTGSzWid,Q902179,13130,26706,strict,UK001F,London,True,True,True,6,0,6,4,True,False,True
-997,Church of the Cosmic Skull,3KY6i8EJac9URU9OeC1n89,Q80445101,50841,26393,strict,UK029F,Nottingham,True,True,True,0,0,0,0,False,False,False
-999,Black Foxxes,0rkzatSSd1Dh41phOf4qFT,Q51132163,30813,26219,strict,UK018F,Exeter,True,True,True,5,0,5,0,True,False,True
-1000,Piano Magic,6sIZakv0uaA3qQmOOPTOQt,Q576191,19454,26180,strict,UK001F,London,True,True,True,11,0,11,5,True,False,True
+15,Pink Floyd,0k17h0D3J5VfsdmQ1iZtE9,Q2306,24145634,26546155,strict,UK001F,London,True,True,True,95,0,95,49,True,False,True
+16,Dire Straits,0WwSkZ7LtFUFjGjMZBMt6T,Q50040,9643393,26242776,strict,UK001F,London,True,True,True,29,0,29,14,True,False,True
+17,Florence + The Machine,1moxjboGR7GNWYIMWsRjgG,Q217360,7587105,25836943,strict,UK001F,London,True,True,True,40,0,40,24,True,False,True
+18,The Cure,7bu3H8JO7d0UbMoVzbo70s,Q484427,7492117,25827890,strict,UK576F,Crawley,True,True,True,62,4,60,0,True,True,True
+19,Sade,47zz7sob9NUcODy0BTDvKx,Q658182,6060389,25528819,strict,UK001F,London,True,True,True,30,0,30,14,True,False,True
+20,Disclosure,6nS5roXSAGhTGr34W6n7Et,Q1228440,2482964,25360907,strict,UK001F,London,True,True,True,47,0,47,28,True,False,True
+21,Tears For Fears,4bthk9UfsYUYdcFyqxmSUU,Q269091,4593372,23781006,strict,UK031F,Bath and North East Somerset,True,True,True,51,0,51,0,True,False,True
+22,Keane,53A0W3U0s8diEn9RhXQhVz,Q484311,4211743,23259577,strict,UK056F,Hastings,True,True,True,38,0,38,0,True,False,True
+23,The Smiths,3yY2gUcIsjMr8hjo51PoJ8,Q180598,8767855,22515532,strict,UK008F,Manchester,True,True,True,43,5,39,3,True,True,True
+24,Bastille,7EQ0qTo7fWT7DPxmxtSYEc,Q689,5786448,22166012,strict,UK001F,London,True,True,True,31,4,27,16,True,True,True
+25,Muse,12Chz98pHFMPJEknJQMWvI,Q22151,8949427,20942571,strict,UK018F,Exeter,True,True,True,29,0,29,0,True,False,True
+26,Led Zeppelin,36QJpDe2go2KgaRleHCDTp,Q2331,16927470,20605707,strict,UK001F,London,True,True,True,37,1,36,19,True,True,True
+27,The 1975,3mIj9lX2MWuHmhNCA7LSCW,Q2811247,8582651,18915018,strict,UK008F,Manchester,True,True,True,43,0,43,3,True,False,True
+28,Electric Light Orchestra,7jefIIksOi1EazgRTfW2Pk,Q218255,4748870,18330664,strict,UK002F,Birmingham,True,False,True,101,0,101,6,True,False,True
+29,Black Sabbath,5M52tdBnJaKSvOpJGz8mfZ,Q47670,10711277,18288641,strict,UK002F,Birmingham,True,True,True,82,11,75,6,True,True,True
+30,The Outfield,1zxDewzd2j1ZdSBGaYcr0y,Q2093178,893650,17941634,strict,UK001F,London,True,True,True,40,0,40,22,True,False,True
+31,Depeche Mode,762310PdDnwsDxAQxzQkfX,Q482964,7949283,17667155,strict,UK001F,London,True,True,True,113,1,113,57,True,True,True
+32,America,35U9lQaRWSQISxQAB94Meo,Q126852,2286400,17384987,strict,UK001F,London,True,True,True,46,0,46,24,True,False,True
+33,The Verve,2cGwlqi3k18jFpUyTrsR84,Q488916,3001478,16374768,strict,UK008F,Manchester,True,True,True,30,0,30,1,True,False,True
+34,Duran Duran,0lZoBs4Pzo7R89JM9lxwoT,Q58381,3958344,15134650,strict,UK002F,Birmingham,True,True,True,69,0,69,5,True,False,True
+35,Eurythmics,0NKDgy9j66h3DLnN8qu1bB,Q207706,2546395,14843560,strict,UK001F,London,True,True,True,9,0,9,6,True,False,True
+36,Little Mix,3e7awlrlDSwF3iM0WBjGMp,Q158419,12405563,14779473,strict,UK001F,London,True,True,True,40,0,40,22,True,False,True
+37,The Clash,3RGLhK1IP9jnYFH4BRFJBS,Q125603,3508323,14589467,strict,UK001F,London,True,True,True,48,4,45,28,True,True,True
+38,Mumford & Sons,3gd8FJtBJtkRxdfbTu19U2,Q953918,6882187,14381934,strict,UK001F,London,True,True,True,50,0,50,28,True,False,True
+39,Blur,7MhMgCo0Bl0Kukl93PZbYS,Q485820,4274924,14009757,strict,UK001F,London,True,True,True,66,0,66,32,True,False,True
+40,Bring Me The Horizon,1Ffb6ejR6Fe5IamqA5oRUF,Q494784,7131475,13707032,strict,UK010F,Sheffield,True,True,True,66,0,66,0,True,False,True
+41,Snow Patrol,3rIZMv9rysU7JkLzEaC5Jp,Q188407,3465980,13274460,strict,UK550F,Dundee City,True,True,True,7,0,7,1,True,False,True
+42,Spice Girls,0uq5PttqEjj3IH1bzwcrXF,Q55641,4560204,12877807,strict,UK001F,London,True,True,True,51,0,51,25,True,False,True
+43,The Animals,3ICflSq6ZgYAIrm2CTkfVP,Q131422,2812173,12324330,strict,UK013F,Newcastle,True,True,True,86,0,86,0,True,False,True
+44,Rudimental,4WN5naL3ofxrVBgFpguzKo,Q50971,1462225,11737472,strict,UK001F,London,True,True,True,28,0,28,15,True,False,True
+45,Faithless,5T4UKHhr4HGIC0VzdZQtAE,Q542071,796754,11726956,strict,UK001F,London,True,True,True,5,0,5,3,True,False,True
+46,Disciples,5EehXjjMktLuJmbRsM7YfB,Q24025201,299331,11691137,strict,UK001F,London,True,True,True,16,0,16,9,True,False,True
+47,Jungle,59oA5WbbQvomJz2BuRG071,Q17405943,1886516,11614048,strict,UK001F,London,True,True,True,6,0,6,5,True,False,True
+48,bôa,5jTtGLk1mGFMY5lQOvJYUj,Q285481,1380058,11444869,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+49,Cutting Crew,3cniTumSiUysiPWXapGx1i,Q977526,628518,10972839,strict,UK001F,London,True,True,True,28,1,27,16,True,True,True
+50,Franz Ferdinand,0XNa1vTidXlvJ2gHSsRi4A,Q173180,3218082,10807735,strict,UK004F,Glasgow,True,True,True,7,0,7,0,True,False,True
+51,Def Leppard,6H1RjVyNruCmrBEWRbD0VZ,Q182890,6056540,10792689,strict,UK010F,Sheffield,True,True,True,56,1,55,1,True,True,True
+52,Pet Shop Boys,2ycnb8Er79LoH2AsR5ldjh,Q485625,2426999,10634217,strict,UK001F,London,True,True,True,17,0,17,9,True,False,True
+53,The Hollies,6waa8mKu91GjzD4NlONlNJ,Q282925,1450461,10112715,strict,UK008F,Manchester,True,True,True,56,3,53,2,True,True,True
+54,Wham!,5lpH0xAS4fVfLkACg9DAuM,Q744087,3400543,10018855,strict,UK001F,London,True,True,True,64,0,64,33,True,False,True
+55,Two Door Cinema Club,536BYVgOnRky0xjsPT96zl,Q777302,2655723,9884423,strict,UK012F,Belfast,True,True,True,3,0,3,0,True,False,True
+56,The Stranglers,0RUEHcBiENFEqxgicqS2ig,Q1532854,862339,9836875,strict,UK033F,Guildford,True,True,True,67,1,67,1,True,True,True
+57,Simple Minds,6hN9F0iuULZYWXppob22Aj,Q748836,2504682,9628717,strict,UK004F,Glasgow,True,True,True,59,4,56,5,True,True,True
+58,Bronski Beat,2wpWOzQE5TpA0dVnh5YD08,Q927927,730877,9566679,strict,UK001F,London,True,True,True,11,0,11,7,True,False,True
+59,Seafret,4Ly0KABsxlx4fNj63zJTrF,Q28109766,1149369,9520023,strict,UK026F,Hull,True,True,True,40,0,40,0,True,False,True
+60,Genesis,3CkvROUTQ6nRi9yQOcsB50,Q151012,3958098,9434858,strict,UK033F,Guildford,True,True,True,45,0,45,3,True,False,True
+61,Spandau Ballet,2urZrEdsq72kx0UzfYN8Yv,Q16011,1587103,9335819,strict,UK001F,London,True,True,True,49,0,49,24,True,False,True
+62,UB40,69MEO1AADKg1IZrq2XLzo5,Q560153,2783787,9327767,strict,UK002F,Birmingham,True,True,True,15,0,15,0,True,False,True
+63,The Chemical Brothers,1GhPHrq36VKCY3ucVaZCfo,Q208507,2435363,9143502,strict,UK008F,Manchester,True,True,True,8,0,8,1,True,False,True
+64,Simply Red,1fa0cOhromAZdq2xRA4vv8,Q339430,2960800,9097250,strict,UK008F,Manchester,True,True,True,18,5,13,1,True,True,True
+65,Jamiroquai,6J7biCazzYhU3gM9j1wfid,Q202041,3053662,9068742,strict,UK001F,London,True,True,True,84,1,83,44,True,True,True
+66,Iron Maiden,6mdiAmATAx73kdxrNrnlao,Q42482,10931269,9029433,strict,UK001F,London,True,True,True,53,1,52,28,True,True,True
+67,Toploader,6xeFne1rkxMhKSW3ipvkdV,Q1742953,146489,8829850,strict,UK055F,Eastbourne,True,True,True,0,0,0,0,False,False,False
+68,New Order,0yNLKJebCb8Aueb54LYya3,Q214990,2651294,8786188,strict,UK008F,Manchester,True,True,True,59,3,58,9,True,True,True
+69,Massive Attack,6FXMGgJwohJLUSr5nVlf9X,Q357418,2943616,8692931,strict,UK011F,Bristol,True,True,True,30,0,30,0,True,False,True
+70,The Who,67ea9eGLXYMsO2eYQRui3w,Q93346,6100346,8659112,strict,UK001F,London,True,True,True,82,4,79,42,True,True,True
+71,D-Block Europe,5VadK1havLhK1OpKYsXv9y,Q63313993,1930307,8351560,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+72,alt-J,3XHO7cRUPCLOr6jwp8vsx5,Q47996,3499216,8110938,strict,UK003F,Leeds,True,True,True,27,0,27,0,True,False,True
+74,Dexys Midnight Runners,4QTVePrFu1xuGM9K0kNXkk,Q247259,384886,7999321,strict,UK002F,Birmingham,True,True,True,13,3,10,0,True,True,True
+75,The Kinks,1SQRv42e4PjEYfPhS0Tk9E,Q188713,2958309,7864488,strict,UK001F,London,True,True,True,69,6,65,40,True,True,True
+76,Supertramp,3JsMj0DEzyWc0VDlHuy9Bx,Q176457,4214119,7695790,strict,UK001F,London,True,True,True,32,1,32,17,True,True,True
+77,Oh Wonder,5cIc3SBFuBLVxJz58W2tU9,Q21452721,1128715,7552797,strict,UK001F,London,True,True,True,38,0,38,23,True,False,True
+78,Goodboys,2nm38smINjms1LtczR0Cei,Q65052503,130149,7292613,strict,UK001F,London,True,True,True,1,0,1,0,True,False,True
+79,The Wanted,2NhdGz9EDv2FeUw6udu2g1,Q34918,2480552,7143333,strict,UK001F,London,True,True,True,8,0,8,3,True,False,True
+80,Culture Club,6kz53iCdBSqhQCZ21CoLcc,Q50037,1913999,7076755,strict,UK001F,London,True,True,True,58,1,57,30,True,True,True
+81,Deep Purple,568ZhdwyaiCyOGJRtNYhWf,Q101505,6229490,6998809,strict,UK001F,London,True,True,True,105,5,102,52,True,True,True
+82,The Kooks,1GLtl8uqKmnyCWxHmw9tL4,Q211768,2737101,6950019,strict,UK515F,Brighton and Hove,True,True,True,34,1,33,0,True,True,True
+83,La Roux,3K2zB87GZv1krx031en5VA,Q200002,712440,6858904,strict,UK001F,London,True,True,True,37,0,37,21,True,False,True
+84,10cc,6i6WlGzQtXtz7GcC5H5st5,Q169145,952868,6808182,strict,UK008F,Manchester,True,True,True,7,7,0,1,True,True,False
+85,CamelPhat,240wlM8vDrf6S4zCyzGj2W,Q21008079,572358,6543464,strict,UK006F,Liverpool,True,True,True,2,1,2,1,True,True,True
+86,Take That,1XgFuvRd7r5g0h844A5ZUQ,Q152066,1517488,6539015,strict,UK008F,Manchester,True,True,True,7,0,7,0,True,False,True
+87,Whitesnake,3UbyYnvNIT5DFXU4WgiGpP,Q189965,3532823,6249726,strict,UK559F,Middlesbrough,True,True,True,17,9,8,0,True,True,True
+88,The Vamps,7gAppWoH7pcYmphCVTXkzs,Q15042553,5952843,6167219,strict,UK001F,London,True,True,True,27,0,27,13,True,False,True
+89,The Human League,1aX2dmV8XoHYCOQRxjPESG,Q730158,1370364,6085844,strict,UK010F,Sheffield,True,True,True,74,2,73,2,True,True,True
+91,AlunaGeorge,2VAnyOxzJuSAj7XIuEOT38,Q10353,456793,6010368,strict,UK001F,London,True,True,True,48,0,48,27,True,False,True
+92,Portishead,6liAMWkVf5LH7YR9yfFy1Y,Q191352,2540792,5958911,strict,UK011F,Bristol,True,True,True,40,1,39,0,True,True,True
+93,Frou Frou,6MUyqmIQ35inLjch0YzIEG,Q2629330,419619,5930276,strict,UK001F,London,True,True,True,38,0,38,23,True,False,True
+94,Soft Cell,6aq8T2RcspxVOGgMrTzjWc,Q1329303,869007,5766246,strict,UK003F,Leeds,True,True,True,4,1,4,0,True,True,True
+95,Stealers Wheel,7bPU7cvfoD20ixGD9Qnqki,Q283638,253056,5726001,strict,UK004F,Glasgow,True,True,True,16,1,15,2,True,True,True
+96,Katrina & The Waves,2TzHIUhVpeeDxyJPpQfnV3,Q934582,171867,5671000,strict,UK017F,Cambridge,True,True,True,47,0,47,1,True,False,True
+97,LF SYSTEM,0HxX6imltnNXJyQhu4nsiO,Q113022702,113693,5611864,strict,UK007F,Edinburgh,True,True,True,8,0,8,0,True,False,True
+98,Everything But The Girl,13ccXrK7AmXb4TddMkE7jy,Q313779,480010,5607393,strict,UK026F,Hull,True,True,True,32,0,32,0,True,False,True
+99,The La's,47Z8LEl3LnQkcpva0xSthT,Q1860769,320009,5581915,strict,UK006F,Liverpool,True,True,True,5,4,1,3,True,True,True
+100,The xx,3iOvXCl6edW5Um0fXEBRXy,Q869367,3911861,5459918,strict,UK001F,London,True,True,True,6,0,6,5,True,False,True
+101,The Cinematic Orchestra,32ogthv0BdaSMPml02X9YB,Q1087300,811495,5329785,strict,UK001F,London,True,False,True,12,0,12,4,True,False,True
+102,Fine Young Cannibals,20p5D2KrE8CGuOjHtxsyTp,Q14528,1018624,5309505,strict,UK002F,Birmingham,True,True,True,18,0,18,2,True,False,True
+103,Stereophonics,21UJ7PRWb3Etgsu99f8yo8,Q28963,1843050,5187258,strict,UK009F,Cardiff,True,True,True,1,0,1,0,True,False,True
+104,Bush,78SHxLdtysAXgywQ4vE0Oa,Q247949,2264067,5127264,strict,UK001F,London,True,True,True,27,0,27,14,True,False,True
+105,Cocteau Twins,5Wabl1lPdNOeIn0SQ5A1mp,Q588820,1683661,5124023,strict,UK551F,Falkirk,True,True,True,10,0,10,0,True,False,True
+108,The Zombies,2jgPkn6LuUazBoBk6vvjh5,Q1163207,1164571,5025277,strict,UK001F,London,True,True,True,52,2,50,28,True,True,True
+109,Hot Chocolate,72VzFto8DYvKHocaHYNWSi,Q1368881,393132,5017699,strict,UK001F,London,True,True,True,8,0,8,5,True,False,True
+110,The Alan Parsons Project,2m62cc253Xvd9qYQ8d2X3d,Q533478,1804870,4991688,strict,UK001F,London,True,True,True,12,1,12,6,True,True,True
+111,Chase & Status,3jNkaOXasoc7RsxdchvEVq,Q1067983,1285130,4913546,strict,UK001F,London,True,True,True,20,0,20,9,True,False,True
+113,Hurts,3w4VAlllkAWI6m0AV0Gn6a,Q493042,380397,4854547,strict,UK008F,Manchester,True,True,True,10,0,10,0,True,False,True
+115,Chumbawamba,0TcYeHEK9sBtv7xPbKhzHz,Q1089523,225650,4700579,strict,UK050F,Burnley,True,True,True,33,0,33,0,True,False,True
+116,A Flock Of Seagulls,0uAjBatvB4ubpd4kCfjmNt,Q300409,774464,4670482,strict,UK006F,Liverpool,True,True,True,2,0,2,0,True,False,True
+117,Slowdive,72X6FHxaShda0XeQw3vbeF,Q1502037,1560399,4658345,strict,UK552F,Reading,True,True,True,10,0,10,0,True,False,True
+118,Supergrass,0sHeX8oQ6o7xic3wMf4NBU,Q1120684,719253,4645328,strict,UK560F,Oxford,True,True,True,55,0,55,2,True,False,True
+119,Cream,74oJ4qxwOZvX6oSsu1DGnw,Q203736,2788886,4518268,strict,UK001F,London,True,True,True,43,3,42,25,True,True,True
+120,Motörhead,1DFr97A9HnbV3SKTJFu62M,Q19697,4680274,4453633,strict,UK001F,London,True,True,True,45,3,43,22,True,True,True
+121,Yes,7AC976RDJzL2asmZuz7qil,Q184386,2203167,4447983,strict,UK001F,London,True,True,True,44,2,42,23,True,True,True
+122,Nazareth,6fvN9GmMCVKb5LY0WsnjFP,Q683695,1724966,4341186,reviewed_extended,UK007F,Edinburgh,True,True,True,0,0,0,0,False,False,False
+123,Foals,6FQqZYVfTNQ1pCqfkwVFEa,Q728958,1504353,4201622,strict,UK560F,Oxford,True,True,True,34,0,34,0,True,False,True
+127,The Foundations,4GITZM5LCR2KcdlgEOrNLD,Q1421054,169026,4165829,strict,UK001F,London,True,True,True,7,2,5,4,True,True,True
+128,CHVRCHES,3CjlHNtplJyTf9npxaPl5w,Q5118436,1434807,4152413,strict,UK004F,Glasgow,True,True,True,29,0,29,1,True,False,True
+130,Joy Division,432R46LaYsJZV2Gmc4jUV5,Q172763,2965374,4140711,strict,UK008F,Manchester,True,True,True,9,3,8,6,True,True,True
+132,The Fratellis,3M4ThdJR28z9eSMcQHAZ5G,Q1127565,958629,4131358,strict,UK004F,Glasgow,True,True,True,48,0,48,0,True,False,True
+133,Judas Priest,2tRsMl4eGxwoNabM08Dm4I,Q83468,4744039,4112763,strict,UK002F,Birmingham,True,True,True,41,1,40,3,True,True,True
+134,T. Rex,3dBVyJ7JuOMt4GE9607Qin,Q211770,1266989,4010971,strict,UK001F,London,True,True,True,17,3,14,10,True,True,True
+135,Metronomy,54QMjE4toDfiCryzYWCpXX,Q151783,1135985,3971668,strict,UK516F,Plymouth,True,True,True,2,0,2,0,True,False,True
+136,Talk Talk,7Fo8TAyGJr4VmhE68QamMf,Q595705,712227,3944807,strict,UK001F,London,True,True,True,76,0,76,41,True,False,True
+138,Bananarama,3sc7iUG1Wwpwx7bHeZolgx,Q725926,929042,3805410,strict,UK001F,London,True,True,True,19,1,19,10,True,True,True
+139,Underworld,1PXHzxRDiLnjqNrRn2Xbsa,Q849429,827351,3783264,strict,UK009F,Cardiff,True,True,True,11,4,7,0,True,True,True
+140,Blue,2yEkZBBjhzKzt6LF5XMaFi,Q32825,822804,3677775,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+141,Kasabian,11wRdbnoYqRddKBrpHt4Ue,Q272517,1926968,3649101,strict,UK014F,Leicester,True,True,True,10,0,10,0,True,False,True
+143,Bad Company,5AEG63ajney2BoDXi0Vb84,Q745517,1458078,3616192,strict,UK001F,London,True,True,True,69,3,68,41,True,True,True
+144,Madness,4AYkFtEBnNnGuoo8HaHErd,Q745741,912052,3611935,strict,UK001F,London,True,True,True,31,0,31,18,True,False,True
+145,Rixton,0kkxsdcaWmWU2yWAqclDh4,Q16672928,784995,3592716,strict,UK008F,Manchester,True,False,True,0,0,0,0,False,False,False
+146,Nothing But Thieves,1kDGbuxWknIKx4FlgWxiSp,Q20684996,1421470,3587725,strict,UK001F,London,True,True,True,10,0,10,4,True,False,True
+148,Wolf Alice,3btzEQD6sugImIHPMRgkwV,Q8029799,973763,3575621,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+149,The Irrepressibles,1v5bOzXbhrQ57qSvRwGA6s,Q3020511,266977,3531545,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+151,The Stone Roses,1lYT0A0LV5DUfxr6doRP3d,Q29606,1863145,3488308,strict,UK008F,Manchester,True,True,True,3,3,0,1,True,True,False
+152,The Buggles,057gc1fxmJ2vkctjQJ7Tal,Q201568,190767,3487007,strict,UK001F,London,True,True,True,39,1,38,24,True,True,True
+153,Placebo,6RZUqkomCmb8zCRqc9eznB,Q484839,2201483,3460472,strict,UK001F,London,True,True,True,62,0,62,32,True,False,True
+154,The Sundays,4nlqDmbzFzbNITaqjJv7D7,Q3122789,684291,3421091,strict,UK001F,London,True,True,True,10,0,10,5,True,False,True
+155,Orchestral Manoeuvres In The Dark,7wJ9NwdRWtN92NunmXuwBk,Q956500,949812,3287803,strict,UK006F,Liverpool,True,True,True,34,0,34,2,True,False,True
+156,Dead Or Alive,5WWSL6rElJeUk3Uc1S2RyD,Q368961,490402,3275455,strict,UK006F,Liverpool,True,True,True,31,0,31,1,True,False,True
+157,Groove Armada,67tgMwUfnmqzYsNAtnP6YJ,Q117522,783480,3267951,strict,UK001F,London,True,True,True,40,0,40,22,True,False,True
+159,Generation X,1inWec2E2UgfzMAhwjgTXe,Q1157004,181331,3158701,strict,UK001F,London,True,True,True,22,3,19,11,True,True,True
+160,BICEP,73A3bLnfnz5BoQjb4gNCga,Q28855240,673233,3141387,strict,UK012F,Belfast,True,False,True,0,0,0,0,False,False,False
+161,Yazoo,1G1mX30GpUJqOr1QU2eBSs,Q1410055,802850,3044119,strict,UK001F,London,True,True,True,7,1,7,4,True,True,True
+162,Bloc Party,3MM8mtgFzaEJsqbjZBSsHJ,Q205838,1261856,3039480,strict,UK001F,London,True,True,True,33,1,32,16,True,True,True
+163,Gorgon City,4VNQWV2y1E97Eqo2D5UTjx,Q16839700,552337,3028602,strict,UK001F,London,True,True,True,2,0,2,1,True,False,True
+164,Sugababes,7rZNSLWMjTbwdLNskFbzFf,Q193697,758443,3027300,strict,UK001F,London,True,True,True,65,1,64,36,True,True,True
+165,Architects,3ZztVuWxHzNpl0THurTFCv,Q620454,1369211,3025569,strict,UK515F,Brighton and Hove,True,True,True,6,1,5,0,True,True,True
+166,Kaiser Chiefs,0LbLWjaweRbO4FDKYlbfNt,Q192308,1422089,2999896,strict,UK003F,Leeds,True,True,True,52,0,52,0,True,False,True
+168,Basement Jaxx,4YrKBkKSVeqDamzBPWVnSJ,Q544018,623916,2938717,strict,UK001F,London,True,True,True,26,0,26,17,True,False,True
+169,Roxy Music,3fhOTtm0LBJ3Ojn4hIljLo,Q334648,1153536,2932733,strict,UK001F,London,True,False,True,133,0,133,71,True,False,True
+170,Lighthouse Family,6edGSAX5dVpeJVwu1Q0NwJ,Q707351,660194,2921952,strict,UK013F,Newcastle,True,True,True,11,0,11,0,True,False,True
+171,The Struts,3lDpdwM8KILepMHqBWUhIA,Q17587679,468353,2895181,strict,UK518F,Derby,True,True,True,9,0,9,0,True,False,True
+172,The Wombats,0Ya43ZKWHTKkAbkoJJkwIB,Q1347289,1143548,2884656,strict,UK006F,Liverpool,True,True,True,0,0,0,0,False,False,False
+173,Travis,3bUwxJgNakzYKkqAVgZLlh,Q160103,1176704,2884486,strict,UK004F,Glasgow,True,True,True,30,0,30,1,True,False,True
+174,Mattafix,5KORW1YGiERJqfuYjXMCyz,Q21075,113982,2878488,strict,UK001F,London,True,True,True,27,0,27,15,True,False,True
+175,Royal Blood,2S5hlvw4CMtMGswFtfdK15,Q16632343,1759451,2873864,strict,UK045F,Worthing,True,True,True,29,0,29,0,True,False,True
+176,Free,2e53aHBQdCMKWqHDuyJsjC,Q45650,631085,2860415,strict,UK001F,London,True,True,True,52,2,51,30,True,True,True
+177,London Grammar,3Bd1cgCjtCI32PYvDC3ynO,Q14557360,1695264,2832139,strict,UK029F,Nottingham,True,True,True,40,0,40,1,True,False,True
+178,Pulp,36E7oYfz3LLRto6l2WmDcD,Q504464,1164307,2830863,strict,UK010F,Sheffield,True,True,True,39,1,38,2,True,True,True
+179,The Heavy,0bZCak2tcRMY1dzEIuwF42,Q181241,516287,2796068,strict,UK031F,Bath and North East Somerset,True,True,True,6,0,6,0,True,False,True
+180,Neck Deep,2TM0qnbJH4QPhGMCdPt7fH,Q16955493,1843051,2790501,strict,UK022F,Wrexham,True,True,True,0,0,0,0,False,False,False
+181,DNA,2rGm8R7YDTbqDCVlNssQyL,Q1154629,18304,2774617,strict,UK031F,Bath and North East Somerset,True,True,True,0,0,0,0,False,False,False
+182,Frankie Goes To Hollywood,1mZu3rO7qSD09GdDpePHhY,Q73597,960764,2758706,strict,UK006F,Liverpool,True,True,True,1,0,1,0,True,False,True
+183,Atomic Kitten,6JMHws5haIO6V35YNYDnDw,Q208392,525204,2751716,strict,UK006F,Liverpool,True,True,True,11,1,10,0,True,True,True
+186,The Waterboys,5TnuP42pw475UrjjeabtwZ,Q1422720,371425,2670888,strict,UK001F,London,True,False,True,9,0,9,5,True,False,True
+187,S Club,0HNGrIbq1ZNO2mTp3tMW4L,Q500759,692814,2628603,strict,UK001F,London,True,False,True,35,0,35,21,True,False,True
+188,Still Corners,4zKYrXs8iN4AeHmO8ZxNqp,Q7617018,415092,2608941,strict,UK001F,London,True,True,True,3,0,3,0,True,False,True
+189,Asking Alexandria,1caBfBEapzw8z2Qz9q0OaQ,Q731642,2530673,2592556,strict,UK533F,York,True,True,True,0,0,0,0,False,False,False
+191,All Saints,5TDVKqW9uhqGjwwwKGuma4,Q165386,609132,2567281,strict,UK001F,London,True,True,True,1,0,1,0,True,False,True
+192,Sigma,01pKrlgPJhm5dB4lneYAqS,Q16333772,360513,2550591,strict,UK003F,Leeds,True,True,True,3,0,3,0,True,False,True
+194,Moloko,4aaBjq7VqqQvpSF69GglvO,Q1121732,516418,2507932,strict,UK010F,Sheffield,True,True,True,1,0,1,0,True,False,True
+195,Status Quo,4gIdjgLlvgEOz7MexDZzpM,Q322265,872142,2503249,strict,UK001F,London,True,True,True,6,1,5,2,True,True,True
+196,The Darkness,5r1bdqzhgRoHC3YcCV6N5a,Q421794,510654,2453090,strict,UK569F,Ipswich,True,True,True,26,0,26,0,True,False,True
+197,Texas,5JsdVATHNPE0XdMFMRoSuf,Q916484,572024,2420479,strict,UK004F,Glasgow,True,True,True,25,1,24,2,True,True,True
+198,Edison Lighthouse,1NRzxuPpdGushT8YmF5NAa,Q1116554,80780,2393214,strict,UK001F,London,True,True,True,2,1,1,1,True,True,True
+199,Wang Chung,6Zh3xrWlA0SA9Fsfj9AVwm,Q2030370,413141,2358411,strict,UK001F,London,True,True,True,8,0,8,5,True,False,True
+200,The Cult,49DW3KvkyjHO35mK1JnSyS,Q887376,852449,2277310,strict,UK003F,Leeds,True,True,True,7,1,6,1,True,True,True
+201,Rainbow,6SLAMfhOi7UJI0fMztaK0m,Q16005,1739107,2270623,strict,UK001F,London,True,True,True,55,5,52,31,True,True,True
+202,Sohodolls,1KNXft7nnRQj82sENi7WGN,Q527586,321285,2252106,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+203,Echo & the Bunnymen,0fgYKF9Avljex0L9Wt5b8Z,Q925641,1120606,2210172,strict,UK006F,Liverpool,True,True,True,33,3,30,1,True,True,True
+205,The Shapeshifters,60FV7KyxIH9FH1uq7u8inP,Q664467,99295,2179710,strict,UK001F,London,True,True,True,30,0,30,14,True,False,True
+208,Above & Beyond,10gzBoINW3cLJfZUka8Zoe,Q323187,889088,2160062,strict,UK001F,London,True,True,True,1,1,1,1,True,True,True
+209,Daughter,46CitWgnWrvF9t70C2p1Me,Q5227901,1446477,2134237,strict,UK001F,London,True,True,True,12,0,12,5,True,False,True
+210,The Moody Blues,5BcZ22XONcRoLhTbZRuME1,Q211965,1500809,2129836,strict,UK002F,Birmingham,True,True,True,71,2,69,5,True,True,True
+211,Sweet,3JaAGmSTpJK35DqWrDUzBz,Q487919,555143,2128725,strict,UK001F,London,True,False,True,59,0,59,33,True,False,True
+212,Ten Years After,7nkLRaWHImCvWGHdNGnhVE,Q630808,656932,2124380,strict,UK029F,Nottingham,True,True,True,70,1,69,1,True,True,True
+215,Morcheeba,6bWxFw65IEJzBYjx3SxUXd,Q749019,988331,2099112,strict,UK001F,London,True,True,True,3,0,3,2,True,False,True
+217,Thompson Twins,5jVeqi3PNaTOajfvBa4uFn,Q1500069,750750,2069490,strict,UK010F,Sheffield,True,True,True,36,0,36,0,True,False,True
+218,Wet Wet Wet,2u0gw0uCWBMiqV7h0N8kai,Q49871,614358,2057236,strict,UK004F,Glasgow,True,True,True,1,1,0,0,True,True,False
+219,Loathe,4G9wSdX0klmoHfjm9i6DLd,Q30610109,613049,1996442,strict,UK006F,Liverpool,True,True,True,0,0,0,0,False,False,False
+220,Steel Pulse,6UL7BodGc5iVmQGlMwHR0g,Q1542680,736715,1883347,strict,UK002F,Birmingham,True,True,True,38,0,38,2,True,False,True
+221,The Psychedelic Furs,0O0lrN34wrcuBenkqlEDZe,Q276463,722130,1846381,strict,UK001F,London,True,True,True,41,1,40,23,True,True,True
+222,Siouxsie and the Banshees,1n65zfwYIj5kKEtNgxUlWb,Q323834,1457428,1823237,strict,UK001F,London,True,True,True,49,4,46,27,True,True,True
+223,DragonForce,2pH3wEn4eYlMMIIQyKPbVR,Q212715,1321799,1802181,strict,UK001F,London,True,True,True,1,0,1,0,True,False,True
+224,Noel Gallagher's High Flying Birds,7sjttK1WcZeyLPn3IsQ62L,Q194227,1117710,1799845,strict,UK008F,Manchester,True,True,True,1,1,0,1,True,True,False
+226,Zero 7,14H7ag1wpQOsPPQJOD6Dqr,Q191915,592881,1686407,strict,UK001F,London,True,True,True,26,0,26,14,True,False,True
+227,The Streets,4GvOygVQquMaPm8oAc0vXi,Q316029,601898,1675316,strict,UK002F,Birmingham,True,True,True,27,0,27,0,True,False,True
+228,Starsailor,0G8zjE6SsFTlbglCkU8pm3,Q1051417,247718,1655319,strict,UK008F,Manchester,True,True,True,51,0,51,1,True,False,True
+229,Black Box Recorder,6Hd3xhv1sj3rlojjvGLkGR,Q442456,243011,1619909,strict,UK001F,London,True,True,True,1,1,0,0,True,True,False
+230,Smokie,5rIqOJspxDq89aBBCUda1X,Q815849,728999,1611813,strict,UK003F,Leeds,True,True,True,5,0,5,0,True,False,True
+231,The Jam,2P560DaOMNDUACoH8ZhOCR,Q916461,862279,1609992,strict,UK001F,London,True,True,True,35,2,34,20,True,True,True
+232,Londonbeat,0gcMPgunYh4rX1UOdvZKBn,Q1869183,72136,1590343,strict,UK001F,London,True,False,True,0,0,0,0,False,False,False
+233,Jethro Tull,6w6z8m4WXX7Tub4Rb6Lu7R,Q192353,2025126,1535908,strict,UK532F,Luton,True,True,True,98,8,92,0,True,True,True
+234,Saint Etienne,1N2FgBLehaq77UEdJhCt7f,Q1430158,195555,1513825,strict,UK001F,London,True,True,True,12,0,12,0,True,False,True
+235,Skindred,3jTlKw98Ql1jGRPYqhqHap,Q973760,681458,1507719,strict,UK558F,Newport,True,True,True,0,0,0,0,False,False,False
+236,NERO,4uRYpUQZrNrY5t8tAv3XrD,Q1066310,808732,1501385,strict,UK001F,London,True,True,True,9,0,9,5,True,False,True
+237,Manfred Mann's Earth Band,2utNxkLhreF1oIfO8kQT3q,Q1926913,487796,1497096,strict,UK001F,London,True,True,True,45,7,39,25,True,True,True
+238,Five,6rEzedK7cKWjeQWdAYvWVG,Q24791,551020,1473171,strict,UK001F,London,True,True,True,2,0,2,2,True,False,True
+241,The Specials,6xnvNmSzmeOE1bLKnYXKW3,Q19057,741585,1432373,strict,UK025F,Coventry,True,True,True,46,2,46,2,True,True,True
+242,The Real Thing,1NUD5By34MFynmuUynCfSj,Q458284,112151,1425692,strict,UK006F,Liverpool,True,True,True,5,0,5,1,True,False,True
+243,Sneaker Pimps,1EJWNhiYbOyeUHbsS7Kp1P,Q1754009,342340,1412387,strict,UK559F,Middlesbrough,True,True,True,2,0,2,0,True,False,True
+244,Johnny Hates Jazz,6zpPKMhpOoG646kJgZ7RKf,Q1294961,249325,1399373,strict,UK001F,London,True,True,True,6,1,5,4,True,True,True
+245,Procol Harum,0GbqW5TJr7n4is453VOY4C,Q214486,564567,1385101,strict,UK001F,London,True,True,True,83,1,82,45,True,True,True
+247,Krept & Konan,31lnFZEM6ysvjOx59VyxRE,Q15637787,506547,1367407,strict,UK001F,London,True,False,True,0,0,0,0,False,False,False
+250,Blossoms,22RISwgVJyZu9lpqAcv1F5,Q23057702,515545,1329106,strict,UK008F,Manchester,True,True,True,0,0,0,0,False,False,False
+251,A1,5lPsVvHVDr6R5mDxRUXdOs,Q279634,574084,1308390,strict,UK001F,London,True,True,True,11,0,11,5,True,False,True
+252,The Last Shadow Puppets,2Z7UcsdweVlRbAk5wH5fsf,Q862520,1251280,1305891,strict,UK010F,Sheffield,True,True,True,7,1,7,1,True,True,True
+255,KNEECAP,1ZVACPeq7ccGCoUXwtafUU,Q65327538,558490,1263438,strict,UK012F,Belfast,True,True,True,3,0,3,0,True,False,True
+257,The Ting Tings,2wvUfjKGoXvcnDHq7GgMOa,Q219939,445083,1233876,strict,UK008F,Manchester,True,True,True,41,0,41,3,True,False,True
+258,Sex Pistols,1u7kkVrr14iBvrpYnZILJR,Q82545,2087179,1231532,strict,UK001F,London,True,True,True,101,2,100,52,True,True,True
+259,Kero Kero Bonito,6OqhFYFJDnBBHas02HopPT,Q19370850,611925,1201107,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+260,Pilot,6PwcexHTG0qJWQQwp05Bpm,Q1753527,78328,1181505,strict,UK007F,Edinburgh,True,True,True,10,3,7,1,True,True,True
+261,Skunk Anansie,5HlXA01kcjssYDT7EoqUJF,Q167977,449680,1179800,strict,UK001F,London,True,True,True,35,3,32,15,True,True,True
+262,Boards of Canada,2VAvhf61GgLYmC6C8anyX1,Q722778,844402,1177186,strict,UK007F,Edinburgh,True,True,True,3,0,3,0,True,False,True
+263,Primal Scream,3wury2nd8idV4GecUg5xze,Q666697,590819,1165795,strict,UK004F,Glasgow,True,True,True,19,4,17,3,True,True,True
+264,Gerry & The Pacemakers,3UmBeGyNwr4iDWi1vTxWi8,Q733400,313722,1163214,strict,UK006F,Liverpool,True,False,True,16,0,16,1,True,False,True
+265,Ultravox,3iUjRVvYCsMfz7tuAQtBDI,Q316485,609815,1162862,strict,UK001F,London,True,True,True,38,0,38,23,True,False,True
+266,N-Trance,45InkbGypoMk5nVX6dsHkt,Q1959629,82658,1162155,strict,UK008F,Manchester,True,True,True,0,0,0,0,False,False,False
+267,South Arcade,3vEL65ycUboLH76pgdtqlF,Q131762147,332563,1151351,strict,UK033F,Guildford,True,False,True,27,0,27,1,True,False,True
+268,Belle and Sebastian,4I2BJf80C0skQpp1sQmA0h,Q691568,747098,1141204,strict,UK004F,Glasgow,True,True,True,11,1,10,1,True,True,True
+269,"Emerson, Lake & Palmer",0nCiidE5GgDrc5kWN3NZgZ,Q273171,1194686,1139758,strict,UK001F,London,True,False,True,106,0,106,57,True,False,True
+270,Badfinger,4pJCawaKSZ40EnxN0YEYw3,Q798993,471790,1128068,strict,UK517F,Swansea,True,True,True,20,0,20,0,True,False,True
+272,The Spencer Davis Group,3i9hP422d2KMjaupTzBNVS,Q1049145,317136,1087690,strict,UK002F,Birmingham,True,True,True,61,4,59,5,True,True,True
+273,Imagination,2CkhxuagMCG9uvlbKm5G3m,Q142904,139019,1083676,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+274,The Beautiful South,4fomCZiFUMX73KJ0YQ0V90,Q1757677,498337,1074612,strict,UK026F,Hull,True,True,True,1,0,1,0,True,False,True
+278,IDLES,75mafsNqNE1WSEVxIKuY5C,Q39070668,893225,1060008,strict,UK011F,Bristol,True,True,True,0,0,0,0,False,False,False
+280,Mis-Teeq,6csA2rxNLkQJXeEa7lyGXn,Q1303048,147133,1053166,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+281,UFO,2Omy3P5hFZym7FKum1JA1s,Q251657,669681,1051240,strict,UK001F,London,True,True,True,26,9,19,14,True,True,True
+282,White Lies,6ssXMmc5EOUrauZxirM910,Q1331605,560678,1046821,strict,UK001F,London,True,True,True,7,0,7,3,True,False,True
+283,The Vaccines,0Ak6DLKHtpR6TEEnmcorKA,Q1458872,807443,1042137,strict,UK001F,London,True,True,True,40,0,40,22,True,False,True
+284,Modern English,0fYPQBOx0vsRMmjUba9HgF,Q1691644,242915,1039829,strict,UK546F,Colchester,True,True,True,10,0,10,0,True,False,True
+285,The Lightning Seeds,67YNiSqhrx1P8oPvIIvbP5,Q1973228,189073,1037603,strict,UK006F,Liverpool,True,True,True,33,6,27,4,True,True,True
+287,Squeeze,6Jrj26oAY96EEC2lqC6fua,Q591279,369318,1034511,strict,UK001F,London,True,True,True,23,1,22,9,True,True,True
+288,ABC,2s79xe5F6eUQkjwjww27Fh,Q287078,431631,1028147,strict,UK010F,Sheffield,True,True,True,12,2,10,2,True,True,True
+289,Ace,6QNkSI0c63lCTNXpHDBiqP,Q339889,40060,1026309,strict,UK010F,Sheffield,True,True,True,1,1,0,0,True,True,False
+290,Busted,3Z6IRCo7umuk8K2XQy0ZDj,Q826185,307292,1009124,strict,UK001F,London,True,True,True,43,1,43,25,True,True,True
+291,Girls Aloud,12EtLdLfJ41vUOoVzPZIUy,Q205473,552875,996906,strict,UK001F,London,True,True,True,34,0,34,20,True,False,True
+292,Bear's Den,0nJaMZM8paoA5HEUTUXPqi,Q18357134,345964,996827,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+293,Noah And The Whale,0aeLcja6hKzb7Uz2ou7ulP,Q1811037,469876,995813,strict,UK001F,London,True,True,True,17,0,17,8,True,False,True
+294,Sisters of Mercy,4HxBVyHaUa60eCSsJWxwWR,Q751814,771147,994856,strict,UK003F,Leeds,True,False,True,14,0,14,0,True,False,True
+296,The Jesus and Mary Chain,4rjlerN21ygkIhmUv55irs,Q1126301,578109,975001,strict,UK004F,Glasgow,True,True,True,12,4,9,3,True,True,True
+297,Bombay Bicycle Club,3pTE9iaJTkWns3mxpNQlJV,Q891829,881071,970928,strict,UK001F,London,True,True,True,38,0,38,23,True,False,True
+298,You Me At Six,1kNQXvepPjaPgUfeDAF2h6,Q1512507,698799,967721,strict,UK001F,London,True,True,True,29,0,29,15,True,False,True
+300,Go West,7bKupnlF7XOfR1En3K8oAL,Q1533399,281420,925778,strict,UK001F,London,True,True,True,20,1,19,11,True,True,True
+301,Traffic,1CD77o9fbdyQFrHnUPUEsF,Q1048439,664568,924163,strict,UK002F,Birmingham,True,True,True,39,3,38,2,True,True,True
+302,Cornershop,3Kf7VEIRWquxrNIuyJZnfF,Q1134101,85161,920853,strict,UK014F,Leicester,True,True,True,2,1,1,0,True,True,True
+303,Hot Chip,37uLId6Z5ZXCx19vuruvv5,Q877512,723814,912686,strict,UK001F,London,True,True,True,25,0,25,12,True,False,True
+304,The Libertines,4fSPtBgFPZzygkY6MehwQ7,Q214350,943427,911120,strict,UK001F,London,True,True,True,10,1,10,5,True,True,True
+305,Heatwave,6D7h7R79IZjqJC2GM2wzyY,Q1592619,515706,907968,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+306,Manic Street Preachers,2uH0RyPcX7fnCcT90HFDQX,Q217025,751312,893282,strict,UK009F,Cardiff,True,True,True,40,0,40,1,True,False,True
+307,Elbow,0TJB3EE2efClsYIDQ8V2Jk,Q665798,578182,891884,strict,UK008F,Manchester,True,True,True,7,4,3,0,True,True,True
+309,The Troggs,57xdnSVt4ahJCIXYLieQ25,Q943253,337104,883780,strict,UK520F,Southampton,True,True,True,17,0,17,0,True,False,True
+311,Orbital,3csPCeXsj2wezyvkRFzvmV,Q515942,416016,874037,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+312,Goldfrapp,5BKsn7SCN2XmbF7apdCpRS,Q606250,618403,864148,strict,UK001F,London,True,False,True,15,0,15,9,True,False,True
+314,Crystal Fighters,75EZuo5MHV2572NRpMWotC,Q526130,356161,846287,strict,UK001F,London,True,True,True,26,0,26,14,True,False,True
+315,Herman's Hermits,48YxSlb23RAaCd4RyHcV9V,Q693597,542791,843685,strict,UK008F,Manchester,True,True,True,40,0,40,3,True,False,True
+317,Floetry,0un6YenPxWZ2VW4aFGMupM,Q3937955,827023,834779,strict,UK001F,London,True,True,True,34,0,34,20,True,False,True
+318,Average White Band,3tx8fyu3c4OBP5nejYtUOb,Q583556,473616,830950,strict,UK550F,Dundee City,True,True,True,26,0,26,0,True,False,True
+320,Del Amitri,2Q4FnG5T6NTUcAAZwuMV5K,Q1183784,117032,827530,strict,UK004F,Glasgow,True,True,True,20,1,19,2,True,True,True
+321,Courteeners,1NfJU4hy56Z4UM4iyIa1B2,Q1352997,366021,819255,strict,UK008F,Manchester,True,True,True,34,0,34,2,True,False,True
+323,Climie Fisher,3bpvhFSIErguVNQUiutctF,Q1101485,91736,814321,strict,UK001F,London,True,True,True,40,0,40,19,True,False,True
+324,Kokoroko,3u9rbdcmA6CxjxOAkjaeFr,Q104870323,405946,813289,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+325,Bauhaus,5N5tQ9Dx1h8Od7aRmGj7Fi,Q180582,1137691,808555,strict,UK528F,Northampton,True,True,True,14,2,14,2,True,True,True
+327,Steps,17UkABEasVRlCcIFZ3wHb7,Q1457831,446647,796161,strict,UK001F,London,True,True,True,2,0,2,1,True,False,True
+328,Klaxons,2qlAMLpUyBjZgnzuFXXZXI,Q840882,327144,791164,strict,UK001F,London,True,True,True,39,0,39,21,True,False,True
+329,Ultrabeat,596ByjVYnslGJIHxEBGjF8,Q4356488,60158,767735,strict,UK006F,Liverpool,True,True,True,2,1,2,1,True,True,True
+330,Enter Shikari,31jvzuB4ikftPQZJwrYfCF,Q912581,522047,764839,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+331,M People,3lcbKPLl0ci2mKRdcP5Etf,Q1882185,281163,762770,strict,UK008F,Manchester,True,True,True,0,0,0,0,False,False,False
+332,IAMX,223iUzG0kb5V166FJP9ovD,Q1990235,246831,750077,strict,UK001F,London,True,False,True,0,0,0,0,False,False,False
+334,While She Sleeps,38LdIuxB548zgHoEY2AN7a,Q2543938,528146,740851,strict,UK010F,Sheffield,True,True,True,0,0,0,0,False,False,False
+335,The Dream Academy,1JVoO5bwfU8GNuAZLpBoHe,Q2002188,81792,735488,strict,UK001F,London,True,True,True,29,0,29,14,True,False,True
+336,Suede,6PHIK3kjWggLtVygsOtpqS,Q826255,569692,713390,strict,UK001F,London,True,True,True,42,1,41,23,True,True,True
+337,Circa Waves,6hl5k4gLl1p3sjhHcb57t2,Q18205953,319278,708315,strict,UK006F,Liverpool,True,True,True,2,0,2,0,True,False,True
+338,The Coral,6OiHleP2bHM18dXq4aZQWt,Q1777045,287640,707737,strict,UK006F,Liverpool,True,True,True,1,0,1,1,True,False,True
+339,XTC,2qT62DYO8Ajb276vUJmvhz,Q1413926,391755,705276,strict,UK535F,Swindon,True,True,True,45,0,45,0,True,False,True
+340,Audio Bullys,5kwHgbzNHq1iHkUSrAmjjQ,Q758846,83213,701846,strict,UK001F,London,True,True,True,8,0,8,5,True,False,True
+341,The Saturdays,15qI5w4XJFLRMwOp2VrlD5,Q756220,736766,701836,strict,UK001F,London,True,True,True,34,0,34,20,True,False,True
+344,Feeder,0ZZr6Y49NZWRJc0uCwqpMR,Q1049555,262471,679131,strict,UK558F,Newport,True,True,True,10,1,9,0,True,True,True
+347,Uriah Heep,45O9BwPMyywM755SYUK0sP,Q108666,860808,659174,strict,UK001F,London,True,True,True,56,8,53,29,True,True,True
+348,The Longest Johns,5k979N1TnPncUyqlXlaRSv,Q104759060,272973,653167,strict,UK011F,Bristol,True,True,True,0,0,0,0,False,False,False
+349,Happy Mondays,339DNkQkuhHKEcHw6oK8f0,Q1141495,462546,652616,strict,UK008F,Manchester,True,True,True,9,1,8,6,True,True,True
+352,Buzzcocks,2DxlS3lTLFIq70S7ap5H3y,Q939329,490422,638182,strict,UK008F,Manchester,True,True,True,9,2,7,2,True,True,True
+354,Ladytron,0ucLPotcQNI7AViFytdhBz,Q831841,333134,637497,strict,UK006F,Liverpool,True,True,True,0,0,0,0,False,False,False
+357,The Style Council,3loflELg7MzgrOyNqERolN,Q676522,368853,626814,strict,UK001F,London,True,True,True,41,3,39,21,True,True,True
+358,Big Country,1h8YIw9HLr6E8gdXVDRbVJ,Q858738,271022,622663,reviewed_extended,UK007F,Edinburgh,True,True,True,19,2,17,1,True,True,True
+359,New Hope Club,2WuKU0SYZOQyY3MmE4vtez,Q28677824,986109,617401,strict,UK008F,Manchester,True,True,True,1,0,1,0,True,False,True
+361,Deacon Blue,5jqKIZLB5WA5KquEihB3ND,Q1180767,256096,612759,strict,UK004F,Glasgow,True,True,True,56,0,56,4,True,False,True
+362,Slade,10n5lhNDoSMUHWLlnST1yw,Q156872,473230,612385,strict,UK002F,Birmingham,True,True,True,70,0,70,7,True,False,True
+363,Freemasons,49H2dQUNhIlso7VNkS8nFR,Q1453598,65062,607845,strict,UK515F,Brighton and Hove,True,True,True,0,0,0,0,False,False,False
+364,Ocean Colour Scene,5vIOGcdmx1eIkq3ZtuS12U,Q1332158,454701,606956,strict,UK002F,Birmingham,True,True,True,8,1,7,2,True,True,True
+368,Them,5BaHqGtf6UAZnHfqdPaTDA,Q1338638,155177,598923,strict,UK012F,Belfast,True,True,True,18,0,18,0,True,False,True
+369,UNKLE,2nszamLjZFgu3Yx77mKxuC,Q2032426,420500,596520,strict,UK001F,London,True,True,True,2,2,0,0,True,True,False
+371,JLS,5xi3SZpllRPAkoPVbjB6nc,Q1165439,520107,591899,strict,UK001F,London,True,True,True,39,0,39,20,True,False,True
+372,DON BROCO,1aOt6LvXOV6I8dv1A5Diia,Q5292322,285868,584790,strict,UK549F,Bedford,True,True,True,0,0,0,0,False,False,False
+373,Steve Harley & Cockney Rebel,6EL5GD53kaaVgJCHgdtdLz,Q1431236,66094,584745,strict,UK001F,London,True,True,True,11,1,10,5,True,True,True
+374,Sweet Female Attitude,1054JdBVMCPm9VpvkUcOYX,Q1377724,31030,582178,strict,UK008F,Manchester,True,True,True,0,0,0,0,False,False,False
+375,The Fixx,53RkHTcl0SJZjpzqogkBf4,Q1460975,284550,569663,strict,UK001F,London,True,True,True,6,0,6,3,True,False,True
+376,N-Dubz,52Syw7gkGRePCAYvEY2X9D,Q1140107,307419,569050,strict,UK001F,London,True,True,True,34,0,34,20,True,False,True
+377,Aztec Camera,7sbwBqdkynNUDgiWU3TQ5J,Q794148,155418,568826,strict,UK004F,Glasgow,True,True,True,29,1,29,1,True,True,True
+379,The Undertones,2WRStKp4ihGVUzlzWfv1Qt,Q1501348,274928,562915,strict,UK586F,Derry & Strabane Local Government District,True,True,True,6,0,6,0,True,False,True
+382,Marmalade,1tttI1iC4FsS6BM5l38oe5,Q1281029,89242,545335,strict,UK004F,Glasgow,True,False,True,50,0,50,2,True,False,True
+384,The Yardbirds,2lxX1ivRYp26soIavdG9bX,Q192725,1006505,543254,strict,UK001F,London,True,True,True,45,3,42,26,True,True,True
+385,Stereolab,3Rj0tDHoX7C5NFq5DKIpHt,Q334652,428315,542759,strict,UK001F,London,True,True,True,18,0,18,7,True,False,True
+386,The Staves,5G49Sq5mMzAkGL4ZP6eVPY,Q7766423,235928,540680,strict,UK001F,London,True,True,True,26,0,26,14,True,False,True
+387,Killing Joke,0Zy4ncr8h1jd7Nzr9946fD,Q250421,397648,538563,strict,UK001F,London,True,True,True,40,3,38,24,True,True,True
+388,Doves,0LVrQUinPUBFvVD5pLqmWY,Q126128,299777,533297,strict,UK008F,Manchester,True,True,True,3,0,3,0,True,False,True
+390,Blind Faith,5GUVj2b1lJ4DolQyHlzyaO,Q548656,474336,529325,strict,UK033F,Guildford,True,True,True,77,5,76,1,True,True,True
+392,Porcupine Tree,5NXHXK6hOCotCF8lvGM1I0,Q213923,808818,514183,strict,UK556F,Dacorum,True,True,True,27,1,26,0,True,True,True
+393,Hard-Fi,14Gi3Uph96lpNB3utkoVAD,Q1123510,200592,508027,strict,UK001F,London,True,True,True,26,0,26,14,True,False,True
+394,Los Campesinos!,6FlOCziOXI157pvUREAh3E,Q1856023,209086,507510,strict,UK009F,Cardiff,True,True,True,2,0,2,0,True,False,True
+395,The Hunna,7jZycSvTyx0W9poD4PjEIG,Q27792569,268983,506302,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+397,Swing Out Sister,4phr5rAgWhcZtWJu8w8lKv,Q955863,183037,502370,strict,UK008F,Manchester,True,True,True,18,1,17,4,True,True,True
+398,Bay City Rollers,3r9TXuXfOUxXjgYgAR0fP8,Q812073,225644,499865,strict,UK007F,Edinburgh,True,True,True,41,2,39,1,True,True,True
+400,Bury Tomorrow,6BD4lgmnh4vy6kkCaZRDWt,Q1017202,357588,497979,strict,UK520F,Southampton,True,True,True,5,0,5,0,True,False,True
+401,Olive,0r2TmTSwK6XAhAxNxTDOb4,Q2019953,31488,491693,strict,UK001F,London,True,True,True,11,1,10,4,True,True,True
+404,The English Beat,1eVEVL20zNLcGrPDOR691N,Q2165980,170891,483379,strict,UK002F,Birmingham,True,False,True,0,0,0,0,False,False,False
+407,Gang Of Four,3AmWjMXXtBJOmNGpUFSOAl,Q1130624,292732,469462,strict,UK003F,Leeds,True,True,True,60,1,59,1,True,True,True
+408,The Subways,4BntNFyiN3VGG4hhRRZt9d,Q1470472,220739,467832,strict,UK001F,London,True,True,True,7,0,7,0,True,False,True
+409,The Big Push,4AOiNpcmfXTiWDB3uFszgn,Q135854861,233766,466052,strict,UK515F,Brighton and Hove,True,True,True,0,0,0,0,False,False,False
+412,Saxon,71vVmHeNgCVSa5SVmfvscU,Q504090,685716,460256,strict,UK010F,Sheffield,True,True,True,13,2,12,1,True,True,True
+413,The Damned,6VeL8VhaMjHTPc5uovFl3h,Q940536,442692,459791,strict,UK001F,London,True,True,True,22,5,17,12,True,True,True
+414,Eternal,7zYGAXxAaq15C9eM29M8Fj,Q540500,128019,453940,strict,UK001F,London,True,True,True,10,0,10,5,True,False,True
+416,Bleed From Within,5ZvwJikDgdP1PFU4PkAPVG,Q883441,289069,451660,strict,UK004F,Glasgow,True,True,True,4,1,3,0,True,True,True
+417,X-Press 2,1mlZXof4sEGLFspPzlQdFL,Q8041505,21792,450693,strict,UK001F,London,True,True,True,1,0,1,1,True,False,True
+418,Band Of Skulls,4ddt8PPvmWrI9mJQy1VrIG,Q2413479,272436,446823,strict,UK520F,Southampton,True,True,True,11,0,11,0,True,False,True
+419,The Hoosiers,4LlDtNr8qFwhrT8eL2wzH4,Q634158,219418,438135,strict,UK573F,Bracknell Forest,True,True,True,10,0,10,0,True,False,True
+421,East 17,6lOC7lwSO1ql4Gc2Y3QObY,Q1277715,135562,434704,strict,UK001F,London,True,True,True,11,0,11,7,True,False,True
+423,SOFT PLAY,3xByNj8XW17oW0wsJhgzYL,Q19604547,288282,433170,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+424,Small Faces,1YqGsKpdixxSVgpfaL2AEQ,Q222628,358793,431362,strict,UK001F,London,True,True,True,38,3,38,20,True,True,True
+427,Yard Act,2h3ooJn8m8X8cL2g1BZ1Rd,Q110269845,155450,416371,strict,UK003F,Leeds,True,True,True,0,0,0,0,False,False,False
+428,The Herbaliser,1O7aMVbDeSXY2LiVBhb13w,Q2499301,165562,415029,strict,UK001F,London,True,True,True,6,1,5,3,True,True,True
+429,Apollo 440,37f9cjf8Ic4t7vYNRYAzI7,Q619067,160231,414420,strict,UK006F,Liverpool,True,True,True,31,0,31,1,True,False,True
+430,Anathema,0ZXKT0FCsLWkSLCjoBJgBX,Q487396,447557,413525,strict,UK006F,Liverpool,True,True,True,2,2,1,1,True,True,True
+432,Embrace,74K7bX12L8GBAWvPuyIgJ7,Q1335100,181930,411812,strict,UK003F,Leeds,True,True,True,1,0,1,0,True,False,True
+433,Maximo Park,048FBwXjFYBWxSggPDipic,Q833332,259584,411159,strict,UK013F,Newcastle,True,True,True,3,0,3,0,True,False,True
+435,Boston Manor,4WjeQi9wm84lYTIWZ95QoM,Q48700689,192021,410364,strict,UK553F,Blackpool,True,True,True,0,0,0,0,False,False,False
+436,The Farm,3lN1TG4RIoaJCff6Ck9KUR,Q1428876,76908,408875,strict,UK006F,Liverpool,True,True,True,6,0,6,0,True,False,True
+437,Superorganism,0Wkm45quqfx3NepJpXDvwE,Q47137654,263802,402523,strict,UK001F,London,True,True,True,7,0,7,2,True,False,True
+439,Incognito,5moJNCJeiNwuQAhDLJXULs,Q615207,231010,401799,strict,UK001F,London,True,True,True,4,2,2,3,True,True,True
+441,Racey,1W4SfNO5hb1tdX0wQ87zxl,Q922363,50878,401016,strict,UK011F,Bristol,True,True,True,0,0,0,0,False,False,False
+443,Young Fathers,5mZC7ndY6oGMxJentRwsuV,Q8058113,272197,397759,strict,UK007F,Edinburgh,True,True,True,5,0,5,0,True,False,True
+444,Public Image Ltd.,70MMkLXtue3Edj3RJhJkYp,Q845265,359205,397001,strict,UK001F,London,True,True,True,44,10,35,23,True,True,True
+445,The Maccabees,0vW8z9pZMGCcRtGPGtyqiB,Q174627,379450,394513,strict,UK001F,London,True,True,True,7,0,7,3,True,False,True
+446,Pale Waves,0wOej91SVqB1zcYkW6xUtA,Q45964015,387390,390813,strict,UK008F,Manchester,True,True,True,9,0,9,1,True,False,True
+447,Leftfield,72hqBMsw7x5jnfxxwkii8L,Q277479,258734,390024,strict,UK001F,London,True,True,True,1,0,1,0,True,False,True
+448,Kula Shaker,6bGcpvHbRHg8s0wiNyIZK1,Q611878,266533,387963,strict,UK001F,London,True,True,True,40,0,40,22,True,False,True
+449,The Durutti Column,7fh7bwX9qV60tLxxsp9bTe,Q1724658,141887,384367,strict,UK008F,Manchester,True,True,True,8,0,8,5,True,False,True
+451,Lush,3ysp8GwsheDcBxP9q65lBg,Q1668512,315449,382347,strict,UK001F,London,True,True,True,12,2,10,5,True,True,True
+453,Cast,0vBDEQ1aLZpe4zgn2fPH6Z,Q780072,183638,381917,strict,UK006F,Liverpool,True,True,True,36,2,34,3,True,True,True
+455,Cassia,2413I9w4sRbBz4zi5zgwjX,Q123148190,69239,377418,strict,UK008F,Manchester,True,True,True,0,0,0,0,False,False,False
+456,Mogwai,34UhPkLbtFKRq3nmfFgejG,Q645980,647271,370209,strict,UK004F,Glasgow,True,True,True,9,1,8,3,True,True,True
+457,Electronic,3xYNGCooNIzKMAtJYKSOyq,Q624661,164721,367540,strict,UK008F,Manchester,True,True,True,10,4,8,6,True,True,True
+461,The Searchers,4QmkLL9JOqM9dusHS1Hghe,Q1132434,216702,355906,strict,UK006F,Liverpool,True,True,True,5,0,5,1,True,False,True
+463,Django Django,2ARO60gI5do88ho6azmzab,Q328221,252535,347616,strict,UK001F,London,True,True,True,2,0,2,1,True,False,True
+464,The KLF,6dYrdRlNZSKaVxYg5IrvCH,Q741316,144352,343591,strict,UK001F,London,True,True,True,9,1,8,6,True,True,True
+465,Heaven 17,5PYuBRQMHh7nWmdV076sH9,Q741663,273309,342911,strict,UK010F,Sheffield,True,True,True,31,2,30,2,True,True,True
+466,Babybird,1QCANeffsBIHjzhMqUIxBh,Q116385,21473,342115,strict,UK010F,Sheffield,True,True,True,0,0,0,0,False,False,False
+469,Paradise Lost,0gIo6kGl4KsCeIbqtZVHYp,Q750593,395901,336657,strict,UK003F,Leeds,True,True,True,4,1,3,1,True,True,True
+471,Lamb,08YvZ2qzFrDSITfHLbPKMP,Q1259392,269420,332261,strict,UK008F,Manchester,True,True,True,17,0,17,3,True,False,True
+472,Shakespears Sister,7ooOn6bokl4mGV4CEaUz6A,Q527789,126106,331052,strict,UK001F,London,True,True,True,11,1,11,7,True,True,True
+473,Adam & The Ants,2DppeCnNtvrLfEobq9Pw5r,Q1798554,352561,328644,strict,UK001F,London,True,False,True,45,0,45,26,True,False,True
+474,Shed Seven,3iejrAcqxYoVgyxp6zkWgs,Q2277663,175249,327277,strict,UK533F,York,True,True,True,34,0,34,0,True,False,True
+477,Archive,1Q776wzj2mrtXrNu3iH6nk,Q635772,330186,318451,strict,UK001F,London,True,True,True,50,1,50,28,True,True,True
+478,Dodgy,1dekSPU23UC5hw5b8Uxk9W,Q1234401,70095,318066,strict,UK001F,London,True,True,True,17,2,15,8,True,True,True
+479,Everything Everything,1HOeqtP7tHkKNJNLzQ2tnr,Q1382296,310570,317529,strict,UK008F,Manchester,True,True,True,8,0,8,0,True,False,True
+480,Liberty X,6htUPs3clIStnkvg5jimKZ,Q1823053,157028,317064,strict,UK001F,London,True,True,True,4,1,3,2,True,True,True
+482,Love and Rockets,09mvgMBvJkxarNIDGdwPWg,Q643299,235396,313702,strict,UK528F,Northampton,True,True,True,5,2,5,2,True,True,True
+485,China Crisis,0WUphJOGHE5i95IeR87hsO,Q1073261,149310,306242,strict,UK006F,Liverpool,True,True,True,16,0,16,0,True,False,True
+486,Sundara Karma,4fgXfJCQnK6c44u4KzAtQP,Q29862757,206350,305536,strict,UK552F,Reading,True,True,True,10,0,10,0,True,False,True
+487,Camel,3Uz6jx81OY2J5K8Z4wmy2P,Q612471,441790,305476,strict,UK033F,Guildford,True,True,True,31,6,26,1,True,True,True
+489,Carcass,5lhaM01nwvsMZpmPY2HVER,Q283835,495994,303826,strict,UK006F,Liverpool,True,True,True,11,0,11,0,True,False,True
+490,Barclay James Harvest,2pVMD4bFwl4AyoYyyo51Qg,Q807957,187986,303511,strict,UK008F,Manchester,True,True,True,19,0,19,1,True,False,True
+494,Catatonia,4Bgfzia8wyaGaTn42egzTv,Q1050456,90480,301265,strict,UK009F,Cardiff,True,True,True,1,1,0,1,True,True,False
+495,Johnny Kidd & The Pirates,52y1cRHUkI0kQqIXCg6JuZ,Q6669284,37258,300280,strict,UK001F,London,True,True,True,1,1,0,1,True,True,False
+498,Ride,0WPY9nnBy01s5QOt4o4oQX,Q4371,272871,296215,strict,UK560F,Oxford,True,True,True,10,2,9,1,True,True,True
+502,Camera Obscura,5gInJ5P5gQnOKPM3SUEVFt,Q1028565,206573,295126,strict,UK004F,Glasgow,True,True,True,11,1,10,1,True,True,True
+504,Fairport Convention,2LIdnZDzySb04oH40be1fR,Q1145652,149174,294353,strict,UK001F,London,True,True,True,85,3,83,49,True,True,True
+506,Jive Bunny and the Mastermixers,4GzIiGnHYrOnq2LUiD6zdo,Q1689719,63077,294182,strict,UK010F,Sheffield,True,True,True,0,0,0,0,False,False,False
+508,Mystery Jets,09K1H1DgyIXHsMx2j7KTFX,Q1956918,170699,291320,strict,UK001F,London,True,True,True,5,0,5,2,True,False,True
+511,Sea Girls,45FqwUG4hTT6d39r2HUsUe,Q3476673,161623,289846,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+512,GoGo Penguin,19f2JXwlRU26376TCKmp6L,Q18151740,295895,289811,strict,UK008F,Manchester,True,True,True,1,0,1,0,True,False,True
+514,Inspiral Carpets,66GWpx9iLxrvvfhDsG9STP,Q500492,169178,285082,strict,UK008F,Manchester,True,True,True,7,0,7,1,True,False,True
+515,The Vapors,4K3NWDwBIxgktui14SccR2,Q1504687,63462,284360,strict,UK033F,Guildford,True,True,True,8,0,8,1,True,False,True
+516,Bad Manners,0GShYlUdyLahdsvgKdselx,Q798739,175516,283186,strict,UK001F,London,True,True,True,2,2,0,1,True,True,False
+517,Simian Mobile Disco,31DXlldabwPHwu6dYevuzK,Q585470,182922,281669,strict,UK001F,London,True,True,True,5,0,5,1,True,False,True
+518,The Boxer Rebellion,7DEseTqRODmSu3C7jxCHl5,Q1633685,126547,280654,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+520,The Blue Nile,1GWV70Reko15eV2nHCm0bM,Q1970440,109768,278387,strict,UK004F,Glasgow,True,True,True,29,0,29,1,True,False,True
+521,The Dave Clark Five,2HBbky0Z08ZcCKVsXWbNE4,Q1141454,252497,278011,strict,UK001F,London,True,True,True,75,0,75,39,True,False,True
+523,OceanLab,0aTdKgInKeMlNnwWSa1YPT,Q1971039,83360,276395,strict,UK001F,London,True,True,True,1,1,1,1,True,True,True
+524,The Cribs,51Eq6WMVEOjjx9KQMAnneG,Q1146764,212021,276100,strict,UK003F,Leeds,True,True,True,4,2,2,0,True,True,True
+525,World News,3VQXCMRCSzdKek71OkAL3Q,Q135966902,17710,276065,strict,UK001F,London,True,False,True,0,0,0,0,False,False,False
+526,Wire,2i8ynmFv4qgRksyDlBgi6d,Q1135620,240002,272502,strict,UK001F,London,True,True,True,7,0,7,4,True,False,True
+527,Reverend And The Makers,14GEKKALFIO2oB9IdGXg2e,Q2146848,95993,271305,strict,UK010F,Sheffield,True,True,True,8,1,7,1,True,True,True
+530,Nu:Logic,5pL8Q5xbDLEDE6JvYMXX9u,Q7067693,41401,269288,strict,UK017F,Cambridge,True,True,True,1,0,1,0,True,False,True
+531,Stiff Little Fingers,2bt3I0VkmYuPvP57sxokab,Q1538935,236374,266703,strict,UK012F,Belfast,True,True,True,1,1,0,0,True,True,False
+533,lostprophets,7KnaZr690xW0sCihF9Z8oP,Q18852,179652,264396,strict,UK009F,Cardiff,True,True,True,67,0,67,2,True,False,True
+535,After The Fire,194g4SFwSSzyPtgkH7v3Cx,Q389095,24888,261736,strict,UK001F,London,True,True,True,40,0,40,22,True,False,True
+536,Bow Wow Wow,52K4ArhA4OgMO7AsyEgqCT,Q895390,131599,261338,strict,UK001F,London,True,True,True,7,0,7,4,True,False,True
+537,Danny Wilson,2qsc1hUhG2UrNZhByveJ6x,Q365099,29191,260573,strict,UK550F,Dundee City,True,False,True,27,0,27,0,True,False,True
+538,Levitation,231kUXNyI5BYxIvZacVbCu,Q6535703,7922,260389,strict,UK001F,London,True,True,True,11,1,10,6,True,True,True
+539,The Orb,5HAtRoEPUvGSA7ziTGB1cF,Q924993,214298,260320,strict,UK001F,London,True,True,True,86,4,83,49,True,True,True
+540,Mud,3cqIsBnzV3BabbPWKz8Txf,Q1471676,92756,259860,strict,UK001F,London,True,True,True,6,1,5,4,True,True,True
+545,The Zutons,2qV7axHq9Jk7QqFcB3f05A,Q1142296,160719,254373,strict,UK006F,Liverpool,True,True,True,1,0,1,1,True,False,True
+548,Portico Quartet,7sYipTRgDXS2JVOPEhRutx,Q3399302,213988,251925,strict,UK001F,London,True,True,True,1,0,1,0,True,False,True
+551,The Horrors,7EFB09NxZrMi9pGlOnuBpd,Q1138555,296621,251304,strict,UK001F,London,True,True,True,6,0,6,5,True,False,True
+552,Uniting Nations,6EK2381dTQEvcn3KrnMOWQ,Q1476064,11305,251123,strict,UK006F,Liverpool,True,True,True,1,0,1,1,True,False,True
+553,Viola Beach,7DruTvBV7owt1aSAZHsU58,Q22712305,146142,245749,strict,UK531F,Warrington,True,True,True,0,0,0,0,False,False,False
+554,VNV Nation,4KlYg0F5KG9QNDFKaeTNAy,Q727124,225268,245699,strict,UK001F,London,True,True,True,1,0,1,0,True,False,True
+555,Big Audio Dynamite,7hqZBHSgDs1odG9aupMzEI,Q239474,159697,244576,strict,UK001F,London,True,True,True,9,1,9,6,True,True,True
+558,Sylosis,2RiGIRDi4GoJpDbjDnPVJl,Q1631741,189903,236596,strict,UK552F,Reading,True,True,True,7,2,5,0,True,True,True
+561,Humble Pie,2CxLP749mup3ncPrXgCnvU,Q664459,375622,234347,strict,UK001F,London,True,True,True,29,1,29,16,True,True,True
+565,Levellers,1TrwMxRrrlk0hZxJkw4jUF,Q1380135,94240,228842,strict,UK515F,Brighton and Hove,True,True,True,1,1,0,0,True,True,False
+566,New Model Army,7n1EM42Fseebd9H2p8eWWS,Q1501951,124775,226980,strict,UK003F,Leeds,True,True,True,42,2,40,0,True,True,True
+567,We Were Promised Jetpacks,3gnrmLahFhVXRI9DA1MImH,Q1488607,142629,226591,strict,UK007F,Edinburgh,True,True,True,0,0,0,0,False,False,False
+568,Athlete,6C0JkmxU2cgkVzotHJgfW7,Q580268,142136,225403,strict,UK001F,London,True,True,True,24,0,24,14,True,False,True
+569,Living In A Box,4W2dcPOyD7eSfJCPHCfwoA,Q1866528,94130,223338,strict,UK010F,Sheffield,True,True,True,19,0,19,0,True,False,True
+571,Spiritualized,6DKmuXxXASTF6xaJwcTfjv,Q1144015,285400,222247,strict,UK025F,Coventry,True,True,True,5,2,3,0,True,True,True
+572,Blancmange,3LtBdgNHdH0Ix8hCFZ4NJG,Q594199,123820,221240,strict,UK001F,London,True,True,True,11,0,11,7,True,False,True
+575,Friendly Fires,3mZqziCJj4pq3P2VBpmK6p,Q1464530,235528,215715,strict,UK001F,London,True,True,True,6,0,6,5,True,False,True
+578,Haken,2SRIVGDkdqQnrQdaXxDkJt,Q774774,248459,213215,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+579,Juno Reactor,1Pe3z1UqRzKsQtHsl25dm6,Q1410018,99783,212577,strict,UK001F,London,True,True,True,1,1,0,1,True,True,False
+582,The Sound,4hzCcF4Leos2sKnz79nwhz,Q732151,119926,207467,strict,UK001F,London,True,True,True,1,0,1,0,True,False,True
+584,Public Service Broadcasting,6VsiDFMZJlJ053P1uO4A6h,Q7257602,191872,204661,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+585,Paper Lace,33W24YuaMUEk85MwRX6cRs,Q2050633,42819,203759,strict,UK029F,Nottingham,True,True,True,34,0,34,0,True,False,True
+587,Venom,5fwaejlOHVBAw1KhIPPaQe,Q192861,617815,203523,strict,UK013F,Newcastle,True,True,True,8,1,7,0,True,True,True
+588,Lemon Jelly,5uh8Bhewltd8j0TLZjNImc,Q1444372,188511,203232,strict,UK001F,London,True,True,True,6,0,6,5,True,False,True
+589,The Go! Team,6veTV9sF06FBf2KN0xAdvo,Q1514317,101993,202864,strict,UK515F,Brighton and Hove,True,True,True,0,0,0,0,False,False,False
+594,Wishbone Ash,77zwstbi3x1IxnbDFg6uns,Q137758,239755,199281,strict,UK561F,Torbay,True,True,True,27,4,24,0,True,True,True
+595,World Party,0THUMJMWUd5L8os9K6O4FE,Q2504465,59109,199197,strict,UK001F,London,True,True,True,20,1,19,11,True,True,True
+597,Diamond Head,3z3KnhKZObj216IgfHYGVf,Q552377,216505,199057,strict,UK002F,Birmingham,True,True,True,7,1,6,0,True,True,True
+598,Gomez,4zPGlyitRvJo7iz6OKlETa,Q1536853,139162,198405,strict,UK006F,Liverpool,True,True,True,2,0,2,0,True,False,True
+599,Babyshambles,0IBAqjHG8DSaD7PPCGnGiZ,Q797992,291010,198309,strict,UK001F,London,True,True,True,10,1,10,5,True,True,True
+602,Band Aid,35S20clEkkSNUo23ViaslZ,Q806231,53354,195618,strict,UK001F,London,True,True,True,9,0,9,6,True,False,True
+603,The View,1fy3AQc7grjf5LnCd7snSg,Q578954,156449,195510,strict,UK550F,Dundee City,True,True,True,0,0,0,0,False,False,False
+604,Thunderclap Newman,1USHlPahTZrCeJXS2v5pkF,Q2165685,20516,194255,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+605,Tommy Lefroy,3vldh5Ceynytj6Iglw4haP,Q115209312,94042,192772,strict,UK001F,London,True,True,True,1,0,1,0,True,False,True
+607,The Fall,6WoTvA9qinpHtSRJuldYh6,Q909916,224200,190295,strict,UK008F,Manchester,True,True,True,24,2,22,1,True,True,True
+608,Autechre,6WH1V41LwGDGmlPUhSZLHO,Q247237,284945,187473,strict,UK008F,Manchester,True,False,True,4,0,4,0,True,False,True
+609,Teenage Fanclub,2Sp19cOHSqAUlE64hekARW,Q1515611,164920,186449,strict,UK004F,Glasgow,True,True,True,11,2,9,4,True,True,True
+610,The Pigeon Detectives,7FPkZue0zzjHaOPJb4WCw3,Q1469656,214476,184605,strict,UK003F,Leeds,True,True,True,0,0,0,0,False,False,False
+611,The Qemists,2McLd7klWE4UjkPLqqMwLv,Q2067701,105080,184241,strict,UK515F,Brighton and Hove,True,True,True,5,0,5,0,True,False,True
+614,Japan,7vPXrGlSGukcwpaPxUfKKR,Q174933,251906,183396,strict,UK001F,London,True,True,True,1,1,0,0,True,True,False
+616,The Future Sound Of London,2qhmNI4ZHPpeDutdg473Z3,Q168031,179121,181260,strict,UK008F,Manchester,True,True,True,8,0,8,1,True,False,True
+617,Stooshe,6RDAHUqUqJab8TZmyRHFss,Q1346917,81733,180657,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+618,Bolt Thrower,3EbMlZ7ZKmFWPTHrLzpzvs,Q662463,285017,180166,strict,UK025F,Coventry,True,True,True,8,1,7,1,True,True,True
+620,The Futureheads,3TBfn8PtXr42OrTPaoC3E8,Q141703,108938,175654,strict,UK510F,Sunderland,True,True,True,1,0,1,0,True,False,True
+622,Until The Ribbon Breaks,0PFM64sKw3GG4Sk8kqNIcp,Q19881622,44423,174393,strict,UK009F,Cardiff,True,True,True,0,0,0,0,False,False,False
+623,The Seahorses,3mbVe260Kgvs1P8YFcCyY7,Q7762808,134499,173184,strict,UK533F,York,True,True,True,10,2,8,0,True,True,True
+626,Tom Robinson Band,57YVY9QP1mhqc51WqHln0e,Q526586,37011,171964,strict,UK001F,London,True,False,True,7,0,7,4,True,False,True
+627,The Soup Dragons,5BEYGWk6aPdNXxBx9pwU8S,Q3066755,50553,171856,strict,UK004F,Glasgow,True,True,True,2,2,0,1,True,True,False
+628,The Corries,37QFe07xXVifiZf6t6t3PE,Q1349385,37863,171307,strict,UK007F,Edinburgh,True,True,True,0,0,0,0,False,False,False
+629,Bob Vylan,6XgIk9Y6qy6JCMZVime6DQ,Q111685240,188980,171179,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+632,Cock Sparrer,4NPManowiyiGa72hezruf2,Q600311,137956,166468,strict,UK001F,London,True,True,True,14,0,14,6,True,False,True
+633,Thunder,3SfrwwVPGtjYTI3vwQ4hEU,Q678521,122168,165055,strict,UK001F,London,True,True,True,1,1,0,0,True,True,False
+634,The Exploited,6NB4b8lltHCjOhW7vQZkAy,Q117684,272998,164967,strict,UK007F,Edinburgh,True,True,True,6,1,5,0,True,True,True
+635,The Slits,5O0RrEgz4NLCPLrDZiPggz,Q677115,155815,164826,strict,UK001F,London,True,True,True,40,2,38,25,True,True,True
+636,Stateless,6msJKphD3VXZPItnztefdH,Q3497309,31770,164345,strict,UK003F,Leeds,True,True,True,5,0,5,0,True,False,True
+637,Beady Eye,5yBDILLJyNFAjFpECkk7ys,Q753648,205926,164088,strict,UK001F,London,True,True,True,6,5,1,0,True,True,True
+638,Babylon Zoo,3k7uMwc8FLJmH8RHMh2HF8,Q696624,17699,163876,strict,UK002F,Birmingham,True,True,True,30,0,30,1,True,False,True
+640,The Swinging Blue Jeans,5gNduPlUGHsgy1w7f71obH,Q1310839,71064,161534,strict,UK006F,Liverpool,True,True,True,4,3,1,0,True,True,True
+641,Loadstar,0umDTRGYujQH31KZq9FdrU,Q15052759,38144,160497,strict,UK011F,Bristol,True,True,True,1,0,1,0,True,False,True
+642,The Magic Numbers,0P2q6xyNc2hVFkG3ThjYcJ,Q1474849,102124,160113,strict,UK001F,London,True,True,True,40,0,40,19,True,False,True
+643,Oxide & Neutrino,0uhNYfjHJyAmHh2xNZ4vqf,Q1428002,27287,159474,strict,UK001F,London,True,True,True,6,0,6,3,True,False,True
+645,Twin Atlantic,4A9xtvezlouTD7H0kyUje9,Q2365012,154793,158180,strict,UK004F,Glasgow,True,True,True,0,0,0,0,False,False,False
+647,Electrelane,7ulIMfVKiXh8ecEpAVHIAY,Q460115,67563,156130,strict,UK515F,Brighton and Hove,True,True,True,1,0,1,0,True,False,True
+650,TesseracT,23ytwhG1pzX6DIVWRWvW1r,Q1430984,359654,155442,strict,UK525F,Milton Keynes,True,True,True,3,0,3,0,True,False,True
+658,Wax,6EQn1KgYQxe0bcheogqRTB,Q1969654,15562,151687,strict,UK008F,Manchester,True,False,True,2,0,2,0,True,False,True
+661,Dry Cleaning,7DlD7rLG9MKuvXtTeACzkO,Q105677002,170043,150253,strict,UK001F,London,True,True,True,10,0,10,4,True,False,True
+662,Fickle Friends,1nhSLEYdoBHG6cJ8NDwoF1,Q24895505,141833,149977,strict,UK515F,Brighton and Hove,True,True,True,34,0,34,0,True,False,True
+664,Super Furry Animals,0FOcXqJgJ1oq9XfzYTDZmZ,Q1135582,131452,149540,strict,UK009F,Cardiff,True,True,True,39,1,38,2,True,True,True
+665,Lo Fidelity Allstars,2YiWXa7E1raYyY0uQDLpgs,Q204934,29732,149493,strict,UK001F,London,True,True,True,1,0,1,1,True,False,True
+667,The Selecter,3wRksusBxJ6npu0PryYheF,Q1546385,144513,147657,strict,UK025F,Coventry,True,True,True,3,2,2,1,True,True,True
+668,Sleeper,0NbfEPYRgMczimdfM3skmH,Q640008,81522,146769,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+669,The Big Moon,0KU55rzxAihPhi27MAuz9O,Q28407726,117870,146229,strict,UK001F,London,True,True,True,7,0,7,3,True,False,True
+670,black midi,7Hvq85OU8T7Hsd63zNBwaL,Q65070663,325236,144902,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+673,Monaco,0N3oP3Si8ihzFUrU6kITZ8,Q1943982,32255,140035,strict,UK008F,Manchester,True,True,True,36,2,34,4,True,True,True
+674,Michael Schenker Group,5uSY4FF3dZMCVSkZslKCHi,Q638159,226255,139857,strict,UK001F,London,True,True,True,25,8,19,13,True,True,True
+676,Pop Will Eat Itself,5rIXueJu7zVE2gDZjUM6g8,Q1378050,45364,138949,strict,UK002F,Birmingham,True,True,True,13,1,12,1,True,True,True
+677,Foreign Beggars,0sQ1wgSdRpoysgsa1VnI4G,Q3077143,103677,138616,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+679,Hawkwind,2jK54ZlZhTF1TxygsVeR05,Q285966,145361,136226,strict,UK001F,London,True,True,True,26,7,21,10,True,True,True
+680,The Toy Dolls,747P2pvOwW22iRcFS9zQDv,Q728289,105717,135203,strict,UK510F,Sunderland,True,False,True,0,0,0,0,False,False,False
+683,Acoustic Alchemy,29wYlrKAdlJOf9ayJIIPpJ,Q1144027,68974,133679,strict,UK001F,London,True,True,True,6,0,6,3,True,False,True
+684,The Joy Formidable,4LdZNE5MHGqvc0N9ivXNF3,Q953993,130580,133646,strict,UK568F,Cheshire West and Chester,True,True,True,26,0,26,0,True,False,True
+685,The Escape Club,6mRev5KzKOgQcZjWanwBdd,Q661797,13509,131312,strict,UK001F,London,True,True,True,30,0,30,14,True,False,True
+686,The Icicle Works,39afGThIZjTTMH5enuLXYI,Q2412078,50086,131181,strict,UK006F,Liverpool,True,True,True,19,9,10,2,True,True,True
+690,shame,4IeWU3NYBI9mISFVhzXG8f,Q48700714,201828,129743,strict,UK001F,London,True,True,True,1,0,1,0,True,False,True
+691,Five Star,4toJT7YydhWcrYNgWJK4hW,Q1421891,84034,128764,strict,UK001F,London,True,True,True,30,0,30,14,True,False,True
+692,Teleman,3wrtQM9ICPPeHwoc1GWiyV,Q25056198,59760,128713,strict,UK001F,London,True,True,True,3,0,3,2,True,False,True
+694,Altered Images,07h7JMfYWswTq4qpinC5q4,Q438314,94902,126082,strict,UK004F,Glasgow,True,True,True,31,1,30,2,True,True,True
+695,Space,76vZk3TWaVcNiP7H7in9fu,Q7572217,46037,125619,strict,UK006F,Liverpool,True,True,True,1,0,1,1,True,False,True
+697,Skids,2vwI9jlKSgJbne3dlTzaLO,Q547438,54513,123686,reviewed_extended,UK007F,Edinburgh,True,True,True,2,2,0,1,True,True,False
+698,Real Lies,1jucBaHU995Lf7ViACscFu,Q16735061,23084,122748,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+700,Savoy Brown,17obwOahRWI121iMUZznh2,Q1707816,148308,119814,strict,UK001F,London,True,True,True,20,2,18,9,True,True,True
+701,Honeyz,3Ps27dDfvubd75rh5A0wz9,Q16504388,93205,119707,strict,UK001F,London,True,True,True,17,0,17,8,True,False,True
+702,Catherine Wheel,1QPWAsWIjRcTfvY5uH8dov,Q502291,81520,119190,strict,UK051F,Great Yarmouth,True,True,True,63,0,63,0,True,False,True
+704,Sweet Sensation,0DSE3n3008wiKzfd8vNhWy,Q2372456,93792,116293,strict,UK008F,Manchester,True,True,True,14,0,14,0,True,False,True
+705,Rak-Su,5UyRaawCsdiVrro0WWgIVB,Q44590001,190495,115569,strict,UK001F,London,True,True,True,1,0,1,1,True,False,True
+707,Black Honey,2oVmQT6s29pVIKpqJkyxBS,Q55639325,109746,115099,strict,UK515F,Brighton and Hove,True,True,True,0,0,0,0,False,False,False
+708,Gentle Giant,1hrQ50kU6hMQBVLatqUqnO,Q943241,264530,114925,strict,UK001F,London,True,True,True,56,0,56,32,True,False,True
+711,Godley & Creme,02zGgCB9SiSPeDYMfwPJXK,Q1533857,60417,112480,strict,UK008F,Manchester,True,True,True,18,1,17,4,True,True,True
+714,The Raven Age,1Ia5iTYHMBsMQfi7Fbcbuw,Q24039212,102743,110546,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+715,The Pretty Things,5U16QlMnlSAhkQxBZpLyLO,Q1364657,132774,110197,strict,UK001F,London,True,True,True,40,3,37,18,True,True,True
+716,Mumm-ra,2cUnvdrMWIMACo3fSxCrWW,Q1254813,27210,109420,strict,UK056F,Hastings,True,True,True,40,0,40,0,True,False,True
+719,Ska Cubano,6lmoqMxughzdlxvQTsUXjF,Q3822260,53801,104757,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+721,Budgie,42RbQv212uOjyfIXECLKfR,Q508678,94464,102853,strict,UK009F,Cardiff,True,True,True,0,0,0,0,False,False,False
+722,King Hannah,7t00AYOoiQrcgNlpTkNer6,Q130315360,63768,102030,strict,UK006F,Liverpool,True,True,True,0,0,0,0,False,False,False
+723,The Ordinary Boys,2xPxXPgmZFs7x6xRFpHwkq,Q972093,31701,101724,strict,UK045F,Worthing,True,True,True,12,1,11,0,True,True,True
+724,The Overtones,6dXTZkBBwA1WOLD6OSuA0x,Q1296293,48910,101723,strict,UK001F,London,True,True,True,29,0,29,14,True,False,True
+725,Squid,685XjGzGztyivfR3fAjoxo,Q42886947,179206,101653,strict,UK515F,Brighton and Hove,True,True,True,0,0,0,0,False,False,False
+728,New Young Pony Club,3kdrMtLybQIl93rXJlvF3w,Q1217509,63710,99986,strict,UK001F,London,True,True,True,39,1,38,24,True,True,True
+729,Evile,1dwrMJAKBiLlj0O4R791Xo,Q1382461,131754,99821,strict,UK003F,Leeds,True,True,True,7,0,7,0,True,False,True
+730,Black Grape,147FGf3bdxV1L0mmVtgaJR,Q2500994,95076,99344,strict,UK008F,Manchester,True,True,True,3,3,0,1,True,True,False
+731,Creeper,0nV7SiEIVtPLTSJ6NwWDGj,Q23023097,102884,98969,strict,UK520F,Southampton,True,True,True,0,0,0,0,False,False,False
+732,The Wonder Stuff,0Uo1d5A6BR1I155GlD9WYo,Q500101,74322,98365,strict,UK002F,Birmingham,True,True,True,36,2,34,3,True,True,True
+734,My Dying Bride,7iMWWdRNiCJwGOGEIYr02z,Q498460,210924,98069,strict,UK003F,Leeds,True,True,True,2,2,1,1,True,True,True
+736,Freddie & The Dreamers,1wCc2Wgga1H8C7u57pcqYk,Q1452593,102268,97117,strict,UK008F,Manchester,True,False,True,40,0,40,3,True,False,True
+738,Argent,46VosWAvtZsBl7rvxufsWG,Q2301367,66357,96722,strict,UK001F,London,True,True,True,31,1,30,15,True,True,True
+739,The Rezillos,0nbaBQTlGxUPLQ07N7onwv,Q3269,63677,96370,strict,UK007F,Edinburgh,True,True,True,7,1,6,0,True,True,True
+740,Lower Than Atlantis,1kF0gYnHLUJvFuPdoowO02,Q1493713,114550,96324,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+741,Snapped Ankles,4iWOyexPqcvgycdx7mLUcl,Q39054831,52165,96130,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+742,Warning,215tdyVWdDYOjufDKf6UJg,Q2549534,39680,96100,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+744,Stealing Sheep,3ghT43Gj41br25PvBCDS22,Q18162543,29907,95519,strict,UK006F,Liverpool,True,True,True,3,0,3,0,True,False,True
+746,２８１４,2wBpW4bAGYVe0yJcBeCTyd,Q28843403,89132,95312,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+747,Magnum,3Nu9hoMBT4SkDcaNvmK4G1,Q1754885,78000,94112,strict,UK002F,Birmingham,True,True,True,3,3,0,0,True,True,False
+748,The Vaselines,4wWQkHhmUNlXvhbHRUSqZW,Q1542725,95866,94006,strict,UK004F,Glasgow,True,True,True,3,0,3,1,True,False,True
+749,Cook da Books,59VqwKtnkmMOdYKYRxO5Td,Q1128539,2321,92697,strict,UK006F,Liverpool,True,True,True,27,0,27,2,True,False,True
+750,The Quireboys,0d49iRrp4iVZggKbcpxnqI,Q1243743,63481,92662,strict,UK001F,London,True,True,True,30,0,30,14,True,False,True
+751,Longpigs,1o7zIbVAgDDHKijLVuLASg,Q4043165,53332,91435,strict,UK010F,Sheffield,True,True,True,1,1,0,1,True,True,False
+752,Girlschool,2TRtXTjjmyzK5oUGec1Gv8,Q1142870,103283,90933,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+753,U.K. Subs,4wsg78KGu80m8Xk37PY2uG,Q1479074,80069,90759,strict,UK001F,London,True,True,True,2,2,0,0,True,True,False
+755,The Chevin,2x9iKuuxMHGDm12dmNfOAh,Q2410218,8737,90538,strict,UK003F,Leeds,True,True,True,0,0,0,0,False,False,False
+756,Tygers Of Pan Tang,1MZ8NERIuOS610KBhr6yna,Q1753013,77762,89626,strict,UK013F,Newcastle,True,True,True,2,2,0,0,True,True,False
+760,Idlewild,1xdB9gS1NrKEYgZUEfoqIw,Q784088,72943,89257,strict,UK007F,Edinburgh,True,True,True,22,0,22,0,True,False,True
+761,Sons Of Kemet,3pvRbmrqOyFxB2Eext4Dki,Q17019747,163892,88881,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+762,KOAN Sound,1NCLweIUpq8knzemBwAwoo,Q6334752,121601,88384,strict,UK011F,Bristol,True,True,True,0,0,0,0,False,False,False
+763,TTNG,5TUa95aB5Vu2CzwCnZd6t0,Q3990545,131854,88106,strict,UK560F,Oxford,True,False,True,0,0,0,0,False,False,False
+764,The Slow Show,696uMzB97pg2uqfzmK3MvO,Q27058585,43986,87963,strict,UK008F,Manchester,True,True,True,0,0,0,0,False,False,False
+768,Swim Deep,2XddLUPFBmTonCFy8uB3uc,Q15052678,86828,86770,strict,UK002F,Birmingham,True,True,True,0,0,0,0,False,False,False
+769,Glasvegas,478peoEkoKPsTgRiVzkvPl,Q740692,64525,86543,strict,UK004F,Glasgow,True,True,True,45,0,45,3,True,False,True
+770,Gun,1dip2dCkBIylIFyDfZQfFu,Q462960,42357,85826,strict,UK004F,Glasgow,True,True,True,16,2,15,2,True,True,True
+772,Jockstrap,6S3Z6Me30mtdm526H17v8k,Q96384484,114087,85520,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+773,The Rumble Strips,2LrQtNcBWufq2AjaM6swf7,Q7761824,17312,85506,strict,UK516F,Plymouth,True,True,True,38,0,38,0,True,False,True
+775,Magnetic Man,40ttEBZPhAHbXH6aUg4GkL,Q1884353,58622,83637,strict,UK001F,London,True,True,True,40,0,40,22,True,False,True
+776,Oi Va Voi,1AzrlUnOS6dhH0iMV86ctS,Q1747594,64804,83446,strict,UK001F,London,True,True,True,3,0,3,2,True,False,True
+779,Let's Eat Grandma,4qNZw759AdHSMugyDMrIlF,Q24901294,113814,81221,strict,UK566F,Norwich,True,True,True,2,0,2,0,True,False,True
+780,Babe Ruth,0U04xAocTetRnA7v3TYQ2i,Q797616,26531,80353,strict,UK001F,London,True,True,True,6,2,4,3,True,True,True
+782,65daysofstatic,6DVVsQAnpHdJjb1nYuOQ6g,Q254285,147863,79997,strict,UK010F,Sheffield,True,True,True,0,0,0,0,False,False,False
+783,Arab Strap,6g8Jqb5JMfv92eB2r0awTN,Q2632762,87017,79984,strict,UK551F,Falkirk,True,True,True,2,0,2,0,True,False,True
+785,Mallory Knox,7bHTSvk96ULRLZPZr1SoCZ,Q15044899,81280,79587,strict,UK017F,Cambridge,True,True,True,0,0,0,0,False,False,False
+786,Alien Sex Fiend,6WVnBgqJfj9Iw9gpBed9fJ,Q1541561,163266,79219,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+787,Geordie,0IzJYdxaNLwrC7diSCu0iY,Q499366,31989,79034,strict,UK013F,Newcastle,True,True,True,2,0,2,0,True,False,True
+790,Discharge,5SRhOM75OnwuXH8BmCxD5a,Q1228418,153668,77256,strict,UK027F,Stoke-on-Trent,True,True,True,9,2,7,1,True,True,True
+793,LFO,2M0T4a1pkOC5nifN9W6e9e,Q1798055,57583,76989,strict,UK003F,Leeds,True,True,True,3,0,3,0,True,False,True
+794,Fightstar,3CI0BdDDxe6D21RmqTB5fn,Q1357682,84003,76830,strict,UK001F,London,True,True,True,41,1,41,25,True,True,True
+797,Wizzard,7823Dim2TzjiQQ9wRQxyi9,Q426015,54270,75390,strict,UK002F,Birmingham,True,True,True,58,2,56,5,True,True,True
+800,999,14IKysoZ0qyGRsIiTk1Ase,Q277297,57492,74540,strict,UK001F,London,True,True,True,8,0,8,1,True,False,True
+802,Nitzer Ebb,7EnAgffrVyerTWH628TJ6f,Q580943,106978,73454,strict,UK001F,London,True,True,True,7,0,7,4,True,False,True
+803,Fields Of The Nephilim,3m8KqUjgKDwmJ9L9uBHMMs,Q378948,150339,73403,strict,UK021F,Stevenage,True,True,True,38,0,38,0,True,False,True
+805,Spector,34nBPbcVc9F9eizQC4a5aT,Q7575150,52673,73172,strict,UK001F,London,True,True,True,7,0,7,3,True,False,True
+806,Red Box,4TvQ6wnXv3aDNv29JH6App,Q2135903,8971,72793,strict,UK001F,London,True,True,True,29,0,29,14,True,False,True
+814,Nine Black Alps,5fLbJGzlYux3GBwTifMMvR,Q1141817,20771,69153,strict,UK008F,Manchester,True,True,True,38,0,38,1,True,False,True
+815,Delta 5,2qe52cWdi4IRtgg14CLInb,Q5254556,43118,68871,strict,UK003F,Leeds,True,True,True,10,0,10,0,True,False,True
+817,Gene,5Rsu72e1qrjIUtxH6Zmy9K,Q3100438,46149,68357,strict,UK001F,London,True,True,True,34,0,34,20,True,False,True
+818,The Magic Gang,52pNByiBWx6SVMMqqcCA74,Q123560878,82851,68131,strict,UK515F,Brighton and Hove,True,True,True,0,0,0,0,False,False,False
+821,B-Movie,7zUgfhtNGSNLMl2ydFse4S,Q795108,18419,67864,strict,UK046F,Mansfield,True,True,True,12,0,12,0,True,False,True
+823,Stornoway,1UzKSuyOqKgUupcNNEtnF1,Q956521,54281,67498,strict,UK560F,Oxford,True,True,True,17,0,17,1,True,False,True
+824,Fat White Family,5ztBFCBEL7OtjdAt98RnD4,Q22312871,101328,66984,strict,UK001F,London,True,True,True,3,0,3,2,True,False,True
+825,Steeleye Span,4OrrjMGltjy6ojX6034f8u,Q1413921,64810,66623,strict,UK001F,London,True,True,True,20,1,19,11,True,True,True
+826,Shampoo,3wChfsJPsUnjVHXc79wRN1,Q1352141,18368,66590,strict,UK001F,London,True,True,True,2,0,2,1,True,False,True
+828,Monarchy,4YXRO4slasYnty9nb73LrO,Q6898056,28175,66523,strict,UK001F,London,True,True,True,1,0,1,1,True,False,True
+830,Blazin' Squad,5dEFm1RwaTSXpQSpzpYKF2,Q444431,28124,65260,strict,UK001F,London,True,True,True,6,0,6,3,True,False,True
+835,Cockney Rejects,4EfSXeVFbCEYIde3E9k4wr,Q973104,81884,63708,strict,UK001F,London,True,True,True,30,1,30,14,True,True,True
+837,Tones On Tail,5aBEGOeWQCJfptic9xyaAb,Q2654513,80787,63031,strict,UK528F,Northampton,True,True,True,14,2,14,2,True,True,True
+838,Psychic TV,3oi0s3WIuxBU5oh87n7za2,Q2115954,88107,62944,strict,UK001F,London,True,True,True,6,4,4,2,True,True,True
+842,Orange Goblin,3nutnJ57QnbWEdCWn2EyWo,Q1671193,153342,61406,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+843,Pentangle,55wOEGTc3QKwBJ9gntcOxT,Q1427551,69361,61364,strict,UK001F,London,True,True,True,35,0,35,18,True,False,True
+844,Yuck,6l3BRLCpzfC8yxqf9thWAg,Q2683245,103291,61077,strict,UK001F,London,True,True,True,20,0,20,10,True,False,True
+845,The Move,2BLpGstUHxDc6vHfBEiaXm,Q1133828,76938,60997,strict,UK002F,Birmingham,True,True,True,12,3,9,3,True,True,True
+846,Coil,37KB5e6cGsN1AQAB9Omm1U,Q1107195,118774,60925,strict,UK001F,London,True,True,True,8,5,4,3,True,True,True
+847,DJ Food,4NZM5xKuDpGc4vEHDwGO1Q,Q3011302,53172,60881,strict,UK001F,London,True,True,True,5,0,5,2,True,False,True
+848,Carter The Unstoppable Sex Machine,5RFBPz01PqvSQ1QhEgaxOp,Q251289,51170,60865,strict,UK001F,London,True,True,True,10,0,10,5,True,False,True
+850,Anaal Nathrakh,7vrrJ5YlL3I8XUrh1ktGJV,Q483140,127543,60506,strict,UK002F,Birmingham,True,True,True,8,0,8,1,True,False,True
+852,Wolf Gang,6EkvDqOOEX08BotcQppKoD,Q1332142,60865,59456,strict,UK001F,London,True,True,True,2,1,1,2,True,True,True
+858,Gallows,0LpwbxbT8dPiqUnul4ngzu,Q1492599,78412,56900,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+859,Demon,7tI1ZOOgocYZT2O5M8iBz8,Q1186426,32960,56564,strict,UK027F,Stoke-on-Trent,True,True,True,2,2,0,1,True,True,False
+861,Benediction,1Lx9Dy5gi2OLlJBBs7GYO7,Q250319,106195,56352,strict,UK002F,Birmingham,True,True,True,6,1,5,0,True,True,True
+862,Antimatter,2k4duorvZ5lTq33ljpT0sc,Q577837,97021,56130,strict,UK006F,Liverpool,True,True,True,1,1,0,1,True,True,False
+863,Jack Beats,5dUIQXIt7WeBKpETFZyTFW,Q7205605,33729,56114,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+864,Throbbing Gristle,1UYhxPY1oqFUg1HfF8nV3k,Q1165655,131943,56065,strict,UK026F,Hull,True,True,True,3,2,1,0,True,True,True
+865,Godflesh,5A4ebXQf38xWIq0xSWLhsS,Q1533787,105031,55777,strict,UK002F,Birmingham,True,True,True,8,1,7,1,True,True,True
+867,The Colourfield,06Rbwc8jaQ1d5fDPZiasE0,Q7726877,28746,55168,strict,UK025F,Coventry,True,True,True,19,1,19,1,True,True,True
+870,Swervedriver,0Sd7X8SxWV0AyDLbvd4uEu,Q924292,81061,54373,strict,UK560F,Oxford,True,True,True,9,0,9,1,True,False,True
+872,The Whip,4M2H1fDQR5ygAi7MMOVxAA,Q1078032,29678,54058,strict,UK008F,Manchester,True,True,True,4,0,4,0,True,False,True
+873,Skeletal Family,78OgxRnIdBCdFBmKhP2Fz2,Q1137836,77225,53859,strict,UK003F,Leeds,True,True,True,1,0,1,1,True,False,True
+874,Terrorvision,3jNwnthjUjHYvjyvRGfWuQ,Q4992961,36238,53778,strict,UK003F,Leeds,True,True,True,30,0,30,1,True,False,True
+877,Anavae,0JseT2AZzVMKsBlrAywFcO,Q4752397,29336,52164,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+879,Mclusky,3xA9AB0f4BVjsSlyQc12iE,Q1761282,50828,51917,strict,UK009F,Cardiff,True,True,True,1,0,1,0,True,False,True
+883,Empathy Test,4WM2JNPCcZ7f6M72C0bTyM,Q63203779,38799,51330,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+884,Goldie Lookin Chain,0pobPzcYFoVSprUnwY2Bio,Q4039563,37598,51269,strict,UK558F,Newport,True,True,True,26,0,26,0,True,False,True
+885,Black Tongue,5vTCEZ15eybRnoqUAra4Ys,Q19689005,96043,50504,strict,UK026F,Hull,True,True,True,0,0,0,0,False,False,False
+889,Flesh For Lulu,6ahlwhwCBtwhSeDO5vYMh5,Q5458717,33594,49698,strict,UK001F,London,True,True,True,35,1,34,20,True,True,True
+892,Van Der Graaf Generator,02frazNrWgZCxUEf4UTfHt,Q752170,154738,48618,strict,UK008F,Manchester,True,True,True,21,0,21,3,True,False,True
+895,Angel Witch,6L48AOtGmQL1ELLoKML7cS,Q531934,107188,48153,strict,UK001F,London,True,True,True,12,1,11,5,True,True,True
+897,Osibisa,12X85dtebfc7JTZ8iMBT2o,Q1890473,47531,47843,strict,UK001F,London,True,True,True,4,0,4,4,True,False,True
+902,The Vibrators,0DkpQq8B7ZAKebZEjlzVmd,Q1754027,75847,46560,strict,UK001F,London,True,True,True,36,1,36,19,True,True,True
+906,Ímar,0BdsizQXvwb1BPeEKqfuVs,Q97587415,15182,45827,strict,UK004F,Glasgow,True,True,True,0,0,0,0,False,False,False
+907,Conan,11tiA94VlUZOUTVCdQYw3a,Q19872238,82354,45815,strict,UK006F,Liverpool,True,True,True,0,0,0,0,False,False,False
+908,The Wedding Present,4tyCvqG48h4LdcbFfWBjR9,Q4372,65575,45749,strict,UK003F,Leeds,True,True,True,38,0,38,0,True,False,True
+909,The Big Pink,4xM0Rz2FbjZevoVLVJUgEQ,Q1668695,39674,45735,strict,UK001F,London,True,True,True,10,0,10,4,True,False,True
+910,Cabaret Voltaire,2kS4yz85MaZlxp2VaS3BEe,Q1024747,118625,45473,strict,UK010F,Sheffield,True,False,True,54,0,54,1,True,False,True
+916,Pitchshifter,10aXVE8RSUCeMzaFvBnZ2i,Q2005871,48946,43987,strict,UK029F,Nottingham,True,True,True,7,0,7,0,True,False,True
+920,Lanterns on the Lake,7sx3r4lMo079vO7lIi0fng,Q14158905,38093,43202,strict,UK013F,Newcastle,True,True,True,0,0,0,0,False,False,False
+921,The Crazy World Of Arthur Brown,2LpdhgwN0mYKMjnzrBQU8H,Q377770,16217,43146,strict,UK001F,London,True,True,True,28,2,26,15,True,True,True
+923,Alisha's Attic,43lLY3aEg3yQz8sYhyvdn5,Q6601851,19496,42752,strict,UK001F,London,True,True,True,18,0,18,8,True,False,True
+924,A Certain Ratio,2vygNfdnPBXah21ZrqhxYk,Q300348,46261,42710,strict,UK008F,Manchester,True,True,True,18,2,17,7,True,True,True
+925,The Rifles,3Sr1muUE6DYihFufoHpnfc,Q493700,74510,42702,strict,UK001F,London,True,True,True,1,0,1,0,True,False,True
+927,Young Marble Giants,0tQ2Q4y9iUkKszxXyB14ZH,Q2164036,62664,42598,strict,UK009F,Cardiff,True,True,True,17,0,17,0,True,False,True
+928,Cathedral,5O7ziOtiFUyRMBJN1J4Tpv,Q1050878,96540,42528,strict,UK025F,Coventry,True,True,True,51,1,50,1,True,True,True
+929,The Arrows,4tqcqE9n9vHWbIT8ryEA1v,Q702998,7187,42469,strict,UK001F,London,True,False,True,5,0,5,4,True,False,True
+931,Onslaught,71lhIVHJ24x9hEcwFSWuOf,Q1417965,106888,41973,strict,UK011F,Bristol,True,True,True,11,0,11,0,True,False,True
+932,The Associates,7GsdZ6T45uXudJ8Wsko9sB,Q743137,50912,41622,strict,UK550F,Dundee City,True,True,True,7,1,7,1,True,True,True
+934,Rolo Tomassi,3uHCTHxtg3IVAvhyrYsZvI,Q7361393,78649,41494,strict,UK010F,Sheffield,True,True,True,1,0,1,0,True,False,True
+935,Lonely The Brave,7Ks1xbMXEQjy9aQObTJdId,Q20127907,47704,40908,strict,UK017F,Cambridge,True,True,True,1,0,1,0,True,False,True
+939,Mekons,1Ag6UM6dow2OH9V06mxzV5,Q1529069,27778,40549,strict,UK003F,Leeds,True,False,True,15,0,15,0,True,False,True
+940,bis,2CLWZP9ZwueC8Yx9ORbxlW,Q471241,13258,40316,strict,UK004F,Glasgow,True,True,True,3,0,3,1,True,False,True
+941,Morning Runner,3UvsX37JzJrmhTea2t3Wei,Q1948294,8121,40259,strict,UK552F,Reading,True,True,True,16,0,16,0,True,False,True
+944,Plump DJs,1daC6WKGAm52YZbL5G7zYg,Q6317600,39640,39025,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+945,The Rakes,7mDQwcnDUGuSoggxbUtVc1,Q1762436,55169,38909,strict,UK001F,London,True,True,True,4,1,3,3,True,True,True
+946,Red Lorry Yellow Lorry,6ixeWfTvnU1VOVPEVP5Bcq,Q1575233,51142,38041,strict,UK003F,Leeds,True,True,True,7,1,6,2,True,True,True
+948,Slow Club,75Kh0eqgzo9f43Dan1JzSV,Q1688137,57600,37665,strict,UK010F,Sheffield,True,True,True,3,0,3,0,True,False,True
+950,Angelic Upstarts,5z96yaS2s1USscDldCCDgw,Q521396,52277,37083,strict,UK013F,Newcastle,True,True,True,56,1,56,0,True,True,True
+951,Pigs Pigs Pigs Pigs Pigs Pigs Pigs,1F7QDWyZTLGzkyGLgFjEhU,Q93962241,72472,37035,strict,UK013F,Newcastle,True,True,True,0,0,0,0,False,False,False
+952,Savages,1WFsBUAgQmrGQQEUyFKS60,Q5404233,130669,36562,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+955,Peter and the Test Tube Babies,2mHQfi32bOrYcD42cazcmh,Q2000167,46920,35963,strict,UK515F,Brighton and Hove,True,True,True,2,1,1,0,True,True,True
+956,Puressence,1cFIgop2t8jZzlM7TVePLY,Q3410949,14385,35668,strict,UK008F,Manchester,True,True,True,38,0,38,1,True,False,True
+959,[spunge],6vxyuUNiILvDzBfLxgu0KT,Q3494280,21846,35282,strict,UK571F,Cheltenham,True,True,True,0,0,0,0,False,False,False
+961,Sky,6OzpbdankE26K03oeoHhPN,Q1564341,12841,35087,strict,UK001F,London,True,True,True,46,1,45,22,True,True,True
+962,One Eskimo,1K1m6K2IZOcbyabxB2jXjg,Q4045817,11103,35030,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+963,Dubstar,3SRTWBeGhX3o5DCQ2zzTdI,Q372843,17970,34962,strict,UK013F,Newcastle,True,True,True,2,0,2,0,True,False,True
+964,Goat Girl,1ukEEwzjucRtFTxiw2DrDZ,Q78534002,81408,34711,strict,UK001F,London,True,True,True,10,0,10,5,True,False,True
+966,The Wild Swans,63yEaRONzlJVu1ozymo4Fk,Q7774898,17544,34532,strict,UK006F,Liverpool,True,True,True,0,0,0,0,False,False,False
+968,The Wake,39aYm70XPfUpkMIKSfeeig,Q3523258,26671,34392,strict,UK004F,Glasgow,True,True,True,10,2,8,2,True,True,True
+973,Current 93,7vF3DcPluq6lZI36VniagW,Q739657,83424,33791,strict,UK001F,London,True,True,True,2,2,0,2,True,True,False
+977,Cleopatra,7mu52yh5bBhhJOyVndAEZW,Q3680523,33076,31723,strict,UK008F,Manchester,True,True,True,0,0,0,0,False,False,False
+979,Witchfinder General,3tDg9XbUbQS0dbaSnFNvvk,Q1814408,64357,31258,strict,UK002F,Birmingham,True,True,True,0,0,0,0,False,False,False
+980,Sons of Raphael,1stGFX6w6VMHQPDPlBqX74,Q122765662,6089,31229,strict,UK001F,London,True,False,True,2,0,2,1,True,False,True
+981,The Incredible String Band,0tQzBYPjAardhWpGkqVdNW,Q1500510,60628,31217,strict,UK007F,Edinburgh,True,True,True,45,0,45,0,True,False,True
+982,Vessels,6Y1nACvxtuuTjKx2b4Rwmb,Q7923356,35493,31211,strict,UK003F,Leeds,True,True,True,0,0,0,0,False,False,False
+984,The Field Mice,3KH6DLHeoFZgVbtKiLXb6L,Q7733724,29459,31075,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+985,Rudimentary Peni,6NCFDKbtkbJhgjQcFicLBi,Q2719617,42267,31002,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+988,The Bonzo Dog Band,6Q7D1oEccgTc8MAYdMgtIx,Q205356,26310,30851,strict,UK001F,London,True,False,True,16,0,16,9,True,False,True
+989,Tigertailz,1xo5zONg7VWkVmR0I0YO4d,Q2712179,28199,30839,strict,UK009F,Cardiff,True,True,True,7,0,7,0,True,False,True
+992,The Tiger Lillies,72o2T9aqYR2PFNYpzYrMmw,Q724783,68137,30200,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False
+994,FM,3BxngwxP94n0itZ8q1hwf9,Q3737249,29860,30171,strict,UK001F,London,True,True,True,1,1,0,0,True,True,False
+997,Treetop Flyers,6Um25UMHv0fzcEHYGQJPXv,Q7837745,9167,29843,strict,UK001F,London,True,True,True,0,0,0,0,False,False,False

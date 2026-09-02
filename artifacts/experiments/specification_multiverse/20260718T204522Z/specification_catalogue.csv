@@ -30,4 +30,4 @@ popularity_1000_reviewed_extended_selected_band_output_quotient,popularity-first
 popularity_1000_reviewed_extended_monthly_listener_output_quotient,popularity-first output quotient,popularity-first top 1000,reviewed extended,monthly-listener output quotient,output share / population share,83
 popularity_1000_reviewed_extended_follower_output_quotient,popularity-first output quotient,popularity-first top 1000,reviewed extended,follower output quotient,output share / population share,83
 top1000_negative_binomial_count_residual,expected-output residual,"popularity-first top 1,000",reviewed extended,mapped-band count,negative-binomial Pearson residual,83
-top1000_loglog_follower_residual,expected-output residual,"popularity-first top 1,000 positive-output FUAs",reviewed extended,followers,log-log residual,61
+top1000_loglog_follower_residual,expected-output residual,"popularity-first top 1,000 positive-output FUAs",reviewed extended,followers,log-log residual,59

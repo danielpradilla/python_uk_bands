@@ -1,0 +1,13 @@
+{
+  "captured_at_utc": "2026-08-30T22:10:15.096348+00:00",
+  "request_url": "https://sdmx.oecd.org/public/rest/data/OECD.CFE.EDS,DSD_FUA_DEMO@DF_AGE_SEX,/.A..._T._T...?startPeriod=2024&endPeriod=2024&dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
+  "reference_year": 2024,
+  "uk_fua_rows": 83,
+  "selected_rows": 20,
+  "top_n": 20,
+  "observation_statuses": [
+    "A"
+  ],
+  "promoted": true,
+  "reference_path": "reference/uk_fua_top20_2024.csv"
+}

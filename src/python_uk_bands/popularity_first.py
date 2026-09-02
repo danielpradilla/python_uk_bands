@@ -2,14 +2,23 @@
 
 from __future__ import annotations
 
-import re
-
 import pandas as pd
 
 from .matching import normalize_name
 
 
 GENERIC_ORIGINS = {"", "england", "great britain", "united kingdom", "uk"}
+DISALLOWED_INSTANCE_TYPES = {
+    "animated television series",
+    "brand",
+    "choir",
+    "entertainment company",
+    "esports discipline",
+    "solo musical project",
+    "team of content creators",
+    "video game",
+    "youtube channel",
+}
 
 # Editorial clustering is intentionally conservative. It combines named
 # districts with their commonly understood city and keeps other places as
@@ -34,6 +43,22 @@ MULTI_PLACE_ORIGIN = {
     "england|hertford|london": "Hertford",
     "godalming|surrey": "Godalming",
 }
+
+
+def is_band_entity_eligible(instance_label: str) -> bool:
+    """Return whether the reviewed entity type is in the study's band scope."""
+
+    types = {part.strip().casefold() for part in instance_label.split("|")}
+    if any(
+        value in DISALLOWED_INSTANCE_TYPES or value.endswith("orchestra")
+        for value in types
+    ):
+        return False
+    return any(
+        value in {"musical ensemble", "musical collective", "musical trio"}
+        or value.endswith((" band", " duo", " group", " quartet"))
+        for value in types
+    )
 
 
 def resolve_origin(
@@ -126,13 +151,11 @@ def select_top_groups(
         "accepted"
     )
 
-    orchestra_pattern = re.compile(r"\borchestra\b", flags=re.IGNORECASE)
-    merged["band_eligible"] = ~(
-        merged["spotify_name"].str.contains(orchestra_pattern)
-        | merged["instance_label"].str.contains(orchestra_pattern)
+    merged["band_eligible"] = merged["instance_label"].map(
+        is_band_entity_eligible
     )
     merged["eligibility_status"] = merged["band_eligible"].map(
-        {True: "eligible_group_or_duo", False: "excluded_orchestra"}
+        {True: "eligible_group_or_duo", False: "excluded_non_band_entity"}
     )
     merged["requested_is_returned"] = merged[
         "requested_spotify_id"
@@ -149,11 +172,15 @@ def select_top_groups(
     merged["redirect_duplicate"] = merged.duplicated(
         "returned_spotify_id", keep="first"
     )
+    merged["entity_duplicate"] = merged["wikidata_qid"].ne("") & merged.duplicated(
+        "wikidata_qid", keep="first"
+    )
 
     selection_pool = merged[
         merged["identity_accepted"]
         & merged["band_eligible"]
         & ~merged["redirect_duplicate"]
+        & ~merged["entity_duplicate"]
     ].copy()
     if len(selection_pool) < top_n:
         raise ValueError(

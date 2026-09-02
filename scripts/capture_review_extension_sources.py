@@ -21,6 +21,10 @@ SRC_DIR = PROJECT_ROOT / "src"
 if str(SRC_DIR) not in sys.path:
     sys.path.insert(0, str(SRC_DIR))
 
+from python_uk_bands.config import (  # noqa: E402
+    FUA_POPULATION_PATH,
+    FUA_POPULATION_YEAR,
+)
 from python_uk_bands.io import write_json  # noqa: E402
 
 
@@ -484,17 +488,57 @@ def _overpass_query(latitude: float, longitude: float, radius: int) -> str:
 
 
 def capture_osm(*, force: bool) -> Path:
+    cities = pd.read_csv(BALANCED_PATH)[
+        ["fua_code", "official_fua_name", "study_city_label"]
+    ].drop_duplicates()
+    current_population = pd.read_csv(FUA_POPULATION_PATH)[
+        ["fua_code", "population_year", "population", "captured_at_utc"]
+    ]
+    cities = cities.merge(
+        current_population,
+        on="fua_code",
+        how="left",
+        validate="one_to_one",
+    )
+    if cities["population"].isna().any():
+        missing = cities.loc[cities["population"].isna(), "fua_code"].tolist()
+        raise ValueError(f"Missing current FUA population for: {missing}")
+    if set(cities["population_year"]) != {FUA_POPULATION_YEAR}:
+        raise ValueError(
+            "OpenStreetMap capture context must use the configured FUA "
+            f"population year {FUA_POPULATION_YEAR}"
+        )
+    population_captured_at = current_population[
+        "captured_at_utc"
+    ].unique().item()
+    population_by_code = (
+        cities.set_index("fua_code")[["population_year", "population"]]
+        .to_dict("index")
+    )
+
     existing_records: list[dict] = []
     if OSM_OUTPUT.exists() and not force:
         existing = json.loads(OSM_OUTPUT.read_text())
+        for record in existing.get("records", []):
+            population = population_by_code.get(record.get("fua_code"))
+            if population is None:
+                raise ValueError(
+                    "OpenStreetMap record has no current FUA population: "
+                    f"{record.get('fua_code')}"
+                )
+            record["population_year"] = int(population["population_year"])
+            record["population"] = int(population["population"])
+        existing["population_path"] = str(
+            FUA_POPULATION_PATH.relative_to(PROJECT_ROOT)
+        )
+        existing["population_year"] = FUA_POPULATION_YEAR
+        existing["population_captured_at_utc"] = population_captured_at
         if existing.get("complete"):
+            write_json(existing, OSM_OUTPUT)
             print(f"reuse {OSM_OUTPUT.relative_to(PROJECT_ROOT)}", flush=True)
             return OSM_OUTPUT
         existing_records = existing.get("records", [])
 
-    cities = pd.read_csv(BALANCED_PATH)[
-        ["fua_code", "official_fua_name", "study_city_label", "population"]
-    ].drop_duplicates()
     coordinates = pd.read_csv(COORDINATES_PATH)
     cities = cities.merge(
         coordinates[["fua_code", "latitude", "longitude", "coordinate_source_url"]],
@@ -537,6 +581,9 @@ def capture_osm(*, force: bool) -> Path:
         "data_copyright": "OpenStreetMap contributors",
         "license": "ODbL",
         "input_path": str(BALANCED_PATH.relative_to(PROJECT_ROOT)),
+        "population_path": str(FUA_POPULATION_PATH.relative_to(PROJECT_ROOT)),
+        "population_year": FUA_POPULATION_YEAR,
+        "population_captured_at_utc": population_captured_at,
         "coordinate_path": str(COORDINATES_PATH.relative_to(PROJECT_ROOT)),
         "definition": (
             "OpenStreetMap nodes and ways within 15 km of the study-city "
@@ -565,6 +612,7 @@ def capture_osm(*, force: bool) -> Path:
         records_by_city[row.study_city_label] = {
             "fua_code": row.fua_code,
             "study_city_label": row.study_city_label,
+            "population_year": int(row.population_year),
             "population": int(row.population),
             "latitude": row.latitude,
             "longitude": row.longitude,

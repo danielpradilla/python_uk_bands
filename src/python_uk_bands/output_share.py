@@ -352,7 +352,7 @@ def plot_follower_share_vs_population_share(
     ax.grid(which="minor", visible=False)
     ax.set_axisbelow(True)
     ax.set_xlabel(
-        f"Share of population across all {len(shares)} UK FUAs · 2021 · log scale"
+        f"Share of population across all {len(shares)} UK FUAs · 2024 · log scale"
     )
     ax.set_ylabel(
         f"Share of followers across selected top-{selected_count} bands · log scale"
@@ -574,7 +574,7 @@ def plot_band_share_vs_population_share(
     ax.grid(which="minor", visible=False)
     ax.set_axisbelow(True)
     ax.set_xlabel(
-        f"Share of population across all {len(shares)} UK FUAs · 2021 · log scale"
+        f"Share of population across all {len(shares)} UK FUAs · 2024 · log scale"
     )
     ax.set_ylabel(
         f"Share of selected top-{selected_count} bands · log scale"

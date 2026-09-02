@@ -10,7 +10,7 @@ The two-digit filename prefix is the experiment number. Snapshot dates remain in
 
 **What it tests:** Expands the original five-band city catalogue to ten bands per city and compares the untrimmed result, largest-band exclusion and symmetric trimming using the frozen 17 July 2026 snapshot.
 
-**Why it matters:** It establishes that rankings can depend on catalogue breadth and superstar concentration. Manchester overtakes Sheffield when the largest band is excluded, while Liverpool falls after the Beatles are removed.
+**Why it matters:** It establishes that rankings can depend on catalogue breadth and superstar concentration. In that archived catalogue, Sheffield remains first after its largest band is excluded, Manchester moves to second, Birmingham to third, and Liverpool falls from second to fifth after the Beatles are removed.
 
 ### 02. [Scene-depth later snapshot](02_uk_bands_scene_depth.ipynb)
 
@@ -78,7 +78,7 @@ The two-digit filename prefix is the experiment number. Snapshot dates remain in
 
 ### 12. [Top-1,000 output share versus population](12_uk_bands_top1000_output_share_vs_population.ipynb)
 
-**What it tests:** Extends the share comparison to the first 1,000 eligible UK groups, mapping 660 of them to 61 FUAs and retaining all 83 FUAs in the population denominator.
+**What it tests:** Extends the share comparison to the first 1,000 eligible UK groups, mapping 666 of them to 59 FUAs and retaining all 83 FUAs in the population denominator.
 
 **Why it matters:** The larger catalogue reduces dependence on a very small elite and provides the main descriptive foundation for later breadth, scaling, map and network experiments.
 
@@ -90,7 +90,7 @@ The two-digit filename prefix is the experiment number. Snapshot dates remain in
 
 ### 14. [Log–log follower scaling](14_uk_bands_top1000_loglog_follower_scaling.ipynb)
 
-**What it tests:** Models summed Spotify followers against population for the 61 positive-output FUAs and checks HC3, Huber and leave-one-city-out sensitivity.
+**What it tests:** Models summed Spotify followers against population for the 59 positive-output FUAs and checks HC3, Huber and leave-one-city-out sensitivity.
 
 **Why it matters:** It addresses audience impact rather than band count and demonstrates both superlinear scaling and the instability caused by zero-output cities and superstar-dominated residuals.
 
@@ -154,9 +154,9 @@ The two-digit filename prefix is the experiment number. Snapshot dates remain in
 
 ### 24. [Catalogue-selection sensitivity](24_uk_bands_catalogue_selection_sensitivity.ipynb)
 
-**What it tests:** Replaces the editorial ten-band catalogues with each eligible FUA's ten most-listened mapped bands from the popularity-first top-1,000 pool, while holding the Spotify metric, 2021 population denominator and catalogue size fixed.
+**What it tests:** Replaces the editorial ten-band catalogues with each eligible FUA's ten most-listened mapped bands from the popularity-first top-1,000 pool, while holding the Spotify metric, 2024 population denominator and catalogue size fixed.
 
-**Why it matters:** Only 50 of 80 selections overlap, but the first four primary-index ranks remain Sheffield, Liverpool, Manchester and London. The dominant-band-excluded ranking moves more, and Bristol and Leicester lack enough mapped candidates for the matched comparison. The result supports a narrow selection-sensitivity claim, not representativeness.
+**Why it matters:** Only 53 of 80 selections overlap, but all eight primary-index ranks remain unchanged. The dominant-band-excluded ranking moves more, and Bristol and Leicester lack enough mapped candidates for the matched comparison. The result supports a narrow selection-sensitivity claim, not representativeness.
 
 ## Source families
 

@@ -1,201 +1,201 @@
 popularity_rank,spotify_name,returned_spotify_id,monthly_listeners,origin_cluster,mapping_tier,mapping_method,fua_code,official_fua_name,study_city_label,population_year,population,notes
-1,Coldplay,4gzpq5DPGxSnKTe4SA8HAU,92034104,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-2,Arctic Monkeys,7Ln80lUS6He07XvHI8qqHH,52301870,Sheffield,strict,exact_study_label,UK010F,Sheffield,Sheffield,2021.0,1168389.0,Origin cluster matches the OECD FUA study label.
-3,Queen,1dfeR4HaWDbWqFHLkxsg1d,51601234,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-4,Fleetwood Mac,08GQAI4eElDnROBrJRGE0X,50959935,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-5,One Direction,4AK6F7OLvEQ5QYCBNiQWHq,45724043,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-6,Radiohead,4Z8W4fKeB5YxbusRsdQVPb,43168156,Oxford,strict,exact_study_label,UK560F,Oxford,Oxford,2021.0,576725.0,Origin cluster matches the OECD FUA study label.
-7,The Police,5NGO30tJxFlKixkPSgXcFE,39887109,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-8,Oasis,2DaxqgrOhkeH0fpeiQq2f4,39676473,Manchester,strict,exact_study_label,UK008F,Manchester,Manchester,2021.0,3432092.0,Origin cluster matches the OECD FUA study label.
-9,Gorillaz,3AA28KZvwAUcZuOKwyblJQ,38173160,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-10,The Beatles,3WrFJ7ztbogyGnTHbHJFl2,37927636,Liverpool,strict,exact_study_label,UK006F,Liverpool,Liverpool,2021.0,1540817.0,Origin cluster matches the OECD FUA study label.
-11,Clean Bandit,6MDME20pz9RveH9rEXvrOM,35453400,Cambridge,strict,exact_study_label,UK017F,Cambridge,Cambridge,2021.0,396189.0,Origin cluster matches the OECD FUA study label.
-12,The Rolling Stones,22bE4uQ6baNwSHPVcDxLCe,30690194,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-13,Bee Gees,1LZEQNv7sE11VDY3SdxQeN,29286539,Redcliffe,excluded_non_uk,outside_uk_fua_universe,,,,,,The corrected Bee Gees formation origin is Redcliffe in Queensland and is outside the UK FUA universe.
-14,Glass Animals,4yvcSjfu4PC0CYQyLy4wSq,27093208,Oxford,strict,exact_study_label,UK560F,Oxford,Oxford,2021.0,576725.0,Origin cluster matches the OECD FUA study label.
-15,Pink Floyd,0k17h0D3J5VfsdmQ1iZtE9,26546155,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-16,Dire Straits,0WwSkZ7LtFUFjGjMZBMt6T,26242776,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-17,Florence + The Machine,1moxjboGR7GNWYIMWsRjgG,25836943,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-18,The Cure,7bu3H8JO7d0UbMoVzbo70s,25827890,Crawley,strict,exact_study_label,UK576F,Crawley,Crawley,2021.0,118607.0,Origin cluster matches the OECD FUA study label.
-19,Sade,47zz7sob9NUcODy0BTDvKx,25528819,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-20,Disclosure,6nS5roXSAGhTGr34W6n7Et,25360907,Reigate,excluded_no_defensible_fua,no_reviewed_assignment,,,,,,No assignment is made without an official locality-to-FUA crosswalk.
-21,Tears For Fears,4bthk9UfsYUYdcFyqxmSUU,23781006,Bath,strict,reviewed_label_alias,UK031F,Bath and North East Somerset,Bath and North East Somerset,2021.0,192419.0,Bath is the short study label for Bath and North East Somerset FUA.
-22,Keane,53A0W3U0s8diEn9RhXQhVz,23259577,Battle,reviewed_extended,nearby_fua_sensitivity,UK056F,Hastings,Hastings,2021.0,184383.0,Included only in the extended sensitivity view as a reviewed association with Hastings FUA.
-23,The Smiths,3yY2gUcIsjMr8hjo51PoJ8,22515532,Manchester,strict,exact_study_label,UK008F,Manchester,Manchester,2021.0,3432092.0,Origin cluster matches the OECD FUA study label.
-24,Bastille,7EQ0qTo7fWT7DPxmxtSYEc,22166012,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-25,Muse,12Chz98pHFMPJEknJQMWvI,20942571,Teignmouth,reviewed_extended,nearby_fua_sensitivity,UK018F,Exeter,Exeter,2021.0,499952.0,Included only in the extended sensitivity view as a reviewed association with Exeter FUA.
-26,Led Zeppelin,36QJpDe2go2KgaRleHCDTp,20605707,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-27,The 1975,3mIj9lX2MWuHmhNCA7LSCW,18915018,Manchester,strict,exact_study_label,UK008F,Manchester,Manchester,2021.0,3432092.0,Origin cluster matches the OECD FUA study label.
-28,Black Sabbath,5M52tdBnJaKSvOpJGz8mfZ,18288641,Birmingham,strict,exact_study_label,UK002F,West Midlands urban area,Birmingham,2021.0,3135994.0,Origin cluster matches the OECD FUA study label.
-29,The Outfield,1zxDewzd2j1ZdSBGaYcr0y,17941634,Manchester,strict,exact_study_label,UK008F,Manchester,Manchester,2021.0,3432092.0,Origin cluster matches the OECD FUA study label.
-30,Depeche Mode,762310PdDnwsDxAQxzQkfX,17667155,Basildon,reviewed_extended,metropolitan_fua_sensitivity,UK001F,London,London,2021.0,12274097.0,Included only in the extended sensitivity view as a reviewed association with London FUA.
-31,America,35U9lQaRWSQISxQAB94Meo,17384987,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-32,The Verve,2cGwlqi3k18jFpUyTrsR84,16374768,Manchester,strict,exact_study_label,UK008F,Manchester,Manchester,2021.0,3432092.0,Origin cluster matches the OECD FUA study label.
-33,Duran Duran,0lZoBs4Pzo7R89JM9lxwoT,15134650,Birmingham,strict,exact_study_label,UK002F,West Midlands urban area,Birmingham,2021.0,3135994.0,Origin cluster matches the OECD FUA study label.
-34,Eurythmics,0NKDgy9j66h3DLnN8qu1bB,14843560,Sunderland,strict,exact_study_label,UK510F,Sunderland,Sunderland,2021.0,274378.0,Origin cluster matches the OECD FUA study label.
-35,Little Mix,3e7awlrlDSwF3iM0WBjGMp,14779473,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-36,The Clash,3RGLhK1IP9jnYFH4BRFJBS,14589467,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-37,Mumford & Sons,3gd8FJtBJtkRxdfbTu19U2,14381934,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-38,Blur,7MhMgCo0Bl0Kukl93PZbYS,14009757,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-39,Bring Me The Horizon,1Ffb6ejR6Fe5IamqA5oRUF,13707032,Sheffield,strict,exact_study_label,UK010F,Sheffield,Sheffield,2021.0,1168389.0,Origin cluster matches the OECD FUA study label.
-40,Snow Patrol,3rIZMv9rysU7JkLzEaC5Jp,13274460,Dundee,strict,reviewed_label_alias,UK550F,Dundee City,Dundee City,2021.0,261740.0,Dundee is the short study label for Dundee City FUA.
-41,Spice Girls,0uq5PttqEjj3IH1bzwcrXF,12877807,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-42,The Animals,3ICflSq6ZgYAIrm2CTkfVP,12324330,Newcastle upon Tyne,strict,exact_official_label,UK013F,Newcastle upon Tyne,Newcastle,2021.0,1173303.0,Origin cluster matches the official OECD FUA name.
-43,Rudimental,4WN5naL3ofxrVBgFpguzKo,11737472,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-44,Faithless,5T4UKHhr4HGIC0VzdZQtAE,11726956,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-45,Disciples,5EehXjjMktLuJmbRsM7YfB,11691137,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-46,Jungle,59oA5WbbQvomJz2BuRG071,11614048,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-47,bôa,5jTtGLk1mGFMY5lQOvJYUj,11444869,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-48,Cutting Crew,3cniTumSiUysiPWXapGx1i,10972839,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-49,Franz Ferdinand,0XNa1vTidXlvJ2gHSsRi4A,10807735,Glasgow,strict,exact_study_label,UK004F,Glasgow,Glasgow,2021.0,1831890.0,Origin cluster matches the OECD FUA study label.
-50,Def Leppard,6H1RjVyNruCmrBEWRbD0VZ,10792689,Sheffield,strict,exact_study_label,UK010F,Sheffield,Sheffield,2021.0,1168389.0,Origin cluster matches the OECD FUA study label.
-51,Pet Shop Boys,2ycnb8Er79LoH2AsR5ldjh,10634217,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-52,The Hollies,6waa8mKu91GjzD4NlONlNJ,10112715,Manchester,strict,exact_study_label,UK008F,Manchester,Manchester,2021.0,3432092.0,Origin cluster matches the OECD FUA study label.
-53,Wham!,5lpH0xAS4fVfLkACg9DAuM,10018855,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-54,Two Door Cinema Club,536BYVgOnRky0xjsPT96zl,9884423,Bangor,reviewed_extended,metropolitan_fua_sensitivity,UK012F,Belfast,Belfast,2021.0,803943.0,Included only in the extended sensitivity view as a reviewed association with Belfast FUA.
-55,The Stranglers,0RUEHcBiENFEqxgicqS2ig,9836875,Guildford,strict,exact_study_label,UK033F,Guildford,Guildford,2021.0,272893.0,Origin cluster matches the OECD FUA study label.
-56,Simple Minds,6hN9F0iuULZYWXppob22Aj,9628717,Glasgow,strict,exact_study_label,UK004F,Glasgow,Glasgow,2021.0,1831890.0,Origin cluster matches the OECD FUA study label.
-57,Bronski Beat,2wpWOzQE5TpA0dVnh5YD08,9566679,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-58,Seafret,4Ly0KABsxlx4fNj63zJTrF,9520023,Bridlington,excluded_no_defensible_fua,no_reviewed_assignment,,,,,,No assignment is made without an official locality-to-FUA crosswalk.
-59,Genesis,3CkvROUTQ6nRi9yQOcsB50,9434858,Godalming,reviewed_extended,nearby_fua_sensitivity,UK033F,Guildford,Guildford,2021.0,272893.0,Included only in the extended sensitivity view as a reviewed association with Guildford FUA.
-60,Spandau Ballet,2urZrEdsq72kx0UzfYN8Yv,9335819,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-61,UB40,69MEO1AADKg1IZrq2XLzo5,9327767,Birmingham,strict,exact_study_label,UK002F,West Midlands urban area,Birmingham,2021.0,3135994.0,Origin cluster matches the OECD FUA study label.
-62,The Chemical Brothers,1GhPHrq36VKCY3ucVaZCfo,9143502,Manchester,strict,exact_study_label,UK008F,Manchester,Manchester,2021.0,3432092.0,Origin cluster matches the OECD FUA study label.
-63,Simply Red,1fa0cOhromAZdq2xRA4vv8,9097250,Manchester,strict,exact_study_label,UK008F,Manchester,Manchester,2021.0,3432092.0,Origin cluster matches the OECD FUA study label.
-64,Jamiroquai,6J7biCazzYhU3gM9j1wfid,9068742,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-65,Iron Maiden,6mdiAmATAx73kdxrNrnlao,9029433,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-66,Toploader,6xeFne1rkxMhKSW3ipvkdV,8829850,Eastbourne,strict,exact_study_label,UK055F,Eastbourne,Eastbourne,2021.0,101601.0,Origin cluster matches the OECD FUA study label.
-67,New Order,0yNLKJebCb8Aueb54LYya3,8786188,Manchester,strict,exact_study_label,UK008F,Manchester,Manchester,2021.0,3432092.0,Origin cluster matches the OECD FUA study label.
-68,Massive Attack,6FXMGgJwohJLUSr5nVlf9X,8692931,Bristol,strict,exact_study_label,UK011F,Bristol,Bristol,2021.0,979556.0,Origin cluster matches the OECD FUA study label.
-69,The Who,67ea9eGLXYMsO2eYQRui3w,8659112,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-70,D-Block Europe,5VadK1havLhK1OpKYsXv9y,8351560,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-71,alt-J,3XHO7cRUPCLOr6jwp8vsx5,8110938,Leeds,strict,exact_study_label,UK003F,Leeds,Leeds,2021.0,2969034.0,Origin cluster matches the OECD FUA study label.
-72,The Proclaimers,1A92IAcd7A6npCA33oGM5i,8100195,Auchtermuchty,excluded_no_defensible_fua,no_reviewed_assignment,,,,,,No assignment is made without an official locality-to-FUA crosswalk.
-73,Dexys Midnight Runners,4QTVePrFu1xuGM9K0kNXkk,7999321,Birmingham,strict,exact_study_label,UK002F,West Midlands urban area,Birmingham,2021.0,3135994.0,Origin cluster matches the OECD FUA study label.
-74,The Kinks,1SQRv42e4PjEYfPhS0Tk9E,7864488,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-75,Supertramp,3JsMj0DEzyWc0VDlHuy9Bx,7695790,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-76,Oh Wonder,5cIc3SBFuBLVxJz58W2tU9,7552797,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-77,Goodboys,2nm38smINjms1LtczR0Cei,7292613,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-78,The Wanted,2NhdGz9EDv2FeUw6udu2g1,7143333,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-79,Culture Club,6kz53iCdBSqhQCZ21CoLcc,7076755,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-80,Deep Purple,568ZhdwyaiCyOGJRtNYhWf,6998809,Hertford,excluded_no_defensible_fua,no_reviewed_assignment,,,,,,No assignment is made without an official locality-to-FUA crosswalk.
-81,The Kooks,1GLtl8uqKmnyCWxHmw9tL4,6950019,Brighton,strict,reviewed_label_alias,UK515F,Brighton and Hove,Brighton and Hove,2021.0,441252.0,Brighton is the short study label for Brighton and Hove FUA.
-82,La Roux,3K2zB87GZv1krx031en5VA,6858904,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-83,10cc,6i6WlGzQtXtz7GcC5H5st5,6808182,Manchester,strict,exact_study_label,UK008F,Manchester,Manchester,2021.0,3432092.0,Origin cluster matches the OECD FUA study label.
-84,CamelPhat,240wlM8vDrf6S4zCyzGj2W,6543464,Liverpool,strict,exact_study_label,UK006F,Liverpool,Liverpool,2021.0,1540817.0,Origin cluster matches the OECD FUA study label.
-85,Take That,1XgFuvRd7r5g0h844A5ZUQ,6539015,Manchester,strict,exact_study_label,UK008F,Manchester,Manchester,2021.0,3432092.0,Origin cluster matches the OECD FUA study label.
-86,Whitesnake,3UbyYnvNIT5DFXU4WgiGpP,6249726,Middlesbrough,strict,exact_study_label,UK559F,Middlesbrough,Middlesbrough,2021.0,570155.0,Origin cluster matches the OECD FUA study label.
-87,The Vamps,7gAppWoH7pcYmphCVTXkzs,6167219,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-88,The Human League,1aX2dmV8XoHYCOQRxjPESG,6085844,Sheffield,strict,exact_study_label,UK010F,Sheffield,Sheffield,2021.0,1168389.0,Origin cluster matches the OECD FUA study label.
-89,Pretenders,0GByy3DcfbQwDvXGCWmzv9,6044974,Hereford,excluded_no_defensible_fua,no_reviewed_assignment,,,,,,No assignment is made without an official locality-to-FUA crosswalk.
-90,AlunaGeorge,2VAnyOxzJuSAj7XIuEOT38,6010368,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-91,Portishead,6liAMWkVf5LH7YR9yfFy1Y,5958911,Bristol,strict,exact_study_label,UK011F,Bristol,Bristol,2021.0,979556.0,Origin cluster matches the OECD FUA study label.
-92,Frou Frou,6MUyqmIQ35inLjch0YzIEG,5930276,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-93,Soft Cell,6aq8T2RcspxVOGgMrTzjWc,5766246,Leeds,strict,exact_study_label,UK003F,Leeds,Leeds,2021.0,2969034.0,Origin cluster matches the OECD FUA study label.
-94,Stealers Wheel,7bPU7cvfoD20ixGD9Qnqki,5726001,Paisley,reviewed_extended,metropolitan_fua_sensitivity,UK004F,Glasgow,Glasgow,2021.0,1831890.0,Included only in the extended sensitivity view as a reviewed association with Glasgow FUA.
-95,Katrina & The Waves,2TzHIUhVpeeDxyJPpQfnV3,5671000,Cambridge,strict,exact_study_label,UK017F,Cambridge,Cambridge,2021.0,396189.0,Origin cluster matches the OECD FUA study label.
-96,LF SYSTEM,0HxX6imltnNXJyQhu4nsiO,5611864,West Lothian,reviewed_extended,metropolitan_fua_sensitivity,UK007F,Edinburgh,Edinburgh,2021.0,893610.0,Included only in the extended sensitivity view as a reviewed association with Edinburgh FUA.
-97,Everything But The Girl,13ccXrK7AmXb4TddMkE7jy,5607393,Kingston upon Hull,strict,exact_official_label,UK026F,Kingston upon Hull,Hull,2021.0,609661.0,Origin cluster matches the official OECD FUA name.
-98,The La's,47Z8LEl3LnQkcpva0xSthT,5581915,Liverpool,strict,exact_study_label,UK006F,Liverpool,Liverpool,2021.0,1540817.0,Origin cluster matches the OECD FUA study label.
-99,The xx,3iOvXCl6edW5Um0fXEBRXy,5459918,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-100,Fine Young Cannibals,20p5D2KrE8CGuOjHtxsyTp,5309505,Birmingham,strict,exact_study_label,UK002F,West Midlands urban area,Birmingham,2021.0,3135994.0,Origin cluster matches the OECD FUA study label.
-101,Stereophonics,21UJ7PRWb3Etgsu99f8yo8,5187258,Cwmaman,reviewed_extended,nearby_fua_sensitivity,UK009F,Cardiff,Cardiff,2021.0,905859.0,Included only in the extended sensitivity view as a reviewed association with Cardiff FUA.
-102,Bush,78SHxLdtysAXgywQ4vE0Oa,5127264,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-103,Cocteau Twins,5Wabl1lPdNOeIn0SQ5A1mp,5124023,Grangemouth,reviewed_extended,nearby_fua_sensitivity,UK551F,Falkirk,Falkirk,2021.0,158760.0,Included only in the extended sensitivity view as a reviewed association with Falkirk FUA.
-104,Bullet For My Valentine,7iWiAD5LLKyiox2grgfmUT,5036374,Bridgend,excluded_no_defensible_fua,no_reviewed_assignment,,,,,,No assignment is made without an official locality-to-FUA crosswalk.
-105,The Prodigy,4k1ELeJKT1ISyDv8JivPpB,5031555,Braintree,excluded_no_defensible_fua,no_reviewed_assignment,,,,,,No assignment is made without an official locality-to-FUA crosswalk.
-106,The Zombies,2jgPkn6LuUazBoBk6vvjh5,5025277,St Albans,excluded_no_defensible_fua,no_reviewed_assignment,,,,,,No assignment is made without an official locality-to-FUA crosswalk.
-107,Hot Chocolate,72VzFto8DYvKHocaHYNWSi,5017699,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-108,The Alan Parsons Project,2m62cc253Xvd9qYQ8d2X3d,4991688,Glasgow,strict,exact_study_label,UK004F,Glasgow,Glasgow,2021.0,1831890.0,Origin cluster matches the OECD FUA study label.
-109,Chase & Status,3jNkaOXasoc7RsxdchvEVq,4913546,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-110,Wings,3sFhA6G1N0gG1pszb6kk1m,4863252,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
-111,Hurts,3w4VAlllkAWI6m0AV0Gn6a,4854547,Manchester,strict,exact_study_label,UK008F,Manchester,Manchester,2021.0,3432092.0,Origin cluster matches the OECD FUA study label.
-112,Erasure,0z5DFXmhT4ZNzWElsM7V89,4832016,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
-113,Chumbawamba,0TcYeHEK9sBtv7xPbKhzHz,4700579,Burnley,strict,exact_study_label,UK050F,Burnley,Burnley,2021.0,190553.0,Origin cluster matches the OECD FUA study label.
-114,A Flock Of Seagulls,0uAjBatvB4ubpd4kCfjmNt,4670482,Liverpool,strict,exact_study_label,UK006F,Liverpool,Liverpool,2021.0,1540817.0,Origin cluster matches the OECD FUA study label.
-115,Slowdive,72X6FHxaShda0XeQw3vbeF,4658345,Reading,strict,exact_study_label,UK552F,Reading,Reading,2021.0,351602.0,Origin cluster matches the OECD FUA study label.
-116,Supergrass,0sHeX8oQ6o7xic3wMf4NBU,4645328,Wheatley,reviewed_extended,nearby_fua_sensitivity,UK560F,Oxford,Oxford,2021.0,576725.0,Included only in the extended sensitivity view as a reviewed association with Oxford FUA.
-117,Cream,74oJ4qxwOZvX6oSsu1DGnw,4518268,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-118,Motörhead,1DFr97A9HnbV3SKTJFu62M,4453633,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-119,Yes,7AC976RDJzL2asmZuz7qil,4447983,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-120,Nazareth,6fvN9GmMCVKb5LY0WsnjFP,4341186,Dunfermline,reviewed_extended,metropolitan_fua_sensitivity,UK007F,Edinburgh,Edinburgh,2021.0,893610.0,Included only in the extended sensitivity view as a reviewed association with Edinburgh FUA.
-121,Foals,6FQqZYVfTNQ1pCqfkwVFEa,4201622,Oxford,strict,exact_study_label,UK560F,Oxford,Oxford,2021.0,576725.0,Origin cluster matches the OECD FUA study label.
-122,Sidewalks and Skeletons,48nHO1cuTbpx4ELhChsxX1,4198181,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
-123,LSD,6IZ4ctovY9dl7bgHClAvKJ,4191261,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
-124,FLO,0s4kXsjYeH0S1xRyVGN4NO,4183163,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
-125,The Foundations,4GITZM5LCR2KcdlgEOrNLD,4165829,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-126,CHVRCHES,3CjlHNtplJyTf9npxaPl5w,4152413,Glasgow,strict,exact_study_label,UK004F,Glasgow,Glasgow,2021.0,1831890.0,Origin cluster matches the OECD FUA study label.
-127,Maribou State,7zrkALJ9ayRjzysp4QYoEg,4147945,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
-128,Joy Division,432R46LaYsJZV2Gmc4jUV5,4140711,Manchester,strict,exact_study_label,UK008F,Manchester,Manchester,2021.0,3432092.0,Origin cluster matches the OECD FUA study label.
-129,Studio Killers,7avo0PmlW8O1YLEt9DnWQT,4136257,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
-130,The Fratellis,3M4ThdJR28z9eSMcQHAZ5G,4131358,Glasgow,strict,exact_study_label,UK004F,Glasgow,Glasgow,2021.0,1831890.0,Origin cluster matches the OECD FUA study label.
-131,Judas Priest,2tRsMl4eGxwoNabM08Dm4I,4112763,Birmingham,strict,exact_study_label,UK002F,West Midlands urban area,Birmingham,2021.0,3135994.0,Origin cluster matches the OECD FUA study label.
-132,T. Rex,3dBVyJ7JuOMt4GE9607Qin,4010971,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-133,Metronomy,54QMjE4toDfiCryzYWCpXX,3971668,Totnes,reviewed_extended,nearby_fua_sensitivity,UK561F,Torbay,Torbay,2021.0,139440.0,Included only in the extended sensitivity view as a reviewed association with Torbay FUA.
-134,Talk Talk,7Fo8TAyGJr4VmhE68QamMf,3944807,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-135,HONNE,0Vw76uk7P8yVtTClWyOhac,3880260,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
-136,Bananarama,3sc7iUG1Wwpwx7bHeZolgx,3805410,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-137,Underworld,1PXHzxRDiLnjqNrRn2Xbsa,3783264,Romford,strict,documented_london_locality,UK001F,London,London,2021.0,12274097.0,Romford is within the London Borough of Havering and is assigned to London FUA.
-138,Blue,2yEkZBBjhzKzt6LF5XMaFi,3677775,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-139,Kasabian,11wRdbnoYqRddKBrpHt4Ue,3649101,Leicester,strict,exact_study_label,UK014F,Leicester,Leicester,2021.0,922812.0,Origin cluster matches the OECD FUA study label.
-140,SAULT,1uRxRKC7d9zwYGSRflTKDR,3625737,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
-141,Bad Company,5AEG63ajney2BoDXi0Vb84,3616192,Westminster,strict,documented_london_locality,UK001F,London,London,2021.0,12274097.0,Westminster is within London and is assigned to London FUA.
-142,Madness,4AYkFtEBnNnGuoo8HaHErd,3611935,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-143,Nothing But Thieves,1kDGbuxWknIKx4FlgWxiSp,3587725,Southend-on-Sea,excluded_no_defensible_fua,no_reviewed_assignment,,,,,,No assignment is made without an official locality-to-FUA crosswalk.
-144,Wet Leg,2TwOrUcYnAlIiKmVQkkoSZ,3584069,Isle of Wight,excluded_no_defensible_fua,no_reviewed_assignment,,,,,,The OECD UK population file contains no Isle of Wight FUA.
-145,Wolf Alice,3btzEQD6sugImIHPMRgkwV,3575621,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-146,The Irrepressibles,1v5bOzXbhrQ57qSvRwGA6s,3531545,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-147,Sophie and the Giants,4FrXHrpbDLNyO3pbVv8RmF,3507868,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
-148,The Stone Roses,1lYT0A0LV5DUfxr6doRP3d,3488308,Manchester,strict,exact_study_label,UK008F,Manchester,Manchester,2021.0,3432092.0,Origin cluster matches the OECD FUA study label.
-149,The Buggles,057gc1fxmJ2vkctjQJ7Tal,3487007,Wimbledon,strict,documented_london_locality,UK001F,London,London,2021.0,12274097.0,Wimbledon is within the London Borough of Merton and is assigned to London FUA.
-150,Placebo,6RZUqkomCmb8zCRqc9eznB,3460472,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-151,The Sundays,4nlqDmbzFzbNITaqjJv7D7,3421091,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-152,Orchestral Manoeuvres In The Dark,7wJ9NwdRWtN92NunmXuwBk,3287803,Meols,reviewed_extended,metropolitan_fua_sensitivity,UK006F,Liverpool,Liverpool,2021.0,1540817.0,Included only in the extended sensitivity view as a reviewed association with Liverpool FUA.
-153,Dead Or Alive,5WWSL6rElJeUk3Uc1S2RyD,3275455,Liverpool,strict,exact_study_label,UK006F,Liverpool,Liverpool,2021.0,1540817.0,Origin cluster matches the OECD FUA study label.
-154,Groove Armada,67tgMwUfnmqzYsNAtnP6YJ,3267951,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-155,Snakehips,2FwJwEswyIUAljqgjNSHgP,3159265,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
-156,Generation X,1inWec2E2UgfzMAhwjgTXe,3158701,Chelsea,strict,documented_london_locality,UK001F,London,London,2021.0,12274097.0,Chelsea is within London and is assigned to London FUA.
-157,BICEP,73A3bLnfnz5BoQjb4gNCga,3141387,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
-158,Yazoo,1G1mX30GpUJqOr1QU2eBSs,3044119,Basildon,reviewed_extended,metropolitan_fua_sensitivity,UK001F,London,London,2021.0,12274097.0,Included only in the extended sensitivity view as a reviewed association with London FUA.
-159,Bloc Party,3MM8mtgFzaEJsqbjZBSsHJ,3039480,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-160,Gorgon City,4VNQWV2y1E97Eqo2D5UTjx,3028602,North London,strict,documented_london_locality,UK001F,London,London,2021.0,12274097.0,The reported origin is explicitly within London and is assigned to London FUA.
-161,Sugababes,7rZNSLWMjTbwdLNskFbzFf,3027300,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-162,Architects,3ZztVuWxHzNpl0THurTFCv,3025569,Brighton,strict,reviewed_label_alias,UK515F,Brighton and Hove,Brighton and Hove,2021.0,441252.0,Brighton is the short study label for Brighton and Hove FUA.
-163,Kaiser Chiefs,0LbLWjaweRbO4FDKYlbfNt,2999896,Leeds,strict,exact_study_label,UK003F,Leeds,Leeds,2021.0,2969034.0,Origin cluster matches the OECD FUA study label.
-164,Third Party,2J80qXI4NHKpq5RT3xUF7V,2971418,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
-165,Basement Jaxx,4YrKBkKSVeqDamzBPWVnSJ,2938717,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-166,Lighthouse Family,6edGSAX5dVpeJVwu1Q0NwJ,2921952,Newcastle upon Tyne,strict,exact_official_label,UK013F,Newcastle upon Tyne,Newcastle,2021.0,1173303.0,Origin cluster matches the official OECD FUA name.
-167,The Struts,3lDpdwM8KILepMHqBWUhIA,2895181,Derby,strict,exact_study_label,UK518F,Derby,Derby,2021.0,495753.0,Origin cluster matches the OECD FUA study label.
-168,The Wombats,0Ya43ZKWHTKkAbkoJJkwIB,2884656,Liverpool,strict,exact_study_label,UK006F,Liverpool,Liverpool,2021.0,1540817.0,Origin cluster matches the OECD FUA study label.
-169,Travis,3bUwxJgNakzYKkqAVgZLlh,2884486,Glasgow,strict,exact_study_label,UK004F,Glasgow,Glasgow,2021.0,1831890.0,Origin cluster matches the OECD FUA study label.
-170,Mattafix,5KORW1YGiERJqfuYjXMCyz,2878488,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-171,Royal Blood,2S5hlvw4CMtMGswFtfdK15,2873864,Brighton,strict,reviewed_label_alias,UK515F,Brighton and Hove,Brighton and Hove,2021.0,441252.0,Brighton is the short study label for Brighton and Hove FUA.
-172,Free,2e53aHBQdCMKWqHDuyJsjC,2860415,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-173,London Grammar,3Bd1cgCjtCI32PYvDC3ynO,2832139,Nottingham,strict,exact_study_label,UK029F,Nottingham,Nottingham,2021.0,906878.0,Origin cluster matches the OECD FUA study label.
-174,Pulp,36E7oYfz3LLRto6l2WmDcD,2830863,Sheffield,strict,exact_study_label,UK010F,Sheffield,Sheffield,2021.0,1168389.0,Origin cluster matches the OECD FUA study label.
-175,The Heavy,0bZCak2tcRMY1dzEIuwF42,2796068,Bath,strict,reviewed_label_alias,UK031F,Bath and North East Somerset,Bath and North East Somerset,2021.0,192419.0,Bath is the short study label for Bath and North East Somerset FUA.
-176,Neck Deep,2TM0qnbJH4QPhGMCdPt7fH,2790501,Wrexham,strict,exact_study_label,UK022F,Wrexham,Wrexham,2021.0,135152.0,Origin cluster matches the OECD FUA study label.
-177,DNA,2rGm8R7YDTbqDCVlNssQyL,2774617,Bath,strict,reviewed_label_alias,UK031F,Bath and North East Somerset,Bath and North East Somerset,2021.0,192419.0,Bath is the short study label for Bath and North East Somerset FUA.
-178,Frankie Goes To Hollywood,1mZu3rO7qSD09GdDpePHhY,2758706,Liverpool,strict,exact_study_label,UK006F,Liverpool,Liverpool,2021.0,1540817.0,Origin cluster matches the OECD FUA study label.
-179,Atomic Kitten,6JMHws5haIO6V35YNYDnDw,2751716,Liverpool,strict,exact_study_label,UK006F,Liverpool,Liverpool,2021.0,1540817.0,Origin cluster matches the OECD FUA study label.
-180,Faces,3v4feUQnU3VEUqFrjmtekL,2718313,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
-181,Asia,1bdytLV3FPjyhfrb6BhMej,2716602,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
-182,The Waterboys,5TnuP42pw475UrjjeabtwZ,2670888,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
-183,Still Corners,4zKYrXs8iN4AeHmO8ZxNqp,2608941,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-184,Asking Alexandria,1caBfBEapzw8z2Qz9q0OaQ,2592556,York,strict,exact_study_label,UK533F,York,York,2021.0,201851.0,Origin cluster matches the OECD FUA study label.
-185,All Saints,5TDVKqW9uhqGjwwwKGuma4,2567281,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-186,Sigma,01pKrlgPJhm5dB4lneYAqS,2550591,University of Leeds,strict,documented_city_institution,UK003F,Leeds,Leeds,2021.0,2969034.0,The reported formation place is an institution in Leeds and is assigned to Leeds FUA.
-187,Mungo Jerry,2mbvqMGpwLsakeH45p1Jrb,2528248,Ashford,strict,exact_study_label,UK041F,Ashford,Ashford,2021.0,133221.0,Origin cluster matches the OECD FUA study label.
-188,Moloko,4aaBjq7VqqQvpSF69GglvO,2507932,Sheffield,strict,exact_study_label,UK010F,Sheffield,Sheffield,2021.0,1168389.0,Origin cluster matches the OECD FUA study label.
-189,Status Quo,4gIdjgLlvgEOz7MexDZzpM,2503249,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-190,The Darkness,5r1bdqzhgRoHC3YcCV6N5a,2453090,Lowestoft,excluded_no_defensible_fua,no_reviewed_assignment,,,,,,No assignment is made without an official locality-to-FUA crosswalk.
-191,Texas,5JsdVATHNPE0XdMFMRoSuf,2420479,Glasgow,strict,exact_study_label,UK004F,Glasgow,Glasgow,2021.0,1831890.0,Origin cluster matches the OECD FUA study label.
-192,Edison Lighthouse,1NRzxuPpdGushT8YmF5NAa,2393214,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-193,Wang Chung,6Zh3xrWlA0SA9Fsfj9AVwm,2358411,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-194,The Cult,49DW3KvkyjHO35mK1JnSyS,2277310,Bradford,reviewed_extended,metropolitan_fua_sensitivity,UK003F,Leeds,Leeds,2021.0,2969034.0,Included only in the extended sensitivity view as a reviewed association with Leeds FUA.
-195,Rainbow,6SLAMfhOi7UJI0fMztaK0m,2270623,Hertford,excluded_no_defensible_fua,no_reviewed_assignment,,,,,,No assignment is made without an official locality-to-FUA crosswalk.
-196,Sohodolls,1KNXft7nnRQj82sENi7WGN,2252106,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-197,Echo & the Bunnymen,0fgYKF9Avljex0L9Wt5b8Z,2210172,Liverpool,strict,exact_study_label,UK006F,Liverpool,Liverpool,2021.0,1540817.0,Origin cluster matches the OECD FUA study label.
-198,James,0qLNsNKm8bQcMoRFkR8Hmh,2205349,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
-199,The Shapeshifters,60FV7KyxIH9FH1uq7u8inP,2179710,London,strict,exact_study_label,UK001F,London,London,2021.0,12274097.0,Origin cluster matches the OECD FUA study label.
-200,Amber Run,0MmnmsAuQKRFpo6vJElcaU,2165390,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
+1,Coldplay,4gzpq5DPGxSnKTe4SA8HAU,92034104,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+2,Arctic Monkeys,7Ln80lUS6He07XvHI8qqHH,52301870,Sheffield,strict,official_oecd_municipality_crosswalk,UK010F,Sheffield,Sheffield,2024.0,1217504.0,The official OECD municipality list assigns Sheffield to Sheffield FUA.
+3,Queen,1dfeR4HaWDbWqFHLkxsg1d,51601234,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+4,Fleetwood Mac,08GQAI4eElDnROBrJRGE0X,50959935,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+5,One Direction,4AK6F7OLvEQ5QYCBNiQWHq,45724043,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+6,Radiohead,4Z8W4fKeB5YxbusRsdQVPb,43168156,Oxford,strict,official_oecd_municipality_crosswalk,UK560F,Oxford,Oxford,2024.0,606748.0,The official OECD municipality list assigns Oxford to Oxford FUA.
+7,The Police,5NGO30tJxFlKixkPSgXcFE,39887109,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+8,Oasis,2DaxqgrOhkeH0fpeiQq2f4,39676473,Manchester,strict,official_oecd_municipality_crosswalk,UK008F,Manchester,Manchester,2024.0,3595966.0,The official OECD municipality list assigns Manchester to Manchester FUA.
+9,Gorillaz,3AA28KZvwAUcZuOKwyblJQ,38173160,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+10,The Beatles,3WrFJ7ztbogyGnTHbHJFl2,37927636,Liverpool,strict,official_oecd_municipality_crosswalk,UK006F,Liverpool,Liverpool,2024.0,1597536.0,The official OECD municipality list assigns Liverpool to Liverpool FUA.
+11,Clean Bandit,6MDME20pz9RveH9rEXvrOM,35453400,Cambridge,strict,official_oecd_municipality_crosswalk,UK017F,Cambridge,Cambridge,2024.0,414802.0,The official OECD municipality list assigns Cambridge to Cambridge FUA.
+12,The Rolling Stones,22bE4uQ6baNwSHPVcDxLCe,30690194,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+13,Bee Gees,1LZEQNv7sE11VDY3SdxQeN,29286539,Redcliffe,excluded_non_uk,outside_uk_fua_universe,,,,,,Redcliffe is outside the UK FUA universe.
+14,Glass Animals,4yvcSjfu4PC0CYQyLy4wSq,27093208,Oxford,strict,official_oecd_municipality_crosswalk,UK560F,Oxford,Oxford,2024.0,606748.0,The official OECD municipality list assigns Oxford to Oxford FUA.
+15,Pink Floyd,0k17h0D3J5VfsdmQ1iZtE9,26546155,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+16,Dire Straits,0WwSkZ7LtFUFjGjMZBMt6T,26242776,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+17,Florence + The Machine,1moxjboGR7GNWYIMWsRjgG,25836943,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+18,The Cure,7bu3H8JO7d0UbMoVzbo70s,25827890,Crawley,strict,official_oecd_municipality_crosswalk,UK576F,Crawley,Crawley,2024.0,124008.0,The official OECD municipality list assigns Crawley to Crawley FUA.
+19,Sade,47zz7sob9NUcODy0BTDvKx,25528819,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+20,Disclosure,6nS5roXSAGhTGr34W6n7Et,25360907,Reigate,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns Reigate and Banstead to London FUA.
+21,Tears For Fears,4bthk9UfsYUYdcFyqxmSUU,23781006,Bath,strict,official_oecd_municipality_crosswalk,UK031F,Bath and North East Somerset,Bath and North East Somerset,2024.0,200028.0,The official OECD municipality list assigns Bath and North East Somerset to Bath and North East Somerset FUA.
+22,Keane,53A0W3U0s8diEn9RhXQhVz,23259577,Battle,strict,official_oecd_municipality_crosswalk,UK056F,Hastings,Hastings,2024.0,187352.0,The official OECD municipality list assigns Rother to Hastings FUA.
+23,The Smiths,3yY2gUcIsjMr8hjo51PoJ8,22515532,Manchester,strict,official_oecd_municipality_crosswalk,UK008F,Manchester,Manchester,2024.0,3595966.0,The official OECD municipality list assigns Manchester to Manchester FUA.
+24,Bastille,7EQ0qTo7fWT7DPxmxtSYEc,22166012,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+25,Muse,12Chz98pHFMPJEknJQMWvI,20942571,Teignmouth,strict,official_oecd_municipality_crosswalk,UK018F,Exeter,Exeter,2024.0,520179.0,The official OECD municipality list assigns Teignbridge to Exeter FUA.
+26,Led Zeppelin,36QJpDe2go2KgaRleHCDTp,20605707,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+27,The 1975,3mIj9lX2MWuHmhNCA7LSCW,18915018,Manchester,strict,official_oecd_municipality_crosswalk,UK008F,Manchester,Manchester,2024.0,3595966.0,The official OECD municipality list assigns Manchester to Manchester FUA.
+28,Electric Light Orchestra,7jefIIksOi1EazgRTfW2Pk,18330664,Birmingham,strict,official_oecd_municipality_crosswalk,UK002F,West Midlands urban area,Birmingham,2024.0,3247941.0,The official OECD municipality list assigns Birmingham to West Midlands urban area FUA.
+29,Black Sabbath,5M52tdBnJaKSvOpJGz8mfZ,18288641,Birmingham,strict,official_oecd_municipality_crosswalk,UK002F,West Midlands urban area,Birmingham,2024.0,3247941.0,The official OECD municipality list assigns Birmingham to West Midlands urban area FUA.
+30,The Outfield,1zxDewzd2j1ZdSBGaYcr0y,17941634,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+31,Depeche Mode,762310PdDnwsDxAQxzQkfX,17667155,Basildon,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns Basildon to London FUA.
+32,America,35U9lQaRWSQISxQAB94Meo,17384987,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+33,The Verve,2cGwlqi3k18jFpUyTrsR84,16374768,Manchester,strict,official_oecd_municipality_crosswalk,UK008F,Manchester,Manchester,2024.0,3595966.0,The official OECD municipality list assigns Manchester to Manchester FUA.
+34,Duran Duran,0lZoBs4Pzo7R89JM9lxwoT,15134650,Birmingham,strict,official_oecd_municipality_crosswalk,UK002F,West Midlands urban area,Birmingham,2024.0,3247941.0,The official OECD municipality list assigns Birmingham to West Midlands urban area FUA.
+35,Eurythmics,0NKDgy9j66h3DLnN8qu1bB,14843560,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+36,Little Mix,3e7awlrlDSwF3iM0WBjGMp,14779473,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+37,The Clash,3RGLhK1IP9jnYFH4BRFJBS,14589467,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+38,Mumford & Sons,3gd8FJtBJtkRxdfbTu19U2,14381934,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+39,Blur,7MhMgCo0Bl0Kukl93PZbYS,14009757,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+40,Bring Me The Horizon,1Ffb6ejR6Fe5IamqA5oRUF,13707032,Sheffield,strict,official_oecd_municipality_crosswalk,UK010F,Sheffield,Sheffield,2024.0,1217504.0,The official OECD municipality list assigns Sheffield to Sheffield FUA.
+41,Snow Patrol,3rIZMv9rysU7JkLzEaC5Jp,13274460,Dundee,strict,official_oecd_municipality_crosswalk,UK550F,Dundee City,Dundee City,2024.0,264690.0,"The official OECD municipality list assigns Angus, Dundee City to Dundee City FUA."
+42,Spice Girls,0uq5PttqEjj3IH1bzwcrXF,12877807,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+43,The Animals,3ICflSq6ZgYAIrm2CTkfVP,12324330,Newcastle upon Tyne,strict,official_oecd_municipality_crosswalk,UK013F,Newcastle upon Tyne,Newcastle,2024.0,1221203.0,"The official OECD municipality list assigns Newcastle upon Tyne, Northumberland to Newcastle upon Tyne FUA."
+44,Rudimental,4WN5naL3ofxrVBgFpguzKo,11737472,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+45,Faithless,5T4UKHhr4HGIC0VzdZQtAE,11726956,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+46,Disciples,5EehXjjMktLuJmbRsM7YfB,11691137,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+47,Jungle,59oA5WbbQvomJz2BuRG071,11614048,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+48,bôa,5jTtGLk1mGFMY5lQOvJYUj,11444869,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+49,Cutting Crew,3cniTumSiUysiPWXapGx1i,10972839,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+50,Franz Ferdinand,0XNa1vTidXlvJ2gHSsRi4A,10807735,Glasgow,strict,official_oecd_municipality_crosswalk,UK004F,Glasgow,Glasgow,2024.0,1895840.0,"The official OECD municipality list assigns East Dunbartonshire, Glasgow City, North Lanarkshire to Glasgow FUA."
+51,Def Leppard,6H1RjVyNruCmrBEWRbD0VZ,10792689,Sheffield,strict,official_oecd_municipality_crosswalk,UK010F,Sheffield,Sheffield,2024.0,1217504.0,The official OECD municipality list assigns Sheffield to Sheffield FUA.
+52,Pet Shop Boys,2ycnb8Er79LoH2AsR5ldjh,10634217,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+53,The Hollies,6waa8mKu91GjzD4NlONlNJ,10112715,Manchester,strict,official_oecd_municipality_crosswalk,UK008F,Manchester,Manchester,2024.0,3595966.0,The official OECD municipality list assigns Manchester to Manchester FUA.
+54,Wham!,5lpH0xAS4fVfLkACg9DAuM,10018855,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+55,Two Door Cinema Club,536BYVgOnRky0xjsPT96zl,9884423,Bangor,strict,official_oecd_municipality_crosswalk,UK012F,Belfast,Belfast,2024.0,817574.0,The official OECD municipality list assigns Ards and North Down to Belfast FUA.
+56,The Stranglers,0RUEHcBiENFEqxgicqS2ig,9836875,Guildford,strict,official_oecd_municipality_crosswalk,UK033F,Guildford,Guildford,2024.0,285643.0,The official OECD municipality list assigns Guildford to Guildford FUA.
+57,Simple Minds,6hN9F0iuULZYWXppob22Aj,9628717,Glasgow,strict,official_oecd_municipality_crosswalk,UK004F,Glasgow,Glasgow,2024.0,1895840.0,"The official OECD municipality list assigns East Dunbartonshire, Glasgow City, North Lanarkshire to Glasgow FUA."
+58,Bronski Beat,2wpWOzQE5TpA0dVnh5YD08,9566679,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+59,Seafret,4Ly0KABsxlx4fNj63zJTrF,9520023,Bridlington,strict,official_oecd_municipality_crosswalk,UK026F,Kingston upon Hull,Hull,2024.0,631285.0,The official OECD municipality list assigns East Riding of Yorkshire to Kingston upon Hull FUA.
+60,Genesis,3CkvROUTQ6nRi9yQOcsB50,9434858,Godalming,strict,official_oecd_municipality_crosswalk,UK033F,Guildford,Guildford,2024.0,285643.0,The official OECD municipality list assigns Waverley to Guildford FUA.
+61,Spandau Ballet,2urZrEdsq72kx0UzfYN8Yv,9335819,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+62,UB40,69MEO1AADKg1IZrq2XLzo5,9327767,Birmingham,strict,official_oecd_municipality_crosswalk,UK002F,West Midlands urban area,Birmingham,2024.0,3247941.0,The official OECD municipality list assigns Birmingham to West Midlands urban area FUA.
+63,The Chemical Brothers,1GhPHrq36VKCY3ucVaZCfo,9143502,Manchester,strict,official_oecd_municipality_crosswalk,UK008F,Manchester,Manchester,2024.0,3595966.0,The official OECD municipality list assigns Manchester to Manchester FUA.
+64,Simply Red,1fa0cOhromAZdq2xRA4vv8,9097250,Manchester,strict,official_oecd_municipality_crosswalk,UK008F,Manchester,Manchester,2024.0,3595966.0,The official OECD municipality list assigns Manchester to Manchester FUA.
+65,Jamiroquai,6J7biCazzYhU3gM9j1wfid,9068742,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+66,Iron Maiden,6mdiAmATAx73kdxrNrnlao,9029433,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+67,Toploader,6xeFne1rkxMhKSW3ipvkdV,8829850,Eastbourne,strict,official_oecd_municipality_crosswalk,UK055F,Eastbourne,Eastbourne,2024.0,104259.0,The official OECD municipality list assigns Eastbourne to Eastbourne FUA.
+68,New Order,0yNLKJebCb8Aueb54LYya3,8786188,Manchester,strict,official_oecd_municipality_crosswalk,UK008F,Manchester,Manchester,2024.0,3595966.0,The official OECD municipality list assigns Manchester to Manchester FUA.
+69,Massive Attack,6FXMGgJwohJLUSr5nVlf9X,8692931,Bristol,strict,exact_fua_label,UK011F,Bristol,Bristol,2024.0,1025309.0,Origin matches an official or study FUA label.
+70,The Who,67ea9eGLXYMsO2eYQRui3w,8659112,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+71,D-Block Europe,5VadK1havLhK1OpKYsXv9y,8351560,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+72,alt-J,3XHO7cRUPCLOr6jwp8vsx5,8110938,Leeds,strict,official_oecd_municipality_crosswalk,UK003F,Leeds,Leeds,2024.0,3070506.0,The official OECD municipality list assigns Leeds to Leeds FUA.
+73,The Proclaimers,1A92IAcd7A6npCA33oGM5i,8100195,Auchtermuchty,excluded_no_defensible_fua,no_reviewed_assignment,,,,,,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+74,Dexys Midnight Runners,4QTVePrFu1xuGM9K0kNXkk,7999321,Birmingham,strict,official_oecd_municipality_crosswalk,UK002F,West Midlands urban area,Birmingham,2024.0,3247941.0,The official OECD municipality list assigns Birmingham to West Midlands urban area FUA.
+75,The Kinks,1SQRv42e4PjEYfPhS0Tk9E,7864488,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+76,Supertramp,3JsMj0DEzyWc0VDlHuy9Bx,7695790,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+77,Oh Wonder,5cIc3SBFuBLVxJz58W2tU9,7552797,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+78,Goodboys,2nm38smINjms1LtczR0Cei,7292613,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+79,The Wanted,2NhdGz9EDv2FeUw6udu2g1,7143333,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+80,Culture Club,6kz53iCdBSqhQCZ21CoLcc,7076755,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+81,Deep Purple,568ZhdwyaiCyOGJRtNYhWf,6998809,Hertford,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns East Hertfordshire to London FUA.
+82,The Kooks,1GLtl8uqKmnyCWxHmw9tL4,6950019,Brighton,strict,official_oecd_municipality_crosswalk,UK515F,Brighton and Hove,Brighton and Hove,2024.0,451122.0,The official OECD municipality list assigns Brighton and Hove to Brighton and Hove FUA.
+83,La Roux,3K2zB87GZv1krx031en5VA,6858904,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+84,10cc,6i6WlGzQtXtz7GcC5H5st5,6808182,Manchester,strict,official_oecd_municipality_crosswalk,UK008F,Manchester,Manchester,2024.0,3595966.0,The official OECD municipality list assigns Manchester to Manchester FUA.
+85,CamelPhat,240wlM8vDrf6S4zCyzGj2W,6543464,Liverpool,strict,official_oecd_municipality_crosswalk,UK006F,Liverpool,Liverpool,2024.0,1597536.0,The official OECD municipality list assigns Liverpool to Liverpool FUA.
+86,Take That,1XgFuvRd7r5g0h844A5ZUQ,6539015,Manchester,strict,official_oecd_municipality_crosswalk,UK008F,Manchester,Manchester,2024.0,3595966.0,The official OECD municipality list assigns Manchester to Manchester FUA.
+87,Whitesnake,3UbyYnvNIT5DFXU4WgiGpP,6249726,Middlesbrough,strict,official_oecd_municipality_crosswalk,UK559F,Middlesbrough,Middlesbrough,2024.0,600369.0,The official OECD municipality list assigns Middlesbrough to Middlesbrough FUA.
+88,The Vamps,7gAppWoH7pcYmphCVTXkzs,6167219,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+89,The Human League,1aX2dmV8XoHYCOQRxjPESG,6085844,Sheffield,strict,official_oecd_municipality_crosswalk,UK010F,Sheffield,Sheffield,2024.0,1217504.0,The official OECD municipality list assigns Sheffield to Sheffield FUA.
+90,Pretenders,0GByy3DcfbQwDvXGCWmzv9,6044974,Hereford,excluded_no_defensible_fua,no_reviewed_assignment,,,,,,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+91,AlunaGeorge,2VAnyOxzJuSAj7XIuEOT38,6010368,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+92,Portishead,6liAMWkVf5LH7YR9yfFy1Y,5958911,Bristol,strict,exact_fua_label,UK011F,Bristol,Bristol,2024.0,1025309.0,Origin matches an official or study FUA label.
+93,Frou Frou,6MUyqmIQ35inLjch0YzIEG,5930276,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+94,Soft Cell,6aq8T2RcspxVOGgMrTzjWc,5766246,Leeds,strict,official_oecd_municipality_crosswalk,UK003F,Leeds,Leeds,2024.0,3070506.0,The official OECD municipality list assigns Leeds to Leeds FUA.
+95,Stealers Wheel,7bPU7cvfoD20ixGD9Qnqki,5726001,Paisley,strict,official_oecd_municipality_crosswalk,UK004F,Glasgow,Glasgow,2024.0,1895840.0,"The official OECD municipality list assigns East Renfrewshire, Glasgow City, Renfrewshire to Glasgow FUA."
+96,Katrina & The Waves,2TzHIUhVpeeDxyJPpQfnV3,5671000,Cambridge,strict,official_oecd_municipality_crosswalk,UK017F,Cambridge,Cambridge,2024.0,414802.0,The official OECD municipality list assigns Cambridge to Cambridge FUA.
+97,LF SYSTEM,0HxX6imltnNXJyQhu4nsiO,5611864,West Lothian,strict,official_oecd_municipality_crosswalk,UK007F,Edinburgh,Edinburgh,2024.0,932180.0,The official OECD municipality list assigns West Lothian to Edinburgh FUA.
+98,Everything But The Girl,13ccXrK7AmXb4TddMkE7jy,5607393,Kingston upon Hull,strict,official_oecd_municipality_crosswalk,UK026F,Kingston upon Hull,Hull,2024.0,631285.0,The official OECD municipality list assigns East Riding of Yorkshire to Kingston upon Hull FUA.
+99,The La's,47Z8LEl3LnQkcpva0xSthT,5581915,Liverpool,strict,official_oecd_municipality_crosswalk,UK006F,Liverpool,Liverpool,2024.0,1597536.0,The official OECD municipality list assigns Liverpool to Liverpool FUA.
+100,The xx,3iOvXCl6edW5Um0fXEBRXy,5459918,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+101,The Cinematic Orchestra,32ogthv0BdaSMPml02X9YB,5329785,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+102,Fine Young Cannibals,20p5D2KrE8CGuOjHtxsyTp,5309505,Birmingham,strict,official_oecd_municipality_crosswalk,UK002F,West Midlands urban area,Birmingham,2024.0,3247941.0,The official OECD municipality list assigns Birmingham to West Midlands urban area FUA.
+103,Stereophonics,21UJ7PRWb3Etgsu99f8yo8,5187258,Cwmaman,strict,official_oecd_municipality_crosswalk,UK009F,Cardiff,Cardiff,2024.0,939371.0,The official OECD municipality list assigns Rhondda Cynon Taf to Cardiff FUA.
+104,Bush,78SHxLdtysAXgywQ4vE0Oa,5127264,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+105,Cocteau Twins,5Wabl1lPdNOeIn0SQ5A1mp,5124023,Grangemouth,strict,official_oecd_municipality_crosswalk,UK551F,Falkirk,Falkirk,2024.0,160020.0,The official OECD municipality list assigns Falkirk to Falkirk FUA.
+106,Bullet For My Valentine,7iWiAD5LLKyiox2grgfmUT,5036374,Bridgend,excluded_no_defensible_fua,no_reviewed_assignment,,,,,,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+107,The Prodigy,4k1ELeJKT1ISyDv8JivPpB,5031555,Braintree,excluded_no_defensible_fua,no_reviewed_assignment,,,,,,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+108,The Zombies,2jgPkn6LuUazBoBk6vvjh5,5025277,St Albans,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns St Albans to London FUA.
+109,Hot Chocolate,72VzFto8DYvKHocaHYNWSi,5017699,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+110,The Alan Parsons Project,2m62cc253Xvd9qYQ8d2X3d,4991688,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+111,Chase & Status,3jNkaOXasoc7RsxdchvEVq,4913546,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+112,Wings,3sFhA6G1N0gG1pszb6kk1m,4863252,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
+113,Hurts,3w4VAlllkAWI6m0AV0Gn6a,4854547,Manchester,strict,official_oecd_municipality_crosswalk,UK008F,Manchester,Manchester,2024.0,3595966.0,The official OECD municipality list assigns Manchester to Manchester FUA.
+114,Erasure,0z5DFXmhT4ZNzWElsM7V89,4832016,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
+115,Chumbawamba,0TcYeHEK9sBtv7xPbKhzHz,4700579,Burnley,strict,official_oecd_municipality_crosswalk,UK050F,Burnley,Burnley,2024.0,199010.0,The official OECD municipality list assigns Burnley to Burnley FUA.
+116,A Flock Of Seagulls,0uAjBatvB4ubpd4kCfjmNt,4670482,Liverpool,strict,official_oecd_municipality_crosswalk,UK006F,Liverpool,Liverpool,2024.0,1597536.0,The official OECD municipality list assigns Liverpool to Liverpool FUA.
+117,Slowdive,72X6FHxaShda0XeQw3vbeF,4658345,Reading,strict,official_oecd_municipality_crosswalk,UK552F,Reading,Reading,2024.0,370107.0,"The official OECD municipality list assigns Reading, Wokingham to Reading FUA."
+118,Supergrass,0sHeX8oQ6o7xic3wMf4NBU,4645328,Oxford,strict,official_oecd_municipality_crosswalk,UK560F,Oxford,Oxford,2024.0,606748.0,The official OECD municipality list assigns Oxford to Oxford FUA.
+119,Cream,74oJ4qxwOZvX6oSsu1DGnw,4518268,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+120,Motörhead,1DFr97A9HnbV3SKTJFu62M,4453633,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+121,Yes,7AC976RDJzL2asmZuz7qil,4447983,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+122,Nazareth,6fvN9GmMCVKb5LY0WsnjFP,4341186,Dunfermline,reviewed_extended,reviewed_legacy_assignment,UK007F,Edinburgh,Edinburgh,2024.0,932180.0,Preserved from the reviewed top-200 mapping because the official municipality crosswalk does not resolve the reported place. Prior note: Preserved from the reviewed top-200 mapping because the official municipality crosswalk does not resolve the reported place. Prior note: Included only in the extended sensitivity view as a reviewed association with Edinburgh FUA.
+123,Foals,6FQqZYVfTNQ1pCqfkwVFEa,4201622,Oxford,strict,official_oecd_municipality_crosswalk,UK560F,Oxford,Oxford,2024.0,606748.0,The official OECD municipality list assigns Oxford to Oxford FUA.
+124,Sidewalks and Skeletons,48nHO1cuTbpx4ELhChsxX1,4198181,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
+125,LSD,6IZ4ctovY9dl7bgHClAvKJ,4191261,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
+126,FLO,0s4kXsjYeH0S1xRyVGN4NO,4183163,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
+127,The Foundations,4GITZM5LCR2KcdlgEOrNLD,4165829,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+128,CHVRCHES,3CjlHNtplJyTf9npxaPl5w,4152413,Glasgow,strict,official_oecd_municipality_crosswalk,UK004F,Glasgow,Glasgow,2024.0,1895840.0,"The official OECD municipality list assigns East Dunbartonshire, Glasgow City, North Lanarkshire to Glasgow FUA."
+129,Maribou State,7zrkALJ9ayRjzysp4QYoEg,4147945,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
+130,Joy Division,432R46LaYsJZV2Gmc4jUV5,4140711,Manchester,strict,official_oecd_municipality_crosswalk,UK008F,Manchester,Manchester,2024.0,3595966.0,The official OECD municipality list assigns Manchester to Manchester FUA.
+131,Studio Killers,7avo0PmlW8O1YLEt9DnWQT,4136257,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
+132,The Fratellis,3M4ThdJR28z9eSMcQHAZ5G,4131358,Glasgow,strict,official_oecd_municipality_crosswalk,UK004F,Glasgow,Glasgow,2024.0,1895840.0,"The official OECD municipality list assigns East Dunbartonshire, Glasgow City, North Lanarkshire to Glasgow FUA."
+133,Judas Priest,2tRsMl4eGxwoNabM08Dm4I,4112763,Birmingham,strict,official_oecd_municipality_crosswalk,UK002F,West Midlands urban area,Birmingham,2024.0,3247941.0,The official OECD municipality list assigns Birmingham to West Midlands urban area FUA.
+134,T. Rex,3dBVyJ7JuOMt4GE9607Qin,4010971,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+135,Metronomy,54QMjE4toDfiCryzYWCpXX,3971668,Totnes,strict,official_oecd_municipality_crosswalk,UK516F,Plymouth,Plymouth,2024.0,423138.0,The official OECD municipality list assigns South Hams to Plymouth FUA.
+136,Talk Talk,7Fo8TAyGJr4VmhE68QamMf,3944807,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+137,HONNE,0Vw76uk7P8yVtTClWyOhac,3880260,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
+138,Bananarama,3sc7iUG1Wwpwx7bHeZolgx,3805410,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+139,Underworld,1PXHzxRDiLnjqNrRn2Xbsa,3783264,Cardiff,strict,official_oecd_municipality_crosswalk,UK009F,Cardiff,Cardiff,2024.0,939371.0,The official OECD municipality list assigns Cardiff to Cardiff FUA.
+140,Blue,2yEkZBBjhzKzt6LF5XMaFi,3677775,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+141,Kasabian,11wRdbnoYqRddKBrpHt4Ue,3649101,Leicester,strict,official_oecd_municipality_crosswalk,UK014F,Leicester,Leicester,2024.0,967988.0,The official OECD municipality list assigns Leicester to Leicester FUA.
+142,SAULT,1uRxRKC7d9zwYGSRflTKDR,3625737,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
+143,Bad Company,5AEG63ajney2BoDXi0Vb84,3616192,Westminster,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,"The official OECD municipality list assigns City of London, Westminster to London FUA."
+144,Madness,4AYkFtEBnNnGuoo8HaHErd,3611935,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+145,Rixton,0kkxsdcaWmWU2yWAqclDh4,3592716,Manchester,strict,official_oecd_municipality_crosswalk,UK008F,Manchester,Manchester,2024.0,3595966.0,The official OECD municipality list assigns Manchester to Manchester FUA.
+146,Nothing But Thieves,1kDGbuxWknIKx4FlgWxiSp,3587725,Southend-on-Sea,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns Southend-on-Sea to London FUA.
+147,Wet Leg,2TwOrUcYnAlIiKmVQkkoSZ,3584069,Isle of Wight,excluded_no_defensible_fua,no_reviewed_assignment,,,,,,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+148,Wolf Alice,3btzEQD6sugImIHPMRgkwV,3575621,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+149,The Irrepressibles,1v5bOzXbhrQ57qSvRwGA6s,3531545,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+150,Sophie and the Giants,4FrXHrpbDLNyO3pbVv8RmF,3507868,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
+151,The Stone Roses,1lYT0A0LV5DUfxr6doRP3d,3488308,Manchester,strict,official_oecd_municipality_crosswalk,UK008F,Manchester,Manchester,2024.0,3595966.0,The official OECD municipality list assigns Manchester to Manchester FUA.
+152,The Buggles,057gc1fxmJ2vkctjQJ7Tal,3487007,Wimbledon,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,"The official OECD municipality list assigns City of London, Merton to London FUA."
+153,Placebo,6RZUqkomCmb8zCRqc9eznB,3460472,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+154,The Sundays,4nlqDmbzFzbNITaqjJv7D7,3421091,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+155,Orchestral Manoeuvres In The Dark,7wJ9NwdRWtN92NunmXuwBk,3287803,Meols,strict,official_oecd_municipality_crosswalk,UK006F,Liverpool,Liverpool,2024.0,1597536.0,The official OECD municipality list assigns Wirral to Liverpool FUA.
+156,Dead Or Alive,5WWSL6rElJeUk3Uc1S2RyD,3275455,Liverpool,strict,official_oecd_municipality_crosswalk,UK006F,Liverpool,Liverpool,2024.0,1597536.0,The official OECD municipality list assigns Liverpool to Liverpool FUA.
+157,Groove Armada,67tgMwUfnmqzYsNAtnP6YJ,3267951,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+158,Snakehips,2FwJwEswyIUAljqgjNSHgP,3159265,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
+159,Generation X,1inWec2E2UgfzMAhwjgTXe,3158701,Chelsea,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,"The official OECD municipality list assigns City of London, Kensington and Chelsea to London FUA."
+160,BICEP,73A3bLnfnz5BoQjb4gNCga,3141387,Belfast,strict,official_oecd_municipality_crosswalk,UK012F,Belfast,Belfast,2024.0,817574.0,The official OECD municipality list assigns Belfast to Belfast FUA.
+161,Yazoo,1G1mX30GpUJqOr1QU2eBSs,3044119,Basildon,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns Basildon to London FUA.
+162,Bloc Party,3MM8mtgFzaEJsqbjZBSsHJ,3039480,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+163,Gorgon City,4VNQWV2y1E97Eqo2D5UTjx,3028602,North London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+164,Sugababes,7rZNSLWMjTbwdLNskFbzFf,3027300,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+165,Architects,3ZztVuWxHzNpl0THurTFCv,3025569,Brighton,strict,official_oecd_municipality_crosswalk,UK515F,Brighton and Hove,Brighton and Hove,2024.0,451122.0,The official OECD municipality list assigns Brighton and Hove to Brighton and Hove FUA.
+166,Kaiser Chiefs,0LbLWjaweRbO4FDKYlbfNt,2999896,Leeds,strict,official_oecd_municipality_crosswalk,UK003F,Leeds,Leeds,2024.0,3070506.0,The official OECD municipality list assigns Leeds to Leeds FUA.
+167,Third Party,2J80qXI4NHKpq5RT3xUF7V,2971418,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
+168,Basement Jaxx,4YrKBkKSVeqDamzBPWVnSJ,2938717,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+169,Roxy Music,3fhOTtm0LBJ3Ojn4hIljLo,2932733,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+170,Lighthouse Family,6edGSAX5dVpeJVwu1Q0NwJ,2921952,Newcastle upon Tyne,strict,official_oecd_municipality_crosswalk,UK013F,Newcastle upon Tyne,Newcastle,2024.0,1221203.0,"The official OECD municipality list assigns Newcastle upon Tyne, Northumberland to Newcastle upon Tyne FUA."
+171,The Struts,3lDpdwM8KILepMHqBWUhIA,2895181,Derby,strict,official_oecd_municipality_crosswalk,UK518F,Derby,Derby,2024.0,522093.0,The official OECD municipality list assigns Derby to Derby FUA.
+172,The Wombats,0Ya43ZKWHTKkAbkoJJkwIB,2884656,Liverpool,strict,official_oecd_municipality_crosswalk,UK006F,Liverpool,Liverpool,2024.0,1597536.0,The official OECD municipality list assigns Liverpool to Liverpool FUA.
+173,Travis,3bUwxJgNakzYKkqAVgZLlh,2884486,Glasgow,strict,official_oecd_municipality_crosswalk,UK004F,Glasgow,Glasgow,2024.0,1895840.0,"The official OECD municipality list assigns East Dunbartonshire, Glasgow City, North Lanarkshire to Glasgow FUA."
+174,Mattafix,5KORW1YGiERJqfuYjXMCyz,2878488,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+175,Royal Blood,2S5hlvw4CMtMGswFtfdK15,2873864,Worthing,strict,official_oecd_municipality_crosswalk,UK045F,Worthing,Worthing,2024.0,113866.0,The official OECD municipality list assigns Worthing to Worthing FUA.
+176,Free,2e53aHBQdCMKWqHDuyJsjC,2860415,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+177,London Grammar,3Bd1cgCjtCI32PYvDC3ynO,2832139,Nottingham,strict,official_oecd_municipality_crosswalk,UK029F,Nottingham,Nottingham,2024.0,936382.0,The official OECD municipality list assigns Nottingham to Nottingham FUA.
+178,Pulp,36E7oYfz3LLRto6l2WmDcD,2830863,Sheffield,strict,official_oecd_municipality_crosswalk,UK010F,Sheffield,Sheffield,2024.0,1217504.0,The official OECD municipality list assigns Sheffield to Sheffield FUA.
+179,The Heavy,0bZCak2tcRMY1dzEIuwF42,2796068,Bath,strict,official_oecd_municipality_crosswalk,UK031F,Bath and North East Somerset,Bath and North East Somerset,2024.0,200028.0,The official OECD municipality list assigns Bath and North East Somerset to Bath and North East Somerset FUA.
+180,Neck Deep,2TM0qnbJH4QPhGMCdPt7fH,2790501,Wrexham,strict,official_oecd_municipality_crosswalk,UK022F,Wrexham,Wrexham,2024.0,138245.0,The official OECD municipality list assigns Wrexham to Wrexham FUA.
+181,DNA,2rGm8R7YDTbqDCVlNssQyL,2774617,Bath,strict,official_oecd_municipality_crosswalk,UK031F,Bath and North East Somerset,Bath and North East Somerset,2024.0,200028.0,The official OECD municipality list assigns Bath and North East Somerset to Bath and North East Somerset FUA.
+182,Frankie Goes To Hollywood,1mZu3rO7qSD09GdDpePHhY,2758706,Liverpool,strict,official_oecd_municipality_crosswalk,UK006F,Liverpool,Liverpool,2024.0,1597536.0,The official OECD municipality list assigns Liverpool to Liverpool FUA.
+183,Atomic Kitten,6JMHws5haIO6V35YNYDnDw,2751716,Liverpool,strict,official_oecd_municipality_crosswalk,UK006F,Liverpool,Liverpool,2024.0,1597536.0,The official OECD municipality list assigns Liverpool to Liverpool FUA.
+184,Faces,3v4feUQnU3VEUqFrjmtekL,2718313,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
+185,Asia,1bdytLV3FPjyhfrb6BhMej,2716602,,excluded_no_defensible_fua,no_resolved_origin,,,,,,No FUA assignment is possible while the band's origin remains unresolved.
+186,The Waterboys,5TnuP42pw475UrjjeabtwZ,2670888,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+187,S Club,0HNGrIbq1ZNO2mTp3tMW4L,2628603,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+188,Still Corners,4zKYrXs8iN4AeHmO8ZxNqp,2608941,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+189,Asking Alexandria,1caBfBEapzw8z2Qz9q0OaQ,2592556,York,strict,official_oecd_municipality_crosswalk,UK533F,York,York,2024.0,209301.0,The official OECD municipality list assigns York to York FUA.
+190,Mike + The Mechanics,2yTUYhIf8fxptTIy3KLuJD,2591206,Dover,excluded_no_defensible_fua,no_reviewed_assignment,,,,,,No assignment is made because the resolved place is not in the official OECD municipality-to-FUA crosswalk.
+191,All Saints,5TDVKqW9uhqGjwwwKGuma4,2567281,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+192,Sigma,01pKrlgPJhm5dB4lneYAqS,2550591,Leeds,strict,official_oecd_municipality_crosswalk,UK003F,Leeds,Leeds,2024.0,3070506.0,The official OECD municipality list assigns Leeds to Leeds FUA.
+193,Mungo Jerry,2mbvqMGpwLsakeH45p1Jrb,2528248,Ashford,excluded_no_defensible_fua,ambiguous_official_crosswalk,,,,,,"The available place hierarchy reaches multiple official FUAs: UK001F, UK041F."
+194,Moloko,4aaBjq7VqqQvpSF69GglvO,2507932,Sheffield,strict,official_oecd_municipality_crosswalk,UK010F,Sheffield,Sheffield,2024.0,1217504.0,The official OECD municipality list assigns Sheffield to Sheffield FUA.
+195,Status Quo,4gIdjgLlvgEOz7MexDZzpM,2503249,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+196,The Darkness,5r1bdqzhgRoHC3YcCV6N5a,2453090,Lowestoft,strict,official_oecd_municipality_crosswalk,UK569F,Ipswich,Ipswich,2024.0,486971.0,The official OECD municipality list assigns East Suffolk to Ipswich FUA.
+197,Texas,5JsdVATHNPE0XdMFMRoSuf,2420479,Glasgow,strict,official_oecd_municipality_crosswalk,UK004F,Glasgow,Glasgow,2024.0,1895840.0,"The official OECD municipality list assigns East Dunbartonshire, Glasgow City, North Lanarkshire to Glasgow FUA."
+198,Edison Lighthouse,1NRzxuPpdGushT8YmF5NAa,2393214,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+199,Wang Chung,6Zh3xrWlA0SA9Fsfj9AVwm,2358411,London,strict,official_oecd_municipality_crosswalk,UK001F,London,London,2024.0,12666099.0,The official OECD municipality list assigns City of London to London FUA.
+200,The Cult,49DW3KvkyjHO35mK1JnSyS,2277310,Bradford,strict,official_oecd_municipality_crosswalk,UK003F,Leeds,Leeds,2024.0,3070506.0,The official OECD municipality list assigns Bradford to Leeds FUA.

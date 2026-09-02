@@ -16,6 +16,7 @@ from matplotlib.ticker import FuncFormatter
 import numpy as np
 import pandas as pd
 
+from .config import FUA_POPULATION_PATH
 from .review_experiments import build_top1000_scene_depth
 from .visuals import HOUSE, apply_chart_style
 
@@ -305,7 +306,6 @@ def build_scene_infrastructure(
                     {
                         "fua_code": record["fua_code"],
                         "study_city_label": record["study_city_label"],
-                        "population": record["population"],
                         "radius_metres": record["radius_metres"],
                         "element_key": f"{element.get('type')}:{element.get('id')}",
                         "category": category,
@@ -333,9 +333,29 @@ def build_scene_infrastructure(
         .unstack(fill_value=0)
         .reindex(columns=categories, fill_value=0)
     )
+    current_population = pd.read_csv(FUA_POPULATION_PATH)[
+        ["fua_code", "population_year", "population"]
+    ]
     city_base = pd.DataFrame(payload["records"])[
-        ["fua_code", "study_city_label", "population", "radius_metres"]
-    ].set_index("study_city_label")
+        ["fua_code", "study_city_label", "radius_metres"]
+    ].merge(
+        current_population,
+        on="fua_code",
+        how="left",
+        validate="one_to_one",
+    )
+    if city_base["population"].isna().any():
+        missing = city_base.loc[
+            city_base["population"].isna(), "fua_code"
+        ].tolist()
+        raise ValueError(f"Missing current FUA population for: {missing}")
+    city_base = city_base.set_index("study_city_label")
+    places = places.merge(
+        current_population,
+        on="fua_code",
+        how="left",
+        validate="many_to_one",
+    )
     summary = city_base.join(counts, how="left").fillna(0).reset_index()
     music_categories = categories[:-1]
     music_counts = (
@@ -367,6 +387,7 @@ def build_scene_infrastructure(
     )
     observed = summary.dropna(subset=["effective_band_count"])
     coverage = {
+        "population_year": int(current_population["population_year"].unique().item()),
         "cities": int(len(summary)),
         "classified_elements": int(places["element_key"].nunique()),
         "named_row_share": float(places["name"].ne("").mean()),
@@ -464,11 +485,14 @@ def build_band_networks(
             )
 
     musicbrainz = json.loads(musicbrainz_path.read_text())
+    node_names = set(nodes["band_name"])
     mb_covered = set()
     rejected_musicbrainz_records = 0
     matched_musicbrainz_records = 0
     for record in musicbrainz.get("records", []):
         if record.get("status", "ok") != "ok":
+            continue
+        if record["band_name"] not in node_names:
             continue
         if _normalized_artist_name(record["band_name"]) != _normalized_artist_name(
             record.get("musicbrainz_name", "")
@@ -748,6 +772,13 @@ def build_beyond_spotify(
             "monthly_listeners",
         ]
     ].merge(views, on="wikidata_qid", how="left", validate="one_to_one")
+    audit[["enwiki_title", "pageview_status"]] = audit[
+        ["enwiki_title", "pageview_status"]
+    ].fillna("")
+    audit["pageview_status"] = audit["pageview_status"].replace("", "not_captured")
+    audit[["pageviews_total", "pageview_months"]] = audit[
+        ["pageviews_total", "pageview_months"]
+    ].fillna(0).astype(int)
     audit = audit.merge(
         mapping[
             ["returned_spotify_id", "mapping_tier", "fua_code", "study_city_label"]

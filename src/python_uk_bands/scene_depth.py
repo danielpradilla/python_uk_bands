@@ -5,6 +5,24 @@ from __future__ import annotations
 import pandas as pd
 
 
+def validate_spotify_capture_window(
+    bands: pd.DataFrame,
+    *,
+    max_minutes: int = 10,
+) -> pd.Series:
+    """Require Spotify rows to come from one short, coherent capture window."""
+    timestamps = pd.to_datetime(
+        bands["stats_extracted_at_utc"],
+        utc=True,
+        errors="raise",
+    )
+    if timestamps.max() - timestamps.min() > pd.Timedelta(minutes=max_minutes):
+        raise ValueError(
+            f"Spotify capture window exceeds {max_minutes} minutes"
+        )
+    return timestamps
+
+
 def _validate_metric(bands: pd.DataFrame, metric: str) -> None:
     if metric not in bands.columns:
         raise ValueError(f"Unknown metric: {metric}")

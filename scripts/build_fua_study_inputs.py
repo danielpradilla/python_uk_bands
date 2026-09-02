@@ -21,11 +21,12 @@ from python_uk_bands.fua import validate_top_fua_universe
 from python_uk_bands.scene_depth import (
     build_primary_scene_depth_rankings,
     validate_scene_depth_dataset,
+    validate_spotify_capture_window,
 )
 
 
 SNAPSHOT_PATTERN = re.compile(r"_(\d{8}T\d{6}Z)\.csv$")
-DEFAULT_UNIVERSE_PATH = PROJECT_ROOT / "reference" / "uk_fua_top20_2021.csv"
+DEFAULT_UNIVERSE_PATH = PROJECT_ROOT / "reference" / "uk_fua_top20_2024.csv"
 
 
 def _snapshot_id(path: Path) -> str:
@@ -81,7 +82,7 @@ def build_fua_study_inputs(
     validate_top_fua_universe(
         universe.head(city_count).copy(),
         expected_rows=city_count,
-        year=2021,
+        year=2024,
     )
 
     source_metrics = pd.read_csv(source_metrics_path, keep_default_na=False)
@@ -121,8 +122,7 @@ def build_fua_study_inputs(
         raise ValueError("Every selected band must be review ready")
     if bands["spotify_id"].duplicated().any():
         raise ValueError("Spotify IDs must be unique within the study")
-    if bands["stats_extracted_at_utc"].nunique() != 1:
-        raise ValueError("The study must use one Spotify capture timestamp")
+    capture_timestamps = validate_spotify_capture_window(bands)
 
     population_check = (
         bands[
@@ -177,9 +177,12 @@ def build_fua_study_inputs(
         "city_count": city_count,
         "bands_per_city": 10,
         "band_rows": len(bands),
-        "spotify_capture_timestamp": bands[
-            "stats_extracted_at_utc"
-        ].iloc[0],
+        "spotify_capture_timestamps": sorted(
+            bands["stats_extracted_at_utc"].unique().tolist()
+        ),
+        "spotify_capture_window_seconds": (
+            capture_timestamps.max() - capture_timestamps.min()
+        ).total_seconds(),
         "metrics_output_path": str(
             metrics_output_path.relative_to(PROJECT_ROOT)
         ),
@@ -212,7 +215,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--universe",
         type=Path,
-        default=Path("reference/uk_fua_top20_2021.csv"),
+        default=Path("reference/uk_fua_top20_2024.csv"),
     )
     parser.add_argument(
         "--city-count",

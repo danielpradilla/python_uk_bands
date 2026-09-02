@@ -1,0 +1,31 @@
+{
+  "created_at_utc": "2026-09-01T23:14:28.473715+00:00",
+  "input": "data/processed/popularity_first_top1000_20260718T204522Z_bands.csv",
+  "output": "data/processed/top1000_origin_fact_check_20260901.csv",
+  "rows": 1000,
+  "status_counts": {
+    "corroborated_two_sources": 572,
+    "corroborated_with_source_variation": 106,
+    "proposed_two_sources": 96,
+    "proposed_one_source": 91,
+    "unresolved": 71,
+    "corroborated_one_source": 58,
+    "conflict": 4,
+    "unverified": 2
+  },
+  "current_claim_rows": 742,
+  "musicbrainz_begin_area_rows": 839,
+  "wikipedia_origin_rows": 930,
+  "manual_review_rows": 370,
+  "manual_decision_rows": 56,
+  "final_status_counts": {
+    "confirmed": 641,
+    "evidence_for_missing_claim": 187,
+    "unresolved": 73,
+    "source_variation": 68,
+    "corrected": 18,
+    "resolved": 11,
+    "contested": 2
+  },
+  "method": "Automated triangulation of the frozen Wikidata-derived claim against MusicBrainz begin-area and English Wikipedia infobox origin. Conflict and unsupported rows require manual review."
+}

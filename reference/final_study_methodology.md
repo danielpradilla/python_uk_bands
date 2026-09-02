@@ -14,7 +14,7 @@ repeatable; they do not claim that another editor would independently choose
 the same 100 bands.
 
 1. **FUA in scope?** Keep only the first ten rows, ordered by
-   `uk_population_rank`, in `reference/uk_fua_top20_2021.csv`. Otherwise stop.
+   `uk_population_rank`, in `reference/uk_fua_top20_2024.csv`. Otherwise stop.
 2. **In the frozen catalogue?** The act must be one of the ten recorded acts
    for that FUA. Membership was assembled from the original shortlist,
    database candidates and documented editorial additions or replacements.
@@ -30,7 +30,7 @@ the same 100 bands.
    is unique within the study. An unresolved or duplicate identity stops
    inclusion.
 6. **Complete frozen observation?** Require a nonnegative monthly-listener
-   value from the single `20260718T204000Z` capture and the FUA's positive 2021
+   value from the single `20260718T204000Z` capture and the FUA's positive 2024
    population. Otherwise stop.
 7. **Balanced output?** Accept the row only if the completed table contains
    exactly ten unique bands for each of ten FUAs. The final result must contain
@@ -39,7 +39,7 @@ the same 100 bands.
 ### Deterministic calculation and tie rules
 
 - Raw selected reach is the sum of all ten `monthly_listeners` values.
-- The primary index is that sum divided by the FUA's 2021 `population`.
+- The primary index is that sum divided by the FUA's 2024 `population`.
 - The sensitivity index removes the row with the greatest
   `monthly_listeners`, then divides the remaining nine-band sum by population.
 - If bands tie for the greatest value, sorting is by `monthly_listeners` and
@@ -73,7 +73,7 @@ allowed only where stated.
 | `uk_population_rank` | integer | Rank in the frozen UK FUA population universe. | 1–10. |
 | `fua_code` | text | OECD FUA identifier. | Nonblank; one per FUA. |
 | `official_fua_name` | text | OECD name for the FUA. | Nonblank. |
-| `population_year` | integer | Year of the population denominator. | `2021`. |
+| `population_year` | integer | Year of the population denominator. | `2024`. |
 | `population` | integer | OECD FUA population used as denominator. | Residents; positive. |
 | `territorial_definition` | text | Geographic definition applied to the denominator. | `OECD/EU Functional Urban Area`. |
 | `source_dataset_url` | text | OECD source page for the population observation. | URL; nonblank. |
@@ -95,7 +95,7 @@ One row represents one of the ten selected FUAs.
 | Field | Type | Definition | Domain or unit |
 |---|---|---|---|
 | `city` | text | Reader-facing FUA label. | Unique; nonblank. |
-| `population` | integer | 2021 OECD FUA population. | Residents; positive. |
+| `population` | integer | 2024 OECD FUA population. | Residents; positive. |
 | `input_bands` | integer | Bands included in the primary calculation. | `10`. |
 | `top_excluded_retained_bands` | integer | Bands retained after the dominant-band exclusion. | `9`. |
 | `highest_excluded_bands` | text | Band removed in the sensitivity calculation. | One selected band. |
@@ -112,7 +112,9 @@ One row represents one of the ten selected FUAs.
 ## Interpretation boundary
 
 The numerator is global Spotify attention in July 2026 and the denominator is
-local FUA population in 2021. Summed artist audiences can count the same person
+local FUA population in 2024, the latest complete observed OECD year available
+for UK FUAs. This documented two-year mismatch is preferable to presenting a
+projected 2026 population as observed. Summed artist audiences can count the same person
 more than once. These fields therefore define a comparative selected-band
 index, not local listening, causal cultural output, historical importance or a
 complete census of an area's music.

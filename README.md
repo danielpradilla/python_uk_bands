@@ -2,7 +2,9 @@
 
 This repository’s final study asks a deliberately narrow question: among the ten largest UK Functional Urban Areas, which places have the greatest current global Spotify reach across ten selected bands relative to population?
 
-The reader-facing result is the executed [final study notebook](notebooks/final/uk_bands_punching_above_weight.ipynb). It uses a balanced catalogue of 100 bands—ten reviewed bands for each area—a frozen Spotify snapshot captured on 18 July 2026, and 2021 OECD Functional Urban Area populations.
+The reader-facing result is the executed [final study notebook](notebooks/final/uk_bands_punching_above_weight.ipynb). It uses a balanced catalogue of 100 bands—ten reviewed bands for each area—a frozen Spotify snapshot captured on 18 July 2026, and 2024 OECD Functional Urban Area populations.
+
+The numerator and denominator have a documented two-year mismatch: Spotify attention is frozen in 2026, while 2024 is the latest complete OECD population year available for UK FUAs. The study uses the observed 2024 values instead of projecting a 2026 population.
 
 ## Main finding
 
@@ -15,7 +17,7 @@ Before population normalization, London, Manchester and Sheffield have the large
 > cultural importance, or a complete census of each area's music. It is a
 > comparison of one frozen, selected-band catalogue.
 
-Removing each area’s largest selected band provides a separate scene-depth sensitivity test. Sheffield remains first, Manchester moves to second and Birmingham moves to third. Liverpool falls from second to fifth because the Beatles supply 59% of its selected monthly-listener total; Arctic Monkeys supply 57% of Sheffield’s total, while Oasis supplies 32% of Manchester’s.
+Removing each area’s largest selected band provides a separate scene-depth sensitivity test. Sheffield remains first, Manchester moves to second and Liverpool moves to third. The Beatles supply 53% of Liverpool’s selected monthly-listener total; Arctic Monkeys supply 56% of Sheffield’s total, while Oasis supplies 29% of Manchester’s.
 
 ![Raw, population-normalized and largest-band-excluded ranks](artifacts/charts/chart_04_raw_normalized_scene_depth_fua_ranks.png)
 
@@ -24,14 +26,14 @@ The primary result is the all-ten population-normalized ranking. Largest-band ex
 ## Study design
 
 - **Geographic unit:** an OECD/EU Functional Urban Area (FUA), meaning an urban centre plus its economically connected commuting zone.
-- **Study universe:** the ten largest UK FUAs by the OECD’s 2021 population observations.
+- **Study universe:** the ten largest UK FUAs by the OECD’s 2024 population observations.
 - **Catalogue:** ten reviewed bands per FUA, producing 100 band–area assignments. Solo artists are outside scope.
 - **Origin rule:** a band is assigned to the FUA containing its reviewed formation place.
-- **Reach measure:** current global Spotify monthly listeners captured once on 18 July 2026.
+- **Reach measure:** current global Spotify monthly listeners captured on 18 July 2026 in two batches 5 minutes 22 seconds apart.
 - **Primary calculation:** the sum of the ten selected bands’ monthly-listener counts divided by FUA population.
 - **Sensitivity calculation:** the same population-normalized total after removing each FUA’s largest selected band.
 
-For FUA \(c\), with monthly-listener count \(L_{ic}\) for selected band \(i\) and 2021 population \(P_c\):
+For FUA \(c\), with monthly-listener count \(L_{ic}\) for selected band \(i\) and 2024 population \(P_c\):
 
 - Raw selected reach: \(\sum_{i=1}^{10} L_{ic}\)
 - Population-normalized selected reach: \(\sum_{i=1}^{10} L_{ic} / P_c\)
@@ -43,7 +45,7 @@ Monthly-listener counts are summed artist-level platform metrics, not unique peo
 
 The result describes this fixed 100-band catalogue across the ten largest UK FUAs. It is evidence about selected current global Spotify reach relative to a consistent population denominator.
 
-It is not a census of British bands, a measure of historical cultural importance, a local listening rate, or an estimate of how many residents listen to bands from their area. The catalogue is manually curated and genre-influenced; all 100 formation-place assignments have reviewed evidence, but that does not make the selection representative. An independent audit records 99 assignments as high-confidence and retains Chumbawamba's Leeds assignment as medium-confidence because credible histories disagree between Leeds and Burnley. Dividing global reach by local population adjusts for area size but does not imply that the listeners live there. The appropriate publication status is therefore **share with caveats**.
+It is not a census of British bands, a measure of historical cultural importance, a local listening rate, or an estimate of how many residents listen to bands from their area. The catalogue is manually curated and genre-influenced; all 100 formation-place assignments have reviewed evidence, but that does not make the selection representative. An independent audit records 99 assignments as high-confidence and retains Chumbawamba's Leeds assignment as medium-confidence because credible histories disagree between Leeds and Burnley. The audit also records the 14 later catalogue replacements and their resolved FUA assignments. Dividing global reach by local population adjusts for area size but does not imply that the listeners live there. The appropriate publication status is therefore **share with caveats**.
 
 ## Sources
 
@@ -51,13 +53,14 @@ It is not a census of British bands, a measure of historical cultural importance
 
 - [OECD definition of cities and Functional Urban Areas](https://www.oecd.org/en/data/datasets/oecd-definition-of-cities-and-functional-urban-areas.html)
 - [OECD Data Explorer: Population by age and sex — Cities and FUAs](https://data-explorer.oecd.org/vis?df%5Bag%5D=OECD.CFE.EDS&df%5Bds%5D=dsDisseminateFinalDMZ&df%5Bid%5D=DSD_FUA_DEMO%40DF_AGE_SEX&lc=en)
-- [Frozen UK FUA population universe](reference/uk_fua_top20_2021.csv), containing the official FUA codes, 2021 populations, source URL and capture timestamp used by the study
+- [Frozen UK FUA population universe](reference/uk_fua_top20_2024.csv), containing the official FUA codes, 2024 populations, source URL and capture timestamp used by the study
+- [Frozen raw OECD extract](data/raw/geography/oecd_fua_population_2024_20260830T221015Z.csv) and [capture report](data/raw/geography/oecd_fua_population_2024_20260830T221015Z_report.json), preserving the exact API response and request used for the denominator
 
 ### Band identities, formation places and Spotify reach
 
 - [Final 100-band analysis table](data/processed/fua_top10_band_metrics_20260718T204000Z.csv), containing the reviewed formation place, row-level origin evidence URL, confidence, Spotify artist ID, captured monthly listeners, followers, population and source fields for every selected band
-- [Final origin-confidence audit](reference/final_origin_confidence_audit_20260822.md) and its [34-record evidence table](data/processed/final_origin_confidence_audit_20260822.csv), independently reviewing every band contributing at least 10% of an FUA's selected total plus all pre-audit medium-confidence records
-- [Spotify capture report](data/raw/spotify/top20_city_spotify_metrics_20260718T204000Z_report.json), recording completeness and capture provenance for the frozen source snapshot
+- [Final origin-confidence audit](reference/final_origin_confidence_audit_20260822.md) and its [34-record evidence table](data/processed/final_origin_confidence_audit_20260822.csv), independently reviewing every band contributing at least 10% of an FUA's selected total plus all pre-audit medium-confidence records, with a documented addendum for the 14 later replacements
+- [Primary Spotify capture report](data/raw/spotify/top20_city_spotify_metrics_20260718T204000Z_report.json) and [replacement-row capture report](data/raw/spotify/uk_group_spotify_metrics_20260718T204522Z_report.json), recording completeness and provenance for the two same-day batches
 - Formation-place sources are linked at row level from the final analysis table and include official artist histories, MusicBrainz, Wikidata and established music-reference sources.
 
 The Spotify values were captured from Spotify’s web-player artist overview. That read-only endpoint is undocumented, so the frozen local snapshot—not a live request—is the reproducible source for this study.

@@ -6,12 +6,12 @@ not refresh network data.
 
 ## 18–19 July 2026 — canonical study design
 
-- Froze Spotify artist metrics at snapshot `20260718T204000Z` and 2021 OECD
-  Functional Urban Area populations.
+- Froze Spotify artist metrics at snapshot `20260718T204000Z` and established
+  the Functional Urban Area population workflow.
 - Standardized the final universe as the ten largest UK FUAs with ten reviewed
   bands per area. The canonical inputs are
   `data/processed/fua_top10_band_metrics_20260718T204000Z.csv` and
-  `reference/uk_fua_top20_2021.csv`.
+  `reference/uk_fua_top20_2024.csv`.
 - Made summed global monthly listeners divided by FUA population the primary
   comparison. Removing each area's largest selected band is the sole
   dominant-band sensitivity calculation.
@@ -59,6 +59,19 @@ not refresh network data.
   ten-band catalogues. Fifty of 80 comparable selections overlap, while the
   first four primary-index ranks remain unchanged. This is a follow-up branch,
   not part of the first article's claim.
+
+## 31 August 2026 — population refresh before publication
+
+- Replaced the population denominator with the OECD's complete 2024 UK FUA
+  observations, frozen from the official API at `20260830T221015Z` UTC.
+- Preserved every Spotify value and its July 2026 capture timestamp; no Spotify
+  source was queried during the population refresh.
+- Rebuilt the final study and every active experiment against the 2024
+  population data. The final top-ten universe and all ten primary ranks remain
+  unchanged.
+- Documented the two-year source mismatch explicitly: Spotify attention is
+  measured in 2026 and the latest complete observed FUA population is from
+  2024.
 
 ## Preservation
 

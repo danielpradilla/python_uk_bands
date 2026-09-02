@@ -1,0 +1,14 @@
+{
+  "name": "uk-band-origins-explorer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:data": "python3 scripts/build_dashboard_data.py",
+    "build": "node scripts/build_frontend.mjs",
+    "build:deploy": "PUBLIC_BASE=/uk-music-cities node scripts/build_frontend.mjs",
+    "lint": "node scripts/check_source.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "npm run build:data && npm run lint && npm test && npm run build",
+    "preview": "python3 -m http.server 4173 --directory dist"
+  }
+}

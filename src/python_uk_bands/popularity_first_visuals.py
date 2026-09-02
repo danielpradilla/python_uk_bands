@@ -223,7 +223,7 @@ def plot_population_adjusted_fua_reach(
     ax.set_xlim(0, maximum * 1.2)
     ax.xaxis.set_major_locator(MultipleLocator(50))
     ax.set_xlabel(
-        "Combined captured global monthly listeners divided by 2021 FUA population"
+        "Combined captured global monthly listeners divided by 2024 FUA population"
     )
     ax.set_ylabel("")
     ax.grid(axis="x")
@@ -315,7 +315,7 @@ def plot_multiband_stability(
     ax.set_xlim(0, maximum * 1.22)
     ax.xaxis.set_major_locator(MultipleLocator(20))
     ax.set_xlabel(
-        "Combined captured global monthly listeners divided by 2021 FUA population"
+        "Combined captured global monthly listeners divided by 2024 FUA population"
     )
     ax.set_ylabel("")
     ax.grid(axis="x")

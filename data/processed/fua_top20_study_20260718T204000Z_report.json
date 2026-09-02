@@ -2,11 +2,15 @@
   "schema_version": 1,
   "spotify_snapshot_id": "20260718T204000Z",
   "source_metrics_path": "data/processed/top20_city_band_metrics_20260718T204000Z.csv",
-  "fua_universe_path": "reference/uk_fua_top20_2021.csv",
+  "fua_universe_path": "reference/uk_fua_top20_2024.csv",
   "city_count": 20,
   "bands_per_city": 10,
   "band_rows": 200,
-  "spotify_capture_timestamp": "2026-07-18T20:40:00.993779+00:00",
+  "spotify_capture_timestamps": [
+    "2026-07-18T20:40:00.993779+00:00",
+    "2026-07-18T20:45:22.974241+00:00"
+  ],
+  "spotify_capture_window_seconds": 321.980462,
   "metrics_output_path": "data/processed/fua_top20_band_metrics_20260718T204000Z.csv",
   "rankings_output_path": "data/processed/fua_top20_rankings_20260718T204000Z.csv",
   "raw_top_three": [

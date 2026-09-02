@@ -1,13 +1,13 @@
 {
-  "mapped_band_share": 0.66,
-  "mapped_bands": 660,
-  "mapped_follower_share": 0.9240917040546052,
-  "mapped_fuas": 61,
-  "mapped_monthly_listener_share": 0.9051998963815954,
+  "mapped_band_share": 0.666,
+  "mapped_bands": 666,
+  "mapped_follower_share": 0.9256664311999685,
+  "mapped_fuas": 59,
+  "mapped_monthly_listener_share": 0.9095926164763393,
   "population_fuas": 83,
-  "population_total": 51978635,
+  "population_total": 53896978,
   "selected_bands": 1000,
-  "selected_followers": 914371086,
-  "selected_monthly_listeners": 2259262731,
-  "zero_band_fuas": 22
+  "selected_followers": 927791496,
+  "selected_monthly_listeners": 2304280501,
+  "zero_band_fuas": 24
 }

@@ -132,9 +132,11 @@ def main(argv: list[str] | None = None) -> int:
         "identity_name_reviews": len(capture_report["name_review"]),
         "identity_accepted_rows": int(audit["identity_accepted"].sum()),
         "orchestra_rows_excluded": int(
-            audit["eligibility_status"].eq("excluded_orchestra").sum()
+            audit["instance_label"].str.casefold().str.contains("orchestra").sum()
         ),
+        "non_band_entity_rows_excluded": int((~audit["band_eligible"]).sum()),
         "redirect_duplicate_rows": int(audit["redirect_duplicate"].sum()),
+        "entity_duplicate_rows": int(audit["entity_duplicate"].sum()),
         "selected_bands": len(selected),
         "origin_resolved_bands": int(resolved.sum()),
         "origin_coverage": float(resolved.mean()),

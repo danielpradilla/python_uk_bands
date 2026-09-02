@@ -7,18 +7,27 @@ from pathlib import Path
 import pandas as pd
 
 from .analysis import validate_band_dataset
-from .config import BUILT_UP_AREAS_PATH, SHORTLIST_METRICS_PATH, SHORTLIST_PATH
+from .config import FUA_POPULATION_PATH, SHORTLIST_METRICS_PATH, SHORTLIST_PATH
+
+
+LEGACY_CITY_FUA_LABELS = {
+    "Bradford": "Leeds",
+}
 
 
 def load_shortlist_dataset(
     shortlist_path: Path = SHORTLIST_PATH,
-    populations_path: Path = BUILT_UP_AREAS_PATH,
+    populations_path: Path = FUA_POPULATION_PATH,
     metrics_path: Path = SHORTLIST_METRICS_PATH,
 ) -> pd.DataFrame:
     """Return one analysis row per shortlisted band."""
     shortlist = pd.read_csv(shortlist_path)
     populations = pd.read_csv(populations_path)
     spotify_metrics = pd.read_json(metrics_path)
+    shortlist = shortlist.copy()
+    shortlist["population_geography"] = shortlist[
+        "original_city_label"
+    ].replace(LEGACY_CITY_FUA_LABELS)
 
     bands = (
         shortlist.merge(
@@ -29,13 +38,22 @@ def load_shortlist_dataset(
             validate="one_to_one",
         )
         .merge(
-            populations[["bua_name", "population", "population_year", "source"]],
-            left_on="original_city_label",
-            right_on="bua_name",
+            populations[
+                [
+                    "study_city_label",
+                    "fua_code",
+                    "population",
+                    "population_year",
+                    "source_dataset",
+                ]
+            ],
+            left_on="population_geography",
+            right_on="study_city_label",
             how="left",
             validate="many_to_one",
         )
-        .drop(columns=["bua_name"])
+        .drop(columns=["study_city_label"])
+        .rename(columns={"source_dataset": "source"})
     )
     bands["stats_extracted_at"] = pd.to_datetime(bands["stats_extracted_at"])
     validate_band_dataset(bands)

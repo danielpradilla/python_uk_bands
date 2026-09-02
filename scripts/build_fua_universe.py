@@ -26,12 +26,12 @@ from python_uk_bands.io import write_csv, write_json
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--year", type=int, default=2021)
+    parser.add_argument("--year", type=int, default=2024)
     parser.add_argument("--top-n", type=int, default=20)
     parser.add_argument(
         "--promote",
         action="store_true",
-        help="Write the selected universe to reference/uk_fua_top20_2021.csv",
+        help="Write the selected universe to reference/uk_fua_top20_2024.csv",
     )
     return parser
 
@@ -99,12 +99,12 @@ def main(argv: list[str] | None = None) -> int:
     }
 
     if args.promote:
-        if args.top_n != 20 or args.year != 2021:
+        if args.top_n != 20 or args.year != 2024:
             raise ValueError(
-                "The canonical reference path is reserved for top 20 / 2021"
+                "The canonical reference path is reserved for top 20 / 2024"
             )
         reference_path = (
-            PROJECT_ROOT / "reference" / "uk_fua_top20_2021.csv"
+            PROJECT_ROOT / "reference" / "uk_fua_top20_2024.csv"
         )
         write_csv(selected, reference_path)
         report["reference_path"] = str(reference_path.relative_to(PROJECT_ROOT))
@@ -114,7 +114,7 @@ def main(argv: list[str] | None = None) -> int:
     print(f"Processed UK universe: {all_path.relative_to(PROJECT_ROOT)}")
     print(f"Selected study universe: {selected_path.relative_to(PROJECT_ROOT)}")
     if args.promote:
-        print("Reference universe: reference/uk_fua_top20_2021.csv")
+        print("Reference universe: reference/uk_fua_top20_2024.csv")
     print(f"Report: {report_path.relative_to(PROJECT_ROOT)}")
     return 0
 

@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="asset-base" content="" />
+    <meta name="description" content="Search bands and formation places in a reviewed catalog of 1,000 UK bands." />
+    <title>UK Band Origins Explorer</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#explorer-main">Skip to explorer</a>
+    <div id="loading" class="loading" role="status">Loading the catalog…</div>
+    <div id="error" class="error-panel" role="alert" hidden>
+      <strong>The explorer data could not be loaded.</strong>
+      <p></p>
+      <button type="button" onclick="window.location.reload()">Try again</button>
+    </div>
+
+    <div id="app" hidden>
+      <main id="explorer-main">
+        <section class="intro" aria-labelledby="page-title">
+          <div class="intro-copy">
+            <h1 id="page-title">UK Band Origins Explorer</h1>
+            <p>Search the popularity-first catalog, map band origins, and compare frozen Spotify reach by place.</p>
+          </div>
+          <div class="search-control">
+            <label class="visually-hidden" for="band-search">Search bands or formation places</label>
+            <div class="combobox-wrap">
+              <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m15.5 15.5 5 5"></path></svg>
+              <input id="band-search" type="search" autocomplete="off" placeholder="Try Radiohead, Oxford, Oasis…" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="band-search-results" aria-describedby="band-search-status" />
+              <button id="band-search-clear" class="search-clear" type="button" aria-label="Clear search" hidden><span aria-hidden="true">×</span></button>
+              <ul id="band-search-results" class="search-results" role="listbox" hidden></ul>
+            </div>
+            <div id="band-search-status" class="visually-hidden" aria-live="polite"></div>
+          </div>
+        </section>
+
+        <section class="explorer-grid" aria-label="Band and formation-place explorer">
+          <article class="map-card">
+            <div class="card-header">
+              <div class="map-heading">
+                <p id="map-place-label" class="map-place-label">Formation place</p>
+                <h2 id="map-place-title">United Kingdom</h2>
+                <p id="map-status" aria-live="polite"></p>
+              </div>
+              <div class="map-header-tools">
+                <fieldset class="comparison-toggle">
+                  <legend>Comparison</legend>
+                  <div class="segmented-control">
+                    <button type="button" data-comparison="raw" aria-label="Raw totals" title="Raw totals" aria-pressed="true">Totals</button>
+                    <button type="button" data-comparison="population_normalized" aria-label="Population-normalized" title="Population-normalized" aria-pressed="false">Normalized</button>
+                  </div>
+                </fieldset>
+                <fieldset class="metric-toggle">
+                  <legend>Spotify metric</legend>
+                  <div class="segmented-control">
+                    <button type="button" data-metric="monthly_listeners" aria-pressed="true">Monthly listeners</button>
+                    <button type="button" data-metric="followers" aria-pressed="false">Followers</button>
+                  </div>
+                </fieldset>
+              </div>
+            </div>
+            <div id="map" class="map-frame">
+              <div class="map-controls" aria-label="Map controls">
+                <button id="map-zoom-in" type="button" aria-label="Zoom in">+</button>
+                <button id="map-zoom-out" type="button" aria-label="Zoom out">−</button>
+                <button id="map-reset" type="button">Reset</button>
+                <button id="map-select-area" type="button" aria-label="Select a rectangular map area" aria-pressed="false">Area</button>
+              </div>
+            </div>
+            <p class="map-attribution">Outline: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener noreferrer">Natural Earth</a> · reviewed points: <a href="https://www.wikidata.org/" target="_blank" rel="noopener noreferrer">Wikidata</a></p>
+          </article>
+          <aside class="detail-card">
+            <div id="band-detail" class="band-info" aria-live="polite"></div>
+            <section class="chart-section" aria-labelledby="chart-title">
+              <div class="chart-header">
+                <h2 id="chart-title">Formation-place comparison</h2>
+                <p id="chart-note" class="chart-note" hidden></p>
+              </div>
+              <div id="bar-chart"></div>
+            </section>
+          </aside>
+        </section>
+
+        <aside class="method-note" aria-labelledby="method-title">
+          <h2 id="method-title">How to read this explorer</h2>
+          <p>Spotify values are global artist attention, not local listening. Raw totals group the catalog by reviewed formation place. Population-normalized results include only strict FUA mappings and divide catalog totals by 2024 FUA population, producing a comparative index rather than a local listening rate.</p>
+          <a href="https://github.com/danielpradilla/uk-music-cities/blob/main/interactive/SPEC.md" target="_blank" rel="noopener noreferrer">Read the methodology ↗</a>
+        </aside>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-inner">
+          <ul id="footer-freshness" class="freshness-list"></ul>
+          <p id="footer-coverage"></p>
+          <p id="footer-provenance" class="footer-provenance"></p>
+          <div class="footer-source-block">
+            <span>Sources</span>
+            <ul id="footer-sources"></ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script data-cfasync="false" type="module" src="/src/main.js"></script>
+  </body>
+</html>

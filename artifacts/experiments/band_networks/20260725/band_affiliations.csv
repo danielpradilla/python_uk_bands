@@ -101,6 +101,14 @@ The 1975,Manchester,record_label,wd:Q155152,Polydor Records,Wikidata P264
 The 1975,Manchester,record_label,wd:Q231694,Interscope Records,Wikidata P264
 The 1975,Manchester,record_label,wd:Q5281021,Dirty Hit,Wikidata P264
 The 1975,Manchester,record_label,wd:Q669127,Vagrant Records,Wikidata P264
+Electric Light Orchestra,Birmingham,record_label,wd:Q1324712,Harvest,Wikidata P264
+Electric Light Orchestra,Birmingham,record_label,wd:Q1542119,United Artists Records,Wikidata P264
+Electric Light Orchestra,Birmingham,record_label,wd:Q183387,Columbia Records,Wikidata P264
+Electric Light Orchestra,Birmingham,record_label,wd:Q216364,Epic Records,Wikidata P264
+Electric Light Orchestra,Birmingham,record_label,wd:Q2358400,Legacy Recordings,Wikidata P264
+Electric Light Orchestra,Birmingham,record_label,wd:Q3001888,"Sony BMG Music Entertainment, Inc.",Wikidata P264
+Electric Light Orchestra,Birmingham,record_label,wd:Q67030918,Warner Records Inc.,Wikidata P264
+Electric Light Orchestra,Birmingham,record_label,wd:Q843402,Warner Bros. Records,Wikidata P264
 Black Sabbath,Birmingham,record_label,wd:Q13218788,Virgin EMI Records,Wikidata P264
 Black Sabbath,Birmingham,record_label,wd:Q1330417,Vertigo Records,Wikidata P264
 Black Sabbath,Birmingham,record_label,wd:Q1347984,Sanctuary Records,Wikidata P264
@@ -109,7 +117,7 @@ Black Sabbath,Birmingham,record_label,wd:Q21077,Warner Music Group,Wikidata P264
 Black Sabbath,Birmingham,record_label,wd:Q2265719,I.R.S. Records,Wikidata P264
 Black Sabbath,Birmingham,record_label,wd:Q38903,Universal Music Group,Wikidata P264
 Black Sabbath,Birmingham,record_label,wd:Q843402,Warner Bros. Records,Wikidata P264
-The Outfield,Manchester,record_label,wd:Q183387,Columbia Records,Wikidata P264
+The Outfield,London,record_label,wd:Q183387,Columbia Records,Wikidata P264
 Depeche Mode,London,record_label,wd:Q165711,Sire,Wikidata P264
 Depeche Mode,London,record_label,wd:Q183387,Columbia Records,Wikidata P264
 Depeche Mode,London,record_label,wd:Q183412,EMI,Wikidata P264
@@ -124,8 +132,8 @@ The Verve,Manchester,record_label,wd:Q183412,EMI,Wikidata P264
 Duran Duran,Birmingham,record_label,wd:Q193023,Capitol Records,Wikidata P264
 Duran Duran,Birmingham,record_label,wd:Q216364,Epic Records,Wikidata P264
 Duran Duran,Birmingham,record_label,wd:Q843402,Warner Bros. Records,Wikidata P264
-Eurythmics,Sunderland,record_label,wd:Q14192383,19 Recordings,Wikidata P264
-Eurythmics,Sunderland,record_label,wd:Q664167,Arista Records,Wikidata P264
+Eurythmics,London,record_label,wd:Q14192383,19 Recordings,Wikidata P264
+Eurythmics,London,record_label,wd:Q664167,Arista Records,Wikidata P264
 Little Mix,London,record_label,wd:Q183387,Columbia Records,Wikidata P264
 The Clash,London,record_label,wd:Q183387,Columbia Records,Wikidata P264
 The Clash,London,record_label,wd:Q330629,Sony Music,Wikidata P264
@@ -291,6 +299,8 @@ Everything But The Girl,Hull,record_label,wd:Q165711,Sire,Wikidata P264
 Everything But The Girl,Hull,record_label,wd:Q202440,Atlantic Records,Wikidata P264
 The La's,Liverpool,record_label,wd:Q1533331,Go! Discs,Wikidata P264
 The xx,London,record_label,wd:Q1123947,XL Recordings,Wikidata P264
+The Cinematic Orchestra,London,record_label,wd:Q1238400,Domino Recording Company,Wikidata P264
+The Cinematic Orchestra,London,record_label,wd:Q1358555,Ninja Tune,Wikidata P264
 Fine Young Cannibals,Birmingham,record_label,wd:Q2265719,I.R.S. Records,Wikidata P264
 Fine Young Cannibals,Birmingham,record_label,wd:Q935090,London Records,Wikidata P264
 Stereophonics,Cardiff,record_label,wd:Q6753829,MapleMusic Recordings,Wikidata P264
@@ -308,8 +318,8 @@ Hot Chocolate,London,record_label,wd:Q213710,Apple Records,Wikidata P264
 Hot Chocolate,London,record_label,wd:Q3844913,Manticore Records,Wikidata P264
 Hot Chocolate,London,record_label,wd:Q478062,RAK,Wikidata P264
 Hot Chocolate,London,record_label,wd:Q4906603,Big Tree Records,Wikidata P264
-The Alan Parsons Project,Glasgow,record_label,wd:Q1063242,Charisma,Wikidata P264
-The Alan Parsons Project,Glasgow,record_label,wd:Q664167,Arista Records,Wikidata P264
+The Alan Parsons Project,London,record_label,wd:Q1063242,Charisma,Wikidata P264
+The Alan Parsons Project,London,record_label,wd:Q664167,Arista Records,Wikidata P264
 Chase & Status,London,record_label,wd:Q1194456,Roc Nation,Wikidata P264
 Chase & Status,London,record_label,wd:Q1330417,Vertigo Records,Wikidata P264
 Chase & Status,London,record_label,wd:Q165745,Mercury Records,Wikidata P264
@@ -369,7 +379,7 @@ Bananarama,London,record_label,wd:Q2733913,Deram,Wikidata P264
 Bananarama,London,record_label,wd:Q627091,Rhino Entertainment Company,Wikidata P264
 Bananarama,London,record_label,wd:Q69529331,M6 Music Label,Wikidata P264
 Bananarama,London,record_label,wd:Q935090,London Records,Wikidata P264
-Underworld,London,record_label,wd:Q2996526,Cooking Vinyl,Wikidata P264
+Underworld,Cardiff,record_label,wd:Q2996526,Cooking Vinyl,Wikidata P264
 Blue,London,record_label,wd:Q16254300,Innocent,Wikidata P264
 Kasabian,Leicester,record_label,wd:Q202585,RCA Records,Wikidata P264
 Bad Company,London,record_label,wd:Q190585,Island Records,Wikidata P264
@@ -421,12 +431,20 @@ Basement Jaxx,London,record_label,wd:Q1973834,Play It Again Sam,Wikidata P264
 Basement Jaxx,London,record_label,wd:Q231694,Interscope Records,Wikidata P264
 Basement Jaxx,London,record_label,wd:Q2573393,Ultra Records,Wikidata P264
 Basement Jaxx,London,record_label,wd:Q4816467,Atlantic Jaxx,Wikidata P264
+Roxy Music,London,record_label,wd:Q155152,Polydor Records,Wikidata P264
+Roxy Music,London,record_label,wd:Q1611073,E.G. Records,Wikidata P264
+Roxy Music,London,record_label,wd:Q190585,Island Records,Wikidata P264
+Roxy Music,London,record_label,wd:Q203059,Virgin Records,Wikidata P264
+Roxy Music,London,record_label,wd:Q21077,Warner Music Group,Wikidata P264
+Roxy Music,London,record_label,wd:Q585643,Atco Records,Wikidata P264
+Roxy Music,London,record_label,wd:Q645889,Reprise Records,Wikidata P264
+Roxy Music,London,record_label,wd:Q843402,Warner Bros. Records,Wikidata P264
 Lighthouse Family,Newcastle,record_label,wd:Q38903,Universal Music Group,Wikidata P264
 The Struts,Derby,record_label,wd:Q231694,Interscope Records,Wikidata P264
 The Wombats,Liverpool,record_label,wd:Q2807950,14th Floor Records,Wikidata P264
 Travis,Glasgow,record_label,wd:Q216364,Epic Records,Wikidata P264
 Mattafix,London,record_label,wd:Q203059,Virgin Records,Wikidata P264
-Royal Blood,Brighton and Hove,record_label,wd:Q843402,Warner Bros. Records,Wikidata P264
+Royal Blood,Worthing,record_label,wd:Q843402,Warner Bros. Records,Wikidata P264
 Free,London,record_label,wd:Q190585,Island Records,Wikidata P264
 Free,London,record_label,wd:Q277626,A&M Records,Wikidata P264
 London Grammar,Nottingham,record_label,wd:Q183387,Columbia Records,Wikidata P264
@@ -439,6 +457,9 @@ Neck Deep,Wrexham,record_label,wd:Q28374388,Pinky Swear Records,Wikidata P264
 Neck Deep,Wrexham,record_label,wd:Q942820,Hopeless Records,Wikidata P264
 Frankie Goes To Hollywood,Liverpool,record_label,wd:Q136485,ZTT Records,Wikidata P264
 Atomic Kitten,Liverpool,record_label,wd:Q55965015,EMI,Wikidata P264
+The Waterboys,London,record_label,wd:Q231694,Interscope Records,Wikidata P264
+S Club,London,record_label,wd:Q14192383,19 Recordings,Wikidata P264
+S Club,London,record_label,wd:Q155152,Polydor Records,Wikidata P264
 Still Corners,London,record_label,wd:Q778673,Sub Pop,Wikidata P264
 Asking Alexandria,York,record_label,wd:Q2117925,Sumerian Records,Wikidata P264
 All Saints,London,record_label,wd:Q136485,ZTT Records,Wikidata P264
@@ -453,7 +474,7 @@ The Darkness,Ipswich,record_label,wd:Q6943170,Must Destroy,Wikidata P264
 Texas,Glasgow,record_label,wd:Q1330417,Vertigo Records,Wikidata P264
 Texas,Glasgow,record_label,wd:Q165745,Mercury Records,Wikidata P264
 Texas,Glasgow,record_label,wd:Q796316,BMG Rights Management,Wikidata P264
-Edison Lighthouse,London,record_label,wd:Q4883239,,Wikidata P264
+Edison Lighthouse,London,record_label,wd:Q4883239,Bell Records,Wikidata P264
 Wang Chung,London,record_label,wd:Q664167,Arista Records,Wikidata P264
 The Cult,Leeds,record_label,wd:Q126039,Beggars Banquet Records,Wikidata P264
 The Cult,Leeds,record_label,wd:Q7532146,Situation Two,Wikidata P264
@@ -472,6 +493,9 @@ The Moody Blues,Birmingham,record_label,wd:Q38903,Universal Music Group,Wikidata
 The Moody Blues,Birmingham,record_label,wd:Q3939773,The Rocket Record Company,Wikidata P264
 The Moody Blues,Birmingham,record_label,wd:Q557632,Decca,Wikidata P264
 The Moody Blues,Birmingham,record_label,wd:Q935090,London Records,Wikidata P264
+Sweet,London,record_label,wd:Q155152,Polydor Records,Wikidata P264
+Sweet,London,record_label,wd:Q193023,Capitol Records,Wikidata P264
+Sweet,London,record_label,wd:Q202585,RCA Records,Wikidata P264
 Ten Years After,Nottingham,record_label,wd:Q1088453,Chrysalis Records,Wikidata P264
 Ten Years After,Nottingham,record_label,wd:Q183387,Columbia Records,Wikidata P264
 Ten Years After,Nottingham,record_label,wd:Q2733913,Deram,Wikidata P264
@@ -553,9 +577,32 @@ Boards of Canada,Edinburgh,record_label,wd:Q543707,Warp,Wikidata P264
 Primal Scream,Glasgow,record_label,wd:Q1139341,Creation Records,Wikidata P264
 Primal Scream,Glasgow,record_label,wd:Q1200368,Astralwerks,Wikidata P264
 Primal Scream,Glasgow,record_label,wd:Q3050801,Elevation Records,Wikidata P264
+Gerry & The Pacemakers,Liverpool,record_label,wd:Q1112471,Columbia Graphophone Co. Ltd.,Wikidata P264
+Gerry & The Pacemakers,Liverpool,record_label,wd:Q193023,Capitol Records,Wikidata P264
 Ultravox,London,record_label,wd:Q190585,Island Records,Wikidata P264
 N-Trance,Manchester,record_label,wd:Q836202,PWL,Wikidata P264
+South Arcade,Guildford,record_label,wd:Q202440,Atlantic Records,Wikidata P264
+South Arcade,Guildford,record_label,wd:Q6456938,LAB Records,Wikidata P264
 Belle and Sebastian,Glasgow,record_label,wd:Q385558,Rough Trade,Wikidata P264
+"Emerson, Lake & Palmer",London,record_label,wd:Q1347984,Sanctuary Records,Wikidata P264
+"Emerson, Lake & Palmer",London,record_label,wd:Q1470329,Victor Talking Machine Company,Wikidata P264
+"Emerson, Lake & Palmer",London,record_label,wd:Q1546001,Stax Records,Wikidata P264
+"Emerson, Lake & Palmer",London,record_label,wd:Q1611073,E.G. Records,Wikidata P264
+"Emerson, Lake & Palmer",London,record_label,wd:Q1636558,Victory Records,Wikidata P264
+"Emerson, Lake & Palmer",London,record_label,wd:Q1813833,Eagle Rock Entertainment,Wikidata P264
+"Emerson, Lake & Palmer",London,record_label,wd:Q190585,Island Records,Wikidata P264
+"Emerson, Lake & Palmer",London,record_label,wd:Q202440,Atlantic Records,Wikidata P264
+"Emerson, Lake & Palmer",London,record_label,wd:Q203059,Virgin Records,Wikidata P264
+"Emerson, Lake & Palmer",London,record_label,wd:Q2299832,Mushroom Records,Wikidata P264
+"Emerson, Lake & Palmer",London,record_label,wd:Q3844913,Manticore Records,Wikidata P264
+"Emerson, Lake & Palmer",London,record_label,wd:Q3939773,The Rocket Record Company,Wikidata P264
+"Emerson, Lake & Palmer",London,record_label,wd:Q5029631,Canadian-American Records,Wikidata P264
+"Emerson, Lake & Palmer",London,record_label,wd:Q56760250,Sony Music,Wikidata P264
+"Emerson, Lake & Palmer",London,record_label,wd:Q62266131,Volt Records,Wikidata P264
+"Emerson, Lake & Palmer",London,record_label,wd:Q627091,Rhino Entertainment Company,Wikidata P264
+"Emerson, Lake & Palmer",London,record_label,wd:Q679007,Vee-Jay Records,Wikidata P264
+"Emerson, Lake & Palmer",London,record_label,wd:Q7299616,Razor & Tie,Wikidata P264
+"Emerson, Lake & Palmer",London,record_label,wd:Q7502767,Shout! Factory,Wikidata P264
 Badfinger,Swansea,record_label,wd:Q1542119,United Artists Records,Wikidata P264
 Badfinger,Swansea,record_label,wd:Q213710,Apple Records,Wikidata P264
 Badfinger,Swansea,record_label,wd:Q3844913,Manticore Records,Wikidata P264
@@ -585,6 +632,10 @@ Girls Aloud,London,record_label,wd:Q155152,Polydor Records,Wikidata P264
 Girls Aloud,London,record_label,wd:Q2604329,Fascination Records,Wikidata P264
 Bear's Den,London,record_label,wd:Q5154244,Communion Music,Wikidata P264
 Noah And The Whale,London,record_label,wd:Q165745,Mercury Records,Wikidata P264
+Sisters of Mercy,Leeds,record_label,wd:Q1168837,Merciful Release,Wikidata P264
+Sisters of Mercy,Leeds,record_label,wd:Q2576206,East West Records,Wikidata P264
+Sisters of Mercy,Leeds,record_label,wd:Q56404384,Rhino,Wikidata P264
+Sisters of Mercy,Leeds,record_label,wd:Q726251,Elektra,Wikidata P264
 The Jesus and Mary Chain,Glasgow,record_label,wd:Q1139341,Creation Records,Wikidata P264
 Bombay Bicycle Club,London,record_label,wd:Q190585,Island Records,Wikidata P264
 You Me At Six,London,record_label,wd:Q203059,Virgin Records,Wikidata P264
@@ -604,11 +655,13 @@ Elbow,Manchester,record_label,wd:Q1191537,V2 Records,Wikidata P264
 The Troggs,Southampton,record_label,wd:Q585643,Atco Records,Wikidata P264
 The Troggs,Southampton,record_label,wd:Q729590,Fontana Records,Wikidata P264
 Orbital,London,record_label,wd:Q5425430,FFRR,Wikidata P264
+Goldfrapp,London,record_label,wd:Q1200368,Astralwerks,Wikidata P264
+Goldfrapp,London,record_label,wd:Q240804,Mute Records,Wikidata P264
 Crystal Fighters,London,record_label,wd:Q202440,Atlantic Records,Wikidata P264
 Crystal Fighters,London,record_label,wd:Q5275295,Different Recordings,Wikidata P264
 Herman's Hermits,Manchester,record_label,wd:Q183387,Columbia Records,Wikidata P264
-Floetry,Liverpool,record_label,wd:Q155152,Polydor Records,Wikidata P264
-Floetry,Liverpool,record_label,wd:Q1899781,DreamWorks Records,Wikidata P264
+Floetry,London,record_label,wd:Q155152,Polydor Records,Wikidata P264
+Floetry,London,record_label,wd:Q1899781,DreamWorks Records,Wikidata P264
 Average White Band,Dundee City,record_label,wd:Q202440,Atlantic Records,Wikidata P264
 Del Amitri,Glasgow,record_label,wd:Q1088453,Chrysalis Records,Wikidata P264
 Courteeners,Manchester,record_label,wd:Q155152,Polydor Records,Wikidata P264
@@ -626,6 +679,7 @@ Klaxons,London,record_label,wd:Q4764019,Angular Recording Corporation,Wikidata P
 Klaxons,London,record_label,wd:Q616975,Ed Banger Records,Wikidata P264
 Ultrabeat,Liverpool,record_label,wd:Q2743409,Xploded Music,Wikidata P264
 M People,Manchester,record_label,wd:Q2891955,Deconstruction Records,Wikidata P264
+IAMX,London,record_label,wd:Q1694493,Major Records,Wikidata P264
 The Dream Academy,London,record_label,wd:Q843402,Warner Bros. Records,Wikidata P264
 Suede,London,record_label,wd:Q183387,Columbia Records,Wikidata P264
 Suede,London,record_label,wd:Q7068342,Nude Records,Wikidata P264
@@ -676,6 +730,8 @@ Aztec Camera,Glasgow,record_label,wd:Q843402,Warner Bros. Records,Wikidata P264
 Aztec Camera,Glasgow,record_label,wd:Q935553,Postcard Records,Wikidata P264
 The Undertones,Derry & Strabane Local Government District,record_label,wd:Q165711,Sire,Wikidata P264
 The Undertones,Derry & Strabane Local Government District,record_label,wd:Q5583051,Good Vibrations,Wikidata P264
+Marmalade,Glasgow,record_label,wd:Q183387,Columbia Records,Wikidata P264
+Marmalade,Glasgow,record_label,wd:Q557632,Decca,Wikidata P264
 The Yardbirds,London,record_label,wd:Q183387,Columbia Records,Wikidata P264
 The Yardbirds,London,record_label,wd:Q5086379,Charly Records,Wikidata P264
 The Yardbirds,London,record_label,wd:Q66717800,Fruits de Mer Records,Wikidata P264
@@ -700,12 +756,13 @@ Los Campesinos!,Cardiff,record_label,wd:Q1810123,Wichita Recordings,Wikidata P26
 Los Campesinos!,Cardiff,record_label,wd:Q4034425,Arts & Crafts Productions,Wikidata P264
 Swing Out Sister,Manchester,record_label,wd:Q165745,Mercury Records,Wikidata P264
 Bay City Rollers,Edinburgh,record_label,wd:Q216364,Epic Records,Wikidata P264
-Bay City Rollers,Edinburgh,record_label,wd:Q4883239,,Wikidata P264
+Bay City Rollers,Edinburgh,record_label,wd:Q4883239,Bell Records,Wikidata P264
 Bay City Rollers,Edinburgh,record_label,wd:Q664167,Arista Records,Wikidata P264
 Bury Tomorrow,Southampton,record_label,wd:Q158886,Nuclear Blast,Wikidata P264
 Bury Tomorrow,Southampton,record_label,wd:Q262530,Artery Recordings,Wikidata P264
 Bury Tomorrow,Southampton,record_label,wd:Q4027098,Basick Records,Wikidata P264
 Olive,London,record_label,wd:Q202585,RCA Records,Wikidata P264
+The English Beat,Birmingham,record_label,wd:Q5574758,Go Feet Records,Wikidata P264
 Gang Of Four,Leeds,record_label,wd:Q183412,EMI,Wikidata P264
 Gang Of Four,Leeds,record_label,wd:Q3629023,EMI Records,Wikidata P264
 Gang Of Four,Leeds,record_label,wd:Q843402,Warner Bros. Records,Wikidata P264
@@ -769,8 +826,9 @@ Heaven 17,Sheffield,record_label,wd:Q183412,EMI,Wikidata P264
 Paradise Lost,Leeds,record_label,wd:Q158867,Century Media Records,Wikidata P264
 Lamb,Manchester,record_label,wd:Q165745,Mercury Records,Wikidata P264
 Shakespears Sister,London,record_label,wd:Q935090,London Records,Wikidata P264
+Adam & The Ants,London,record_label,wd:Q183387,Columbia Records,Wikidata P264
+Adam & The Ants,London,record_label,wd:Q330629,Sony Music,Wikidata P264
 Shed Seven,York,record_label,wd:Q155152,Polydor Records,Wikidata P264
-The Beta Band,Edinburgh,record_label,wd:Q909310,Regal Recordings,Wikidata P264
 Archive,London,record_label,wd:Q190585,Island Records,Wikidata P264
 Archive,London,record_label,wd:Q21077,Warner Music Group,Wikidata P264
 Archive,London,record_label,wd:Q2576206,East West Records,Wikidata P264
@@ -827,6 +885,7 @@ lostprophets,Cardiff,record_label,wd:Q216364,Epic Records,Wikidata P264
 lostprophets,Cardiff,record_label,wd:Q330629,Sony Music,Wikidata P264
 After The Fire,London,record_label,wd:Q183387,Columbia Records,Wikidata P264
 Bow Wow Wow,London,record_label,wd:Q3629023,EMI Records,Wikidata P264
+Danny Wilson,Dundee City,record_label,wd:Q203059,Virgin Records,Wikidata P264
 Levitation,London,record_label,wd:Q385558,Rough Trade,Wikidata P264
 The Orb,London,record_label,wd:Q183387,Columbia Records,Wikidata P264
 The Orb,London,record_label,wd:Q190585,Island Records,Wikidata P264
@@ -871,9 +930,6 @@ Paper Lace,Nottingham,record_label,wd:Q155152,Polydor Records,Wikidata P264
 Venom,Newcastle,record_label,wd:Q1347984,Sanctuary Records,Wikidata P264
 Lemon Jelly,London,record_label,wd:Q1123947,XL Recordings,Wikidata P264
 The Go! Team,Brighton and Hove,record_label,wd:Q827077,Memphis Industries,Wikidata P264
-Napalm Death,Birmingham,record_label,wd:Q158867,Century Media Records,Wikidata P264
-Napalm Death,Birmingham,record_label,wd:Q2533251,Spitfire Records,Wikidata P264
-Napalm Death,Birmingham,record_label,wd:Q838544,Earache Records,Wikidata P264
 Wishbone Ash,Torbay,record_label,wd:Q2265719,I.R.S. Records,Wikidata P264
 Wishbone Ash,Torbay,record_label,wd:Q2338889,MCA Records,Wikidata P264
 Wishbone Ash,Torbay,record_label,wd:Q557632,Decca,Wikidata P264
@@ -894,6 +950,11 @@ The Fall,Manchester,record_label,wd:Q1238400,Domino Recording Company,Wikidata P
 The Fall,Manchester,record_label,wd:Q2265719,I.R.S. Records,Wikidata P264
 The Fall,Manchester,record_label,wd:Q5998908,Illegal Records,Wikidata P264
 The Fall,Manchester,record_label,wd:Q729590,Fontana Records,Wikidata P264
+Autechre,Manchester,record_label,wd:Q2085119,Nothing Records,Wikidata P264
+Autechre,Manchester,record_label,wd:Q2283665,TVT Records,Wikidata P264
+Autechre,Manchester,record_label,wd:Q2545760,Wax Trax! Records,Wikidata P264
+Autechre,Manchester,record_label,wd:Q475607,Skam Records,Wikidata P264
+Autechre,Manchester,record_label,wd:Q543707,Warp,Wikidata P264
 Teenage Fanclub,Glasgow,record_label,wd:Q1139341,Creation Records,Wikidata P264
 Teenage Fanclub,Glasgow,record_label,wd:Q7132747,Paperhouse Records,Wikidata P264
 The Pigeon Detectives,Leeds,record_label,wd:Q3013340,Dance to the Radio,Wikidata P264
@@ -903,10 +964,10 @@ The Future Sound Of London,Manchester,record_label,wd:Q1200368,Astralwerks,Wikid
 Bolt Thrower,Coventry,record_label,wd:Q756320,Metal Blade Records,Wikidata P264
 Bolt Thrower,Coventry,record_label,wd:Q7932936,Vinyl Solution,Wikidata P264
 Bolt Thrower,Coventry,record_label,wd:Q838544,Earache Records,Wikidata P264
-London Elektricity,London,record_label,wd:Q1630451,Hospital Records,Wikidata P264
 The Futureheads,Sunderland,record_label,wd:Q669127,Vagrant Records,Wikidata P264
 Until The Ribbon Breaks,Cardiff,record_label,wd:Q16995752,Kobalt Label Services,Wikidata P264
 The Seahorses,York,record_label,wd:Q212699,Geffen Records,Wikidata P264
+Tom Robinson Band,London,record_label,wd:Q3629023,EMI Records,Wikidata P264
 The Soup Dragons,Glasgow,record_label,wd:Q3522912,The Subway Organization,Wikidata P264
 Cock Sparrer,London,record_label,wd:Q115104719,Unity Worldwide Records,Wikidata P264
 Cock Sparrer,London,record_label,wd:Q557632,Decca,Wikidata P264
@@ -926,6 +987,7 @@ Oxide & Neutrino,London,record_label,wd:Q2576206,East West Records,Wikidata P264
 Twin Atlantic,Glasgow,record_label,wd:Q1815691,Red Bull Records,Wikidata P264
 Electrelane,Brighton and Hove,record_label,wd:Q1456588,Too Pure,Wikidata P264
 TesseracT,Milton Keynes,record_label,wd:Q158867,Century Media Records,Wikidata P264
+Wax,Manchester,record_label,wd:Q50074604,RCA,Wikidata P264
 Dry Cleaning,London,record_label,wd:Q238095,4AD,Wikidata P264
 Fickle Friends,Brighton and Hove,record_label,wd:Q155152,Polydor Records,Wikidata P264
 Super Furry Animals,Cardiff,record_label,wd:Q1139341,Creation Records,Wikidata P264
@@ -955,8 +1017,6 @@ Five Star,London,record_label,wd:Q216364,Epic Records,Wikidata P264
 Teleman,London,record_label,wd:Q784001,Moshi Moshi Records,Wikidata P264
 Altered Images,Glasgow,record_label,wd:Q216364,Epic Records,Wikidata P264
 Space,Liverpool,record_label,wd:Q5621680,Gut Records,Wikidata P264
-The Boo Radleys,Liverpool,record_label,wd:Q1139341,Creation Records,Wikidata P264
-The Boo Radleys,Liverpool,record_label,wd:Q4677148,Action Records,Wikidata P264
 Savoy Brown,London,record_label,wd:Q2733913,Deram,Wikidata P264
 Savoy Brown,London,record_label,wd:Q557632,Decca,Wikidata P264
 Honeyz,London,record_label,wd:Q165745,Mercury Records,Wikidata P264
@@ -969,8 +1029,6 @@ Sweet Sensation,Manchester,record_label,wd:Q301754,His Master's Voice,Wikidata P
 Rak-Su,London,record_label,wd:Q7659636,Syco Music,Wikidata P264
 Gentle Giant,London,record_label,wd:Q1088453,Chrysalis Records,Wikidata P264
 Gentle Giant,London,record_label,wd:Q183387,Columbia Records,Wikidata P264
-Felt,Birmingham,record_label,wd:Q1139341,Creation Records,Wikidata P264
-Felt,Birmingham,record_label,wd:Q2494570,Cherry Red,Wikidata P264
 Godley & Creme,Manchester,record_label,wd:Q165745,Mercury Records,Wikidata P264
 The Pretty Things,London,record_label,wd:Q66717800,Fruits de Mer Records,Wikidata P264
 The Pretty Things,London,record_label,wd:Q729590,Fontana Records,Wikidata P264
@@ -985,6 +1043,7 @@ Evile,Leeds,record_label,wd:Q838544,Earache Records,Wikidata P264
 Black Grape,Manchester,record_label,wd:Q2301434,Radioactive Records,Wikidata P264
 The Wonder Stuff,Birmingham,record_label,wd:Q155152,Polydor Records,Wikidata P264
 My Dying Bride,Leeds,record_label,wd:Q1465200,Peaceville Records,Wikidata P264
+Freddie & The Dreamers,Manchester,record_label,wd:Q183387,Columbia Records,Wikidata P264
 Argent,London,record_label,wd:Q216364,Epic Records,Wikidata P264
 The Rezillos,Edinburgh,record_label,wd:Q124651071,Sensible Records,Wikidata P264
 The Rezillos,Edinburgh,record_label,wd:Q165711,Sire,Wikidata P264
@@ -1001,7 +1060,8 @@ Idlewild,Edinburgh,record_label,wd:Q208909,Parlophone,Wikidata P264
 Idlewild,Edinburgh,record_label,wd:Q2996526,Cooking Vinyl,Wikidata P264
 KOAN Sound,Bristol,record_label,wd:Q108645806,Inspected,Wikidata P264
 KOAN Sound,Bristol,record_label,wd:Q21090,OWSLA,Wikidata P264
-The Slow Show,Manchester,record_label,wd:Q130497261,[PIAS] Recordings,Wikidata P264
+TTNG,Oxford,record_label,wd:Q4906298,Big Scary Monsters Recording Company,Wikidata P264
+The Slow Show,Manchester,record_label,wd:Q130497261,PIAS Recordings,Wikidata P264
 The Slow Show,Manchester,record_label,wd:Q15819048,Haldern Pop Recordings,Wikidata P264
 Glasvegas,Glasgow,record_label,wd:Q183387,Columbia Records,Wikidata P264
 Glasvegas,Glasgow,record_label,wd:Q796316,BMG Rights Management,Wikidata P264
@@ -1044,8 +1104,6 @@ Fat White Family,London,record_label,wd:Q1397914,Fat Possum Records,Wikidata P26
 Steeleye Span,London,record_label,wd:Q1088453,Chrysalis Records,Wikidata P264
 Steeleye Span,London,record_label,wd:Q7137957,Park Records,Wikidata P264
 Shampoo,London,record_label,wd:Q5465369,Food Records,Wikidata P264
-Clinic,Liverpool,record_label,wd:Q1238400,Domino Recording Company,Wikidata P264
-Clinic,Liverpool,record_label,wd:Q3416359,Radar Records,Wikidata P264
 Monarchy,London,record_label,wd:Q3338199,Neon Gold Records,Wikidata P264
 Blazin' Squad,London,record_label,wd:Q2576206,East West Records,Wikidata P264
 Cockney Rejects,London,record_label,wd:Q183412,EMI,Wikidata P264
@@ -1102,6 +1160,13 @@ The Vibrators,London,record_label,wd:Q216364,Epic Records,Wikidata P264
 The Vibrators,London,record_label,wd:Q478062,RAK,Wikidata P264
 The Wedding Present,Leeds,record_label,wd:Q190585,Island Records,Wikidata P264
 The Big Pink,London,record_label,wd:Q238095,4AD,Wikidata P264
+Cabaret Voltaire,Sheffield,record_label,wd:Q203059,Virgin Records,Wikidata P264
+Cabaret Voltaire,Sheffield,record_label,wd:Q2400027,Factory Benelux,Wikidata P264
+Cabaret Voltaire,Sheffield,record_label,wd:Q240804,Mute Records,Wikidata P264
+Cabaret Voltaire,Sheffield,record_label,wd:Q3489789,Some Bizzare,Wikidata P264
+Cabaret Voltaire,Sheffield,record_label,wd:Q385558,Rough Trade,Wikidata P264
+Cabaret Voltaire,Sheffield,record_label,wd:Q578943,Factory Records,Wikidata P264
+Cabaret Voltaire,Sheffield,record_label,wd:Q682784,Industrial Records,Wikidata P264
 Pitchshifter,Nottingham,record_label,wd:Q438628,Alternative Tentacles,Wikidata P264
 Pitchshifter,Nottingham,record_label,wd:Q7120665,PSI Records,Wikidata P264
 Pitchshifter,Nottingham,record_label,wd:Q838544,Earache Records,Wikidata P264
@@ -1119,10 +1184,15 @@ Young Marble Giants,Cardiff,record_label,wd:Q385558,Rough Trade,Wikidata P264
 Cathedral,Coventry,record_label,wd:Q158886,Nuclear Blast,Wikidata P264
 Cathedral,Coventry,record_label,wd:Q183387,Columbia Records,Wikidata P264
 Cathedral,Coventry,record_label,wd:Q838544,Earache Records,Wikidata P264
+The Arrows,London,record_label,wd:Q478062,RAK,Wikidata P264
 Onslaught,Bristol,record_label,wd:Q935090,London Records,Wikidata P264
 The Associates,Dundee City,record_label,wd:Q2481499,Fiction Records,Wikidata P264
 Rolo Tomassi,Sheffield,record_label,wd:Q10294040,Hassle Records,Wikidata P264
 Lonely The Brave,Cambridge,record_label,wd:Q10294040,Hassle Records,Wikidata P264
+Mekons,Leeds,record_label,wd:Q2310327,Fast Product,Wikidata P264
+Mekons,Leeds,record_label,wd:Q277626,A&M Records,Wikidata P264
+Mekons,Leeds,record_label,wd:Q2906225,Blast First,Wikidata P264
+Mekons,Leeds,record_label,wd:Q885233,Bloodshot Records,Wikidata P264
 bis,Glasgow,record_label,wd:Q2371991,Chemikal Underground,Wikidata P264
 bis,Glasgow,record_label,wd:Q3568013,Wiiija,Wikidata P264
 Morning Runner,Reading,record_label,wd:Q208909,Parlophone,Wikidata P264
@@ -1134,9 +1204,6 @@ Angelic Upstarts,Newcastle,record_label,wd:Q1035129,Captain Oi! Records,Wikidata
 Angelic Upstarts,Newcastle,record_label,wd:Q112175682,Demons Run Amok Entertainment,Wikidata P264
 Angelic Upstarts,Newcastle,record_label,wd:Q183412,EMI,Wikidata P264
 Angelic Upstarts,Newcastle,record_label,wd:Q843402,Warner Bros. Records,Wikidata P264
-The Sweet,London,record_label,wd:Q155152,Polydor Records,Wikidata P264
-The Sweet,London,record_label,wd:Q193023,Capitol Records,Wikidata P264
-The Sweet,London,record_label,wd:Q202585,RCA Records,Wikidata P264
 Peter and the Test Tube Babies,Brighton and Hove,record_label,wd:Q1035129,Captain Oi! Records,Wikidata P264
 Puressence,Manchester,record_label,wd:Q190585,Island Records,Wikidata P264
 Sky,London,record_label,wd:Q165745,Mercury Records,Wikidata P264
@@ -1146,40 +1213,19 @@ One Eskimo,London,record_label,wd:Q7488590,Shangri-La Music,Wikidata P264
 Dubstar,Newcastle,record_label,wd:Q5465369,Food Records,Wikidata P264
 Goat Girl,London,record_label,wd:Q385558,Rough Trade,Wikidata P264
 The Wild Swans,Liverpool,record_label,wd:Q8074062,Zoo Records,Wikidata P264
-Ambrosian Singers,London,record_label,wd:Q1536003,Philips Records,Wikidata P264
-Ambrosian Singers,London,record_label,wd:Q183412,EMI,Wikidata P264
-Ambrosian Singers,London,record_label,wd:Q557632,Decca,Wikidata P264
 The Wake,Glasgow,record_label,wd:Q2400027,Factory Benelux,Wikidata P264
 The Wake,Glasgow,record_label,wd:Q578943,Factory Records,Wikidata P264
 Current 93,London,record_label,wd:Q5316786,Durtro,Wikidata P264
 Cleopatra,Manchester,record_label,wd:Q6794165,Maverick,Wikidata P264
+Sons of Raphael,London,record_label,wd:Q2740367,Because Music,Wikidata P264
 The Incredible String Band,Edinburgh,record_label,wd:Q190585,Island Records,Wikidata P264
 The Incredible String Band,Edinburgh,record_label,wd:Q726251,Elektra,Wikidata P264
 The Field Mice,London,record_label,wd:Q3473424,Sarah Records,Wikidata P264
 Rudimentary Peni,London,record_label,wd:Q2835318,Crass Records,Wikidata P264
+The Bonzo Dog Band,London,record_label,wd:Q208909,Parlophone,Wikidata P264
 Tigertailz,Cardiff,record_label,wd:Q1347984,Sanctuary Records,Wikidata P264
 FM,London,record_label,wd:Q1110777,Portrait,Wikidata P264
 Treetop Flyers,London,record_label,wd:Q6675957,Loose,Wikidata P264
-Demented Are Go,Cardiff,record_label,wd:Q1543877,People Like You Records,Wikidata P264
-Demented Are Go,Cardiff,record_label,wd:Q28372134,Crazy Love Records,Wikidata P264
-Demented Are Go,Cardiff,record_label,wd:Q28372174,Link Records,Wikidata P264
-Demented Are Go,Cardiff,record_label,wd:Q28372213,ID Records,Wikidata P264
-Snuff,London,record_label,wd:Q5580601,Golf Records,Wikidata P264
-Snuff,London,record_label,wd:Q605388,Fat Wreck Chords,Wikidata P264
-Xentrix,Preston,record_label,wd:Q18628,Roadrunner Records,Wikidata P264
-Edgar Broughton Band,Coventry,record_label,wd:Q1324712,Harvest,Wikidata P264
-Fanfarlo,London,record_label,wd:Q202440,Atlantic Records,Wikidata P264
-The Duke Spirit,London,record_label,wd:Q2481499,Fiction Records,Wikidata P264
-Oceansize,Manchester,record_label,wd:Q126039,Beggars Banquet Records,Wikidata P264
-Close Lobsters,Glasgow,record_label,wd:Q5451422,Fire Records,Wikidata P264
-The Delgados,Glasgow,record_label,wd:Q2371991,Chemikal Underground,Wikidata P264
-The Wytches,Peterborough,record_label,wd:Q1397914,Fat Possum Records,Wikidata P264
-The Wytches,Peterborough,record_label,wd:Q375229,Heavenly Recordings,Wikidata P264
-Rialto,London,record_label,wd:Q2576206,East West Records,Wikidata P264
-Black Foxxes,Exeter,record_label,wd:Q1124153,Spinefarm Records,Wikidata P264
-Black Foxxes,Exeter,record_label,wd:Q1973834,Play It Again Sam,Wikidata P264
-Piano Magic,London,record_label,wd:Q1660357,Important Records,Wikidata P264
-Piano Magic,London,record_label,wd:Q238095,4AD,Wikidata P264
 10cc,Manchester,member,mb:49b4ba82-fb3d-4a03-ad4c-b802b2498d8f,Lol Creme,MusicBrainz member relationship
 10cc,Manchester,member,mb:bda14dd0-45a5-47be-8556-cec118ff7a49,Kevin Godley,MusicBrainz member relationship
 10cc,Manchester,member,mb:8ddb77ac-3083-4c51-8fc1-ec5e9f35fcfa,Eric Stewart,MusicBrainz member relationship
@@ -1299,7 +1345,6 @@ Altered Images,Glasgow,member,mb:f25c9f47-a707-409a-8bd0-d2e05be8014f,Tony McDai
 Altered Images,Glasgow,member,mb:4525f0ca-0670-45fe-85b5-9ad94243c32c,Johnny McElhone,MusicBrainz member relationship
 AlunaGeorge,London,member,mb:4d937f0c-1248-4b0d-93f5-427059092c33,Aluna,MusicBrainz member relationship
 AlunaGeorge,London,member,mb:02512f89-9a55-418e-a3e9-1b58247940e2,George Reid,MusicBrainz member relationship
-Ambrosian Singers,London,member,mb:ba89e012-efbd-4b25-ac6c-7ea28ceb9d9c,The Strictly Unreasonable Zang Tuum Tumb Big Beat Colossus,MusicBrainz member relationship
 America,London,member,mb:f5e0554a-1a1e-43ab-b00b-903a4d6cf7b8,Dan Peek,MusicBrainz member relationship
 America,London,member,mb:c5e47fa7-f995-4ab2-bfc6-aa89c4db4570,Gerry Beckley,MusicBrainz member relationship
 America,London,member,mb:e6151252-396c-4acb-b0d6-b421e8b478aa,Dewey Bunnell,MusicBrainz member relationship
@@ -1411,10 +1456,6 @@ Atomic Kitten,Liverpool,member,mb:7b6b9185-4736-4451-9d84-f9916e361ff7,Natasha H
 Atomic Kitten,Liverpool,member,mb:343015a7-6d21-4665-9a14-49fbe6a02ac2,Kerry Katona,MusicBrainz member relationship
 Atomic Kitten,Liverpool,member,mb:9a834f20-91aa-4bf7-bde6-74866fbe9b3f,Liz McClarnon,MusicBrainz member relationship
 Atomic Kitten,Liverpool,member,mb:8a032ac5-4d93-4353-bbf8-a3c43fd008c6,Jenny Frost,MusicBrainz member relationship
-Au Pairs,Birmingham,member,mb:55ae2c4a-5aab-494e-9d3a-32993c4c5b85,Paul Foad,MusicBrainz member relationship
-Au Pairs,Birmingham,member,mb:5e743d95-8c77-4d2c-8010-b745674749b3,Pete Hammond,MusicBrainz member relationship
-Au Pairs,Birmingham,member,mb:6959d581-775e-4de4-b08b-124984ab22fd,Jane Munro,MusicBrainz member relationship
-Au Pairs,Birmingham,member,mb:0d18e5e0-2f52-460c-960e-9d7a34f098e7,Lesley Woods,MusicBrainz member relationship
 Audio Bullys,London,member,mb:250fce27-3894-4c8e-854e-55a4d7bd02f2,Tom Dinsdale,MusicBrainz member relationship
 Audio Bullys,London,member,mb:6b892f3a-5711-4050-9ebf-b6330d099a71,Simon Franks,MusicBrainz member relationship
 Average White Band,Dundee City,member,mb:3b106f97-02df-460c-9d5d-a7b41e933f70,Hamish Stuart,MusicBrainz member relationship
@@ -1567,7 +1608,6 @@ Big Country,Edinburgh,member,mb:3bd1322e-3d6d-400b-af6a-297c357903cc,Gil Allan,M
 Black Box Recorder,London,member,mb:08bca401-88d5-4de7-b9c3-560a2e4c1abc,Luke Haines,MusicBrainz member relationship
 Black Box Recorder,London,member,mb:c543a9ef-f361-4e42-96b1-906cfab39889,John Moore,MusicBrainz member relationship
 Black Box Recorder,London,member,mb:19190cd5-78cc-49fe-a1f0-4af3057d90d4,Sarah Nixey,MusicBrainz member relationship
-Black Foxxes,Exeter,member,mb:65be6864-dfbb-4604-9746-7f9346fb1df2,Mark Holley,MusicBrainz member relationship
 Black Grape,Manchester,member,mb:39429469-abe3-442d-9470-b9a8959e488e,Bez,MusicBrainz member relationship
 Black Grape,Manchester,member,mb:1315c4a3-3949-4998-8a5a-7c616aef9669,Paul Leveridge,MusicBrainz member relationship
 Black Grape,Manchester,member,mb:74451461-f7ff-42c2-bd09-2f926fd8c7e3,Ged Lynch,MusicBrainz member relationship
@@ -1829,12 +1869,6 @@ Chumbawamba,Burnley,member,mb:f2b2b6b0-1cf3-4b69-888a-272dd1f368f2,Phil Moody,Mu
 Chumbawamba,Burnley,member,mb:43164794-82cf-4945-9b93-05bcda617521,No Masters Co-operative,MusicBrainz member relationship
 Chumbawamba,Burnley,member,mb:da7c3f16-1fd3-44d1-a2e0-118d94b90306,Cobie Laan,MusicBrainz member relationship
 Chumbawamba,Burnley,member,mb:8982a02d-ba8f-4bcb-9122-39f28e2e4f99,Simon Lanzon,MusicBrainz member relationship
-Church of the Cosmic Skull,Nottingham,member,mb:691cac02-11a2-4a5f-b6fb-c73e71ba8084,Caroline Cawley,MusicBrainz member relationship
-Church of the Cosmic Skull,Nottingham,member,mb:45719df5-00ce-4729-8cae-1d96e15e0aef,Bill Fisher,MusicBrainz member relationship
-Church of the Cosmic Skull,Nottingham,member,mb:49664fe5-14d1-4b85-a78e-db365f4d14aa,Jo Joyce,MusicBrainz member relationship
-Church of the Cosmic Skull,Nottingham,member,mb:a2be1357-0ad0-4645-8067-b5e14de73913,Sam Lloyd,MusicBrainz member relationship
-Church of the Cosmic Skull,Nottingham,member,mb:5642c1b9-cc48-4cdd-a6fe-ab41bcd427a5,Amy Nicholson,MusicBrainz member relationship
-Church of the Cosmic Skull,Nottingham,member,mb:24e9e038-d49f-428a-b194-e42102a26990,Loz Stone,MusicBrainz member relationship
 Circa Waves,Liverpool,member,mb:fdee1531-e341-46e8-aeba-cdc784154a1a,Joe Falconer,MusicBrainz member relationship
 Circa Waves,Liverpool,member,mb:57107be1-21eb-48bd-80e3-e5f3f0ad647c,Colin Jones,MusicBrainz member relationship
 Circa Waves,Liverpool,member,mb:cfc92343-bcd4-478b-8007-cf44c798d92c,Sam Rourke,MusicBrainz member relationship
@@ -1850,10 +1884,6 @@ Cleopatra,Manchester,member,mb:fa28e014-0b46-4e70-9f90-2d2ff84af23e,Yonah Higgin
 Cleopatra,Manchester,member,mb:b8cf3516-b373-4ab5-a99d-deb17b56f283,Zainam Higgins,MusicBrainz member relationship
 Climie Fisher,London,member,mb:881a3dca-7c80-487e-8360-3427d2ad18bd,Simon Climie,MusicBrainz member relationship
 Climie Fisher,London,member,mb:31136191-f76f-4465-96b5-f2812237ce33,Rob Fisher,MusicBrainz member relationship
-Clinic,Liverpool,member,mb:b755e241-0feb-4813-825c-f520f23509a7,Brian Campbell,MusicBrainz member relationship
-Clinic,Liverpool,member,mb:4a46b793-ae5a-474c-b3c1-e26bc001113b,Carl Turney,MusicBrainz member relationship
-Clinic,Liverpool,member,mb:8bf65f63-38d5-4052-92cc-5f54250d1a40,Ade Blackburn,MusicBrainz member relationship
-Clinic,Liverpool,member,mb:7976fd4a-ac88-487e-9fc2-cf70a48bbf6e,Jonathan Hartley,MusicBrainz member relationship
 Cock Sparrer,London,member,mb:ccd3879e-7591-4947-ab56-ea38929b14fd,Mick Beaufoy,MusicBrainz member relationship
 Cock Sparrer,London,member,mb:c503b678-a710-407c-ae68-26af01b37a62,Steve Bruce,MusicBrainz member relationship
 Cock Sparrer,London,member,mb:37a5e5fe-31bb-41bf-ad22-0745e64633cb,Steve Burgess,MusicBrainz member relationship
@@ -2038,15 +2068,6 @@ Delta 5,Leeds,member,mb:0837faf9-12e5-4458-9464-3d4c1a22ef2d,Kelvin Knight,Music
 Delta 5,Leeds,member,mb:3a114df4-9538-4368-8b5d-178cf03817a4,Bethan Peters,MusicBrainz member relationship
 Delta 5,Leeds,member,mb:adeda622-4231-4544-a20a-d2105d11798c,Alan Riggs,MusicBrainz member relationship
 Delta 5,Leeds,member,mb:91c6ad60-b45b-4763-ba0f-a6546068136a,Julz Sale,MusicBrainz member relationship
-Demented Are Go,Cardiff,member,mb:100ec088-dc16-4aa0-8333-68b80e151b9e,Dick Thomas,MusicBrainz member relationship
-Demented Are Go,Cardiff,member,mb:3a06c1db-8fb4-459f-93d7-9efa91760d81,Ant Thomas,MusicBrainz member relationship
-Demented Are Go,Cardiff,member,mb:228c345e-001d-4374-9bc0-800be8ab6324,Mark Phillips,MusicBrainz member relationship
-Demented Are Go,Cardiff,member,mb:a39464cd-7c23-435c-8897-84d123b2a3b3,Graeme Grant,MusicBrainz member relationship
-Demented Are Go,Cardiff,member,mb:a44cef0c-74fc-4f2d-90a2-b01b0190d3d2,Lex Luther,MusicBrainz member relationship
-Demented Are Go,Cardiff,member,mb:8c6c1618-bc5c-4cd4-a5bd-13e1f55d57ad,Criss Damage,MusicBrainz member relationship
-Demented Are Go,Cardiff,member,mb:5c7c86c4-d67c-46c2-9a62-60cb6b41af60,Philip Doyle,MusicBrainz member relationship
-Demented Are Go,Cardiff,member,mb:d23da90c-640e-4a71-86b5-beb6b06ab570,Holger Grothe,MusicBrainz member relationship
-Demented Are Go,Cardiff,member,mb:906f5afb-30c1-4185-844f-0c868267c29f,Stan Standen,MusicBrainz member relationship
 Demon,Stoke-on-Trent,member,mb:5763a10c-8e2f-446a-b875-209e54bd4960,Les Hunt,MusicBrainz member relationship
 Demon,Stoke-on-Trent,member,mb:7415b799-695b-436c-a53e-b31deaa6eada,Steve Brookes,MusicBrainz member relationship
 Demon,Stoke-on-Trent,member,mb:5ae71798-77e1-4abe-b7d6-2385547c96fb,Nick Bushell,MusicBrainz member relationship
@@ -2195,18 +2216,6 @@ Echo & the Bunnymen,Liverpool,member,mb:39352b9b-e3f0-46f4-8c69-ef17d541e603,Les
 Echo & the Bunnymen,Liverpool,member,mb:5fab583d-7b67-4b1b-a108-8397c983032e,Will Sergeant,MusicBrainz member relationship
 Echo & the Bunnymen,Liverpool,member,mb:ebd7e97d-ea86-42d8-98ee-9d7f243f9030,Damon Reece,MusicBrainz member relationship
 Echo & the Bunnymen,Liverpool,member,mb:106bfcea-85d2-4381-b70a-1f3ff3f21079,Peter Wilkinson,MusicBrainz member relationship
-Edgar Broughton Band,Coventry,member,mb:be8a5b15-4f40-4468-ac7e-934084bdae0d,John Thomas,MusicBrainz member relationship
-Edgar Broughton Band,Coventry,member,mb:24e97d3d-32ba-4835-96be-e5c1cc7fa907,John Wesley Barker,MusicBrainz member relationship
-Edgar Broughton Band,Coventry,member,mb:a991f609-3e91-4394-9256-e0d3b8271eac,Edgar Broughton,MusicBrainz member relationship
-Edgar Broughton Band,Coventry,member,mb:c42b928e-7a2d-4562-b040-8f5f4284fb0d,Steve Broughton,MusicBrainz member relationship
-Edgar Broughton Band,Coventry,member,mb:b324c502-64b5-4d35-842c-bd61d638086e,Terry Cottam,MusicBrainz member relationship
-Edgar Broughton Band,Coventry,member,mb:7a2599dc-c934-4ce0-81d3-0e6ba1b14c46,Arthur Grant,MusicBrainz member relationship
-Edgar Broughton Band,Coventry,member,mb:4c5c4dba-16ef-433e-a52d-e4607ea060ec,Kris Gray,MusicBrainz member relationship
-Edgar Broughton Band,Coventry,member,mb:ab0220ee-0168-432b-ad20-713f5ef4b89d,Ian Hammond,MusicBrainz member relationship
-Edgar Broughton Band,Coventry,member,mb:75d22a1c-1acd-498e-9641-fb168b8f5f98,Tom Nordon,MusicBrainz member relationship
-Edgar Broughton Band,Coventry,member,mb:c69a9fe1-c0e4-4dc1-a344-a3019b07224f,Andrew Lewis Taylor,MusicBrainz member relationship
-Edgar Broughton Band,Coventry,member,mb:3c92d34e-e8d9-472a-8f60-9ac1c11162f3,Victor Unitt,MusicBrainz member relationship
-Edgar Broughton Band,Coventry,member,mb:e533f89d-48d5-4ff4-97e6-32f63bead278,Luke Broughton,MusicBrainz member relationship
 Edison Lighthouse,London,member,mb:b52698a2-bb12-40c3-9245-2db699f15833,Ray Dorey,MusicBrainz member relationship
 Edison Lighthouse,London,member,mb:ff11ad63-1285-49d1-9d4d-da9db4b56dc0,Stuart Edwards,MusicBrainz member relationship
 Edison Lighthouse,London,member,mb:e3b36903-1378-4875-800d-29692cbad157,Dave Taylor,MusicBrainz member relationship
@@ -2302,10 +2311,6 @@ Faithless,London,member,mb:799afce3-2056-4e51-8c15-c17b4239d00d,Dave Randall,Mus
 Faithless,London,member,mb:5bdb71fc-d841-4fa7-a83a-e1af16739b98,Rollo,MusicBrainz member relationship
 Faithless,London,member,mb:68480d3a-4929-4098-b26a-84b7d88a33fe,Sister Bliss,MusicBrainz member relationship
 Faithless,London,member,mb:324a7cf4-b1d8-4868-9fc6-45de8dc50e09,Sudha,MusicBrainz member relationship
-Fanfarlo,London,member,mb:5ec6c80e-1bbe-424c-bba3-2923c01ed0cb,Justin Finch,MusicBrainz member relationship
-Fanfarlo,London,member,mb:c773bebb-c766-47c4-b247-5200a1135066,Cathy Lucas,MusicBrainz member relationship
-Fanfarlo,London,member,mb:a671672e-fe7e-45cf-a62c-df6a8754aa5d,Mark West,MusicBrainz member relationship
-Fanfarlo,London,member,mb:dd5c9b2f-c943-46a9-a3a8-a74b6b53fbff,Amos Memon,MusicBrainz member relationship
 Fat White Family,London,member,mb:60ea82e4-5a98-451c-8660-7540b54f704d,Dan Lyons,MusicBrainz member relationship
 Fat White Family,London,member,mb:5afb8a7f-b88d-4bed-a3b2-9b5bafea9e3f,Lias Saoudi,MusicBrainz member relationship
 Fat White Family,London,member,mb:5a596320-6a7b-4e6d-8755-91493672d785,Nathan Saoudi,MusicBrainz member relationship
@@ -2316,13 +2321,6 @@ Feeder,Newport,member,mb:513faf1f-22b1-462b-80d6-fc5f17b79080,Jon Lee,MusicBrain
 Feeder,Newport,member,mb:edee2b0f-f0cd-4aed-97f9-2d9547b08223,Karl Brazil,MusicBrainz member relationship
 Feeder,Newport,member,mb:d6cf872e-3435-483e-b32a-761f54f3ca7a,Taka Hirose,MusicBrainz member relationship
 Feeder,Newport,member,mb:e10992bf-959c-44ee-8772-db30bdbf917d,Grant Nicholas,MusicBrainz member relationship
-Felt,Birmingham,member,mb:3a710794-a462-4c31-8e93-40ec7ee47dc0,Nick Gilbert,MusicBrainz member relationship
-Felt,Birmingham,member,mb:1201e15c-3d8a-48a5-9e3c-d4275b7ed1fc,Maurice Deebank,MusicBrainz member relationship
-Felt,Birmingham,member,mb:326a8cec-a352-4812-8fe8-f26efa713f56,Gary Ainge,MusicBrainz member relationship
-Felt,Birmingham,member,mb:9705f0f4-dc93-4d58-895b-597237ffe510,Mick Lloyd,MusicBrainz member relationship
-Felt,Birmingham,member,mb:00d21293-62c1-4c43-a394-b8fd9fa49853,Martin Duffy,MusicBrainz member relationship
-Felt,Birmingham,member,mb:e1a0bbf2-ab13-4edf-8a56-c7ca76338375,Lawrence,MusicBrainz member relationship
-Felt,Birmingham,member,mb:e1753ce8-8aac-4d87-864d-6f9ec70bde58,Marco Thomas,MusicBrainz member relationship
 Fickle Friends,Brighton and Hove,member,mb:c7dbf8a7-0264-462d-8c64-c2b9e41a06f8,Chris Hall,MusicBrainz member relationship
 Fickle Friends,Brighton and Hove,member,mb:6f3a9834-98ae-4d8f-b64d-2d2e3e0c59b2,Sam Morris,MusicBrainz member relationship
 Fickle Friends,Brighton and Hove,member,mb:a0fe3acc-7c83-4040-aa5d-da1f8e96c193,Natassja Shiner,MusicBrainz member relationship
@@ -2556,13 +2554,6 @@ Gun,Glasgow,member,mb:b5280d41-e3b0-4093-b582-6e2ab4deca63,Andy D Carr,MusicBrai
 Gun,Glasgow,member,mb:6242f093-90de-4a3e-a74a-1dd5074ad91b,Paul McManus,MusicBrainz member relationship
 Gun,Glasgow,member,mb:d00d88b1-51c8-4d50-8fbf-1f9d37fa5c5a,Mark Kerr,MusicBrainz member relationship
 Gun,Glasgow,member,mb:e4a39eb7-4111-4b22-8406-03eac6c3d7dd,Scott Shields,MusicBrainz member relationship
-Hacktivist,Milton Keynes,member,mb:34220976-1000-44a5-8877-f1d7fee43c27,Ben Marvin,MusicBrainz member relationship
-Hacktivist,Milton Keynes,member,mb:89217f9a-538b-4b83-a5f8-c150b9d6056c,Timfy James,MusicBrainz member relationship
-Hacktivist,Milton Keynes,member,mb:35330395-cfec-4fdf-a3e5-48f4a84e5893,J Hurley,MusicBrainz member relationship
-Hacktivist,Milton Keynes,member,mb:c48d2633-79e5-49e5-87e8-b0bb328ad031,Josh Gurner,MusicBrainz member relationship
-Hacktivist,Milton Keynes,member,mb:01b59350-90d5-4281-ab17-50590183dfb3,Jot Maxi,MusicBrainz member relationship
-Hacktivist,Milton Keynes,member,mb:28f1bdfc-9dc6-4980-8490-a27e25047e2d,James Hewitt,MusicBrainz member relationship
-Hacktivist,Milton Keynes,member,mb:60000185-a775-4298-b43c-a07b91a72659,JJ Olifent,MusicBrainz member relationship
 Haken,London,member,mb:3a0e37ad-806d-4fb0-ba9b-b39f7beeff18,Tom MacLean,MusicBrainz member relationship
 Haken,London,member,mb:661a5b8a-fbec-4fba-9665-29bd111ca37c,Raymond Hearne,MusicBrainz member relationship
 Haken,London,member,mb:4ca80d6d-1a84-4462-ab3b-1bff9f30779c,Richard Henshall,MusicBrainz member relationship
@@ -3015,8 +3006,6 @@ Loathe,Liverpool,member,mb:32989c4d-3d13-4db2-8cc5-3b08138189f8,Erik Bickerstaff
 Loathe,Liverpool,member,mb:71e63ef3-24f3-4337-930c-57a7a86622ec,Kadeem France,MusicBrainz member relationship
 Loathe,Liverpool,member,mb:0d89b0a5-edbe-44ad-84b4-4e096d92e4b5,Sean Radcliffe,MusicBrainz member relationship
 Loathe,Liverpool,member,mb:99c64f3d-c063-48a2-990a-ba64f8acb0ac,Feisal El-Khazragi,MusicBrainz member relationship
-London Elektricity,London,member,mb:ec0072f3-67f0-40b9-9245-40ad874e7fe5,Tony Colman,MusicBrainz member relationship
-London Elektricity,London,member,mb:d8c8e0c0-d1b5-4b2f-a935-e0ba71fa4737,Chris Goss,MusicBrainz member relationship
 London Grammar,Nottingham,member,mb:69a9484c-7f7f-4914-b216-0aa745dcfab4,Hannah Reid,MusicBrainz member relationship
 London Grammar,Nottingham,member,mb:122108d4-92ca-4ed7-adb6-0e3e2c3fd102,Dot Major,MusicBrainz member relationship
 London Grammar,Nottingham,member,mb:62f158f0-9645-4bcd-a985-bff07f87a5cd,Dominic Major,MusicBrainz member relationship
@@ -3264,20 +3253,6 @@ N-Trance,Manchester,member,mb:f3eb41d1-c31a-44aa-b976-44fda54b6a4b,Kevin O’Too
 NERO,London,member,mb:16d5a92d-b550-442e-bff5-9bc89a4976c5,Joseph Ray,MusicBrainz member relationship
 NERO,London,member,mb:b6bb3968-652f-4914-ba74-53ba836176ba,Daniel Stephens,MusicBrainz member relationship
 NERO,London,member,mb:0de452f6-a4d7-44a2-aded-fa9ae241fc7c,Alana Watson,MusicBrainz member relationship
-Napalm Death,Birmingham,member,mb:24e7fadf-65b3-42cd-b52b-7d182446b1d1,Miles “The Rat” Ratledge,MusicBrainz member relationship
-Napalm Death,Birmingham,member,mb:4ba40bd2-c94c-46c3-b32c-f27f59e7d09d,Nik Bullen,MusicBrainz member relationship
-Napalm Death,Birmingham,member,mb:3e52449a-fa44-4fbc-918d-5d6b27e96d94,Mick Harris,MusicBrainz member relationship
-Napalm Death,Birmingham,member,mb:d547a180-6445-42e8-96d6-aabdb6425ab1,Justin Broadrick,MusicBrainz member relationship
-Napalm Death,Birmingham,member,mb:f41f3975-26eb-41f1-b8ea-a8c3ed5c1eff,Jim Whitely,MusicBrainz member relationship
-Napalm Death,Birmingham,member,mb:cd7cef7b-3049-4738-9ac3-29bc274fdcfc,Bill Steer,MusicBrainz member relationship
-Napalm Death,Birmingham,member,mb:0e2e5258-59d8-421d-988f-3aa57c0a997a,Frank Healy,MusicBrainz member relationship
-Napalm Death,Birmingham,member,mb:52fbc5b3-2f46-415d-80d7-e83ca1c9751e,Lee Dorrian,MusicBrainz member relationship
-Napalm Death,Birmingham,member,mb:40645e24-7fe5-494a-b1be-159752023d07,Shane Embury,MusicBrainz member relationship
-Napalm Death,Birmingham,member,mb:3f090593-ca6d-42d1-ad6e-9efa63252bbe,Barney Greenway,MusicBrainz member relationship
-Napalm Death,Birmingham,member,mb:fc275934-1369-474f-acab-50a24394cb40,Jesse Pintado,MusicBrainz member relationship
-Napalm Death,Birmingham,member,mb:c14b8217-8305-4827-b06c-48bf2f933a88,Mitch Harris,MusicBrainz member relationship
-Napalm Death,Birmingham,member,mb:5e2749bc-5403-4b48-affa-5287a9d81031,Danny Herrera,MusicBrainz member relationship
-Napalm Death,Birmingham,member,mb:f4809311-3af6-4c56-a7d8-899a3dae6029,Phil Vane,MusicBrainz member relationship
 Nazareth,Edinburgh,member,mb:1e4f7ae2-8b82-4a65-bee8-60e7c96bb2c9,Manny Charlton,MusicBrainz member relationship
 Nazareth,Edinburgh,member,mb:54b9c410-c0a9-49c9-8acf-c89f4286891c,Dan McCafferty,MusicBrainz member relationship
 Nazareth,Edinburgh,member,mb:a32ab0ef-3847-4cf4-9d3b-1f4ea7f1e317,Pete Agnew,MusicBrainz member relationship
@@ -3341,7 +3316,6 @@ Nothing But Thieves,London,member,mb:9f1c51e8-6155-4bb9-bdd9-14986e5d5eb4,James 
 Nothing But Thieves,London,member,mb:1bbcc49b-8165-492e-8ce8-5a18a4964d58,Dave Dickinson,MusicBrainz member relationship
 Nu:Logic,Cambridge,member,mb:49dca5fc-30b2-46be-93bd-033c53425e07,Logistics,MusicBrainz member relationship
 Nu:Logic,Cambridge,member,mb:380e2880-567d-4991-a9b5-93a07e428652,Nu:Tone,MusicBrainz member relationship
-O. Children,London,member,mb:8125668f-4c8f-4986-8abb-15f77280be12,Tobi O'Kandi,MusicBrainz member relationship
 Oasis,Manchester,member,mb:ea493a66-97ee-4c93-8af9-111b683b6ad0,Tony McCarroll,MusicBrainz member relationship
 Oasis,Manchester,member,mb:17aa0ede-a4bc-4a18-a347-0ee843a38d84,Paul Arthurs,MusicBrainz member relationship
 Oasis,Manchester,member,mb:e0a12f6d-1c89-467c-856a-e0d547c6c46f,Paul McGuigan,MusicBrainz member relationship
@@ -3360,12 +3334,6 @@ OceanLab,London,member,mb:450cbb21-9083-4a92-9b5d-b0b9c58dd330,Jono Grant,MusicB
 OceanLab,London,member,mb:f486501c-5a60-449e-b113-49e654a9098e,Tony McGuinness,MusicBrainz member relationship
 OceanLab,London,member,mb:4e1c503c-6791-4ca7-8b5b-805ab048321b,Paavo Siljamäki,MusicBrainz member relationship
 OceanLab,London,member,mb:d7bf93e8-0bad-4c4d-801d-f0aa58940244,Justine Suissa,MusicBrainz member relationship
-Oceansize,Manchester,member,mb:613a0a30-49f1-4e09-9461-e8fc031a466b,Jon Ellis,MusicBrainz member relationship
-Oceansize,Manchester,member,mb:3ee9cae2-37b2-43f5-8252-374e10b4efba,Steve Durose,MusicBrainz member relationship
-Oceansize,Manchester,member,mb:bf1a5281-fa36-4baf-89c0-7ca3bfa9533c,Mark Heron,MusicBrainz member relationship
-Oceansize,Manchester,member,mb:f860caaa-ffe4-4266-ab69-ef6040d0836f,Richard A Ingram,MusicBrainz member relationship
-Oceansize,Manchester,member,mb:78405d9f-efd9-4468-9f32-a41899d2927e,Mike Vennart,MusicBrainz member relationship
-Oceansize,Manchester,member,mb:ed7edeac-1cc7-45e2-9659-08e2b897d36a,Steve Hodson,MusicBrainz member relationship
 Oh Wonder,London,member,mb:511f308e-05e6-4634-869e-9307ca942262,Anthony Vander West,MusicBrainz member relationship
 Oh Wonder,London,member,mb:d0d56849-9f19-4c37-b5ef-50856e1f9abe,That Woman,MusicBrainz member relationship
 Oi Va Voi,London,member,mb:3452aaaa-a5a0-46f1-9af7-6404ead80a1e,Sophie Solomon,MusicBrainz member relationship
@@ -3467,12 +3435,6 @@ Peter and the Test Tube Babies,Brighton and Hove,member,mb:d03fecf9-62da-49ef-a9
 Peter and the Test Tube Babies,Brighton and Hove,member,mb:dcce0b0a-97aa-456e-b01c-bcc028e65a0b,Derek Greening,MusicBrainz member relationship
 Peter and the Test Tube Babies,Brighton and Hove,member,mb:bd809714-80fc-4561-b181-73a8fe998041,Mark Hoggins,MusicBrainz member relationship
 Peter and the Test Tube Babies,Brighton and Hove,member,mb:3f86be9e-0412-4f75-b706-7ea4f64b9ece,Trapper,MusicBrainz member relationship
-Piano Magic,London,member,mb:c8ea4d58-c068-4792-8572-8c4a6be4229f,Angèle David-Guillou,MusicBrainz member relationship
-Piano Magic,London,member,mb:acd26283-125c-46e7-b1f1-6f6fa2deed26,Ezra Feinberg,MusicBrainz member relationship
-Piano Magic,London,member,mb:095b62a4-e6be-4cbf-8b12-2e221ce4d1c4,Glen Johnson,MusicBrainz member relationship
-Piano Magic,London,member,mb:2c6b226f-7fa3-4864-beb2-e2e7efa9d039,Suzy Mangion,MusicBrainz member relationship
-Piano Magic,London,member,mb:5f5841a2-0b74-4bb9-b912-39693b457d88,Gabe McDonough,MusicBrainz member relationship
-Piano Magic,London,member,mb:7e932266-2662-4b30-9f18-0863f987cddb,Jerome Tcherneyan,MusicBrainz member relationship
 Pigs Pigs Pigs Pigs Pigs Pigs Pigs,Newcastle,member,mb:4cbd8cfb-7ea3-47ce-8717-10cf2e39b4f6,Ewan Mackenzie,MusicBrainz member relationship
 Pigs Pigs Pigs Pigs Pigs Pigs Pigs,Newcastle,member,mb:baacafb8-fa2d-4477-a3e2-3e1affffc83b,Matthew Baty,MusicBrainz member relationship
 Pigs Pigs Pigs Pigs Pigs Pigs Pigs,Newcastle,member,mb:7385006b-663b-40bf-86b8-ffb0a386bbe9,Sam Grant,MusicBrainz member relationship
@@ -3704,12 +3666,6 @@ Reverend And The Makers,Sheffield,member,mb:b59f7c88-2baf-46a1-86f3-d6c3420ed457
 Reverend And The Makers,Sheffield,member,mb:31b366dd-c278-4543-8979-5a91c80ec5b8,Jon McClure,MusicBrainz member relationship
 Reverend And The Makers,Sheffield,member,mb:fc6b93b4-b483-418c-898c-d72ec37e0ac4,Joe Moskow,MusicBrainz member relationship
 Reverend And The Makers,Sheffield,member,mb:d9a51c90-1315-41f7-932f-ed084449e3ed,Andy Nicholson,MusicBrainz member relationship
-Rialto,London,member,mb:ade0e82c-2454-4f95-b5bd-2f802d544908,Jonny Bull,MusicBrainz member relationship
-Rialto,London,member,mb:1beb634a-3ead-4338-95b4-cdf67a3f97c5,Anthony Christmas,MusicBrainz member relationship
-Rialto,London,member,mb:9e45d84b-e081-43a2-9480-862f4db01340,Pete Cuthbert,MusicBrainz member relationship
-Rialto,London,member,mb:51f986b2-c0c8-460f-ba87-a79f1b3c4307,Louis Eliot,MusicBrainz member relationship
-Rialto,London,member,mb:c0a7936b-e9e5-4334-82c3-f48171fdd516,Toby Hounsham,MusicBrainz member relationship
-Rialto,London,member,mb:6ba3b93f-4256-4b67-ba36-e23bd488e01e,Julian Taylor,MusicBrainz member relationship
 Ride,Oxford,member,mb:5946e805-9ab4-4fd9-9c19-21a8f7dfef98,Andy Bell,MusicBrainz member relationship
 Ride,Oxford,member,mb:8db48677-6834-4243-8808-ecf7970bea25,Loz Colbert,MusicBrainz member relationship
 Ride,Oxford,member,mb:57f73c2e-ee2f-49d9-b3c6-839259bc7eba,Mark Gardener,MusicBrainz member relationship
@@ -3948,10 +3904,6 @@ Snow Patrol,Dundee City,member,mb:d50c67c7-c135-4100-929f-0903c668fb9c,Nathan Co
 Snow Patrol,Dundee City,member,mb:2e155c49-bbd2-4c91-9e69-832615e300da,Paul Wilson,MusicBrainz member relationship
 Snow Patrol,Dundee City,member,mb:b9bc680c-13ee-4e24-93cd-428a38225ce7,Tom Simpson,MusicBrainz member relationship
 Snow Patrol,Dundee City,member,mb:7c9c8018-bae6-4d06-b201-643f5eb1c39f,Johnny McDaid,MusicBrainz member relationship
-Snuff,London,member,mb:cdc478cc-aa1e-4de2-85fd-aebb870f6bac,Andy Crighton,MusicBrainz member relationship
-Snuff,London,member,mb:29619283-e788-4bc0-b10c-8f67eb5ce92b,Duncan Redmonds,MusicBrainz member relationship
-Snuff,London,member,mb:cb4fc1c5-4978-403b-b8a9-da88d4865219,Paul Thomson,MusicBrainz member relationship
-Snuff,London,member,mb:d5e51c1d-402a-4952-91e0-881385e15cc0,Simon Wells,MusicBrainz member relationship
 Soft Cell,Leeds,member,mb:d67e6b0a-d2c6-4e4a-ba30-7834701535a1,Marc Almond,MusicBrainz member relationship
 Soft Cell,Leeds,member,mb:8e1b3b24-8a87-4a00-ab02-aad300d5895d,Dave Ball,MusicBrainz member relationship
 Sohodolls,London,member,mb:36bf7506-35fe-4287-bda8-22096a48064c,Maya von Doll,MusicBrainz member relationship
@@ -4299,12 +4251,6 @@ The Beautiful South,Hull,member,mb:4c0b3c6f-9c91-4d1f-847d-10dc223d3318,Dave Hem
 The Beautiful South,Hull,member,mb:e7bd608c-02f5-46ba-81d9-db54750e8cc3,Dave Rotheray,MusicBrainz member relationship
 The Beautiful South,Hull,member,mb:3359d812-ce6c-499a-9fd1-a397cc1ade64,David Stead,MusicBrainz member relationship
 The Beautiful South,Hull,member,mb:09380eb1-e95c-4642-acd9-da5faf0af96c,Sean Welch,MusicBrainz member relationship
-The Beta Band,Edinburgh,member,mb:29154803-c428-4313-b6d8-96b861e5c5f3,Gordon Anderson,MusicBrainz member relationship
-The Beta Band,Edinburgh,member,mb:c47d0c6c-3ba3-4786-8a52-5aa90d24eaf4,Steve Duffield,MusicBrainz member relationship
-The Beta Band,Edinburgh,member,mb:7d75ba25-a100-414c-bce8-140357480f79,Richard Greentree,MusicBrainz member relationship
-The Beta Band,Edinburgh,member,mb:666496a6-750b-4ec5-971e-c92346bb80a6,Robin Jones,MusicBrainz member relationship
-The Beta Band,Edinburgh,member,mb:a94b033a-cb16-4f76-b9de-203fb892e2f4,John Maclean,MusicBrainz member relationship
-The Beta Band,Edinburgh,member,mb:8784d2c2-7cfe-430a-96d9-fa77a59b3bf6,Steve Mason,MusicBrainz member relationship
 The Big Moon,London,member,mb:3be0956d-9744-455f-b6de-72784ee6233b,Celia Archer,MusicBrainz member relationship
 The Big Moon,London,member,mb:da9ae8b2-4a75-4503-87bf-3cc5baa801cc,Fern Ford,MusicBrainz member relationship
 The Big Moon,London,member,mb:3f6d36f2-d0ee-473a-bf16-388b1cd53dc0,Juliette Jackson,MusicBrainz member relationship
@@ -4319,11 +4265,6 @@ The Big Push,Brighton and Hove,member,mb:81250ee6-a008-4007-8cfd-dddc22176cac,Re
 The Blue Nile,Glasgow,member,mb:f1574c7f-2db5-4b80-aab1-c0e70cadb19e,Robert Bell,MusicBrainz member relationship
 The Blue Nile,Glasgow,member,mb:be196a00-8fd5-4fca-933c-6d65d88e56ce,Paul Buchanan,MusicBrainz member relationship
 The Blue Nile,Glasgow,member,mb:0ca8a2aa-8d39-4d40-bfed-b33bedd72f2e,Paul Joseph Moore,MusicBrainz member relationship
-The Boo Radleys,Liverpool,member,mb:5976af3a-ab6a-4725-a9cc-72cdffc6b932,Steve Hewitt,MusicBrainz member relationship
-The Boo Radleys,Liverpool,member,mb:d225c1fe-f70d-4520-a9b0-72e565523ec0,Tim Brown,MusicBrainz member relationship
-The Boo Radleys,Liverpool,member,mb:bb16bec8-9846-4852-baf2-da39e835817b,Martin Carr,MusicBrainz member relationship
-The Boo Radleys,Liverpool,member,mb:a1f3bcf6-6e2e-40d0-8085-d3a1d2ea7e82,Sice,MusicBrainz member relationship
-The Boo Radleys,Liverpool,member,mb:b2ebb4de-002b-4750-9d78-6f6ad9415fa0,Rob Cieka,MusicBrainz member relationship
 The Boxer Rebellion,London,member,mb:62549107-8346-47bb-9cfe-1ed7aeb0f958,Todd Howe,MusicBrainz member relationship
 The Boxer Rebellion,London,member,mb:d52022b6-4713-4190-ac2b-92d25480cabd,Adam Harrison,MusicBrainz member relationship
 The Boxer Rebellion,London,member,mb:394498d6-3dec-4ce2-835d-940a42d44849,Piers Hewitt,MusicBrainz member relationship
@@ -4422,19 +4363,9 @@ The Dave Clark Five,London,member,mb:e398c941-3020-4492-9629-19d52fc5d456,Dave C
 The Dave Clark Five,London,member,mb:998788a7-024a-479e-878e-a0a97a26bbbc,Lenny Davidson,MusicBrainz member relationship
 The Dave Clark Five,London,member,mb:f7bb7c15-2669-4107-9259-90a6ebbd07d8,Denis Payton,MusicBrainz member relationship
 The Dave Clark Five,London,member,mb:27084aa2-97f1-4bca-9ce7-5df3c5bf160a,Mike Smith,MusicBrainz member relationship
-The Delgados,Glasgow,member,mb:967bbdc8-8835-4c18-b694-2f9710a5f7be,Stewart Henderson,MusicBrainz member relationship
-The Delgados,Glasgow,member,mb:8ace46fa-e460-4f42-b570-0b0ebd1bbbfb,Emma Pollock,MusicBrainz member relationship
-The Delgados,Glasgow,member,mb:59da7b03-9912-4752-acfc-e6cf263bb152,Paul Savage,MusicBrainz member relationship
-The Delgados,Glasgow,member,mb:bcbf0513-0df6-4009-b11c-568a6ef6901a,Alun Woodward,MusicBrainz member relationship
 The Dream Academy,London,member,mb:b6ea6ae7-f685-420f-868e-4dc1bbbaeab2,Gilbert Gabriel,MusicBrainz member relationship
 The Dream Academy,London,member,mb:541d6e3b-a281-4d13-a5f3-b3cf6d042519,Nick Laird-Clowes,MusicBrainz member relationship
 The Dream Academy,London,member,mb:df822cc7-4ea9-49db-9811-efe87721212b,Kate St John,MusicBrainz member relationship
-The Duke Spirit,London,member,mb:40810c1c-c83e-4ad8-ae2b-496bcd051dd2,Olly Betts,MusicBrainz member relationship
-The Duke Spirit,London,member,mb:9723c3ff-6a73-491e-b3f2-f90616ca5984,Toby Butler,MusicBrainz member relationship
-The Duke Spirit,London,member,mb:cdea2f3e-88f4-4670-a2ff-cc5ca625fadc,Luke Ford,MusicBrainz member relationship
-The Duke Spirit,London,member,mb:8b5919a4-b66c-4184-aa84-0f0acc70abfe,Dan Higgins,MusicBrainz member relationship
-The Duke Spirit,London,member,mb:d10029ed-f2eb-4117-a1fa-4f94caa0cbde,Liela Moss,MusicBrainz member relationship
-The Duke Spirit,London,member,mb:bca8c8e1-79ce-416e-947f-7f1f97575fe8,Marc Sallis,MusicBrainz member relationship
 The Durutti Column,Manchester,member,mb:c9130b9e-20f2-4d51-805f-833c0c6f2a82,Bruce Mitchell,MusicBrainz member relationship
 The Durutti Column,Manchester,member,mb:0a7c16ba-4bed-4833-951e-89b35eeefcf1,Keir Stewart,MusicBrainz member relationship
 The Durutti Column,Manchester,member,mb:07cf2e3a-bf6a-44b9-9079-842953a671c9,John Metcalfe,MusicBrainz member relationship
@@ -4979,15 +4910,6 @@ The Sundays,London,member,mb:7b69cc6a-f72f-4153-ac56-c2ee027045ba,Paul Brindley,
 The Sundays,London,member,mb:a96c41fe-8a3d-4d3e-bacf-74ad6b567dd7,David Gavurin,MusicBrainz member relationship
 The Sundays,London,member,mb:850c8ec6-2083-4eec-a184-c3d0196e76ce,Patch Hannan,MusicBrainz member relationship
 The Sundays,London,member,mb:dbbda88b-0464-42d2-b962-d955cb24221f,Harriet Wheeler,MusicBrainz member relationship
-The Sweet,London,member,mb:24479322-daa5-4a99-806a-c5557cf9479a,Frank Torpey,MusicBrainz member relationship
-The Sweet,London,member,mb:ca4df3d3-60b4-4557-ac24-dd72ad62af88,Brian Connolly,MusicBrainz member relationship
-The Sweet,London,member,mb:e44b898d-f218-4e35-aba7-fbc8e548f236,Steve Priest,MusicBrainz member relationship
-The Sweet,London,member,mb:e7a5ae2d-800d-49e2-a780-a41ef5d108b6,Mick Tucker,MusicBrainz member relationship
-The Sweet,London,member,mb:3137e50a-9899-4dfd-be10-86619c108521,Mick Stewart,MusicBrainz member relationship
-The Sweet,London,member,mb:68fc3ab1-ed0c-45ef-8fa4-cdbbfec98c90,Andy Scott,MusicBrainz member relationship
-The Sweet,London,member,mb:f07ca986-03f2-4706-93fa-e7b2937e3200,Paul Manzi,MusicBrainz member relationship
-The Sweet,London,member,mb:6efa1112-8f51-4929-874b-54bcec1a5b3d,Tom Cory,MusicBrainz member relationship
-The Sweet,London,member,mb:362a089c-656f-4f09-af90-7f4b7de9c34f,Lee Small,MusicBrainz member relationship
 The Swinging Blue Jeans,Liverpool,member,mb:da2f0553-55e5-4e62-a49f-7f28def87326,Ralph Ellis,MusicBrainz member relationship
 The Swinging Blue Jeans,Liverpool,member,mb:ec290c66-9f7e-4c9c-a4e0-1f0ed9f89ca8,Terry Sylvester,MusicBrainz member relationship
 The Swinging Blue Jeans,Liverpool,member,mb:2866be77-9b58-4692-b2d8-5ba63d6795e0,Colin Manley,MusicBrainz member relationship
@@ -5113,10 +5035,6 @@ The Wonder Stuff,Birmingham,member,mb:46238aa4-9168-4f5c-aca8-b4eb3391cda7,Erica
 The Wonder Stuff,Birmingham,member,mb:d536a734-a2f0-47c0-8135-2e637f392ae8,Fuzz Townshend,MusicBrainz member relationship
 The Wonder Stuff,Birmingham,member,mb:bcaabb86-7bad-4d4d-a73c-8082f4771c34,Tony Arthy,MusicBrainz member relationship
 The Wonder Stuff,Birmingham,member,mb:bcbe46d7-28d6-46dd-869a-d30a20e19cc9,Dan Donnelly,MusicBrainz member relationship
-The Wytches,Peterborough,member,mb:b5f885eb-f2d4-4e2b-a2bf-fd6550222eeb,Gianni Honey,MusicBrainz member relationship
-The Wytches,Peterborough,member,mb:9c4d385f-4233-4472-b849-c43f22041c03,Demelza Mather,MusicBrainz member relationship
-The Wytches,Peterborough,member,mb:1ee0e009-b977-4a69-9482-033a6ffdf13d,BVU,MusicBrainz member relationship
-The Wytches,Peterborough,member,mb:e353f354-e2fe-4afa-b89a-6541710490ba,Kristian Bell,MusicBrainz member relationship
 The Yardbirds,London,member,mb:a0114721-2910-4fc0-80c4-68b5969ae0a3,Paul Samwell-Smith,MusicBrainz member relationship
 The Yardbirds,London,member,mb:97cc1c6b-d6e2-4fb8-875c-78da893773d1,Chris Dreja,MusicBrainz member relationship
 The Yardbirds,London,member,mb:ba900218-68b3-434d-8552-989d8441bba3,Jim McCarty,MusicBrainz member relationship
@@ -5513,10 +5431,6 @@ XTC,Swindon,member,mb:24d0b158-cac4-4163-a668-eeb69073f25b,Terry Chambers,MusicB
 XTC,Swindon,member,mb:2375c2a4-f94d-43bb-9f7b-d8e3352300a0,Dave Gregory,MusicBrainz member relationship
 XTC,Swindon,member,mb:2dd07d00-33a8-478e-8eaa-0cdab0aa2113,Colin Moulding,MusicBrainz member relationship
 XTC,Swindon,member,mb:58bf6897-e828-4cd0-9728-c0a3da4d2121,Andy Partridge,MusicBrainz member relationship
-Xentrix,Preston,member,mb:4b616632-e051-49ac-b695-cacbe1b7016e,Chris Astley,MusicBrainz member relationship
-Xentrix,Preston,member,mb:ec369737-543e-410a-977e-8778f78482a0,Dennis Gasser,MusicBrainz member relationship
-Xentrix,Preston,member,mb:7b5d5537-ebdc-4e2d-bee7-f80a81f1cc74,Kristian Havard,MusicBrainz member relationship
-Xentrix,Preston,member,mb:9de62241-198a-49aa-b6e8-170b42b332d7,Paul MacKenzie,MusicBrainz member relationship
 Yard Act,Leeds,member,mb:516ac353-2dff-4ec0-9bb3-bb07fff143ef,Sammy Robinson,MusicBrainz member relationship
 Yard Act,Leeds,member,mb:ad66234a-9d22-47c8-a2c7-458b87c724ef,George Townend,MusicBrainz member relationship
 Yard Act,Leeds,member,mb:717e0d65-2019-443c-99cb-073609618df3,Ryan Needham,MusicBrainz member relationship
