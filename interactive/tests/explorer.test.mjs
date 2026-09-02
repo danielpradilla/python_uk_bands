@@ -646,7 +646,8 @@ test("explorer uses the project-aligned public title", async () => {
   assert.match(html, /<title>UK Music Cities Explorer<\/title>/);
   assert.match(html, /<h1 id="page-title">UK Music Cities Explorer<\/h1>/);
   assert.match(explorerReadme, /^# UK Music Cities Explorer/m);
-  assert.doesNotMatch(html, /UK Band Origins Explorer/);
+  const formerTitle = ["UK", "Band", "Origins", "Explorer"].join(" ");
+  assert.doesNotMatch(html, new RegExp(formerTitle));
 });
 
 test("stable packaged URLs resolve beneath a deployment base path", () => {

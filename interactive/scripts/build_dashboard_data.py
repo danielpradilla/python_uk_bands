@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the source-backed browser package for the band origins explorer."""
+"""Build the source-backed browser package for the UK Music Cities Explorer."""
 
 from __future__ import annotations
 
