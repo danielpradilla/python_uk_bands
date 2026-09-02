@@ -90,7 +90,3 @@ The interface follows the canonical `danielpradilla-app-style` sources at `/User
 ## Link icons
 
 Spotify and Wikipedia links are deterministic, open in a new tab, and use local SVG marks beside the band name. They have accessible names and reveal their labels on hover or keyboard focus. Asset provenance and licence notes are in `public/icons/README.md`. Wikipedia links exist only for captured `enwiki_title` values; the browser never searches or guesses a page.
-
-## Handoff
-
-`TASKS.md` is the implementation ledger. A box is checked only when its output and validation are present. The unresolved environment-dependent checks are labeled there rather than being silently treated as complete.

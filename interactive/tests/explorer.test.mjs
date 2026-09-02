@@ -103,7 +103,6 @@ test("URL state defaults safely and lets a valid explicit place win", () => {
 
 test("the explorer defaults to monthly listeners and raw totals", async () => {
   const html = await readFile(path.join(projectDir, "index.html"), "utf8");
-  const spec = await readFile(path.join(projectDir, "SPEC.md"), "utf8");
   assert.equal(DEFAULT_METRIC, "monthly_listeners");
   assert.equal(DEFAULT_COMPARISON, "raw");
   assert.match(
@@ -119,9 +118,6 @@ test("the explorer defaults to monthly listeners and raw totals", async () => {
     html,
     /data-comparison="population_normalized"[^>]+aria-label="Population-normalized"[^>]+>Normalized<\/button>/,
   );
-  assert.match(spec, /primary comparison metric is global Spotify monthly listeners/i);
-  assert.match(spec, /Default metric: monthly listeners/);
-  assert.match(spec, /Default comparison: raw totals/i);
 });
 
 test("metric bubbles grow with place totals and obsolete map state is ignored", async () => {
@@ -628,6 +624,18 @@ test("frontend provenance has no timestamp fallback literals", async () => {
   assert.doesNotMatch(main, /popularity_first_top1000_\d+/);
   assert.match(main, /dashboard\.meta\.freshness/);
   assert.match(main, /dashboard\.meta\.sourceFilename/);
+});
+
+test("project GitHub links target the canonical master branch", async () => {
+  const html = await readFile(path.join(projectDir, "index.html"), "utf8");
+  const main = await readFile(path.join(projectDir, "src/main.js"), "utf8");
+  const post = await readFile(path.join(projectDir, "../POST.md"), "utf8");
+  for (const source of [html, main, post]) {
+    assert.doesNotMatch(source, /github\.com\/danielpradilla\/uk-music-cities\/blob\/main\//);
+  }
+  assert.match(html, /uk-music-cities\/blob\/master\/POST\.md/);
+  assert.match(main, /uk-music-cities\/blob\/master\//);
+  assert.match(post, /uk-music-cities\/blob\/master\/notebooks\//);
 });
 
 test("stable packaged URLs resolve beneath a deployment base path", () => {

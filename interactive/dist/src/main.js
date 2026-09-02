@@ -1,14 +1,14 @@
-import { assetUrl, loadExplorerData } from "./data.js?v=1e3285c636ba";
-import { BandMap } from "./map.js?v=1e3285c636ba";
+import { assetUrl, loadExplorerData } from "./data.js?v=b7f27e589721";
+import { BandMap } from "./map.js?v=b7f27e589721";
 import {
   METRIC_CONFIG,
   PLACE_LEADERBOARD_LIMIT,
   renderAreaBandChart,
   renderBarChart,
   renderPlaceChart,
-} from "./bar-chart.js?v=1e3285c636ba";
-import { searchExplorer } from "./search.js?v=1e3285c636ba";
-import { parseExplorerState, updateUrl } from "./state.js?v=1e3285c636ba";
+} from "./bar-chart.js?v=b7f27e589721";
+import { searchExplorer } from "./search.js?v=b7f27e589721";
+import { parseExplorerState, updateUrl } from "./state.js?v=b7f27e589721";
 
 const numberFormat = new Intl.NumberFormat("en-GB");
 const dateFormat = new Intl.DateTimeFormat("en-GB", {
@@ -26,7 +26,7 @@ const dateTimeFormat = new Intl.DateTimeFormat("en-GB", {
   timeZone: "UTC",
   timeZoneName: "short",
 });
-const REPOSITORY_BASE = "https://github.com/danielpradilla/uk-music-cities/blob/main/";
+const REPOSITORY_BASE = "https://github.com/danielpradilla/uk-music-cities/blob/master/";
 
 const elements = {
   app: document.querySelector("#app"),

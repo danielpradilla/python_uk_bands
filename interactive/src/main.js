@@ -26,7 +26,7 @@ const dateTimeFormat = new Intl.DateTimeFormat("en-GB", {
   timeZone: "UTC",
   timeZoneName: "short",
 });
-const REPOSITORY_BASE = "https://github.com/danielpradilla/uk-music-cities/blob/main/";
+const REPOSITORY_BASE = "https://github.com/danielpradilla/uk-music-cities/blob/master/";
 
 const elements = {
   app: document.querySelector("#app"),
